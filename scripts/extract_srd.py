@@ -165,14 +165,28 @@ def parse_table_runs(section):
 
 
 def split_row(line):
-    return [cell.strip() for cell in line.strip().strip("|").split("|")]
+    """Split a Markdown table row without breaking escaped pipe content."""
+    content = line.strip().strip("|")
+    cells = []
+    cell = []
+    for index, character in enumerate(content):
+        if character == "|" and (index == 0 or content[index - 1] != "\\"):
+            cells.append("".join(cell).strip())
+            cell = []
+        else:
+            cell.append(character)
+    cells.append("".join(cell).strip())
+    return cells
 
 
-def parse_table(table_lines):
+def parse_table(table_lines, separator_override=None):
     """Return (columns, rows) for a GFM pipe table."""
     first = split_row(table_lines[0])
+    separator_line = separator_override or (
+        table_lines[1] if len(table_lines) > 1 else ""
+    )
     has_header = len(table_lines) > 1 and all(
-        SEPARATOR_CELL_RE.match(cell) for cell in split_row(table_lines[1])
+        SEPARATOR_CELL_RE.match(cell) for cell in split_row(separator_line)
     )
     columns = first if has_header else ["" for _ in first]
     data_lines = table_lines[2:] if has_header else table_lines
@@ -476,12 +490,34 @@ def extract_plans(emitter, sections):
     return count
 
 
-def extract_tables(emitter, sections, column_overrides):
+def extract_tables(
+    emitter, sections, column_overrides, table_header_overrides
+):
     total = 0
     tables_by_section = {}
+    unused_header_overrides = set(table_header_overrides)
     for section in sections:
         for start, run in parse_table_runs(section):
-            columns, rows = parse_table(run)
+            override = table_header_overrides.get(start + 1)
+            separator_override = None
+            if override:
+                unused_header_overrides.discard(start + 1)
+                if len(run) < 2 or run[1].rstrip() != override["observed"]:
+                    found = run[1].rstrip() if len(run) > 1 else None
+                    raise SystemExit(
+                        f"extraction override at line {start + 1} expected "
+                        f"{override['observed']!r}, found {found!r}"
+                    )
+                separator_override = override["treatAs"]
+                if not all(
+                    SEPARATOR_CELL_RE.match(cell)
+                    for cell in split_row(separator_override)
+                ):
+                    raise SystemExit(
+                        f"extraction override at line {start + 1} does not "
+                        "produce a valid table header separator"
+                    )
+            columns, rows = parse_table(run, separator_override)
             record = emitter.new_record(
                 "tables",
                 "Table",
@@ -500,6 +536,11 @@ def extract_tables(emitter, sections, column_overrides):
                 (record, start, start + len(run) - 1)
             )
             total += 1
+    if unused_header_overrides:
+        raise SystemExit(
+            "table header overrides do not target table separators: "
+            f"{sorted(unused_header_overrides)}"
+        )
     return total, tables_by_section
 
 
@@ -562,12 +603,18 @@ def run_extraction(root: Path):
         and entry.get("status") == "applied-in-extraction"
     }
     column_overrides = {}
+    table_header_overrides = {}
     for entry in overrides.get("overrides", []):
         if (
             entry.get("kind") == "column-label"
             and entry.get("status") == "applied-in-extraction"
         ):
             column_overrides[entry["observed"]] = entry["treatAs"]
+        if (
+            entry.get("kind") == "table-header-separator"
+            and entry.get("status") == "applied-in-extraction"
+        ):
+            table_header_overrides[entry["line"]] = entry
 
     sections = parse_sections(lines, heading_overrides)
     emitter = Emitter(root)
@@ -585,7 +632,7 @@ def run_extraction(root: Path):
     )
     plans = extract_plans(emitter, sections)
     table_count, tables_by_section = extract_tables(
-        emitter, sections, column_overrides
+        emitter, sections, column_overrides, table_header_overrides
     )
     rule_count = extract_rules(emitter, sections, claimed, tables_by_section)
 

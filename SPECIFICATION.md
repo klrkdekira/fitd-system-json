@@ -65,7 +65,7 @@ Catalog entities are recognised from position and body grammar:
 
 Sections claimed by a catalog grammar become typed records instead of rules. Paragraph- and bullet-grained entities (actions, crew claims, trauma conditions, vices, plans) are typed indexes over rule prose: the owning rule keeps the source-faithful text and the typed records carry sub-spans inside it, plus a `partOf` node reference to the owning rule. In catalog records, `>` blockquote paragraphs are split into `commentary` (designer guidance) with the quote markers removed; all other wording is preserved as printed.
 
-Pipe-table runs become Table records named after their owning section. Tables preserve their physical source span and `rawText`; typed columns normalise the registered `[]()` header placeholder to an empty label. The owning rule's `rulesText` excludes the physical table lines (and `---` horizontal rules) and links each table via `relatedTables`.
+Pipe-table runs become Table records named after their owning section. Tables preserve their physical source span and `rawText`; the cell parser respects Markdown-escaped pipes, and every typed row must match the table's column width. Typed columns normalise the registered `[]()` header placeholder to an empty label. Two malformed two-dash header delimiters are treated as three-dash delimiters through line-pinned reviewed overrides so their printed header rows are not emitted as data. The owning rule's `rulesText` excludes the physical table lines (and `---` horizontal rules) and links each table via `relatedTables`.
 
 ## 6. Recursive text projection
 
@@ -77,9 +77,9 @@ Pipe-table runs become Table records named after their owning section. Tables pr
 
 - `coverage`: interval coverage only; all 1,439 non-blank source lines are inside at least one locator. It does not claim ownership or fidelity.
 - `anomalies`: every detector hit must match a reviewed registry disposition with a pinned occurrence count.
-- `fidelity`: locator anchoring to printed identity, physical table starts and raw-text equality, sub-span containment in owning rules with matching `partOf` edges, typed catalog counts (12/58/12/6/35/8/7/6/4), and exact rights metadata in the source record, manifest, and `llms-full.txt`.
+- `fidelity`: independently reconstructs all 288 physical source sections and their hierarchy; requires one correctly classified primary record per section; compares every `rulesText`, `examplesText`, and `commentary` field with its exact source-derived value; compares every physical table's raw text, columns, rows, cells, and widths; matches every typed grammar hit and `partOf` edge; checks catalog counts (12/58/12/6/35/8/7/6/4); and verifies exact rights and conversion metadata in the source record, manifest, README, and `llms-full.txt`.
 - `graph`: expands every record, manifest, and bundle; rejects lost compact properties/literals, bare IRI-coerced strings, missing entity types, and undocumented project terms.
-- `test`: regression fixtures for the Fortitude heading override, commentary splitting, table spans, downtime summary exclusion, claim types, vice and plan bullets, teamwork maneuver sections, `partOf` targets, attribution survival, and search postings.
+- `test`: regression fixtures for the Fortitude heading override, commentary splitting, table spans and widths, escaped table pipes, short table delimiters, downtime summary exclusion, claim types, vice and plan bullets, teamwork maneuver sections, `partOf` targets, attribution survival, and search postings.
 - `validate`: identity, bounds, reference resolution, search postings, sitemap XML, and vocabulary targets.
 - `schema`: every record, manifest, bundle, search index, collection index, and coverage report against Draft 2020-12 schemas.
 - `determinism`: compares two clean builds with each other and with checked-in `objects/`, `llms-full.txt`, `vocab/`, and `sitemap.xml`.

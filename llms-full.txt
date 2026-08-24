@@ -4,7 +4,7 @@ Machine-readable JSON-LD 1.1 reference corpus for the Blades in the Dark SRD (Fo
 Base IRI: https://cheeleong.dev/fitd-system-json/
 Manifest: https://cheeleong.dev/fitd-system-json/objects/fitd-system-data.jsonld
 Source digest: sha256-25a43a32ebccee0d5708ac6c0021c2755f9701b6d3ad8eb5241bb46785f47cfd
-Corpus digest: sha256-0aaa584d0e60c1aae96c6aa9c0c7da3b180e4f7b67fcf03049af298e163e8c2e
+Corpus digest: sha256-7888bc6e1094c6b7ea74a14ec6f0940d1590f7a019f9d7ef191a17f2d0caec57
 
 Attribution: This work is based on Blades in the Dark (found at http://www.bladesinthedark.com/), product of One Seven Design, developed and authored by John Harper, and licensed for our use under the Creative Commons Attribution 3.0 Unported license (http://creativecommons.org/licenses/by/3.0/).
 
@@ -3271,12 +3271,6 @@ source: Effect §7.1 (lines 440-444)
 ### HARM
 id: https://cheeleong.dev/fitd-system-json/objects/tables/9-7-harm
 source: Consequences and Harm §9.7 (lines 543-547)
-
-[rows[3].position]
-4
-
-[rows[4].position]
-5
 
 [rawText]
 | []() |                                                            |                |

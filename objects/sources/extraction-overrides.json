@@ -18,6 +18,26 @@
       "scope": "Dot-rating and claim-map tables",
       "rationale": "The upstream conversion uses an empty Markdown link '[]()' to force a header row onto layout tables that have no printed column labels. The token is a rendering artifact, not content: typed columns normalize it to an empty label while rawText keeps the source lines verbatim.",
       "status": "applied-in-extraction"
+    },
+    {
+      "id": "harm-table-short-header-separator",
+      "kind": "table-header-separator",
+      "line": 544,
+      "observed": "| :--: | :--------------------------------------------------------- | :------------: |",
+      "treatAs": "| :---: | :--------------------------------------------------------- | :------------: |",
+      "scope": "Consequences and Harm > HARM table",
+      "rationale": "The first delimiter cell has two dashes instead of the three required by GFM, even though the row is visibly the table's alignment delimiter. Typed extraction treats it as the equivalent three-dash delimiter so the []() row becomes the header; rawText remains unchanged.",
+      "status": "applied-in-extraction"
+    },
+    {
+      "id": "magnitude-table-short-header-separator",
+      "kind": "table-header-separator",
+      "line": 2381,
+      "observed": "| :--: | :------: | :----: | :-------: | :------: | :----------: | :---------: |",
+      "treatAs": "| :---: | :------: | :----: | :-------: | :------: | :----------: | :---------: |",
+      "scope": "Magnitude > TIER & QUALITY / FORCE table",
+      "rationale": "The first delimiter cell has two dashes instead of the three required by GFM, even though the row is visibly the table's alignment delimiter. Typed extraction treats it as the equivalent three-dash delimiter so the 0-6 row becomes the header; rawText remains unchanged.",
+      "status": "applied-in-extraction"
     }
   ],
   "anomalyReviews": [
@@ -55,6 +75,15 @@
       "observed": "Eight '[]( )' empty-link tokens used as blank header cells in dot-rating and claim-map tables.",
       "disposition": "Normalized to empty column labels by the empty-link-column-placeholder override; rawText keeps the source lines verbatim.",
       "rationale": "The token carries no content; it exists to force a header row in GFM rendering.",
+      "status": "resolved"
+    },
+    {
+      "id": "short-table-header-separators",
+      "pattern": "^\\| :--: \\|",
+      "expectedRemaining": 2,
+      "observed": "Two table delimiter rows whose first cell has only two dashes rather than the three required by GFM.",
+      "disposition": "Handled by the two table-header-separator extraction overrides; the source lines and table rawText are unchanged.",
+      "rationale": "Without explicit treatment, both header rows become data; registering the occurrences prevents the malformed delimiter from being silently generalized or moved.",
       "status": "resolved"
     }
   ]

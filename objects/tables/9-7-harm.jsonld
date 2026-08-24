@@ -24,34 +24,6 @@
       "position": 1,
       "cells": [
         {
-          "value": "[]()"
-        },
-        {
-          "value": ""
-        },
-        {
-          "value": ""
-        }
-      ]
-    },
-    {
-      "position": 2,
-      "cells": [
-        {
-          "value": ":--:"
-        },
-        {
-          "value": ":---------------------------------------------------------"
-        },
-        {
-          "value": ":------------:"
-        }
-      ]
-    },
-    {
-      "position": 3,
-      "cells": [
-        {
           "value": "3"
         },
         {
@@ -63,16 +35,13 @@
       ]
     },
     {
-      "position": 4,
+      "position": 2,
       "cells": [
         {
           "value": "2"
         },
         {
-          "value": "&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \\"
-        },
-        {
-          "value": ""
+          "value": "&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \\|"
         },
         {
           "value": "-1D"
@@ -80,16 +49,13 @@
       ]
     },
     {
-      "position": 5,
+      "position": 3,
       "cells": [
         {
           "value": "1"
         },
         {
-          "value": "*Drained* &nbsp; \\"
-        },
-        {
-          "value": "&nbsp; *Battered*"
+          "value": "*Drained* &nbsp; \\| &nbsp; *Battered*"
         },
         {
           "value": "Reduced Effect"

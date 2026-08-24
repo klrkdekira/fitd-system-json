@@ -24,6 +24,15 @@ REQUIRED_FIELDS = (
     "rationale",
     "status",
 )
+REQUIRED_OVERRIDE_FIELDS = (
+    "id",
+    "kind",
+    "observed",
+    "treatAs",
+    "scope",
+    "rationale",
+    "status",
+)
 
 
 def main():
@@ -35,7 +44,9 @@ def main():
     registry = load_json(root / "objects/sources/extraction-overrides.json")
     errors = []
     total = 0
+    identifiers = []
     for review in registry.get("anomalyReviews", []):
+        identifiers.append(review.get("id"))
         for required in REQUIRED_FIELDS:
             if required not in review:
                 errors.append(
@@ -53,11 +64,33 @@ def main():
                 + (f" at lines {lines}" if lines else "")
             )
     for override in registry.get("overrides", []):
+        identifiers.append(override.get("id"))
+        for required in REQUIRED_OVERRIDE_FIELDS:
+            if required not in override:
+                errors.append(
+                    f"{override.get('id', '<unknown>')}: missing override "
+                    f"field {required}"
+                )
+        if override.get("kind") in (
+            "heading-level",
+            "table-header-separator",
+        ) and not isinstance(override.get("line"), int):
+            errors.append(
+                f"{override.get('id', '<unknown>')}: line-pinned override "
+                "is missing an integer line"
+            )
         if override.get("status") != "applied-in-extraction":
             errors.append(
                 f"{override.get('id', '<unknown>')}: unreviewed override status "
                 f"{override.get('status')!r}"
             )
+    duplicates = sorted(
+        identifier
+        for identifier in set(identifiers)
+        if identifier is not None and identifiers.count(identifier) > 1
+    )
+    if duplicates:
+        errors.append(f"duplicate anomaly/override ids: {duplicates}")
     if errors:
         print("\n".join(errors))
         print("FAIL: anomaly registry is stale or incomplete")

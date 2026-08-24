@@ -12,7 +12,7 @@ help:
 	@echo "  search-index Regenerate objects/search-index.json"
 	@echo "  coverage     Check interval coverage only (not extraction fidelity)"
 	@echo "  anomalies    Reject unreviewed source-conversion anomaly candidates"
-	@echo "  fidelity     Check locator ownership and typed/source fidelity"
+	@echo "  fidelity     Check exact prose, tables, locators, and typed fidelity"
 	@echo "  graph        Expand the complete JSON-LD graph and reject data loss"
 	@echo "  test         Run the structural test suite"
 	@echo "  validate     Dependency-free structural validation"

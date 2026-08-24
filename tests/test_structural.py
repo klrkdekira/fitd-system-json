@@ -12,6 +12,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 from fitdlib import (  # noqa: E402
     ATTRIBUTION_STATEMENT,
     COLLECTIONS,
+    CONVERSION_STATEMENT,
     SOURCE_FILE,
     iter_object_files,
     load_json,
@@ -164,6 +165,29 @@ class TestTablesAndRules(unittest.TestCase):
         self.assertEqual(prison["columns"][0], "")
         self.assertIn("[]()", prison["rawText"])
 
+    def test_escaped_pipes_do_not_split_harm_cells(self):
+        harm = record("tables", "9-7-harm")
+        self.assertEqual(harm["columns"], ["", "", ""])
+        self.assertEqual(len(harm["rows"]), 3)
+        self.assertTrue(harm["rows"][1]["cells"][1]["value"].endswith(r"\|"))
+        for row in harm["rows"]:
+            self.assertEqual(len(row["cells"]), len(harm["columns"]))
+
+    def test_short_separator_override_keeps_magnitude_header(self):
+        table = record("tables", "29-4-tier-quality-force")
+        self.assertEqual(table["columns"], [str(value) for value in range(7)])
+        self.assertEqual(len(table["rows"]), 2)
+
+    def test_every_table_row_matches_its_column_width(self):
+        for collection, path in iter_object_files(ROOT):
+            if collection != "tables":
+                continue
+            table = load_json(path)
+            for row in table["rows"]:
+                self.assertEqual(
+                    len(row["cells"]), len(table["columns"]), path.stem
+                )
+
 
 class TestCorpusInvariants(unittest.TestCase):
     def test_unique_slugs_within_collections(self):
@@ -175,9 +199,14 @@ class TestCorpusInvariants(unittest.TestCase):
     def test_attribution_survives_all_projections(self):
         source = record("sources", "blades-in-the-dark-srd")
         self.assertEqual(source["attributionStatement"], ATTRIBUTION_STATEMENT)
+        self.assertEqual(source["conversionStatement"], CONVERSION_STATEMENT)
         self.assertIn(
             ATTRIBUTION_STATEMENT,
             (ROOT / "llms-full.txt").read_text(encoding="utf-8"),
+        )
+        self.assertIn(
+            CONVERSION_STATEMENT,
+            (ROOT / "README.md").read_text(encoding="utf-8"),
         )
         self.assertIn(ATTRIBUTION_STATEMENT, projected_text(source))
 

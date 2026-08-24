@@ -13,7 +13,7 @@ A source-faithful, machine-readable edition of the **Blades in the Dark SRD** (F
 - the original SRD prose alongside typed fields for discovery and filtering; and
 - line-level provenance back to the authoritative source.
 
-This is a reference corpus, not a rules engine or character builder. It adopts the architecture of [graph20](https://cheeleong.dev/graph20/), the SRD 5.2.1 corpus, which in turn follows [wwn-system-json](https://cheeleong.dev/wwn-system-json/).
+This is a reference corpus, not a rules engine or character builder.
 
 [Explore the corpus](https://cheeleong.dev/fitd-system-json/) · [Read the vocabulary](https://cheeleong.dev/fitd-system-json/vocab/) · [Technical specification](SPECIFICATION.md) · [LLM guide](llms.txt)
 
@@ -105,7 +105,8 @@ The project is designed for source-backed reference and retrieval workloads:
 
 - **Stable identity.** Every entity has a lowercase-kebab-case canonical `@id` under `https://cheeleong.dev/fitd-system-json/` and an `@type` defined by the shared context.
 - **Graph-safe links.** Semantic relationships use `{ "@id": "…" }` node references. `$ref` is reserved for JSON Schema composition.
-- **Source-faithful prose.** `rulesText`, `examplesText`, and `commentary` preserve source wording, Markdown emphasis included. Typed sibling fields are indexes, not replacements for the prose.
+- **Source-faithful prose.** `rulesText`, `examplesText`, and `commentary` preserve source wording, Markdown emphasis included. The fidelity gate independently reconstructs every section and rejects any prose difference. Typed sibling fields are indexes, not replacements for the prose.
+- **Table integrity.** Table `rawText` preserves the physical source rows verbatim. Typed parsing respects Markdown-escaped pipes, requires every row to match the declared column width, and applies malformed header-separator treatments only through line-pinned reviewed overrides.
 - **Physical provenance.** `sourceLocator` identifies the source chapter, section, heading, and inclusive line range. Paragraph- and bullet-grained records (actions, crew claims, trauma conditions, vices, plans) carry sub-spans inside their owning rule and link it with a `partOf` node reference.
 - **No invented values.** Extraction does not fill gaps in the source; conversion artefacts are retained and registered rather than silently repaired.
 - **Reviewed normalisation.** Extraction-time normalisations are recorded in [`objects/sources/extraction-overrides.json`](objects/sources/extraction-overrides.json) with observed text, disposition, and rationale, and `make anomalies` rejects unreviewed detector hits.
@@ -153,7 +154,7 @@ Generated files under `objects/` must not be edited by hand, except for `objects
 | `coverage` | Check interval coverage of non-blank source lines. |
 | `vocab` / `sitemap` | Rebuild vocabulary documentation and the published sitemap. |
 | `anomalies` | Reject unreviewed source-conversion anomaly candidates. |
-| `fidelity` | Check locator ownership, table shape, and typed/source fidelity. |
+| `fidelity` | Check exact prose, table cells and widths, locators, catalog grammar, typed sub-spans, and rights metadata. |
 | `graph` | Expand JSON-LD and reject data loss or invalid IRI values. |
 | `test` | Run the structural regression suite. |
 | `validate` | Check identities, bounds, references, indexes, sitemap, and vocabulary targets. |
@@ -191,6 +192,8 @@ Repository-authored code, schemas, and documentation are available under the [MI
 
 > This work is based on Blades in the Dark (found at http://www.bladesinthedark.com/), product of One Seven Design, developed and authored by John Harper, and licensed for our use under the Creative Commons Attribution 3.0 Unported license (http://creativecommons.org/licenses/by/3.0/).
 
-The Markdown conversion of the SRD text is by Randy Oest ([amazingrando](https://github.com/amazingrando/blades-in-the-dark-srd-content)). Project citation metadata is available in [`CITATION.cff`](CITATION.cff).
+The in-scope source file is the Markdown conversion of the Blades in the Dark SRD text published by Randy Oest (amazingrando) at https://github.com/amazingrando/blades-in-the-dark-srd-content, file Blades-in-the-Dark-SRD.md at commit ac2747ffc0806b2be9f14d29b2ace5dca6149bc3 (2022-04-08), retrieved on 2026-08-24.
+
+Project citation metadata is available in [`CITATION.cff`](CITATION.cff).
 
 This is an independent, unofficial reference project and is not affiliated with, sponsored by, or endorsed by One Seven Design or John Harper.
