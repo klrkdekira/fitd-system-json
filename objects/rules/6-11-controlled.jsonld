@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/6-11-controlled",
+  "@type": "Rule",
+  "name": "CONTROLLED",
+  "slug": "6-11-controlled",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Action Roll",
+    "section": "6.11",
+    "heading": "CONTROLLED",
+    "lineStart": 398,
+    "lineEnd": 409
+  },
+  "section": "6.11",
+  "rulesText": "*You act on your terms. You exploit a dominant advantage.*\n\n* **Critical**: You do it with **increased effect**.\n* **6**: You do it.\n* **4/5**: You hesitate.\n    - Withdraw and try a different approach, or\n    - else do it with a minor consequence: a **minor complication** occurs, you have **reduced effect**, you suffer **lesser harm**, you end up in a **risky** position.\n* **1-3**: You falter.\n    - Press on by seizing a **risky** opportunity, or\n    - withdraw and try a different approach."
+}

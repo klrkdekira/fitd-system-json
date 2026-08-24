@@ -1,0 +1,20 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/actions/attune",
+  "@type": "Action",
+  "name": "Attune",
+  "slug": "attune",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Actions & Attributes",
+    "section": "3.10",
+    "heading": "Actions",
+    "lineStart": 160,
+    "lineEnd": 162
+  },
+  "attribute": "Resolve",
+  "rulesText": "When you **Attune**, you open your mind to arcane power.",
+  "examplesText": "*You might communicate with a ghost. You could try to perceive beyond sight in order to better understand your situation (but Surveying might be better).*"
+}

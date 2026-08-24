@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/17-1-character-creation",
+  "@type": "Rule",
+  "name": "Character creation",
+  "slug": "17-1-character-creation",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character creation",
+    "section": "17.1",
+    "heading": "Character creation",
+    "lineStart": 926,
+    "lineEnd": 926
+  },
+  "section": "17.1"
+}

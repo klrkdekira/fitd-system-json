@@ -1,0 +1,20 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/not-to-be-trifled-with",
+  "@type": "SpecialAbility",
+  "name": "Not to be trifled with",
+  "slug": "not-to-be-trifled-with",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character playbook",
+    "section": "18.12",
+    "heading": "Not to be trifled with",
+    "lineStart": 1094,
+    "lineEnd": 1100
+  },
+  "rulesText": "You can **push yourself** to do one of the following: *perform a feat of physical force that verges on the superhuman—engage a small gang on equal footing in close combat.*",
+  "commentary": "When you push yourself to activate this ability, you still get one of the normal benefits of pushing yourself (+1d, +1 effect, etc.) in addition to the special ability.\n\nIf you perform a feat that verges on the superhuman, you might break a metal weapon with your bare hands, tackle a galloping horse, lift a huge weight, etc. If you engage a small gang on equal footing, you don't suffer reduced effect due to scale against a small gang (up to six people).",
+  "abilityScope": "character"
+}

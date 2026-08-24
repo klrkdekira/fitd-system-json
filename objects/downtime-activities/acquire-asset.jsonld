@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/downtime-activities/acquire-asset",
+  "@type": "DowntimeActivity",
+  "name": "Acquire asset",
+  "slug": "acquire-asset",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Downtime activities",
+    "section": "28.2",
+    "heading": "Acquire asset",
+    "lineStart": 2155,
+    "lineEnd": 2176
+  },
+  "rulesText": "Gain temporary use of an **asset**:\n\n* One special **item** or set of common items (enough for a gang of your Tier scale).\n* A **cohort** (an expert or gang).\n* A **vehicle**.\n* A **service**. Transport from a smuggler or driver, use of a warehouse for temporary storage, legal representation, etc.\n\n\"Temporary use\" constitutes one significant period of usage that makes sense for the asset—typically the duration of one score. An asset may also be acquired for \"standby\" use in the future. You might hire a gang to guard your lair, for example, and they'll stick around until after the first serious battle, or until a week goes by and they lose interest.\n\nTo acquire the asset, roll the crew's Tier. The result indicates the **quality** of the asset you get, using the crew's Tier as the base. **1-3**: Tier -1, **4/5**: Tier, **6**: Tier +1, **critical**: Tier +2. You can spend **coin** to raise the result of this roll beyond **critical** by spending **2** **coin** per additional Tier level added.\n\nThe GM may set a **minimum quality** level that must be achieved to acquire a particular asset. For example, if you want to get a set of Warden uniforms and masks, you'd need to acquire a Tier IV asset. A lower result won't do.\n\nIf you acquire the same asset again, you get **+1d** to your roll. If you continue to re-acquire an asset every time it's used, you can effectively rent it indefinitely.\n\nAlchemicals, poisons, bombs, and dangerous gadgets are highly restricted. When you acquire one of these items (rather than crafting it yourself), you take **+2** **heat**.\n\nIf you want to acquire an asset permanently, you can either gain it as a crew upgrade or work on it as a **long-term project** to set up a permanent acquisition.",
+  "commentary": "Zamira the Whisper is a duelist in the Iruvian style, and would like a fine sword to add to her permanent items. Her player starts a long-term project: \"Get My Family Sword Back from the Pawn Shop.\" The GM says this is an 8-clock (she can work on it by **Consorting** or **Swaying** the pawn shop owner or maybe rolling her lifestyle level to represent small payments)."
+}

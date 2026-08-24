@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/6-13-desperate",
+  "@type": "Rule",
+  "name": "DESPERATE",
+  "slug": "6-13-desperate",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Action Roll",
+    "section": "6.13",
+    "heading": "DESPERATE",
+    "lineStart": 420,
+    "lineEnd": 429
+  },
+  "section": "6.13",
+  "rulesText": "*You overreach your capabilities. You're in serious trouble.*\n\n* **Critical**: You do it with **increased effect**.\n* **6**: You do it.\n* **4/5**: You do it, but there's a consequence: you suffer **severe harm**, a **serious complication** occurs, you have **reduced effect**.\n* **1-3**: It's the worst outcome. You suffer **severe harm**, a **serious complication** occurs, you **lose this opportunity** for action."
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/9-1-consequences-and-harm",
+  "@type": "Rule",
+  "name": "Consequences and Harm",
+  "slug": "9-1-consequences-and-harm",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Consequences and Harm",
+    "section": "9.1",
+    "heading": "Consequences and Harm",
+    "lineStart": 503,
+    "lineEnd": 507
+  },
+  "section": "9.1",
+  "rulesText": "Enemy actions, bad circumstances, or the outcome of a roll can inflict **consequences** on a PC. There are five types (at right).\n\nA given circumstance might result in one or more consequences, depending on the situation. The GM determines the consequences, following from the fiction and the style and tone established by the game group."
+}

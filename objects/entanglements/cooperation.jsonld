@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/entanglements/cooperation",
+  "@type": "Entanglement",
+  "name": "Cooperation",
+  "slug": "cooperation",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Entanglements",
+    "section": "27.3",
+    "heading": "Cooperation",
+    "lineStart": 2082,
+    "lineEnd": 2084
+  },
+  "rulesText": "A +3 status faction asks you for a favor. Agree to do it, or forfeit 1 **rep** per Tier of the friendly faction, or lose **1 status** with them. If you don't have a +3 faction status, you avoid entanglements right now."
+}

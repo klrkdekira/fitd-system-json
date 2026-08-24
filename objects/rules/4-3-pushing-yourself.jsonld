@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/4-3-pushing-yourself",
+  "@type": "Rule",
+  "name": "Pushing Yourself",
+  "slug": "4-3-pushing-yourself",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Stress & Trauma",
+    "section": "4.3",
+    "heading": "Pushing Yourself",
+    "lineStart": 220,
+    "lineEnd": 226
+  },
+  "section": "4.3",
+  "rulesText": "You can use stress to push yourself for greater performance. For each bonus you choose below, take **2 stress** (each can be chosen once for a given action):\n\n* Add **+1d** to your roll. (This may be used for an action roll or downtime roll or any other kind of roll where extra effort would help you)\n* Add **+1 level** to your effect.\n* Take action when you're incapacitated."
+}

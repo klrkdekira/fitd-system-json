@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/1-5-the-crew",
+  "@type": "Rule",
+  "name": "The Crew",
+  "slug": "1-5-the-crew",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "The Basics",
+    "section": "1.5",
+    "heading": "The Crew",
+    "lineStart": 17,
+    "lineEnd": 19
+  },
+  "section": "1.5",
+  "rulesText": "In addition to creating characters, you'll also create the crew by choosing which type of criminal enterprise you're interested in exploring."
+}

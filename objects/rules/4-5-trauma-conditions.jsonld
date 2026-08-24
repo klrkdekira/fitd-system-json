@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/4-5-trauma-conditions",
+  "@type": "Rule",
+  "name": "Trauma Conditions",
+  "slug": "4-5-trauma-conditions",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Stress & Trauma",
+    "section": "4.5",
+    "heading": "Trauma Conditions",
+    "lineStart": 236,
+    "lineEnd": 245
+  },
+  "section": "4.5",
+  "rulesText": "* **Cold**: You're not moved by emotional appeals or social bonds.\n* **Haunted**: You're often lost in reverie, reliving past horrors, seeing things.\n* **Obsessed**: You're enthralled by one thing: an activity, a person, an ideology.\n* **Paranoid**: You imagine danger everywhere; you can't trust others.\n* **Reckless**: You have little regard for your own safety or best interests.\n* **Soft**: You lose your edge; you become sentimental, passive, gentle.\n* **Unstable**: Your emotional state is volatile. You can instantly rage, or fall into despair, act impulsively, or freeze up.\n* **Vicious**: You seek out opportunities to hurt people, even for no good reason."
+}

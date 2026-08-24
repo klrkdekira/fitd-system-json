@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/trauma-conditions/vicious",
+  "@type": "TraumaCondition",
+  "name": "Vicious",
+  "slug": "vicious",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Stress & Trauma",
+    "section": "4.5",
+    "heading": "Trauma Conditions",
+    "lineStart": 245,
+    "lineEnd": 245
+  },
+  "rulesText": "**Vicious**: You seek out opportunities to hurt people, even for no good reason."
+}

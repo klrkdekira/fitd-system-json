@@ -1,0 +1,20 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/trust-in-me",
+  "@type": "SpecialAbility",
+  "name": "Trust in me",
+  "slug": "trust-in-me",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character playbook",
+    "section": "18.38",
+    "heading": "Trust in me",
+    "lineStart": 1258,
+    "lineEnd": 1262
+  },
+  "rulesText": "You get **+1d** vs. a target with whom you have an intimate relationship.",
+  "commentary": "This ability isn't just for social interactions. Any action can get the bonus. \"Intimate\" is for you and the group to define, it need not exclusively mean romantic intimacy.",
+  "abilityScope": "character"
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/victim-trophies",
+  "@type": "Claim",
+  "name": "Victim Trophies",
+  "slug": "victim-trophies",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew playbook",
+    "section": "20.6",
+    "heading": "Make a Claim Map for the Crew",
+    "lineStart": 1583,
+    "lineEnd": 1583
+  },
+  "claimType": "crew",
+  "rulesText": "**Victim Trophies**: You get **+1 rep** per score. *Word of your grisly \"collection\" gets around, and your boldness boosts your rep in the underworld.*"
+}

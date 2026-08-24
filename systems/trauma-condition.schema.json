@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cheeleong.dev/fitd-system-json/systems/trauma-condition.schema.json",
+  "title": "Blades in the Dark SRD Trauma Condition",
+  "$ref": "common.schema.json#/$defs/EntityBase",
+  "properties": {
+    "@type": { "const": "TraumaCondition" },
+    "rulesText": { "type": "string", "minLength": 1 }
+  },
+  "required": ["rulesText"],
+  "unevaluatedProperties": false
+}

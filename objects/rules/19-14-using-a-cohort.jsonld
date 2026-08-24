@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/19-14-using-a-cohort",
+  "@type": "Rule",
+  "name": "Using a cohort",
+  "slug": "19-14-using-a-cohort",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew creation",
+    "section": "19.14",
+    "heading": "Using a cohort",
+    "lineStart": 1471,
+    "lineEnd": 1477
+  },
+  "section": "19.14",
+  "rulesText": "When you send a cohort to achieve a goal, roll their **quality** to see how it goes. Or, a PC can oversee the maneuver by leading a **group action**. If you direct the cohort with orders, roll **Command**. If you participate in the action alongside the cohort, roll the appropriate action. The quality of any opposition relative to the cohort's quality affects the position and effect of the action.\n\n> The PCs crew of Hawkers want to run a rival gang out of the alley where they're selling drugs. They send their gang of Thugs to go kick the interlopers out. The GM rolls 2d for the Thugs' quality, and gets a **3**. An hour later, the Thugs come back, beaten and bloody. One of them looks sheepish, \"Those guys are tough, boss.\" (The GM inflicts harm on the cohort, and they failed their goal.)\n>\n> The next day, the crew boss goes back and leads a group action, rolling her 3d in **Skirmish** alongside the Thugs' 2d. The boss gets a **6** this time—they beat the tar out of the other gang and send them packing (at least for now)."
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/1-4-the-characters",
+  "@type": "Rule",
+  "name": "The Characters",
+  "slug": "1-4-the-characters",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "The Basics",
+    "section": "1.4",
+    "heading": "The Characters",
+    "lineStart": 13,
+    "lineEnd": 15
+  },
+  "section": "1.4",
+  "rulesText": "The characters attempt to develop their crew by performing scores and contending with threats from their enemies."
+}

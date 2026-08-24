@@ -1,0 +1,20 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/weaving-the-web",
+  "@type": "SpecialAbility",
+  "name": "Weaving the web",
+  "slug": "weaving-the-web",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character playbook",
+    "section": "18.43",
+    "heading": "Weaving the web",
+    "lineStart": 1288,
+    "lineEnd": 1292
+  },
+  "rulesText": "You gain **+1d** to **Consort** when you gather information on a target for a score. You get **+1d** to the **engagement roll** for that operation.",
+  "commentary": "Your network of underworld connections can always be leveraged to gain insight for a job—even when your contacts aren't aware that they're helping you.",
+  "abilityScope": "character"
+}

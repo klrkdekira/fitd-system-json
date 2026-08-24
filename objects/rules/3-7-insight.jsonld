@@ -1,0 +1,24 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/3-7-insight",
+  "@type": "Rule",
+  "name": "Insight",
+  "slug": "3-7-insight",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Actions & Attributes",
+    "section": "3.7",
+    "heading": "Insight",
+    "lineStart": 125,
+    "lineEnd": 134
+  },
+  "section": "3.7",
+  "rulesText": "This character has a **Hunt** action rating of 1.  Their **Insight** attribute rating is 1 (the first column of dots).",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/fitd-system-json/objects/tables/3-7-insight"
+    }
+  ]
+}

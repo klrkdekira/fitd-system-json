@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/14-10-faction-status-levels",
+  "@type": "Rule",
+  "name": "Faction status levels",
+  "slug": "14-10-faction-status-levels",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "The Faction Game",
+    "section": "14.10",
+    "heading": "Faction status levels",
+    "lineStart": 841,
+    "lineEnd": 851
+  },
+  "section": "14.10",
+  "rulesText": "* **+3: Allies.** This faction will help you even if it's not in their best interest to do so. They expect you to do the same for them.\n* **+2: Friendly.** This faction will help you if it doesn't create serious problems for them. They expect you to do the same.\n* **+1: Helpful.** This faction will help you if it causes no problems or significant cost for them. They expect the same from you.\n* **0: Neutral**\n* **-1: Interfering.** This faction will look for opportunities to cause trouble for you (or profit from your misfortune) as long as it causes no problems or significant cost for them. They expect the same from you.\n* **-2: Hostile.** This faction will look for opportunities to hurt you as long as it doesn't create serious problems for them. They expect you to do the same, and take precautions against you.\n* **-3: War.** This faction will go out of its way to hurt you even if it's not in their best interest to do so. They expect you to do the same, and take precautions against you. When you're at war with any number of factions, your crew suffers +1 **heat** from scores, temporarily loses 1 hold, and PCs get only one downtime action rather than two. You can end a war by eliminating your enemy or by negotiating a mutual agreement to establish a new status rating.\n\n> If your crew has weak hold when you go to war, the temporary loss of hold causes you to lose one Tier. When the war is over, restore your crew's Tier back to its pre-war level."
+}

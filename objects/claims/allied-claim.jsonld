@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/allied-claim",
+  "@type": "Claim",
+  "name": "Allied claim",
+  "slug": "allied-claim",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Heat",
+    "section": "26.6",
+    "heading": "Allied claim",
+    "lineStart": 2030,
+    "lineEnd": 2032
+  },
+  "rulesText": "One of your allies on the inside arranges for their faction to grant you a boon. Take a claim for your crew from a different crew type. You can't take turf with this claim.",
+  "claimType": "prison"
+}

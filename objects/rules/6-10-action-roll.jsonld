@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/6-10-action-roll",
+  "@type": "Rule",
+  "name": "ACTION ROLL",
+  "slug": "6-10-action-roll",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Action Roll",
+    "section": "6.10",
+    "heading": "ACTION ROLL",
+    "lineStart": 390,
+    "lineEnd": 396
+  },
+  "section": "6.10",
+  "rulesText": "&#x23E3; &nbsp; **1d** for each **Action** rating dot.\n\n&#x2295; &nbsp; **+1d** if you have **Assistance**.\n\n&#x2295; &nbsp; **+1d** if you **Push** yourself -or- you accept a **Devil's Bargain**."
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/1-3-the-players",
+  "@type": "Rule",
+  "name": "The Players",
+  "slug": "1-3-the-players",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "The Basics",
+    "section": "1.3",
+    "heading": "The Players",
+    "lineStart": 7,
+    "lineEnd": 11
+  },
+  "section": "1.3",
+  "rulesText": "Each player creates a character and works with the other players to create the crew to which their characters belong. Each player strives to bring their character to life as an interesting, daring character who reaches boldly beyond their current safety and means.\n\nThe players work together with the Game Master to establish the tone and style of the game by making judgment calls about the mechanics, dice, and consequences of actions. The players take responsibility as co-authors of the game with the GM."
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cheeleong.dev/fitd-system-json/systems/claim.schema.json",
+  "title": "Blades in the Dark SRD Claim",
+  "$ref": "common.schema.json#/$defs/EntityBase",
+  "properties": {
+    "@type": { "const": "Claim" },
+    "claimType": { "enum": ["crew", "prison"] },
+    "rulesText": { "type": "string", "minLength": 1 },
+    "commentary": { "type": "string", "minLength": 1 }
+  },
+  "required": ["claimType", "rulesText"],
+  "unevaluatedProperties": false
+}

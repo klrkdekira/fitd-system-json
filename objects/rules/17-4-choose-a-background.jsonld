@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/17-4-choose-a-background",
+  "@type": "Rule",
+  "name": "Choose a background",
+  "slug": "17-4-choose-a-background",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character creation",
+    "section": "17.4",
+    "heading": "Choose a background",
+    "lineStart": 942,
+    "lineEnd": 944
+  },
+  "section": "17.4",
+  "rulesText": "Your character's **background** describes what they did before they joined the crew. Choose a background and then write a detail about it that's specific to your character."
+}

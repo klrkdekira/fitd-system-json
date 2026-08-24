@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/23-7-do-we-have-to-use-teamwork",
+  "@type": "Rule",
+  "name": "Do We Have to Use Teamwork?",
+  "slug": "23-7-do-we-have-to-use-teamwork",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Teamwork",
+    "section": "23.7",
+    "heading": "Do We Have to Use Teamwork?",
+    "lineStart": 1912,
+    "lineEnd": 1914
+  },
+  "section": "23.7",
+  "rulesText": "Teamwork maneuvers are options, not requirements. Each character can still perform solo actions as normal during an operation. If your character can't communicate or somehow coordinate with the rest of the team, you can't use or benefit from any teamwork maneuvers."
+}

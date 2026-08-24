@@ -1,0 +1,20 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/arcane-fighter",
+  "@type": "SpecialAbility",
+  "name": "Arcane fighter",
+  "slug": "arcane-fighter",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character playbook",
+    "section": "18.9",
+    "heading": "Arcane fighter",
+    "lineStart": 1076,
+    "lineEnd": 1080
+  },
+  "rulesText": "You may imbue your hands, melee weapons, or tools with spirit energy. You gain **potency** in combat vs. the supernatural..",
+  "commentary": "When you imbue yourself with arcane energy, how do you do it? What does it look like when the energy manifests?",
+  "abilityScope": "character"
+}

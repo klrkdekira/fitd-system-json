@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/terrorized-citizens",
+  "@type": "Claim",
+  "name": "Terrorized Citizens",
+  "slug": "terrorized-citizens",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew playbook",
+    "section": "20.6",
+    "heading": "Make a Claim Map for the Crew",
+    "lineStart": 1589,
+    "lineEnd": 1589
+  },
+  "claimType": "crew",
+  "rulesText": "**Terrorized Citizens**: You get **+2** **coin** in your payoff for scores that involve battle or extortion. *The frightened locals offer you tribute whenever you lash out. They don't want to be next.*"
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/13-6-removing-coin-from-your-stash",
+  "@type": "Rule",
+  "name": "Removing coin from your stash",
+  "slug": "13-6-removing-coin-from-your-stash",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Coin and Stash",
+    "section": "13.6",
+    "heading": "Removing coin from your stash",
+    "lineStart": 767,
+    "lineEnd": 769
+  },
+  "section": "13.6",
+  "rulesText": "If you want to pull **coin** out of your stash, you may do so, at a cost. Your character sells off some of their assets and investments in order to get some quick cash. **For every 2 stash removed, you get 1 ****coin**** in cash.**"
+}

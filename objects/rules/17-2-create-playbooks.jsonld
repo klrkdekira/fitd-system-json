@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/17-2-create-playbooks",
+  "@type": "Rule",
+  "name": "Create playbooks",
+  "slug": "17-2-create-playbooks",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character creation",
+    "section": "17.2",
+    "heading": "Create playbooks",
+    "lineStart": 928,
+    "lineEnd": 936
+  },
+  "section": "17.2",
+  "rulesText": "A playbook is what we call the sheet with all the specific rules to play a certain character type in a Blades-powered game. For example, you might create a playbook called a **Soldier**, with special abilities related to battle, or a playbook called a **Medic**, with special abilities related to field medicine.\n\nWhen you choose a playbook, you're choosing a set of **special abilities** (which give your character ways to break the rules in various ways) and a set of **xp triggers** (which determine how you earn experience for character advancement). But every playbook represents a scoundrel at heart. The Cutter has special abilities related to combat, but that doesn't mean they're \"the fighter\" of the game. Any character type can fight well. Think of your playbook as an area of focus and preference, but not a unique skill set.\n\nThis is why we call them \"playbooks\" rather than \"character classes\" or \"archetypes.\" You're selecting the set of initial action ratings and special abilities that your character has access to—but you're not defining their immutable essence or true nature. Your character will grow and change over time; who they become is part of the fun of playing the game.\n\nOnce you've chosen your playbook, follow the steps below to complete your character."
+}

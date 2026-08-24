@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/trauma-conditions/reckless",
+  "@type": "TraumaCondition",
+  "name": "Reckless",
+  "slug": "reckless",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Stress & Trauma",
+    "section": "4.5",
+    "heading": "Trauma Conditions",
+    "lineStart": 242,
+    "lineEnd": 242
+  },
+  "rulesText": "**Reckless**: You have little regard for your own safety or best interests."
+}

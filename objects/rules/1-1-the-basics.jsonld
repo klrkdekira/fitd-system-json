@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/1-1-the-basics",
+  "@type": "Rule",
+  "name": "The Basics",
+  "slug": "1-1-the-basics",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "The Basics",
+    "section": "1.1",
+    "heading": "The Basics",
+    "lineStart": 1,
+    "lineEnd": 1
+  },
+  "section": "1.1"
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/17-6-choose-a-special-ability",
+  "@type": "Rule",
+  "name": "Choose a special ability",
+  "slug": "17-6-choose-a-special-ability",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character creation",
+    "section": "17.6",
+    "heading": "Choose a special ability",
+    "lineStart": 954,
+    "lineEnd": 956
+  },
+  "section": "17.6",
+  "rulesText": "Take a look at the special abilities for your playbook and choose one. If you can't decide which one to pick, go with the first one on the list—it's placed there as a good default choice."
+}

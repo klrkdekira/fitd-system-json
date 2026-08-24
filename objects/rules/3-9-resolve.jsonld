@@ -1,0 +1,23 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/3-9-resolve",
+  "@type": "Rule",
+  "name": "Resolve",
+  "slug": "3-9-resolve",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Actions & Attributes",
+    "section": "3.9",
+    "heading": "Resolve",
+    "lineStart": 147,
+    "lineEnd": 156
+  },
+  "section": "3.9",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/fitd-system-json/objects/tables/3-9-resolve"
+    }
+  ]
+}

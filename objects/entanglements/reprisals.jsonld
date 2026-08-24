@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/entanglements/reprisals",
+  "@type": "Entanglement",
+  "name": "Reprisals",
+  "slug": "reprisals",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Entanglements",
+    "section": "27.9",
+    "heading": "Reprisals",
+    "lineStart": 2110,
+    "lineEnd": 2112
+  },
+  "rulesText": "An enemy faction makes a move against you (or a friend, contact, or vice purveyor). Pay them (1 **rep** and 1 **coin**) per Tier of the enemy as an apology, allow them to mess with you or yours, or fight back and show them who's boss."
+}

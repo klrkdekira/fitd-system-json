@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/cell-block-control",
+  "@type": "Claim",
+  "name": "Cell block control",
+  "slug": "cell-block-control",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Heat",
+    "section": "26.7",
+    "heading": "Cell block control",
+    "lineStart": 2034,
+    "lineEnd": 2036
+  },
+  "rulesText": "Your crew has a cell block under their total control—guards and all. You never take **trauma** from incarceration.",
+  "claimType": "prison"
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/6-1-action-roll",
+  "@type": "Rule",
+  "name": "Action Roll",
+  "slug": "6-1-action-roll",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Action Roll",
+    "section": "6.1",
+    "heading": "Action Roll",
+    "lineStart": 305,
+    "lineEnd": 318
+  },
+  "section": "6.1",
+  "rulesText": "When a player character does something challenging, we make an **action roll** to see how it turns out. An action is challenging if there's an obstacle to the PC's goal that's dangerous or troublesome in some way. We don't make an action roll unless the PC is put to the test. If their action is something that we'd expect them to simply accomplish, then we don't make an action roll.\n\n*Each game group will have their own ideas about what \"challenging\" means. This is good! It's something that establishes the tone and style of your Blades series.*\n\nTo make an action roll, we go through six steps. In play, they flow together somewhat, but let's break each one down here for clarity.\n\n* The player states their **goal** for the action.\n* The player chooses the **action rating**.\n* The GM sets the **position** for the roll.\n* The GM sets the **effect level** for the action.\n* Add **bonus dice**.\n* The player rolls the dice and we judge the result."
+}

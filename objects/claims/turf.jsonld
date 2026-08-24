@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/turf",
+  "@type": "Claim",
+  "name": "Turf",
+  "slug": "turf",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew playbook",
+    "section": "20.6",
+    "heading": "Make a Claim Map for the Crew",
+    "lineStart": 1561,
+    "lineEnd": 1561
+  },
+  "claimType": "crew",
+  "rulesText": "**Turf**: You require one less Rep to advance in tier (max 6)**."
+}

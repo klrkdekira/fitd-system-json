@@ -1,0 +1,20 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/actions/survey",
+  "@type": "Action",
+  "name": "Survey",
+  "slug": "survey",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Actions & Attributes",
+    "section": "3.10",
+    "heading": "Actions",
+    "lineStart": 192,
+    "lineEnd": 194
+  },
+  "attribute": "Insight",
+  "rulesText": "When you **Survey**, you observe the situation and anticipate outcomes.",
+  "examplesText": "*You might spot telltale signs of trouble before it happens. You might uncover opportunities or weaknesses. You might detect a person's motivations or intentions. You could try to spot a good ambush point (but Hunting might be better).*"
+}

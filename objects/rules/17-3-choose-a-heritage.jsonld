@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/17-3-choose-a-heritage",
+  "@type": "Rule",
+  "name": "Choose a heritage",
+  "slug": "17-3-choose-a-heritage",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character creation",
+    "section": "17.3",
+    "heading": "Choose a heritage",
+    "lineStart": 938,
+    "lineEnd": 940
+  },
+  "section": "17.3",
+  "rulesText": "Your character's **heritage** describes where their family line is from. When you choose a heritage, write a detail about your family life on the line above."
+}

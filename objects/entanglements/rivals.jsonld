@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/entanglements/rivals",
+  "@type": "Entanglement",
+  "name": "Rivals",
+  "slug": "rivals",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Entanglements",
+    "section": "27.10",
+    "heading": "Rivals",
+    "lineStart": 2114,
+    "lineEnd": 2116
+  },
+  "rulesText": "A neutral faction throws their weight around. They threaten you, a friend, a contact, or one of your vice purveyors. Forfeit (1 **rep** or 1 **coin**) per Tier of the rival, or stand up to them and lose **1 status** with them."
+}

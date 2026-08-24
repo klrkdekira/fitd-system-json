@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/vengeful",
+  "@type": "SpecialAbility",
+  "name": "Vengeful",
+  "slug": "vengeful",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character playbook",
+    "section": "18.19",
+    "heading": "Vengeful",
+    "lineStart": 1142,
+    "lineEnd": 1144
+  },
+  "rulesText": "You gain an additional **xp trigger**: *You got payback against someone who harmed you or someone you care about.* If your crew helped you get payback, also mark crew xp.",
+  "abilityScope": "character"
+}

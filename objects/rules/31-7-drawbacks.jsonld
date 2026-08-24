@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/31-7-drawbacks",
+  "@type": "Rule",
+  "name": "Drawbacks",
+  "slug": "31-7-drawbacks",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crafting",
+    "section": "31.7",
+    "heading": "Drawbacks",
+    "lineStart": 2513,
+    "lineEnd": 2522
+  },
+  "section": "31.7",
+  "rulesText": "A creation or modification may have one or more drawbacks, chosen by the GM.\n\n* **Complex**. You'll have to create it in multiple stages; the GM will tell you how many. One downtime activity and crafting roll is needed per stage.\n* **Conspicuous**. This creation doesn't go unnoticed. Take **+1** **heat** if it's used any number of times on an operation.\n* **Consumable**. This creation has a limited number of uses (all alchemicals must have this drawback, usually one use).\n* **Rare**. This creation requires a rare item or material when it is crafted.\n* **Unreliable**. When you use the item, make a fortune roll (using its **quality**) to see how well it performs.\n* **Volatile**. The item produces a dangerous or troublesome side-effect for the user, specified by the GM. A side-effect is a consequence, and may be **resisted**."
+}

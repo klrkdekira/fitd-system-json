@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/19-13-modifying-a-cohort",
+  "@type": "Rule",
+  "name": "Modifying a cohort",
+  "slug": "19-13-modifying-a-cohort",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew creation",
+    "section": "19.13",
+    "heading": "Modifying a cohort",
+    "lineStart": 1467,
+    "lineEnd": 1469
+  },
+  "section": "19.13",
+  "rulesText": "You can add an **additional type** to a gang or expert by spending two crew upgrades. When a cohort performs actions for which its types apply, it uses its full quality rating. Otherwise, its quality is zero. A given cohort can have up to two types."
+}

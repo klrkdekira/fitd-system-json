@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/19-1-crew-creation",
+  "@type": "Rule",
+  "name": "Crew creation",
+  "slug": "19-1-crew-creation",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew creation",
+    "section": "19.1",
+    "heading": "Crew creation",
+    "lineStart": 1328,
+    "lineEnd": 1328
+  },
+  "section": "19.1"
+}

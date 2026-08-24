@@ -1,0 +1,23 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/29-3-duration-range",
+  "@type": "Rule",
+  "name": "DURATION/RANGE",
+  "slug": "29-3-duration-range",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Magnitude",
+    "section": "29.3",
+    "heading": "DURATION/RANGE",
+    "lineStart": 2369,
+    "lineEnd": 2376
+  },
+  "section": "29.3",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/fitd-system-json/objects/tables/29-3-duration-range"
+    }
+  ]
+}

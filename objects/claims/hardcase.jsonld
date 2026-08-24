@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/hardcase",
+  "@type": "Claim",
+  "name": "Hardcase",
+  "slug": "hardcase",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Heat",
+    "section": "26.9",
+    "heading": "Hardcase",
+    "lineStart": 2042,
+    "lineEnd": 2044
+  },
+  "rulesText": "Your reputation as a tough inmate bolsters your crew's image. When your crew advances Tier, it costs 2 fewer **coins** than it normally would.",
+  "claimType": "prison"
+}

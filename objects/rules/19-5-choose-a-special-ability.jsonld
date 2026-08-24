@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/19-5-choose-a-special-ability",
+  "@type": "Rule",
+  "name": "Choose a special ability",
+  "slug": "19-5-choose-a-special-ability",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew creation",
+    "section": "19.5",
+    "heading": "Choose a special ability",
+    "lineStart": 1371,
+    "lineEnd": 1375
+  },
+  "section": "19.5",
+  "rulesText": "Take a look at the special abilities for your crew and choose one. If you can't decide which one to pick, go with the first one on the list—it's placed there as a good default choice. It's important to pick a special ability that everyone is excited about. You can get more special abilities in the future by earning xp.\n\nJust like picking the crew type, reputation, lair, and hunting grounds, choosing a special ability is another chance to focus the game down to a more specific range of possibilities. That's a lot to work with, and it helps get the game going in a strong direction from the very beginning."
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/street-fence",
+  "@type": "Claim",
+  "name": "Street Fence",
+  "slug": "street-fence",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew playbook",
+    "section": "20.6",
+    "heading": "Make a Claim Map for the Crew",
+    "lineStart": 1587,
+    "lineEnd": 1587
+  },
+  "claimType": "crew",
+  "rulesText": "**Street Fence**: You get **+2** **coin** in your payoff for scores that involve lower-class targets. *An expert can find the treasure amid the trash you loot from your poorer victims.*"
+}

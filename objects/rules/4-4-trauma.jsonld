@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/4-4-trauma",
+  "@type": "Rule",
+  "name": "Trauma",
+  "slug": "4-4-trauma",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Stress & Trauma",
+    "section": "4.4",
+    "heading": "Trauma",
+    "lineStart": 228,
+    "lineEnd": 234
+  },
+  "section": "4.4",
+  "rulesText": "When a PC marks their last stress box, they suffer a level of **trauma**. When you take **trauma**, circle one of your **trauma conditions** like *Cold*, *Reckless*, *Unstable*, etc. They're all described in the next section.\n\nWhen you suffer **trauma**, you're taken out of action. You're \"left for dead\" or otherwise dropped out of the current conflict, only to come back later, shaken and drained. When you return, **you have zero stress** and your vice has been satisfied for the next downtime.\n\n**Trauma conditions are permanent**. Your character acquires the new personality quirk indicated by the condition, and can earn xp by using it to cause trouble. **When you mark your fourth trauma condition**, your character cannot continue as a daring scoundrel. You must retire them to a different life or send them to prison to take the fall for the crew's **wanted level**."
+}

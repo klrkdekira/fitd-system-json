@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/22-3-item-loadouts",
+  "@type": "Rule",
+  "name": "Item Loadouts",
+  "slug": "22-3-item-loadouts",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Planning & engagement",
+    "section": "22.3",
+    "heading": "Item Loadouts",
+    "lineStart": 1742,
+    "lineEnd": 1744
+  },
+  "section": "22.3",
+  "rulesText": "After the plan and detail are in place, each player chooses their character's **load**. This indicates how much stuff they're carrying on the operation. They don't have to select individual items—just the maximum amount they'll have access to during the action."
+}

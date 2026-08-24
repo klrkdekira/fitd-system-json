@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/28-18-recover",
+  "@type": "Rule",
+  "name": "RECOVER",
+  "slug": "28-18-recover",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Downtime activities",
+    "section": "28.18",
+    "heading": "RECOVER",
+    "lineStart": 2309,
+    "lineEnd": 2311
+  },
+  "section": "28.18",
+  "rulesText": "Get **treatment** to tick your **healing clock** (like a long-term project). *When you fill a clock, each harm is reduced by one level.*"
+}

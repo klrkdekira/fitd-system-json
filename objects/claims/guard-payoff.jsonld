@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/guard-payoff",
+  "@type": "Claim",
+  "name": "Guard payoff",
+  "slug": "guard-payoff",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Heat",
+    "section": "26.8",
+    "heading": "Guard payoff",
+    "lineStart": 2038,
+    "lineEnd": 2040
+  },
+  "rulesText": "You claim several prison guards on your payroll. Take +1d to your Tier roll when a member of your crew is incarcerated.",
+  "claimType": "prison"
+}

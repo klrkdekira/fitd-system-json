@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-4-contacts",
+  "@type": "Rule",
+  "name": "Contacts",
+  "slug": "20-4-contacts",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew playbook",
+    "section": "20.4",
+    "heading": "Contacts",
+    "lineStart": 1539,
+    "lineEnd": 1543
+  },
+  "section": "20.4",
+  "rulesText": "A list of five possible contacts for thew crew, along with descriptions of each. Some possibilities include: a gang boss, a deal broker, a noble, a bounty hunter, a merchant, a blacksmith, a physicker, a ward boss, a taver owner, an academic, an occultist, a magistrate, a dilettante, an explorer, a collector, an arms dealer, a drug dealer, an anarchist, or a dock worker.\n\nQuestions can include how you know the friend, what they've done for you,  what you do for them, and what kind of relationship you have."
+}

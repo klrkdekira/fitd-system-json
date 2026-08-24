@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/all-hands",
+  "@type": "SpecialAbility",
+  "name": "All hands",
+  "slug": "all-hands",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew playbook",
+    "section": "20.22",
+    "heading": "All hands",
+    "lineStart": 1697,
+    "lineEnd": 1699
+  },
+  "rulesText": "During **downtime**, one of your **cohorts** may perform a downtime activity for the crew to **acquire an asset**, **reduce** **heat**, or work on a **long-term project**.",
+  "abilityScope": "crew"
+}

@@ -1,0 +1,120 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/tables/3-8-prowess",
+  "@type": "Table",
+  "name": "Prowess",
+  "slug": "3-8-prowess",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Actions & Attributes",
+    "section": "3.8",
+    "heading": "Prowess",
+    "lineStart": 138,
+    "lineEnd": 143
+  },
+  "columns": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "**Finesse**"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "&#x25CF;"
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "**Prowl**"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "&#x25CF;"
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": "&#x25CF;"
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "**Skirmish**"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "**Wreck**"
+        }
+      ]
+    }
+  ],
+  "rawText": "|   []()   |     |          |          |          |              |\n| :------: | --- | :------: | :------: | :------: | :----------- |\n| &#x25CB; |     | &#x25CB; | &#x25CB; | &#x25CB; | **Finesse**  |\n| &#x25CF; |     | &#x25CB; | &#x25CB; | &#x25CB; | **Prowl**    |\n| &#x25CF; |     | &#x25CF; | &#x25CB; | &#x25CB; | **Skirmish** |\n| &#x25CB; |     | &#x25CB; | &#x25CB; | &#x25CB; | **Wreck**    |"
+}

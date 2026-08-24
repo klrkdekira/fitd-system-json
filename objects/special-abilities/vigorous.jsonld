@@ -1,0 +1,20 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/vigorous",
+  "@type": "SpecialAbility",
+  "name": "Vigorous",
+  "slug": "vigorous",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character playbook",
+    "section": "18.14",
+    "heading": "Vigorous",
+    "lineStart": 1110,
+    "lineEnd": 1114
+  },
+  "rulesText": "You recover from harm faster. Permanently fill in one of your healing clock segments. Take **+1d** to healing treatment rolls.",
+  "commentary": "Your healing clock becomes a 3-clock, and you get a bonus die when you recover.",
+  "abilityScope": "character"
+}

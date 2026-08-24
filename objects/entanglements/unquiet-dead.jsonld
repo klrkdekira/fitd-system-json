@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/entanglements/unquiet-dead",
+  "@type": "Entanglement",
+  "name": "Unquiet dead",
+  "slug": "unquiet-dead",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Entanglements",
+    "section": "27.12",
+    "heading": "Unquiet dead",
+    "lineStart": 2122,
+    "lineEnd": 2126
+  },
+  "rulesText": "A rogue spirit is drawn to you—perhaps it's a past victim? Acquire the services of an occultist to attempt to destroy or banish it, or deal with it yourself.",
+  "commentary": "They can hire an NPC by using the **acquire asset*** downtime activity. Roll the NPC's quality level as a fortune roll to see how well they deal with the spirit."
+}

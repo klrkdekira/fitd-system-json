@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/envoy",
+  "@type": "Claim",
+  "name": "Envoy",
+  "slug": "envoy",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew playbook",
+    "section": "20.6",
+    "heading": "Make a Claim Map for the Crew",
+    "lineStart": 1569,
+    "lineEnd": 1569
+  },
+  "claimType": "crew",
+  "rulesText": "**Envoy**: You get **+2** **coin** in **payoff** for scores that involve high-class clients. *This well-connected liaison will help arrange for a better payoff from rich clients.*"
+}

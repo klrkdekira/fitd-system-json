@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/high-society",
+  "@type": "SpecialAbility",
+  "name": "High society",
+  "slug": "high-society",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew playbook",
+    "section": "20.18",
+    "heading": "High society",
+    "lineStart": 1677,
+    "lineEnd": 1679
+  },
+  "rulesText": "It's all about who you know. Take **-1 **heat**** during downtime and **+1d** to **gather information** about the city's elite.",
+  "abilityScope": "crew"
+}

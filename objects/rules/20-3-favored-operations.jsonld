@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-3-favored-operations",
+  "@type": "Rule",
+  "name": "Favored Operations",
+  "slug": "20-3-favored-operations",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew playbook",
+    "section": "20.3",
+    "heading": "Favored Operations",
+    "lineStart": 1536,
+    "lineEnd": 1537
+  },
+  "section": "20.3",
+  "rulesText": "A list of operation types that the crew may perform. Some possibilities include: murder, ranson, extortion, sabotage, acquisition, consecration, sacrifice, sale, supply, show of force, socialize, burglary, espionage, robbery, smuggling arms, smuggling contraband, or smuggling passengers."
+}

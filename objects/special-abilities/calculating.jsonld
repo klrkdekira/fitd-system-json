@@ -1,0 +1,20 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/calculating",
+  "@type": "SpecialAbility",
+  "name": "Calculating",
+  "slug": "calculating",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character playbook",
+    "section": "18.40",
+    "heading": "Calculating",
+    "lineStart": 1270,
+    "lineEnd": 1274
+  },
+  "rulesText": "Due to your careful planning, during downtime, you may give yourself or another crew member **+1 downtime activity**.",
+  "commentary": "If you forget to use this ability during downtime, you can still activate it during the score and flashback to the previous downtime when the extra activity happened.",
+  "abilityScope": "character"
+}

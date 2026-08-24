@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/14-2-tier",
+  "@type": "Rule",
+  "name": "Tier",
+  "slug": "14-2-tier",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "The Faction Game",
+    "section": "14.2",
+    "heading": "Tier",
+    "lineStart": 773,
+    "lineEnd": 777
+  },
+  "section": "14.2",
+  "rulesText": "Each notable faction is ranked by **Tier**—a measure of wealth, influence, and scale. At the highest level are the Tier V and VI factions, the true powers of the city. Your crew begins at Tier 0.\n\nYou'll use your Tier rating to roll dice when you acquire an asset, as well as for any fortune roll for which your crew's overall power level and influence is the primary trait. Most importantly, your Tier determines the **quality level** of your items as well as the quality and **scale** of the gangs your crew employs—and thereby what size of enemy you can expect to handle."
+}

@@ -1,0 +1,20 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/predators",
+  "@type": "SpecialAbility",
+  "name": "Predators",
+  "slug": "predators",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew playbook",
+    "section": "20.12",
+    "heading": "Predators",
+    "lineStart": 1645,
+    "lineEnd": 1649
+  },
+  "rulesText": "When you use a stealth or deception plan to commit murder, take **+1d** to the **engagement roll**.",
+  "commentary": "This ability applies when the goal is murder. It doesn't apply to other stealth or deception operations you attempt that happen to involve killing.",
+  "abilityScope": "crew"
+}

@@ -1,0 +1,639 @@
+{
+  "vocabulary": "https://cheeleong.dev/fitd-system-json/vocab/#",
+  "classes": [
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#Action",
+      "anchor": "Action",
+      "description": "JSON-LD class for action records."
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#Claim",
+      "anchor": "Claim",
+      "description": "JSON-LD class for claim records."
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#DowntimeActivity",
+      "anchor": "DowntimeActivity",
+      "description": "JSON-LD class for downtime activity records."
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#Entanglement",
+      "anchor": "Entanglement",
+      "description": "JSON-LD class for entanglement records."
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#Rule",
+      "anchor": "Rule",
+      "description": "JSON-LD class for rule records."
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#SRDSystemData",
+      "anchor": "SRDSystemData",
+      "description": "JSON-LD class for srdsystem data records."
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#Source",
+      "anchor": "Source",
+      "description": "JSON-LD class for source records."
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#SpecialAbility",
+      "anchor": "SpecialAbility",
+      "description": "JSON-LD class for special ability records."
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#Table",
+      "anchor": "Table",
+      "description": "JSON-LD class for table records."
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#TraumaCondition",
+      "anchor": "TraumaCondition",
+      "description": "JSON-LD class for trauma condition records."
+    }
+  ],
+  "properties": [
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#abilityScope",
+      "anchor": "abilityScope",
+      "jsonTerms": [
+        "abilityScope"
+      ],
+      "description": "Carries the ability scope value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#attribute",
+      "anchor": "attribute",
+      "jsonTerms": [
+        "attribute"
+      ],
+      "description": "Carries the attribute value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#attributionStatement",
+      "anchor": "attributionStatement",
+      "jsonTerms": [
+        "attributionStatement"
+      ],
+      "description": "Carries the attribution statement value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#author",
+      "anchor": "author",
+      "jsonTerms": [
+        "author"
+      ],
+      "description": "Carries the author value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#canonicalUrl",
+      "anchor": "canonicalUrl",
+      "jsonTerms": [
+        "canonicalUrl"
+      ],
+      "description": "Links the subject using the canonicalUrl relationship.",
+      "valueKinds": [
+        "IRI node reference"
+      ],
+      "ranges": [
+        "External IRI"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#cells",
+      "anchor": "cells",
+      "jsonTerms": [
+        "cells"
+      ],
+      "description": "Carries the cells value.",
+      "valueKinds": [
+        "ordered/set values"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#chapter",
+      "anchor": "chapter",
+      "jsonTerms": [
+        "chapter"
+      ],
+      "description": "Carries the chapter value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#claimType",
+      "anchor": "claimType",
+      "jsonTerms": [
+        "claimType"
+      ],
+      "description": "Carries the claim type value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#collection",
+      "anchor": "collection",
+      "jsonTerms": [
+        "collections"
+      ],
+      "description": "Carries the collections value.",
+      "valueKinds": [
+        "ordered/set values"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#columns",
+      "anchor": "columns",
+      "jsonTerms": [
+        "columns"
+      ],
+      "description": "Carries the columns value.",
+      "valueKinds": [
+        "ordered/set values"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#commentary",
+      "anchor": "commentary",
+      "jsonTerms": [
+        "commentary"
+      ],
+      "description": "Carries the commentary value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#contentDigest",
+      "anchor": "contentDigest",
+      "jsonTerms": [
+        "contentDigest"
+      ],
+      "description": "Carries the content digest value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#conversionStatement",
+      "anchor": "conversionStatement",
+      "jsonTerms": [
+        "conversionStatement"
+      ],
+      "description": "Carries the conversion statement value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#corpusDigest",
+      "anchor": "corpusDigest",
+      "jsonTerms": [
+        "corpusDigest"
+      ],
+      "description": "Carries the corpus digest value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#entityType",
+      "anchor": "entityType",
+      "jsonTerms": [
+        "entityType"
+      ],
+      "description": "Carries the entity type value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#examplesText",
+      "anchor": "examplesText",
+      "jsonTerms": [
+        "examplesText"
+      ],
+      "description": "Carries the examples text value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#heading",
+      "anchor": "heading",
+      "jsonTerms": [
+        "heading"
+      ],
+      "description": "Carries the heading value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#licenseCode",
+      "anchor": "licenseCode",
+      "jsonTerms": [
+        "license"
+      ],
+      "description": "Carries the license value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#licenseUrl",
+      "anchor": "licenseUrl",
+      "jsonTerms": [
+        "licenseUrl"
+      ],
+      "description": "Links the subject using the licenseUrl relationship.",
+      "valueKinds": [
+        "IRI node reference"
+      ],
+      "ranges": [
+        "External IRI"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#lineEnd",
+      "anchor": "lineEnd",
+      "jsonTerms": [
+        "lineEnd"
+      ],
+      "description": "Carries the line end value.",
+      "valueKinds": [
+        "integer literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#lineStart",
+      "anchor": "lineStart",
+      "jsonTerms": [
+        "lineStart"
+      ],
+      "description": "Carries the line start value.",
+      "valueKinds": [
+        "integer literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#member",
+      "anchor": "member",
+      "jsonTerms": [
+        "members"
+      ],
+      "description": "Links the subject using the members relationship.",
+      "valueKinds": [
+        "IRI node reference"
+      ],
+      "ranges": [
+        "Action",
+        "Claim",
+        "DowntimeActivity",
+        "Entanglement",
+        "Rule",
+        "Source",
+        "SpecialAbility",
+        "Table",
+        "TraumaCondition"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#metadata",
+      "anchor": "metadata",
+      "jsonTerms": [
+        "metadata"
+      ],
+      "description": "Carries the metadata value.",
+      "valueKinds": [
+        "structured blank node"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#position",
+      "anchor": "position",
+      "jsonTerms": [
+        "position"
+      ],
+      "description": "Carries the position value.",
+      "valueKinds": [
+        "integer literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#rawText",
+      "anchor": "rawText",
+      "jsonTerms": [
+        "rawText"
+      ],
+      "description": "Carries the raw text value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#relatedRule",
+      "anchor": "relatedRule",
+      "jsonTerms": [
+        "relatedRules"
+      ],
+      "description": "Links the subject using the relatedRules relationship.",
+      "valueKinds": [
+        "IRI node reference"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#relatedTable",
+      "anchor": "relatedTable",
+      "jsonTerms": [
+        "relatedTables"
+      ],
+      "description": "Links the subject using the relatedTables relationship.",
+      "valueKinds": [
+        "IRI node reference"
+      ],
+      "ranges": [
+        "Table"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#retrievedFrom",
+      "anchor": "retrievedFrom",
+      "jsonTerms": [
+        "retrievedFrom"
+      ],
+      "description": "Links the subject using the retrievedFrom relationship.",
+      "valueKinds": [
+        "IRI node reference"
+      ],
+      "ranges": [
+        "External IRI"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#rows",
+      "anchor": "rows",
+      "jsonTerms": [
+        "rows"
+      ],
+      "description": "Carries the rows value.",
+      "valueKinds": [
+        "ordered/set values"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#rulesText",
+      "anchor": "rulesText",
+      "jsonTerms": [
+        "rulesText"
+      ],
+      "description": "Carries the rules text value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#schemaReference",
+      "anchor": "schemaReference",
+      "jsonTerms": [
+        "schemaReference"
+      ],
+      "description": "Links the subject using the schemaReference relationship.",
+      "valueKinds": [
+        "IRI node reference"
+      ],
+      "ranges": [
+        "JSON Schema"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#section",
+      "anchor": "section",
+      "jsonTerms": [
+        "section"
+      ],
+      "description": "Carries the section value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#seeAlso",
+      "anchor": "seeAlso",
+      "jsonTerms": [
+        "seeAlso"
+      ],
+      "description": "Links the subject using the seeAlso relationship.",
+      "valueKinds": [
+        "IRI node reference"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#slug",
+      "anchor": "slug",
+      "jsonTerms": [
+        "slug"
+      ],
+      "description": "Carries the slug value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#sourceDigest",
+      "anchor": "sourceDigest",
+      "jsonTerms": [
+        "sourceDigest"
+      ],
+      "description": "Carries the source digest value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#sourceFile",
+      "anchor": "sourceFile",
+      "jsonTerms": [
+        "sourceFile"
+      ],
+      "description": "Carries the source file value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#sourceLocator",
+      "anchor": "sourceLocator",
+      "jsonTerms": [
+        "sourceLocator"
+      ],
+      "description": "Carries the source locator value.",
+      "valueKinds": [
+        "structured blank node"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#sourceVersion",
+      "anchor": "sourceVersion",
+      "jsonTerms": [
+        "sourceVersion"
+      ],
+      "description": "Carries the source version value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#title",
+      "anchor": "title",
+      "jsonTerms": [
+        "title"
+      ],
+      "description": "Carries the title value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#value",
+      "anchor": "value",
+      "jsonTerms": [
+        "value"
+      ],
+      "description": "Carries the value value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#version",
+      "anchor": "version",
+      "jsonTerms": [
+        "version"
+      ],
+      "description": "Carries the version value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    }
+  ]
+}

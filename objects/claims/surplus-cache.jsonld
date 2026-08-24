@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/surplus-cache",
+  "@type": "Claim",
+  "name": "Surplus Cache",
+  "slug": "surplus-cache",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew playbook",
+    "section": "20.6",
+    "heading": "Make a Claim Map for the Crew",
+    "lineStart": 1605,
+    "lineEnd": 1605
+  },
+  "claimType": "crew",
+  "rulesText": "**Surplus Cache**: You get **+2** **coin** in **payoff** for scores that involve product sale or supply. *You have an abundance of product, which pads your pockets every now and then.*"
+}

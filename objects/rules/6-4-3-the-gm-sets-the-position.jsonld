@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/6-4-3-the-gm-sets-the-position",
+  "@type": "Rule",
+  "name": "3. The GM Sets the Position",
+  "slug": "6-4-3-the-gm-sets-the-position",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Action Roll",
+    "section": "6.4",
+    "heading": "3. The GM Sets the Position",
+    "lineStart": 330,
+    "lineEnd": 334
+  },
+  "section": "6.4",
+  "rulesText": "Once the player chooses their action, the GM sets the **position** for the roll. The position represents how dangerous or troublesome the action might be. There are three positions: **controlled**, **risky**, and **desperate**. To choose a position, the GM looks at the profiles for the positions below and picks one that most closely matches the situation at hand.\n\n**By default, an action roll is risky.** You wouldn't be rolling if there was no risk involved. If the situation seems more dangerous, make it desperate. If it seems less dangerous, make it controlled."
+}

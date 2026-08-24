@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/trauma-conditions/unstable",
+  "@type": "TraumaCondition",
+  "name": "Unstable",
+  "slug": "unstable",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Stress & Trauma",
+    "section": "4.5",
+    "heading": "Trauma Conditions",
+    "lineStart": 244,
+    "lineEnd": 244
+  },
+  "rulesText": "**Unstable**: Your emotional state is volatile. You can instantly rage, or fall into despair, act impulsively, or freeze up."
+}

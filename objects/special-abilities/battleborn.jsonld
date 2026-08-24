@@ -1,0 +1,20 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/battleborn",
+  "@type": "SpecialAbility",
+  "name": "Battleborn",
+  "slug": "battleborn",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character playbook",
+    "section": "18.7",
+    "heading": "Battleborn",
+    "lineStart": 1064,
+    "lineEnd": 1068
+  },
+  "rulesText": "You may expend your **special armor** to reduce harm from an attack in combat or to **push yourself** during a fight.",
+  "commentary": "When you use this ability, tick the special armor box on your playbook sheet. If you \"reduce harm\" that means the level of harm you're facing right now is reduced by one. If you use this ability to push yourself, you get one of the benefits (+1d, +1 effect, act despite severe harm) but you don't take 2 stress. Your special armor is restored at the beginning of downtime.",
+  "abilityScope": "character"
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/19-7-choose-a-favorite-contact",
+  "@type": "Rule",
+  "name": "Choose a favorite contact",
+  "slug": "19-7-choose-a-favorite-contact",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew creation",
+    "section": "19.7",
+    "heading": "Choose a favorite contact",
+    "lineStart": 1390,
+    "lineEnd": 1397
+  },
+  "section": "19.7",
+  "rulesText": "Take a look at your list of potential contacts on the crew sheet. Choose one contact who is a close friend, long-time ally, or partner in crime. The GM will tell you about two factions that are impacted by your choice:\n\n* One faction is also friendly with this contact, and you get **+1 status** with them.\n* One faction is unfriendly with this contact, and you get **-1 status** with them.\n\nAt your option, these factions are even more concerned with this contact and so you take **+2** and **-2 status** instead."
+}

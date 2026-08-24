@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/17-13-loadout",
+  "@type": "Rule",
+  "name": "Loadout",
+  "slug": "17-13-loadout",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character creation",
+    "section": "17.13",
+    "heading": "Loadout",
+    "lineStart": 1008,
+    "lineEnd": 1021
+  },
+  "section": "17.13",
+  "rulesText": "You have access to all of the **items** on your character sheet. For each operation, decide what your character's **load** will be. During the operation, you may say that your character has an item on hand by checking the box for the item you want to use—up to a number of items equal to your chosen load. Your load also determines your movement speed and conspicuousness:\n\n* **1-3 load**: **Light.** *You're faster, less conspicuous; you blend in with citizens.*\n* **4/5 load**: **Normal.** *You look like a scoundrel, ready for trouble.*\n* **6 load**: **Heavy.** *You're slower. You look like an operative on a mission.*\n* **7-9 load**: **Encumbered.** *You're overburdened and can't do anything except move very slowly.*\n\nSome special abilities (like the Cutter's **Mule** ability or Assassin's Rigging) increase the load limits.\n\nSome items count as two items for load (they have two connected boxes). *Items in italics don't count toward your load.*\n\nYou don't need to select specific items now.  Review your personal items and the standard item descriptions."
+}

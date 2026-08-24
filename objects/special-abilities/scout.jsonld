@@ -1,0 +1,20 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/scout",
+  "@type": "SpecialAbility",
+  "name": "Scout",
+  "slug": "scout",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character playbook",
+    "section": "18.17",
+    "heading": "Scout",
+    "lineStart": 1130,
+    "lineEnd": 1134
+  },
+  "rulesText": "When you gather information to discover the location of a target, you get **+1 effect**. When you hide in a prepared position or use camouflage you get **+1d** to rolls to avoid detection.",
+  "commentary": "A \"target\" can be a person, a destination, a good ambush spot, an item, etc.",
+  "abilityScope": "character"
+}

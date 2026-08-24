@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/war-dogs",
+  "@type": "SpecialAbility",
+  "name": "War dogs",
+  "slug": "war-dogs",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew playbook",
+    "section": "20.15",
+    "heading": "War dogs",
+    "lineStart": 1663,
+    "lineEnd": 1665
+  },
+  "rulesText": "When you're at war (-3 faction status), your crew does not suffer -1 hold and PCs still get two downtime activities, instead of just one.",
+  "abilityScope": "crew"
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/28-17-long-term-project",
+  "@type": "Rule",
+  "name": "LONG-TERM PROJECT",
+  "slug": "28-17-long-term-project",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Downtime activities",
+    "section": "28.17",
+    "heading": "LONG-TERM PROJECT",
+    "lineStart": 2298,
+    "lineEnd": 2307
+  },
+  "section": "28.17",
+  "rulesText": "Work on a **long-term project**, if you have the means.\n\nMark segments on the clock according to your result:\n\n* **Critical**: Five ticks.\n* **6**: Three ticks.\n* **4/5**: Two ticks.\n* **1-3**: One tick."
+}

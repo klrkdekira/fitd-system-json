@@ -1,0 +1,20 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/pack-rats",
+  "@type": "SpecialAbility",
+  "name": "Pack rats",
+  "slug": "pack-rats",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew playbook",
+    "section": "20.19",
+    "heading": "Pack rats",
+    "lineStart": 1681,
+    "lineEnd": 1685
+  },
+  "rulesText": "Your lair is a jumble of stolen items. When you roll to **acquire an asset**, take **+1d**.",
+  "commentary": "This ability might mean that you actually have the item you need in your pile of stuff, or it could mean you have extra odds and ends to barter with.",
+  "abilityScope": "crew"
+}

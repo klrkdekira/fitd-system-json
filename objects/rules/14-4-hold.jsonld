@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/14-4-hold",
+  "@type": "Rule",
+  "name": "Hold",
+  "slug": "14-4-hold",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "The Faction Game",
+    "section": "14.4",
+    "heading": "Hold",
+    "lineStart": 788,
+    "lineEnd": 790
+  },
+  "section": "14.4",
+  "rulesText": "On the faction ladder next to the Tier numbers is a letter indicating the strength of each faction's **hold**. Hold represents how well a faction can maintain their current position on the ladder. W indicates **weak** hold. S indicates **strong** hold. Your crew begins with **strong** hold at **Tier 0**."
+}

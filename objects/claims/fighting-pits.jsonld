@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/fighting-pits",
+  "@type": "Claim",
+  "name": "Fighting Pits",
+  "slug": "fighting-pits",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew playbook",
+    "section": "20.6",
+    "heading": "Make a Claim Map for the Crew",
+    "lineStart": 1585,
+    "lineEnd": 1585
+  },
+  "claimType": "crew",
+  "rulesText": "**Fighting Pits**  During downtime, roll dice equal to your Tier. You earn **coin** equal to the highest result, minus your **heat**. *The locals love to gamble away their hard-won coin on the blood-sports you host.*"
+}

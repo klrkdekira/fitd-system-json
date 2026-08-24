@@ -1,0 +1,120 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/tables/3-7-insight",
+  "@type": "Table",
+  "name": "Insight",
+  "slug": "3-7-insight",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Actions & Attributes",
+    "section": "3.7",
+    "heading": "Insight",
+    "lineStart": 127,
+    "lineEnd": 132
+  },
+  "columns": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "&#x25CF;"
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "**Hunt**"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "**Study**"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "**Survey**"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "**Tinker**"
+        }
+      ]
+    }
+  ],
+  "rawText": "|   []()   |     |          |          |          |            |\n| :------: | --- | :------: | :------: | :------: | :--------- |\n| &#x25CF; |     | &#x25CB; | &#x25CB; | &#x25CB; | **Hunt**   |\n| &#x25CB; |     | &#x25CB; | &#x25CB; | &#x25CB; | **Study**  |\n| &#x25CB; |     | &#x25CB; | &#x25CB; | &#x25CB; | **Survey** |\n| &#x25CB; |     | &#x25CB; | &#x25CB; | &#x25CB; | **Tinker** |"
+}

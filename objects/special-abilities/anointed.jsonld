@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/anointed",
+  "@type": "SpecialAbility",
+  "name": "Anointed",
+  "slug": "anointed",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew playbook",
+    "section": "20.16",
+    "heading": "Anointed",
+    "lineStart": 1667,
+    "lineEnd": 1669
+  },
+  "rulesText": "You gain **+1d** to **resistance** rolls against supernatural threats. You get **+1d** to healing rolls when you have supernatural harm.",
+  "abilityScope": "crew"
+}

@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/14-1-the-faction-game",
+  "@type": "Rule",
+  "name": "The Faction Game",
+  "slug": "14-1-the-faction-game",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "The Faction Game",
+    "section": "14.1",
+    "heading": "The Faction Game",
+    "lineStart": 771,
+    "lineEnd": 771
+  },
+  "section": "14.1"
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/6-7-the-devils-bargain",
+  "@type": "Rule",
+  "name": "The Devil's Bargain",
+  "slug": "6-7-the-devils-bargain",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Action Roll",
+    "section": "6.7",
+    "heading": "The Devil's Bargain",
+    "lineStart": 350,
+    "lineEnd": 366
+  },
+  "section": "6.7",
+  "rulesText": "PCs in *Blades* are reckless scoundrels addicted to destructive vices—they don't always act in their own best interests. To reflect this, the GM or any other player can offer you a bonus die if you accept a Devil's Bargain. Common Devil's Bargains include:\n\n* Collateral damage, unintended harm.\n* Sacrifice **coin** or an item.\n* Betray a friend or loved one.\n* Offend or anger a faction.\n* Start and/or tick a troublesome clock.\n* Add **heat** to the crew from evidence or witnesses.\n* Suffer harm.\n\nThe Devil's Bargain occurs regardless of the outcome of the roll. You make the deal, pay the price, and get the bonus die.\n\nThe Devil's Bargain is always a free choice. If you don't like one, just reject it (or suggest how to alter it so you might consider taking it). You can always just push yourself for that bonus die instead.\n\nIf it's ever needed, the GM has final say over which Devil's Bargains are valid."
+}

@@ -1,0 +1,74 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/tables/18-3-starting-actions",
+  "@type": "Table",
+  "name": "STARTING ACTIONS",
+  "slug": "18-3-starting-actions",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character playbook",
+    "section": "18.3",
+    "heading": "STARTING ACTIONS",
+    "lineStart": 1035,
+    "lineEnd": 1038
+  },
+  "columns": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "&#x25CF;"
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": "&#x25CF;"
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "PRIMARY ACTION"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "&#x25CF;"
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "SECONDARY ACTION"
+        }
+      ]
+    }
+  ],
+  "rawText": "|   []()   |     |          |          |          |                  |\n| :------: | --- | :------: | :------: | :------: | :--------------- |\n| &#x25CF; |     | &#x25CF; | &#x25CB; | &#x25CB; | PRIMARY ACTION   |\n| &#x25CF; |     | &#x25CB; | &#x25CB; | &#x25CB; | SECONDARY ACTION |"
+}

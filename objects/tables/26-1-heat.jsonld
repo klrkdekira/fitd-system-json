@@ -1,0 +1,35 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/tables/26-1-heat",
+  "@type": "Table",
+  "name": "Heat",
+  "slug": "26-1-heat",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Heat",
+    "section": "26.1",
+    "heading": "Heat",
+    "lineStart": 1975,
+    "lineEnd": 1977
+  },
+  "columns": [
+    "**Heat**",
+    "**Wanted Level**"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "&#x2297; &nbsp; &#x2297; &nbsp; &#x2297; &nbsp; &#x25CB; &nbsp; &#x25CB; &nbsp; &#x25CB; &nbsp; &#x25CB; &nbsp; &#x25CB; &nbsp; &#x25CB;"
+        },
+        {
+          "value": "&#x25A1; &nbsp; &#x25A1; &nbsp; &#x25A1; &nbsp; &#x25A1;"
+        }
+      ]
+    }
+  ],
+  "rawText": "|                                                                 **Heat**                                                                 |                     **Wanted Level**                     |\n| :--------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------: |\n| &#x2297; &nbsp; &#x2297; &nbsp; &#x2297; &nbsp; &#x25CB; &nbsp; &#x25CB; &nbsp; &#x25CB; &nbsp; &#x25CB; &nbsp; &#x25CB; &nbsp; &#x25CB; | &#x25A1; &nbsp; &#x25A1; &nbsp; &#x25A1; &nbsp; &#x25A1; |"
+}

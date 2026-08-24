@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/14-12-seizing-a-claim",
+  "@type": "Rule",
+  "name": "Seizing a claim",
+  "slug": "14-12-seizing-a-claim",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "The Faction Game",
+    "section": "14.12",
+    "heading": "Seizing a claim",
+    "lineStart": 859,
+    "lineEnd": 869
+  },
+  "section": "14.12",
+  "rulesText": "Every claim is already controlled by a faction. To acquire one for yourself, you have to take it from someone else. To seize a claim, tell the GM which claim on your map your crew intends to capture. The GM will detail the claim with a location and a description and will tell you which faction currently controls that claim. Or the GM might offer you a choice of a few options if they're available.\n\nIf you choose to ignore the roadmap paths when seizing a claim, the GM might tell you that you'll need to investigate and gather information in order to discover a claim of that type before you can attempt to seize it.\n\nExecute the operation like any other **score**, and if you succeed, you seize the claim and the targeted faction loses the claim.\n\nSeizing a claim is a serious attack on a faction, usually resulting in -2 faction status with the target, and potentially +1 status with its enemies.\n\nAs soon as you seize a claim, you enjoy the listed benefit for as long as you hold the claim. Some claims count as **turf**. Others provide special benefits to the crew, such as bonus dice in certain circumstances, extra **coin** generated for the crew's treasury, or new opportunities for action."
+}

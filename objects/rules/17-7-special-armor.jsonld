@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/17-7-special-armor",
+  "@type": "Rule",
+  "name": "Special Armor",
+  "slug": "17-7-special-armor",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character creation",
+    "section": "17.7",
+    "heading": "Special Armor",
+    "lineStart": 958,
+    "lineEnd": 960
+  },
+  "section": "17.7",
+  "rulesText": "Some special abilities refer to your **special armor**. Each character sheet has a set of three boxes to track usage of armor (standard, heavy, and special). If you have any abilities that use your special armor, tick its box when you activate one of them. If you don't have any special abilities that use special armor, then you can't use that armor box at all."
+}

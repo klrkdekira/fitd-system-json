@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/7-2-assessing-factors",
+  "@type": "Rule",
+  "name": "Assessing Factors",
+  "slug": "7-2-assessing-factors",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Effect",
+    "section": "7.2",
+    "heading": "Assessing Factors",
+    "lineStart": 446,
+    "lineEnd": 448
+  },
+  "section": "7.2",
+  "rulesText": "To assess effect level, first start with your gut feeling, given this situation. Then, if needed, assess three factors that may modify the effect level: **potency**, **scale**, and **quality**. If the PC has an advantage in a given factor, consider a higher effect level. If they have a disadvantage, consider a reduced effect level."
+}

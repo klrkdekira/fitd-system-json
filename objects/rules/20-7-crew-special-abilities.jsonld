@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-7-crew-special-abilities",
+  "@type": "Rule",
+  "name": "Crew special abilities",
+  "slug": "20-7-crew-special-abilities",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew playbook",
+    "section": "20.7",
+    "heading": "Crew special abilities",
+    "lineStart": 1619,
+    "lineEnd": 1621
+  },
+  "section": "20.7",
+  "rulesText": "Create seven special abilities for your crew. Here are several examples."
+}

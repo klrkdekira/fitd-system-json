@@ -1,0 +1,77 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/tables/27-1-entanglements",
+  "@type": "Table",
+  "name": "Entanglements",
+  "slug": "27-1-entanglements",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Entanglements",
+    "section": "27.1",
+    "heading": "Entanglements",
+    "lineStart": 2062,
+    "lineEnd": 2066
+  },
+  "columns": [
+    "RESULT",
+    "**Heat** **0-3**",
+    "**Heat** **4-5**",
+    "**Heat** **6**"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "1-3"
+        },
+        {
+          "value": "Gang Trouble or The Usual Suspects"
+        },
+        {
+          "value": "Gang Trouble or Questioning"
+        },
+        {
+          "value": "Flipped or Interrogation"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "4-5"
+        },
+        {
+          "value": "Rivals or Unquiet Dead"
+        },
+        {
+          "value": "Reprisals or Unquiet Dead"
+        },
+        {
+          "value": "Demonic Notice or Show of Force"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "6"
+        },
+        {
+          "value": "Cooperation"
+        },
+        {
+          "value": "Show of Force"
+        },
+        {
+          "value": "Arrest"
+        }
+      ]
+    }
+  ],
+  "rawText": "| RESULT | **Heat** **0-3**                   | **Heat** **4-5**            | **Heat** **6**                  |\n| :----: | :--------------------------------- | :-------------------------- | :------------------------------ |\n|  1-3   | Gang Trouble or The Usual Suspects | Gang Trouble or Questioning | Flipped or Interrogation        |\n|  4-5   | Rivals or Unquiet Dead             | Reprisals or Unquiet Dead   | Demonic Notice or Show of Force |\n|   6    | Cooperation                        | Show of Force               | Arrest                          |"
+}

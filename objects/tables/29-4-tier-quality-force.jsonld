@@ -1,0 +1,133 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/tables/29-4-tier-quality-force",
+  "@type": "Table",
+  "name": "TIER & QUALITY / FORCE",
+  "slug": "29-4-tier-quality-force",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Magnitude",
+    "section": "29.4",
+    "heading": "TIER & QUALITY / FORCE",
+    "lineStart": 2380,
+    "lineEnd": 2383
+  },
+  "columns": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "0"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "5"
+        },
+        {
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": ":--:"
+        },
+        {
+          "value": ":------:"
+        },
+        {
+          "value": ":----:"
+        },
+        {
+          "value": ":-------:"
+        },
+        {
+          "value": ":------:"
+        },
+        {
+          "value": ":----------:"
+        },
+        {
+          "value": ":---------:"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Poor"
+        },
+        {
+          "value": "Adequate"
+        },
+        {
+          "value": "Good"
+        },
+        {
+          "value": "Excellent"
+        },
+        {
+          "value": "Superior"
+        },
+        {
+          "value": "Impeccable"
+        },
+        {
+          "value": "Legendary"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Weak"
+        },
+        {
+          "value": "Moderate"
+        },
+        {
+          "value": "Strong"
+        },
+        {
+          "value": "Serious"
+        },
+        {
+          "value": "Powerful"
+        },
+        {
+          "value": "Overwhelming"
+        },
+        {
+          "value": "Devastating"
+        }
+      ]
+    }
+  ],
+  "rawText": "|  0   |    1     |   2    |     3     |    4     |      5       |      6      |\n| :--: | :------: | :----: | :-------: | :------: | :----------: | :---------: |\n| Poor | Adequate |  Good  | Excellent | Superior |  Impeccable  |  Legendary  |\n| Weak | Moderate | Strong |  Serious  | Powerful | Overwhelming | Devastating |"
+}

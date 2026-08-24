@@ -1,0 +1,23 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/29-6-force-examples",
+  "@type": "Rule",
+  "name": "FORCE EXAMPLES",
+  "slug": "29-6-force-examples",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Magnitude",
+    "section": "29.6",
+    "heading": "FORCE EXAMPLES",
+    "lineStart": 2401,
+    "lineEnd": 2413
+  },
+  "section": "29.6",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/fitd-system-json/objects/tables/29-6-force-examples"
+    }
+  ]
+}

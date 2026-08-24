@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cheeleong.dev/fitd-system-json/sitemap.xml

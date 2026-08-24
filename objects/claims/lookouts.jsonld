@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/lookouts",
+  "@type": "Claim",
+  "name": "Lookouts",
+  "slug": "lookouts",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew playbook",
+    "section": "20.6",
+    "heading": "Make a Claim Map for the Crew",
+    "lineStart": 1601,
+    "lineEnd": 1601
+  },
+  "claimType": "crew",
+  "rulesText": "**Lookouts**:  You get **+1d** to **Hunt** or **Survey** on your turf."
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/luxury-venue",
+  "@type": "Claim",
+  "name": "Luxury Venue",
+  "slug": "luxury-venue",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew playbook",
+    "section": "20.6",
+    "heading": "Make a Claim Map for the Crew",
+    "lineStart": 1603,
+    "lineEnd": 1603
+  },
+  "claimType": "crew",
+  "rulesText": "**Luxury Venue**:  **+1d** to **Consort** and **Sway** rolls on-site. *Silks, paintings, and crystal impress the clientele.*"
+}

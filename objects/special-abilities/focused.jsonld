@@ -1,0 +1,20 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/focused",
+  "@type": "SpecialAbility",
+  "name": "Focused",
+  "slug": "focused",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character playbook",
+    "section": "18.16",
+    "heading": "Focused",
+    "lineStart": 1124,
+    "lineEnd": 1128
+  },
+  "rulesText": "You may expend your **special armor** to resist a consequence of surprise or mental harm (fear, confusion, losing track of someone) or to **push yourself** for ranged combat or tracking.",
+  "commentary": "When you use this ability, tick the special armor box on your playbook sheet. If you \"resist a consequence\" of the appropriate type, you avoid it completely. If you use this ability to push yourself, you get one of the benefits (+1d, +1 effect, act despite severe harm) but you don't take 2 stress. Your special armor is restored at the beginning of downtime.",
+  "abilityScope": "character"
+}

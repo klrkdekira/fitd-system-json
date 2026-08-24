@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/tavern",
+  "@type": "Claim",
+  "name": "Tavern",
+  "slug": "tavern",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew playbook",
+    "section": "20.6",
+    "heading": "Make a Claim Map for the Crew",
+    "lineStart": 1615,
+    "lineEnd": 1615
+  },
+  "claimType": "crew",
+  "rulesText": "**Tavern**: You get **+1d** to **Consort** and **Sway** rolls on-site. *Some booze and friendly conversation can go a long way.*"
+}

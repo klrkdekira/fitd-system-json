@@ -1,0 +1,20 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/supernatural-ward",
+  "@type": "SpecialAbility",
+  "name": "Supernatural ward",
+  "slug": "supernatural-ward",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character playbook",
+    "section": "18.24",
+    "heading": "Supernatural ward",
+    "lineStart": 1168,
+    "lineEnd": 1172
+  },
+  "rulesText": "When you **Wreck** an area with arcane substances, ruining it for any other use, it becomes anathema or enticing to the supernatural (your choice).",
+  "commentary": "If you make an area anathema to the supernatural, they will do everything they can to avoid it, and will suffer torment if forced inside the area. If you make an area enticing to spirits, they will seek it out and linger in the area, and will suffer torment if forced to leave. This effect lasts for several days over an area the size of a small room. Particularly powerful or prepared entities may roll their quality or arcane magnitude to see how well they're able to resist the effect.",
+  "abilityScope": "character"
+}

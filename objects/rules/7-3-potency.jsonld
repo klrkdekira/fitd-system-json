@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/7-3-potency",
+  "@type": "Rule",
+  "name": "Potency",
+  "slug": "7-3-potency",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Effect",
+    "section": "7.3",
+    "heading": "Potency",
+    "lineStart": 450,
+    "lineEnd": 452
+  },
+  "section": "7.3",
+  "rulesText": "The potency factor considers particular weaknesses, taking extra time or a bigger risk, or the influence of arcane powers. An infiltrator is more potent if all the lights are extinguished and they move about in the dark."
+}

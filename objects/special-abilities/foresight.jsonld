@@ -1,0 +1,20 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/foresight",
+  "@type": "SpecialAbility",
+  "name": "Foresight",
+  "slug": "foresight",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character playbook",
+    "section": "18.39",
+    "heading": "Foresight",
+    "lineStart": 1264,
+    "lineEnd": 1268
+  },
+  "rulesText": "Two times per score you can **assist** a teammate without paying stress. Describe how you prepared for this.",
+  "commentary": "You can narrate an event in the past that helps your teammate now, or you might explain how you expected this situation and planned a helpful contingency that you reveal now.",
+  "abilityScope": "character"
+}

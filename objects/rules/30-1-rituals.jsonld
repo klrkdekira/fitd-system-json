@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/30-1-rituals",
+  "@type": "Rule",
+  "name": "Rituals",
+  "slug": "30-1-rituals",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Rituals",
+    "section": "30.1",
+    "heading": "Rituals",
+    "lineStart": 2415,
+    "lineEnd": 2417
+  },
+  "section": "30.1",
+  "rulesText": "To enact a ritual is to come into contact with these abyssal forces and entreat them to do your will. It is a practice not without considerable risk."
+}

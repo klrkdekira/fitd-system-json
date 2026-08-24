@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/17-12-character-creation-summary",
+  "@type": "Rule",
+  "name": "Character creation summary",
+  "slug": "17-12-character-creation-summary",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character creation",
+    "section": "17.12",
+    "heading": "Character creation summary",
+    "lineStart": 988,
+    "lineEnd": 1006
+  },
+  "section": "17.12",
+  "rulesText": "@TODO style dropcaps.\n\n**1** **Choose a playbook.** Your playbook represents your character's reputation, their special abilities, and how they advance.\n\n**2** **Choose a heritage.** Detail your choice with a note about your family life. *For example, Ore miners, now war refugees.*\n\n**3** **Choose a background.** Detail your choice with your specific history. *For example, Labor: Hunter, mutineer.*\n\n**4** **Assign four action dots.** No action may begin with a rating higher than 2 during character creation. *(After creation, action ratings may advance up to 3. When you unlock the Mastery advance for your crew, you can advance actions up to rating 4.)*\n\n**5** **Choose a special ability.** They're in the gray column in the middle of the character sheet. If you can't decide, choose the first ability on the list. It's placed there as a good first option.\n\n**6** **Choose a close friend and a rival.** Mark the one who is a close friend, long-time ally, family relation, or lover (the upward-pointing triangle). Mark one who is a rival, enemy, scorned lover, betrayed partner, etc. (the downward-pointing triangle).\n\n**7** **Choose your vice.** Pick your preferred type of vice, detail it with a short description and indicate the name and location of your vice purveyor.\n\n**8** **Record your name, alias, and look.** Choose a name, an alias (if you use one), and jot down a few words to describe your look. Examples are provided in the preceding sections."
+}

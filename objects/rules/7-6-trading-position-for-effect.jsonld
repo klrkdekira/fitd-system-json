@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/7-6-trading-position-for-effect",
+  "@type": "Rule",
+  "name": "Trading Position for Effect",
+  "slug": "7-6-trading-position-for-effect",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Effect",
+    "section": "7.6",
+    "heading": "Trading Position for Effect",
+    "lineStart": 472,
+    "lineEnd": 484
+  },
+  "section": "7.6",
+  "rulesText": "After factors are considered and the GM has announced the effect level, a player might want to trade position for effect, or vice versa. For instance, if they're going to make a risky roll with standard effect (the most common scenario, generally), they might instead want to push their luck and make a desperate roll but with great effect.\n\nThis kind of trade-off isn't included in the effect factors because it's not an element the GM should assess when setting the effect level. Once the level is set, though, you can always offer the trade-off to the player if it makes sense in the situation.\n\n*\"I Prowl across the courtyard and vault over the wall, hiding in the shadows by the canal dock and gondola.\"*\n\n*\"I don't think you can make it across in one quick dash. The scale of the courtyard is a factor here, so your effect will be limited. Let's say you can get halfway across with this action, then you'll have to Prowl through the other half of the space (and the rest of the guards there) to reach the other side.\"*\n\n*\"I didn't realize it was that far. Hmmm. Okay, what if I just go as fast as I can. Can I get all the way across if I make a desperate roll?\"*\n\n*\"Yep, sounds good to me!\"*"
+}

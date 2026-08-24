@@ -1,0 +1,20 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/savage",
+  "@type": "SpecialAbility",
+  "name": "Savage",
+  "slug": "savage",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character playbook",
+    "section": "18.13",
+    "heading": "Savage",
+    "lineStart": 1102,
+    "lineEnd": 1108
+  },
+  "rulesText": "When you unleash physical violence, it's especially frightening. When you **Command** a frightened target, take **+1d**.",
+  "commentary": "You instill fear in those around you when you get violent. How they react depends on the person. Some people will flee from you, some will be impressed, some will get violent in return. The GM judges the response of a given NPC.\n\nIn addition, when you **Command** someone who's affected by fear (from this ability or otherwise), take +1d to your roll.",
+  "abilityScope": "character"
+}

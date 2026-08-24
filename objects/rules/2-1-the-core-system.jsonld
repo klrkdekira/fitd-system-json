@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/2-1-the-core-system",
+  "@type": "Rule",
+  "name": "The Core System",
+  "slug": "2-1-the-core-system",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "The Core System",
+    "section": "2.1",
+    "heading": "The Core System",
+    "lineStart": 33,
+    "lineEnd": 33
+  },
+  "section": "2.1"
+}

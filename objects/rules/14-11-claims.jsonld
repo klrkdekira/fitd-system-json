@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/14-11-claims",
+  "@type": "Rule",
+  "name": "Claims",
+  "slug": "14-11-claims",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "The Faction Game",
+    "section": "14.11",
+    "heading": "Claims",
+    "lineStart": 853,
+    "lineEnd": 857
+  },
+  "section": "14.11",
+  "rulesText": "Each crew sheet has a map of claims available to be seized. The claim map displays a default roadmap for your crew type. Claims should usually be seized in an orderly sequence, by following the paths from the central square, the crew's lair.\n\n*However, you may attempt to seize any claim on your map*, ignoring the paths (or even seek out a special claim not on your map) but these operations will always be especially difficult and require exceptional efforts to discover and achieve."
+}

@@ -1,0 +1,81 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/tables/29-2-area-scale",
+  "@type": "Table",
+  "name": "AREA/SCALE",
+  "slug": "29-2-area-scale",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Magnitude",
+    "section": "29.2",
+    "heading": "AREA/SCALE",
+    "lineStart": 2362,
+    "lineEnd": 2365
+  },
+  "columns": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "A closet"
+        },
+        {
+          "value": "A small room"
+        },
+        {
+          "value": "A large room& Several rooms"
+        },
+        {
+          "value": "A small building"
+        },
+        {
+          "value": "A large building"
+        },
+        {
+          "value": "A city block"
+        },
+        {
+          "value": ""
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "1 or 2 people"
+        },
+        {
+          "value": "A small gang (3-6)"
+        },
+        {
+          "value": "A medium gang (12)"
+        },
+        {
+          "value": "A large gang (20)"
+        },
+        {
+          "value": "A huge gang (40)"
+        },
+        {
+          "value": "A massive gang (80)"
+        },
+        {
+          "value": "A colossal gang (160)"
+        }
+      ]
+    }
+  ],
+  "rawText": "|       0       |         1          |              2              |         3         |        4         |          5          |           6           |\n| :-----------: | :----------------: | :-------------------------: | :---------------: | :--------------: | :-----------------: | :-------------------: |\n|   A closet    |    A small room    | A large room& Several rooms | A small building  | A large building |    A city block     |                       |\n| 1 or 2 people | A small gang (3-6) |     A medium gang (12)      | A large gang (20) | A huge gang (40) | A massive gang (80) | A colossal gang (160) |"
+}

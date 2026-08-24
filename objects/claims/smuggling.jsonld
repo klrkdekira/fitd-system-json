@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/smuggling",
+  "@type": "Claim",
+  "name": "Smuggling",
+  "slug": "smuggling",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Heat",
+    "section": "26.11",
+    "heading": "Smuggling",
+    "lineStart": 2050,
+    "lineEnd": 2052
+  },
+  "rulesText": "You arrange smuggling channels inside. You have **+2 load** while incarcerated, (starting from zero as a prisoner). If you take this claim twice, you'll have 4 load while you're serving time in Ironhook. Also, you may choose to carry **coin** in place of load for purposes of bribes or acquiring assets while in prison. You may reset the items in your prison loadout whenever your crew has downtime.",
+  "claimType": "prison"
+}

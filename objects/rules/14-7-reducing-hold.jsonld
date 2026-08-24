@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/14-7-reducing-hold",
+  "@type": "Rule",
+  "name": "Reducing hold",
+  "slug": "14-7-reducing-hold",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "The Faction Game",
+    "section": "14.7",
+    "heading": "Reducing hold",
+    "lineStart": 823,
+    "lineEnd": 829
+  },
+  "section": "14.7",
+  "rulesText": "You may perform an operation specifically to reduce the hold of another faction, if you know how they're vulnerable. If the operation succeeds, the target faction loses 1 level of hold. If their hold is weak and it drops, the faction loses 1 Tier and stays weak.\n\nWhen a faction is at war, it temporarily loses 1 hold.\n\nYour crew can lose hold, too, following the same rules above. If your crew is Tier 0, with weak hold, and you lose hold for any reason, your lair comes under threat by your enemies or by a faction seeking to profit from your misfortune."
+}

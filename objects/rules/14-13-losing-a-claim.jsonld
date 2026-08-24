@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/14-13-losing-a-claim",
+  "@type": "Rule",
+  "name": "Losing a claim",
+  "slug": "14-13-losing-a-claim",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "The Faction Game",
+    "section": "14.13",
+    "heading": "Losing a claim",
+    "lineStart": 871,
+    "lineEnd": 873
+  },
+  "section": "14.13",
+  "rulesText": "An enemy faction may try to seize a claim that your crew holds. You can fight to defend it, or negotiate a deal with the faction, depending on the situation. If you lose a claim, you lose all the benefits of that claim. If your lair is lost, you lose the benefits of all of your claims until you can restore your lair or establish a new one. To restore or establish a new lair, accomplish a score to do so."
+}

@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/trauma-conditions/obsessed",
+  "@type": "TraumaCondition",
+  "name": "Obsessed",
+  "slug": "obsessed",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Stress & Trauma",
+    "section": "4.5",
+    "heading": "Trauma Conditions",
+    "lineStart": 240,
+    "lineEnd": 240
+  },
+  "rulesText": "**Obsessed**: You're enthralled by one thing: an activity, a person, an ideology."
+}

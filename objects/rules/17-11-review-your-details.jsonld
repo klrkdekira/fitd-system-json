@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/17-11-review-your-details",
+  "@type": "Rule",
+  "name": "Review your details",
+  "slug": "17-11-review-your-details",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character creation",
+    "section": "17.11",
+    "heading": "Review your details",
+    "lineStart": 982,
+    "lineEnd": 986
+  },
+  "section": "17.11",
+  "rulesText": "Take a look at the details on your character sheet, especially the **experience triggers** for your playbook (like \"Earn xp when you address a challenge with knowledge or arcane power,\" for example) and the **special items** available to a character of your type (like the Whisper's spirit mask, for example). You begin with access to all of the items on your sheet, so don't worry about picking specific things—you'll decide what your character is carrying later on, when you're on the job.\n\nThat's it! Your character is ready for play. When you start the first session, the GM will ask you some questions about who you are, your outlook, or some past events. If you don't know the answers, make some up. Or ask the other players for ideas."
+}

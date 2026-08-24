@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/2-2-judgment-calls",
+  "@type": "Rule",
+  "name": "Judgment calls",
+  "slug": "2-2-judgment-calls",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "The Core System",
+    "section": "2.2",
+    "heading": "Judgment calls",
+    "lineStart": 35,
+    "lineEnd": 43
+  },
+  "section": "2.2",
+  "rulesText": "When you play, you'll make several key judgment calls. Everyone contributes, but either the players or the GM gets final say for each:\n\n* Which actions are reasonable as a solution to a problem? *Can this person be swayed? Must we get out the tools and tinker with this old rusty lock, or could it also be quietly finessed?* The players have final say.\n* How dangerous and how effective is a given action in this circumstance? *How risky is this? Can this person be swayed very little or a whole lot?* The GM has final say.\n* Which consequences are inflicted to manifest the dangers in a given circumstance? *Does this fall from the roof break your leg? Do the constables merely become suspicious or do they already have you trapped?* The GM has final say.\n* Does this situation call for a dice roll, and which one? *Is your character in position to make an action roll or must they first make a resistance roll to gain initiative?* The GM has final say.\n* Which events in the story match the experience triggers for character and crew advancement? *Did you express your character's beliefs, drives, heritage, or background? You tell us.* The players have final say."
+}

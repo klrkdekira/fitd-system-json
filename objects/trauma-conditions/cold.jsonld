@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/trauma-conditions/cold",
+  "@type": "TraumaCondition",
+  "name": "Cold",
+  "slug": "cold",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Stress & Trauma",
+    "section": "4.5",
+    "heading": "Trauma Conditions",
+    "lineStart": 238,
+    "lineEnd": 238
+  },
+  "rulesText": "**Cold**: You're not moved by emotional appeals or social bonds."
+}

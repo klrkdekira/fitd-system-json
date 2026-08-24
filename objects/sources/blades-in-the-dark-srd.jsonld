@@ -1,0 +1,24 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd",
+  "@type": "Source",
+  "name": "Blades in the Dark SRD",
+  "slug": "blades-in-the-dark-srd",
+  "author": "John Harper",
+  "publisher": "One Seven Design",
+  "sourceVersion": "amazingrando/blades-in-the-dark-srd-content@ac2747ff (2022-04-08)",
+  "license": "CC-BY-3.0",
+  "licenseUrl": {
+    "@id": "https://creativecommons.org/licenses/by/3.0/"
+  },
+  "attributionStatement": "This work is based on Blades in the Dark (found at http://www.bladesinthedark.com/), product of One Seven Design, developed and authored by John Harper, and licensed for our use under the Creative Commons Attribution 3.0 Unported license (http://creativecommons.org/licenses/by/3.0/).",
+  "conversionStatement": "The in-scope source file is the Markdown conversion of the Blades in the Dark SRD text published by Randy Oest (amazingrando) at https://github.com/amazingrando/blades-in-the-dark-srd-content, file Blades-in-the-Dark-SRD.md at commit ac2747ffc0806b2be9f14d29b2ace5dca6149bc3 (2022-04-08), retrieved on 2026-08-24.",
+  "canonicalUrl": {
+    "@id": "https://bladesinthedark.com/"
+  },
+  "retrievedFrom": {
+    "@id": "https://github.com/amazingrando/blades-in-the-dark-srd-content"
+  },
+  "sourceFile": "Blades-in-the-Dark-SRD.md",
+  "contentDigest": "sha256-25a43a32ebccee0d5708ac6c0021c2755f9701b6d3ad8eb5241bb46785f47cfd"
+}

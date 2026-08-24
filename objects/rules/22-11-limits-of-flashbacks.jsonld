@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/22-11-limits-of-flashbacks",
+  "@type": "Rule",
+  "name": "Limits of flashbacks",
+  "slug": "22-11-limits-of-flashbacks",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Planning & engagement",
+    "section": "22.11",
+    "heading": "Limits of flashbacks",
+    "lineStart": 1825,
+    "lineEnd": 1827
+  },
+  "section": "22.11",
+  "rulesText": "A flashback isn't time travel. It can't \"undo\" something that just occurred in the present moment. For instance, if an Inspector confronts you about recent thefts of occult artifacts when you're at the Lady's party, you can't call for a flashback to assassinate the Inspector the night before. She's here now, questioning you—that's established in the fiction. You *can* call for a flashback to show that you intentionally tipped off the inspector so she would confront you at the party—so you could use that opportunity to impress the Lady with your aplomb and daring."
+}

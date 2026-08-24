@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/30-3-learning-a-ritual",
+  "@type": "Rule",
+  "name": "Learning a ritual",
+  "slug": "30-3-learning-a-ritual",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Rituals",
+    "section": "30.3",
+    "heading": "Learning a ritual",
+    "lineStart": 2423,
+    "lineEnd": 2425
+  },
+  "section": "30.3",
+  "rulesText": "Once the source of a ritual is found, you may undertake a long-term project to learn the ritual. Most rituals will require an 8-segment progress clock to learn. The player and the GM answer questions about the ritual to define what it will do in play and what is required to perform it (see below). The player records these answers in their notes for future reference."
+}

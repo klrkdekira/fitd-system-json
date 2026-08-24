@@ -1,0 +1,67 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/tables/7-1-effect",
+  "@type": "Table",
+  "name": "Effect",
+  "slug": "7-1-effect",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Effect",
+    "section": "7.1",
+    "heading": "Effect",
+    "lineStart": 440,
+    "lineEnd": 444
+  },
+  "columns": [
+    "Effect Levels",
+    "",
+    "Ticks"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "**GREAT**"
+        },
+        {
+          "value": "*You achieve more than usual. How does the extra effort manifest? What additional benefit do you enjoy?*"
+        },
+        {
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "**STANDARD**"
+        },
+        {
+          "value": "*You achieve what we'd expect as \"normal\" with this action. Is that enough, or is there more left to do?*"
+        },
+        {
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "**LIMITED**"
+        },
+        {
+          "value": "*You achieve a partial or weak effect. How is your impact diminished? What effort remains to achieve your goal?*"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "rawText": "| Effect Levels |                                                                                                                  | Ticks |\n| ------------: | :--------------------------------------------------------------------------------------------------------------- | :---: |\n|     **GREAT** | *You achieve more than usual. How does the extra effort manifest? What additional benefit do you enjoy?*         |   3   |\n|  **STANDARD** | *You achieve what we'd expect as \"normal\" with this action. Is that enough, or is there more left to do?*        |   2   |\n|   **LIMITED** | *You achieve a partial or weak effect. How is your impact diminished? What effort remains to achieve your goal?* |   1   |"
+}

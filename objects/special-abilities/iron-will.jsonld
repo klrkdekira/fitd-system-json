@@ -1,0 +1,20 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/iron-will",
+  "@type": "SpecialAbility",
+  "name": "Iron will",
+  "slug": "iron-will",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character playbook",
+    "section": "18.45",
+    "heading": "Iron will",
+    "lineStart": 1298,
+    "lineEnd": 1302
+  },
+  "rulesText": "You are immune to the terror that some supernatural entities inflict on sight. When you make a **resistance roll** with **Resolve**, take **+1d**.",
+  "commentary": "With this ability, you do not freeze up or flee when confronted by any kind of supernatural entity or strange occult event.",
+  "abilityScope": "character"
+}

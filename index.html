@@ -1,0 +1,1217 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Blades in the Dark SRD JSON-LD 1.1 reference corpus and JSON Schema Draft 2020-12 specifications." />
+<meta name="author" content="Chee Leong Chow" />
+<meta name="theme-color" content="#eceef2" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Blades in the Dark SRD System JSON" />
+<meta property="og:description" content="Browse and download a source-faithful Blades in the Dark SRD reference corpus in JSON-LD 1.1." />
+<meta property="og:site_name" content="Blades in the Dark SRD System JSON" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Blades in the Dark SRD System JSON" />
+<meta name="twitter:description" content="Browse and download a source-faithful Blades in the Dark SRD reference corpus in JSON-LD 1.1." />
+<link rel="canonical" href="https://cheeleong.dev/fitd-system-json/" />
+<title>Blades in the Dark SRD System JSON</title>
+<link rel="license" href="https://creativecommons.org/licenses/by/3.0/" />
+<script>
+(function () {
+  var theme = "dark";
+  try {
+    var savedTheme = localStorage.getItem("fitd-theme");
+    if (savedTheme === "light" || savedTheme === "dark") {
+      theme = savedTheme;
+    }
+  } catch (error) {
+    // Dark remains the default when storage is unavailable.
+  }
+  document.documentElement.setAttribute("data-theme", theme);
+})();
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Blades in the Dark SRD System JSON",
+  "description": "A source-faithful JSON-LD 1.1 reference corpus and JSON Schema Draft 2020-12 specifications for the Blades in the Dark SRD.",
+  "url": "https://cheeleong.dev/fitd-system-json/",
+  "creator": { "@type": "Person", "name": "Chee Leong Chow" },
+  "license": "https://creativecommons.org/licenses/by/3.0/",
+  "isBasedOn": "https://cheeleong.dev/fitd-system-json/Blades-in-the-Dark-SRD.md",
+  "inLanguage": "en",
+  "keywords": ["ttrpg", "blades-in-the-dark", "forged-in-the-dark", "json-ld", "json-schema", "reference-corpus", "fair-data"],
+  "distribution": [
+    { "@type": "DataDownload", "name": "Manifest", "encodingFormat": "application/ld+json", "contentUrl": "https://cheeleong.dev/fitd-system-json/objects/fitd-system-data.jsonld" },
+    { "@type": "DataDownload", "name": "Self-Contained Bundle", "encodingFormat": "application/ld+json", "contentUrl": "https://cheeleong.dev/fitd-system-json/objects/fitd-system-data.bundle.jsonld" },
+    { "@type": "DataDownload", "name": "LLM Full Context", "encodingFormat": "text/plain", "contentUrl": "https://cheeleong.dev/fitd-system-json/llms-full.txt" },
+    { "@type": "DataDownload", "name": "Frictionless Data Package", "encodingFormat": "application/json", "contentUrl": "https://cheeleong.dev/fitd-system-json/datapackage.json" },
+    { "@type": "DataDownload", "name": "Search Index", "encodingFormat": "application/json", "contentUrl": "https://cheeleong.dev/fitd-system-json/objects/search-index.json" }
+  ]
+}
+</script>
+<style>
+  :root {
+    color-scheme: light dark;
+    --font-ui: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --font-text: ui-serif, Georgia, "Iowan Old Style", serif;
+    --font-display: ui-serif, Georgia, "Iowan Old Style", serif;
+    --bg: #12151c; --panel: #171b23; --panel2: #222937; --border: #3c4759;
+    --text: #e6ebf4; --muted: #9aa4b7; --accent: #d5a04e; --accent-strong: #e3b96f;
+    --accent-soft: #3b3320;
+    --card: #1b2029; --code-bg: #222937;
+    --nav-bg: #0c0f14; --nav-text: #eaeff7; --nav-muted: #98a2b5;
+    --nav-hover: #1d2430; --nav-accent: #d5a04e; --brass: #b98a3c;
+    --table-head: #2a3446; --table-head-text: #eef2f9;
+    --button-text: #171207;
+    --ambient: rgba(101, 133, 189, .07);
+    --shadow: 0 1px 2px rgba(0, 0, 0, .28), 0 12px 30px rgba(0, 0, 0, .15);
+    --shadow-hover: 0 2px 5px rgba(0, 0, 0, .34), 0 18px 42px rgba(0, 0, 0, .24);
+    --focus: #79c8dc;
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --bg: #12151c; --panel: #171b23; --panel2: #222937; --border: #3c4759;
+    --text: #e6ebf4; --muted: #9aa4b7; --accent: #d5a04e; --accent-strong: #e3b96f;
+    --accent-soft: #3b3320;
+    --card: #1b2029; --code-bg: #222937;
+    --nav-bg: #0c0f14; --nav-text: #eaeff7; --nav-muted: #98a2b5;
+    --nav-hover: #1d2430; --nav-accent: #d5a04e; --brass: #b98a3c;
+    --table-head: #2a3446; --table-head-text: #eef2f9;
+    --button-text: #171207;
+    --ambient: rgba(101, 133, 189, .07);
+    --shadow: 0 1px 2px rgba(0, 0, 0, .28), 0 12px 30px rgba(0, 0, 0, .15);
+    --shadow-hover: 0 2px 5px rgba(0, 0, 0, .34), 0 18px 42px rgba(0, 0, 0, .24);
+    --focus: #79c8dc;
+  }
+  :root[data-theme="light"] {
+    color-scheme: light;
+    --bg: #eceef2; --panel: #e0e4eb; --panel2: #cfd5e0; --border: #a8b1c2;
+    --text: #191d25; --muted: #566073; --accent: #8c5a17; --accent-strong: #6e4511;
+    --accent-soft: #eadfc7;
+    --card: #f8fafc; --code-bg: #dfe4ec;
+    --nav-bg: #171c25; --nav-text: #edf1f8; --nav-muted: #a3adc0;
+    --nav-hover: #242c3a; --nav-accent: #d5a04e; --brass: #96762e;
+    --table-head: #2b3547; --table-head-text: #f0f4fa;
+    --button-text: #f8fafd;
+    --ambient: rgba(58, 84, 128, .09);
+    --shadow: 0 1px 2px rgba(24, 32, 48, .08), 0 10px 30px rgba(24, 32, 48, .055);
+    --shadow-hover: 0 2px 5px rgba(24, 32, 48, .12), 0 18px 40px rgba(24, 32, 48, .11);
+    --focus: #1f6175;
+  }
+  * { box-sizing: border-box; }
+  html, body { width: 100%; height: 100%; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.7 var(--font-ui);
+    display: flex; flex-direction: column; overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  a { color: var(--accent-strong); text-underline-offset: .2em; text-decoration-thickness: .08em; }
+  a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visible {
+    outline: 3px solid var(--focus); outline-offset: 2px;
+  }
+  .skip-link {
+    position: fixed; z-index: 20; top: .75rem; left: .75rem; padding: .65rem .9rem;
+    border-radius: 8px; background: var(--card); color: var(--text); box-shadow: var(--shadow-hover);
+    transform: translateY(-150%);
+  }
+  .skip-link:focus { transform: translateY(0); }
+  .visually-hidden {
+    position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+    overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
+  }
+  header {
+    position: relative; z-index: 5; min-height: 76px; padding: .85rem 1.35rem;
+    border-bottom: 2px solid var(--brass); display: grid;
+    grid-template-columns: minmax(250px, auto) minmax(280px, 600px) minmax(190px, auto);
+    align-items: center; justify-content: space-between; gap: 1.75rem;
+    background: var(--card);
+    box-shadow: 0 1px 0 rgba(0,0,0,.025);
+  }
+  .brand { display: flex; align-items: center; min-width: 0; }
+  .brand-copy { min-width: 0; padding-left: .85rem; border-left: 3px solid var(--brass); }
+  header h1 { margin: 0; font-size: 1.05rem; font-weight: 720; line-height: 1.3; letter-spacing: -.012em; }
+  header h1 a { color: var(--text); text-decoration: none; }
+  header .tag { display: block; margin-top: .04rem; color: var(--muted); font-size: .78rem; line-height: 1.4; }
+  .search-icon {
+    width: 1.08rem; height: 1.08rem; fill: none; stroke: currentColor; stroke-width: 1.8;
+    stroke-linecap: round; stroke-linejoin: round;
+  }
+  .global-search { position: relative; display: flex; min-width: 0; filter: drop-shadow(0 2px 5px rgba(0,0,0,.04)); }
+  .global-search-icon {
+    position: absolute; z-index: 2; top: 50%; left: 1rem; color: var(--muted);
+    transform: translateY(-50%); pointer-events: none;
+  }
+  .global-search input {
+    width: 100%; min-width: 0; min-height: 46px; padding: .58rem .85rem .58rem 2.75rem;
+    border: 1px solid var(--border); border-right: 0; border-radius: 10px 0 0 10px;
+    background: var(--bg); color: var(--text); font: inherit; font-size: .92rem;
+  }
+  .global-search input::placeholder { color: var(--muted); }
+  .global-search input:focus-visible { position: relative; z-index: 1; }
+  .global-search button {
+    display: inline-flex; align-items: center; justify-content: center; gap: .55rem;
+    min-width: 104px; min-height: 46px; padding: .55rem 1rem; border: 1px solid var(--accent);
+    border-radius: 0 10px 10px 0; background: var(--accent); color: var(--button-text);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.14); font: inherit; font-size: .82rem; font-weight: 750;
+    cursor: pointer; transition: background-color .14s ease, border-color .14s ease, box-shadow .14s ease;
+  }
+  .global-search button::after { content: "→"; font-size: 1rem; line-height: 1; transition: transform .14s ease; }
+  .global-search button:hover { background: var(--accent-strong); border-color: var(--accent-strong); box-shadow: inset 0 1px 0 rgba(255,255,255,.18), 0 5px 14px rgba(0,0,0,.14); }
+  .global-search button:hover::after { transform: translateX(2px); }
+  .global-search button:active { box-shadow: inset 0 2px 5px rgba(0,0,0,.18); }
+  .header-actions { display: flex; align-items: center; justify-content: flex-end; gap: .85rem; }
+  .header-meta { color: var(--muted); font-size: .73rem; letter-spacing: .055em; text-transform: uppercase; white-space: nowrap; }
+  .header-repo {
+    display: inline-flex; align-items: center; justify-content: center; gap: .32rem;
+    min-height: 38px; padding: .4rem .72rem; border: 1px solid var(--border); border-radius: 9px;
+    background: var(--bg); color: var(--text); text-decoration: none; font-size: .75rem; font-weight: 700;
+  }
+  .header-repo::after { content: "↗"; color: var(--accent); font-size: .82rem; line-height: 1; }
+  .header-repo:hover { border-color: var(--accent); background: var(--panel); }
+  .theme-toggle {
+    display: inline-flex; align-items: center; gap: .42rem; min-height: 38px; padding: .4rem .72rem;
+    border: 1px solid var(--border); border-radius: 9px; background: var(--bg); color: var(--text);
+    font: inherit; font-size: .75rem; font-weight: 700; cursor: pointer;
+  }
+  .theme-toggle:hover { border-color: var(--accent); background: var(--panel); }
+  .theme-icon { width: 1rem; color: var(--accent); font-size: .9rem; line-height: 1; text-align: center; }
+  #layout { display: flex; flex: 1; min-width: 0; min-height: 0; }
+  nav {
+    width: 232px; flex: none; padding: 1.15rem .8rem 1.75rem; border-right: 1px solid rgba(0,0,0,.18);
+    background: linear-gradient(180deg, var(--nav-bg), var(--nav-bg));
+    color: var(--nav-text); overflow-y: auto;
+    scrollbar-color: var(--nav-hover) transparent;
+  }
+  nav a {
+    display: flex; justify-content: space-between; align-items: baseline; gap: .5rem;
+    min-height: 42px; padding: .52rem .72rem; margin-bottom: .12rem; border-radius: 8px;
+    color: var(--nav-text); text-decoration: none; font-size: .91rem;
+    border-left: 3px solid transparent; transition: background-color .14s ease, border-color .14s ease;
+  }
+  nav a:hover { background: var(--nav-hover); }
+  nav a.active { background: var(--nav-hover); border-left-color: var(--nav-accent); color: #fff; font-weight: 650; }
+  nav a .count {
+    min-width: 1.75rem; padding: .07rem .38rem; border-radius: 999px;
+    background: rgba(255,255,255,.085); color: var(--nav-muted); text-align: center; font-size: .72rem;
+  }
+  nav a.active .count { color: var(--nav-accent); background: rgba(213,160,78,.12); }
+  nav .navhead { color: var(--nav-muted); font-size: .68rem; font-weight: 750; text-transform: uppercase;
+    letter-spacing: .14em; padding: .35rem .85rem .65rem; }
+  #list {
+    width: 360px; flex: none; display: flex; flex-direction: column; min-height: 0;
+    border-right: 1px solid var(--border); background: var(--panel); box-shadow: 8px 0 24px rgba(0,0,0,.035);
+  }
+  #list.is-idle { display: none; }
+  #list.is-searching #filterwrap, #list.is-searching #filterhint { display: none; }
+  #filterwrap { position: relative; display: grid; padding: 1rem .95rem .48rem; }
+  .filter-search-icon {
+    z-index: 1; grid-area: 1 / 1; align-self: center; justify-self: start;
+    margin-left: .77rem; color: var(--muted); pointer-events: none;
+  }
+  #filter {
+    grid-area: 1 / 1;
+    width: 100%; min-height: 44px; padding: .58rem .8rem .58rem 2.3rem;
+    border: 1px solid var(--border); border-radius: 10px;
+    background: var(--card); color: var(--text); font: inherit; font-size: .92rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,.045);
+  }
+  #filter::placeholder { color: var(--muted); opacity: .9; }
+  #filter:focus-visible { border-color: var(--focus); }
+  #filterhint { color: var(--muted); font-size: .74rem; padding: .18rem 1.05rem .55rem; }
+  #items { overflow-x: hidden; overflow-y: auto; flex: 1; padding: .1rem .65rem 1.35rem; scrollbar-color: var(--border) transparent; }
+  #items .group {
+    position: sticky; z-index: 1; top: 0; background: var(--panel); color: var(--muted);
+    font-size: .68rem; font-weight: 750; text-transform: uppercase; letter-spacing: .11em;
+    padding: .78rem .65rem .36rem; border-bottom: 1px solid var(--border); margin-bottom: .22rem;
+  }
+  #items a {
+    display: block; padding: .58rem .68rem; margin: .08rem 0; border-radius: 9px;
+    border: 1px solid transparent; color: var(--text); text-decoration: none;
+  }
+  #items a:hover { background: var(--card); border-color: var(--border); }
+  #items a.active { background: var(--card); border-color: var(--accent); box-shadow: var(--shadow); }
+  #items .nm { display: block; font-weight: 650; font-size: .93rem; line-height: 1.4; }
+  #items .sub { display: block; margin-top: .1rem; color: var(--muted); font-size: .78rem; line-height: 1.45;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #detail {
+    flex: 1; min-width: 0; overflow: auto;
+    padding: clamp(2.5rem, 5vw, 4.75rem) clamp(1.25rem, 2vw, 2.5rem) 6rem;
+    background-color: var(--bg);
+    background-image:
+      radial-gradient(circle at 82% -12%, var(--ambient), transparent 34rem),
+      linear-gradient(90deg, var(--ambient), transparent 12rem);
+  }
+  .record, .landing { width: 100%; min-width: 0; }
+  .record { max-width: 64rem; margin: 0 auto; }
+  .record h2, .landing h2 {
+    text-wrap: balance; letter-spacing: -.028em; overflow-wrap: break-word;
+  }
+  .record h2 { font-family: var(--font-text); font-weight: 720; }
+  .landing h2 { font-family: var(--font-display); font-weight: 650; letter-spacing: -.018em; }
+  .record-heading { display: flex; justify-content: space-between; align-items: flex-start; gap: 1.25rem; margin-bottom: .35rem; }
+  .record h2 { margin: 0 0 .3rem; font-size: clamp(2rem, 3.2vw, 2.7rem); line-height: 1.1; }
+  .entity-type { flex: none; margin-top: .35rem; padding: .28rem .62rem; border: 1px solid var(--border); border-radius: 999px; background: var(--card); color: var(--muted); font-size: .68rem; font-weight: 750; letter-spacing: .075em; text-transform: uppercase; }
+  .subtitle { color: var(--muted); font-family: var(--font-text); font-style: italic; margin: 0 0 .8rem; font-size: 1.13rem; line-height: 1.55; }
+  .provenance { color: var(--muted); font-size: .78rem; margin: 0 0 1.75rem; }
+  .provenance a { color: var(--accent); font-weight: 650; }
+  .facts {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: .7rem;
+    margin: 0 0 1.75rem;
+  }
+  .fact { background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+    padding: .76rem .88rem; box-shadow: var(--shadow); }
+  .fact .k { display: block; margin-bottom: .16rem; color: var(--accent); font-size: .69rem; font-weight: 750; text-transform: uppercase; letter-spacing: .095em; }
+  .fact .v { font-size: .94rem; line-height: 1.48; overflow-wrap: anywhere; }
+  .prose { max-width: 70ch; white-space: pre-wrap; font-family: var(--font-text); font-size: 1.14rem; line-height: 1.8; text-wrap: pretty; }
+  .structured-section { margin: 1.75rem 0; }
+  .structured-title { margin: 0 0 .68rem; color: var(--accent); font-size: .7rem; font-weight: 800; letter-spacing: .105em; text-transform: uppercase; }
+  .relation-list { display: flex; flex-wrap: wrap; gap: .48rem; }
+  .relation-link { display: inline-flex; align-items: center; gap: .42rem; padding: .42rem .66rem; border: 1px solid var(--border); border-radius: 8px; background: var(--card); color: var(--accent-strong); font-size: .8rem; font-weight: 700; text-decoration: none; box-shadow: var(--shadow); }
+  .relation-link::after { content: "→"; color: var(--muted); }
+  .relation-link:hover { border-color: var(--accent); }
+  .source-links { display: flex; flex-wrap: wrap; gap: .5rem 1rem; margin: -.85rem 0 1.75rem; }
+  .source-links a { font-size: .8rem; font-weight: 700; color: var(--accent-strong); }
+  h3.sect { margin: 2.4rem 0 .72rem; padding-bottom: .46rem; border-bottom: 2px solid var(--brass);
+    font-family: var(--font-text); font-size: 1.34rem; font-weight: 700; line-height: 1.35; color: var(--accent-strong); }
+  .tablewrap { overflow-x: auto; margin: 1.5rem 0; border: 1px solid var(--border); border-radius: 11px; box-shadow: var(--shadow); background: var(--card); }
+  .tablewrap.tall { max-height: min(34rem, 70vh); overflow-y: auto; }
+  .table-caption {
+    display: flex; justify-content: space-between; align-items: baseline; gap: 1rem;
+    padding: .78rem .95rem; border-bottom: 1px solid var(--border); background: var(--panel2);
+    font-family: var(--font-text); font-size: 1.13rem; font-weight: 700;
+  }
+  .table-caption .rows-meta { color: var(--muted); font-family: var(--font-ui); font-size: .86rem; font-weight: 650; white-space: nowrap; }
+  .table-caption a { color: var(--accent-strong); text-decoration: none; }
+  .table-caption a:hover { text-decoration: underline; }
+  table.data { width: 100%; border-collapse: collapse; font-size: clamp(1.06rem, 1.02rem + .2vw, 1.13rem); font-weight: 450; line-height: 1.6; background: var(--card); }
+  table.data td, table.data th { border-bottom: 1px solid var(--border); padding: .78rem .95rem; text-align: left; vertical-align: top; }
+  table.data thead th {
+    position: sticky; top: 0; z-index: 1; background: var(--table-head); color: var(--table-head-text);
+    font-size: .95rem; font-weight: 750; line-height: 1.4; text-transform: uppercase; letter-spacing: .03em;
+    box-shadow: 0 1px 0 var(--border);
+  }
+  table.data tbody tr:nth-child(even) td { background: var(--panel); }
+  table.data tbody tr:hover td { background: var(--panel2); }
+  table.data td.num, table.data th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  table.data td.blank { color: var(--muted); text-align: center; }
+  table.data tbody tr:last-child td { border-bottom: 0; }
+  .inline-table { margin: 0; }
+  details.raw { margin-top: 3rem; padding-top: 1.15rem; border-top: 1px solid var(--border); }
+  details.raw summary { cursor: pointer; width: max-content; max-width: 100%; color: var(--muted); font-size: .84rem; font-weight: 650; }
+  details.raw summary:hover { color: var(--accent); }
+  pre { background: var(--code-bg); border: 1px solid var(--border); padding: 1.1rem; border-radius: 10px; overflow-x: auto; font: .8rem/1.6 ui-monospace, SFMono-Regular, Consolas, monospace; }
+  .placeholder { color: var(--muted); padding: .65rem 1rem; }
+  /* landing */
+  .landing { max-width: 68rem; margin: 0 auto; }
+  .landing::before { content: "OPEN REFERENCE CORPUS"; display: block; color: var(--accent); font-size: .72rem; font-weight: 800; letter-spacing: .15em; margin-bottom: .72rem; }
+  .landing.collection-intro::before { content: "COLLECTION"; }
+  .landing h2 { max-width: 52rem; font-size: clamp(2.25rem, 4vw, 3.3rem); line-height: 1.08; margin: 0 0 1.2rem; }
+  .landing h2::after {
+    content: ""; display: block; width: 7.5rem; height: 3px; margin-top: 1.1rem; border-radius: 999px;
+    background: linear-gradient(90deg, var(--accent), var(--brass));
+  }
+  .landing .lede { color: var(--muted); max-width: 48rem; margin: 0; font-size: clamp(1.05rem, 1.55vw, 1.18rem); line-height: 1.76; text-wrap: pretty; }
+  .landing-meta { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.3rem; }
+  .landing-meta span {
+    padding: .3rem .65rem; border: 1px solid var(--border); border-radius: 999px;
+    background: var(--card); color: var(--muted); font-size: .73rem; font-weight: 700; letter-spacing: .025em;
+  }
+  .section-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 1.25rem; margin: 3rem 0 .9rem; }
+  .section-heading h3 { margin: 0; }
+  .section-heading p { margin: 0; color: var(--muted); font-size: .8rem; text-align: right; }
+  .cards { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .78rem; margin: 2.25rem 0 2.75rem; }
+  .section-heading + .cards { margin-top: 0; }
+  .cards a {
+    position: relative; min-height: 98px; background: var(--card); border: 1px solid var(--border); border-top: 2px solid var(--brass); border-radius: 11px;
+    padding: 1rem 1.08rem 1.05rem; text-decoration: none; color: var(--text); box-shadow: var(--shadow);
+    transition: transform .14s ease, border-color .14s ease, box-shadow .14s ease;
+  }
+  .cards a::after { content: "→"; position: absolute; right: 1rem; top: .95rem; color: var(--muted); opacity: .45; }
+  .cards a:hover { border-color: var(--accent); transform: translateY(-2px); box-shadow: var(--shadow-hover); }
+  .cards a:hover::after { color: var(--accent); }
+  .cards .n { display: block; font-family: var(--font-display); font-size: 1.55rem; font-weight: 700; line-height: 1.35; color: var(--accent); }
+  .cards .l { color: var(--muted); font-size: .84rem; font-weight: 650; }
+  .landing h3 { margin: 2rem 0 .7rem; font-family: var(--font-text); font-size: 1.4rem; font-weight: 700; }
+  .resource-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .9rem; margin: .9rem 0 0; }
+  .resource-group { min-width: 0; padding: 1.15rem 1.2rem 1rem; border: 1px solid var(--border); border-radius: 11px; background: var(--card); box-shadow: var(--shadow); }
+  .resource-group h4 { margin: 0 0 .22rem; font-family: var(--font-text); font-size: 1.02rem; }
+  .resource-group > p { margin: 0 0 .82rem; color: var(--muted); font-size: .79rem; line-height: 1.55; }
+  .resource-list { padding: 0; margin: 0; list-style: none; }
+  .resource-list li { border-top: 1px solid var(--border); }
+  .resource-link { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: .7rem; padding: .66rem 0; text-decoration: none; }
+  .resource-link > span:first-child { min-width: 0; }
+  .resource-link:hover .resource-name { text-decoration: underline; }
+  .resource-name { display: block; font-size: .86rem; font-weight: 700; overflow-wrap: anywhere; }
+  .resource-detail { display: block; color: var(--muted); font-size: .76rem; font-weight: 400; line-height: 1.48; }
+  .resource-type { align-self: center; color: var(--muted); font: .66rem/1.25 ui-monospace, SFMono-Regular, Consolas, monospace; text-transform: uppercase; }
+  .schema-details { margin-top: .82rem; }
+  .schema-details summary { width: max-content; max-width: 100%; cursor: pointer; color: var(--accent-strong); font-size: .79rem; font-weight: 700; }
+  .schema-details > .relation-list { margin-top: .72rem; }
+  .schema-links { display: flex; flex-wrap: wrap; gap: .4rem; margin-top: .72rem; }
+  .schema-links a { padding: .24rem .46rem; border: 1px solid var(--border); border-radius: 6px; background: var(--bg); font: .7rem/1.4 ui-monospace, SFMono-Regular, Consolas, monospace; text-decoration: none; }
+  .provenance-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem; margin-top: 3rem; padding-top: 1.65rem; border-top: 1px solid var(--border); }
+  .provenance-grid h3 { margin: 0 0 .42rem; font-family: inherit; font-size: .88rem; }
+  .provenance-grid p { margin: 0; color: var(--muted); font-size: .81rem; line-height: 1.7; }
+  .project-links { display: flex; flex-wrap: wrap; gap: .45rem .9rem; margin-top: .75rem; font-size: .8rem; }
+  .landing a { color: var(--accent-strong); }
+  .attribution { color: var(--muted); font-size: .84rem; border-top: 1px solid var(--border);
+    margin-top: 2.6rem; padding-top: 1.15rem; max-width: 52rem; line-height: 1.72; }
+  .noscript { max-width: 44rem; margin: 2rem auto; padding: 1.2rem; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    .cards a, .global-search button, .global-search button::after { transition: none; }
+  }
+  @media (max-width: 1180px) and (min-width: 981px) {
+    nav { width: 204px; }
+    #list { width: 316px; }
+    #detail { padding-right: 2rem; padding-left: 2rem; }
+  }
+  @media (max-width: 980px) {
+    header { min-height: 68px; padding: .72rem .95rem .85rem; grid-template-columns: minmax(0, 1fr) auto; gap: .7rem .9rem; }
+    .global-search { grid-column: 1 / -1; grid-row: 2; }
+    .header-meta { display: none; }
+    #layout { width: 100%; min-width: 0; flex-direction: column; }
+    nav { width: 100%; min-width: 0; display: flex; overflow-x: auto; overflow-y: hidden; border-right: none; border-bottom: 1px solid rgba(0,0,0,.16); padding: .5rem .55rem; }
+    nav .navhead { display: none; }
+    nav a { flex: none; min-height: 38px; padding: .42rem .68rem; white-space: nowrap; border-left: 0; border-bottom: 2px solid transparent; }
+    nav a.active { border-left: 0; border-bottom-color: var(--nav-accent); }
+    #list { width: 100%; min-width: 0; max-height: 36vh; border-right: none; border-bottom: 1px solid var(--border); }
+    #filterwrap { padding-top: .8rem; }
+    #detail { width: 100%; min-width: 0; overflow-x: hidden; padding: 2.5rem clamp(1.15rem, 5vw, 2.5rem) 4rem; }
+  }
+  @media (max-width: 640px) {
+    header .tag { max-width: 16rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .theme-toggle { width: 38px; padding: 0; justify-content: center; }
+    .theme-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+    .global-search button { min-width: 94px; padding-right: .75rem; padding-left: .75rem; }
+    #list { max-height: 34vh; }
+    #detail { padding-top: 2rem; }
+    .facts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .cards a { min-height: 92px; padding: .85rem .9rem .92rem; }
+    .landing h2 { font-size: clamp(2.05rem, 10vw, 2.65rem); }
+    .record h2 { font-size: clamp(2rem, 9vw, 2.5rem); }
+    .resource-grid, .provenance-grid { grid-template-columns: 1fr; }
+    .section-heading { display: block; }
+    .section-heading p { margin-top: .25rem; text-align: left; }
+    .record-heading { display: block; }
+    .entity-type { display: inline-block; margin: .15rem 0 .65rem; }
+  }
+  @media (max-width: 440px) {
+    header { padding-right: .75rem; padding-left: .75rem; }
+    header h1 { font-size: .95rem; }
+    header .tag { max-width: 14.5rem; font-size: .71rem; }
+    #detail { padding-right: 1rem; padding-left: 1rem; }
+    .landing::before { font-size: .68rem; }
+    .landing .lede { font-size: 1.02rem; line-height: 1.72; }
+    .cards, .facts { grid-template-columns: 1fr; }
+    .cards a { min-height: 84px; }
+    .resource-link { gap: .5rem; }
+    .resource-type { font-size: .62rem; }
+  }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#detail">Skip to record</a>
+<header>
+  <div class="brand">
+    <div class="brand-copy">
+      <h1><a href="#/">Blades in the Dark SRD</a></h1>
+      <span class="tag">Searchable Forged in the Dark rules for people and machines</span>
+    </div>
+  </div>
+  <form class="global-search" id="global-search-form" role="search">
+    <label class="visually-hidden" for="global-search">Search the full corpus</label>
+    <svg class="search-icon global-search-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <circle cx="10.75" cy="10.75" r="6.25"></circle>
+      <path d="m15.5 15.5 4.25 4.25"></path>
+    </svg>
+    <input id="global-search" type="search" placeholder="Search abilities, claims, rules…" autocomplete="off" />
+    <button type="submit"><span>Search</span></button>
+  </form>
+  <div class="header-actions">
+    <span class="header-meta">Open data · CC BY 3.0</span>
+    <a class="header-repo" href="https://github.com/klrkdekira/fitd-system-json" target="_blank" rel="noopener noreferrer" aria-label="Project repository on GitHub">GitHub</a>
+    <button class="theme-toggle" id="theme-toggle" type="button">
+      <span class="theme-icon" aria-hidden="true">☀</span>
+      <span class="theme-label">Light</span>
+    </button>
+  </div>
+</header>
+<div id="layout">
+  <nav id="nav" aria-label="Collections"></nav>
+  <div id="list">
+    <div id="filterwrap">
+      <svg class="search-icon filter-search-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <circle cx="10.75" cy="10.75" r="6.25"></circle>
+        <path d="m15.5 15.5 4.25 4.25"></path>
+      </svg>
+      <input id="filter" type="search" placeholder="Filter…" aria-label="Filter current collection" autocomplete="off" />
+    </div>
+    <div id="filterhint">Filter this collection by name or summary</div>
+    <div id="items"></div>
+  </div>
+  <main id="detail" tabindex="-1">
+    <noscript>
+      <section class="noscript">
+        <h2>Blades in the Dark SRD System JSON</h2>
+        <p>JavaScript is required for the interactive explorer. The corpus remains available as static files:</p>
+        <p><a href="objects/fitd-system-data.bundle.jsonld">JSON-LD bundle</a> · <a href="llms-full.txt">full text context</a> · <a href="SPECIFICATION.md">technical specification</a></p>
+      </section>
+    </noscript>
+  </main>
+</div>
+<script>
+(function () {
+  "use strict";
+  var LABELS = {
+    actions: "Actions", "special-abilities": "Special Abilities",
+    entanglements: "Entanglements", "downtime-activities": "Downtime Activities",
+    claims: "Claims", "trauma-conditions": "Trauma Conditions",
+    rules: "Rules", tables: "Tables", sources: "Sources"
+  };
+  var NAV_ORDER = ["actions", "special-abilities", "entanglements",
+    "downtime-activities", "claims", "trauma-conditions",
+    "rules", "tables", "sources"];
+  var colIndex = null, searchIndex = null, searchIndexPromise = null;
+  var route = { collection: null, slug: null, search: null };
+
+  var nav = document.getElementById("nav");
+  var items = document.getElementById("items");
+  var detail = document.getElementById("detail");
+  var filter = document.getElementById("filter");
+  var globalSearchForm = document.getElementById("global-search-form");
+  var globalSearch = document.getElementById("global-search");
+  var themeToggle = document.getElementById("theme-toggle");
+  var themeColor = document.querySelector('meta[name="theme-color"]');
+
+  function currentTheme() {
+    return document.documentElement.getAttribute("data-theme") || "dark";
+  }
+
+  function updateThemeToggle() {
+    var activeTheme = currentTheme();
+    var nextTheme = activeTheme === "dark" ? "light" : "dark";
+    themeColor.setAttribute("content", activeTheme === "dark" ? "#12151c" : "#eceef2");
+    themeToggle.setAttribute("aria-label", "Use " + nextTheme + " theme");
+    themeToggle.setAttribute("title", "Use " + nextTheme + " theme");
+    themeToggle.querySelector(".theme-icon").textContent = nextTheme === "light" ? "☀" : "☾";
+    themeToggle.querySelector(".theme-label").textContent = nextTheme === "light" ? "Light" : "Dark";
+  }
+
+  themeToggle.addEventListener("click", function () {
+    var nextTheme = currentTheme() === "dark" ? "light" : "dark";
+    document.documentElement.setAttribute("data-theme", nextTheme);
+    try { localStorage.setItem("fitd-theme", nextTheme); } catch (error) { /* optional */ }
+    updateThemeToggle();
+  });
+  updateThemeToggle();
+
+  function el(tag, cls, text) {
+    var node = document.createElement(tag);
+    if (cls) node.className = cls;
+    if (text !== undefined) node.textContent = text;
+    return node;
+  }
+  function link(href, cls) {
+    var a = document.createElement("a");
+    a.href = href; if (cls) a.className = cls;
+    return a;
+  }
+
+  fetch("objects/collection-index.json")
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      colIndex = data.collections;
+      window.addEventListener("hashchange", onRoute);
+      onRoute();
+    });
+
+  function onRoute() {
+    var hash = decodeURIComponent(location.hash.replace(/^#\/?/, ""));
+    var parts = hash.split("/").filter(Boolean);
+    if (parts[0] === "search") {
+      route = { collection: null, slug: null, search: parts.slice(1).join("/") };
+      globalSearch.value = route.search;
+      filter.value = "";
+      renderNav();
+      runGlobalSearch(route.search);
+      return;
+    }
+    route = { collection: parts[0] || null, slug: parts[1] || null, search: null };
+    globalSearch.value = "";
+    renderNav();
+    if (!route.collection || !colIndex[route.collection]) {
+      route.collection = null;
+      renderList(null);
+      renderLanding();
+      return;
+    }
+    renderList(route.collection);
+    if (route.slug) {
+      showRecord(route.collection, route.slug);
+    } else {
+      renderCollectionIntro(route.collection);
+    }
+  }
+
+  function renderNav() {
+    nav.textContent = "";
+    nav.appendChild(el("div", "navhead", "Browse"));
+    NAV_ORDER.forEach(function (name) {
+      if (!colIndex[name]) return;
+      var a = link("#/" + name, route.collection === name ? "active" : "");
+      if (route.collection === name) a.setAttribute("aria-current", "page");
+      a.appendChild(el("span", null, LABELS[name] || name));
+      a.appendChild(el("span", "count", String(colIndex[name].length)));
+      nav.appendChild(a);
+    });
+  }
+
+  // ---- list pane -----------------------------------------------------
+
+  function renderList(collection, filterText) {
+    document.getElementById("list").classList.toggle("is-idle", !collection);
+    document.getElementById("list").classList.remove("is-searching");
+    items.textContent = "";
+    if (!collection) {
+      filter.placeholder = "Search the full corpus…";
+      items.appendChild(el("p", "placeholder", "Pick a collection above, or press Enter in the box to search everything."));
+      return;
+    }
+    filter.placeholder = "Filter " + (LABELS[collection] || collection).toLowerCase() + "…";
+    var needle = (filterText || "").toLowerCase();
+    var lastGroup = null, shown = 0, activeItem = null;
+    colIndex[collection].forEach(function (entry) {
+      if (needle &&
+          entry.name.toLowerCase().indexOf(needle) === -1 &&
+          entry.sub.toLowerCase().indexOf(needle) === -1 &&
+          (entry.group || "").toLowerCase().indexOf(needle) === -1) return;
+      if (entry.group !== lastGroup) {
+        items.appendChild(el("div", "group", entry.group));
+        lastGroup = entry.group;
+      }
+      var a = link("#/" + collection + "/" + entry.slug,
+        route.slug === entry.slug ? "active" : "");
+      if (route.slug === entry.slug) {
+        a.setAttribute("aria-current", "page");
+        activeItem = a;
+      }
+      a.appendChild(el("span", "nm", entry.name));
+      if (entry.sub) a.appendChild(el("span", "sub", entry.sub));
+      items.appendChild(a);
+      shown += 1;
+    });
+    if (!shown) items.appendChild(el("p", "placeholder", "No matches in this collection. Press Enter to search everything."));
+    if (activeItem) activeItem.scrollIntoView({ block: "center" });
+  }
+
+  var filterTimer = null;
+  filter.addEventListener("input", function () {
+    clearTimeout(filterTimer);
+    filterTimer = setTimeout(function () {
+      if (route.collection) renderList(route.collection, filter.value.trim());
+    }, 120);
+  });
+  globalSearchForm.addEventListener("submit", function (event) {
+    event.preventDefault();
+    var query = globalSearch.value.trim();
+    if (query) location.hash = "#/search/" + encodeURIComponent(query);
+  });
+
+  function ensureSearchIndex() {
+    if (!searchIndexPromise) {
+      searchIndexPromise = fetch("objects/search-index.json")
+        .then(function (r) { return r.json(); })
+        .then(function (idx) { searchIndex = idx; return idx; });
+    }
+    return searchIndexPromise;
+  }
+
+  function runGlobalSearch(query) {
+    document.getElementById("list").classList.remove("is-idle");
+    document.getElementById("list").classList.add("is-searching");
+    items.textContent = "";
+    items.appendChild(el("p", "placeholder", "Searching…"));
+    detail.textContent = "";
+    detail.appendChild(el("p", "placeholder", "Full-text results for “" + query + "” are in the list."));
+    var terms = query.toLowerCase().split(/\s+/).filter(function (t) { return t.length >= 3; });
+    if (!terms.length) {
+      items.textContent = "";
+      items.appendChild(el("p", "placeholder", "Search terms need at least 3 characters."));
+      return;
+    }
+    ensureSearchIndex().then(function (idx) {
+      var hits = null;
+      terms.forEach(function (term) {
+        var matched = {};
+        Object.keys(idx.tokens).forEach(function (token) {
+          if (token.indexOf(term) === 0) {
+            idx.tokens[token].forEach(function (posting) {
+              matched[posting.document] = posting.excerpt;
+            });
+          }
+        });
+        hits = hits === null ? matched : intersect(hits, matched);
+      });
+      items.textContent = "";
+      var allDocs = Object.keys(hits || {}).map(Number);
+      var docs = allDocs.slice(0, 300);
+      if (!docs.length) {
+        items.appendChild(el("p", "placeholder", "No matches anywhere."));
+        return;
+      }
+      var countLabel = allDocs.length > docs.length
+        ? "First " + docs.length + " of " + allDocs.length + " results"
+        : docs.length + " results";
+      items.appendChild(el("div", "group", countLabel));
+      docs.forEach(function (docIndex) {
+        var doc = idx.documents[docIndex];
+        var pathParts = doc.id.split("/"); // objects/<collection>/<slug>
+        var a = link("#/" + pathParts[1] + "/" + pathParts[2]);
+        a.appendChild(el("span", "nm", doc.name));
+        var matchedExcerpt = (hits || {})[docIndex] || doc.excerpt;
+        a.appendChild(el("span", "sub", (LABELS[pathParts[1]] || doc.type) +
+          (matchedExcerpt ? " · " + matchedExcerpt : "")));
+        items.appendChild(a);
+      });
+    });
+  }
+  function intersect(a, b) {
+    var out = {};
+    Object.keys(a).forEach(function (k) { if (b[k]) out[k] = a[k] || b[k]; });
+    return out;
+  }
+
+  // ---- detail pane ---------------------------------------------------
+
+  function renderLanding() {
+    detail.textContent = "";
+    var box = el("div", "landing");
+    var total = NAV_ORDER.reduce(function (sum, name) {
+      return sum + (colIndex[name] ? colIndex[name].length : 0);
+    }, 0);
+    var browsable = total - (colIndex.sources ? colIndex.sources.length : 0);
+
+    box.appendChild(el("h2", null, "The Blades in the Dark SRD, as connected data"));
+    box.appendChild(el("p", "lede",
+      "A browsable, machine-readable reference corpus built from the Creative Commons Blades in the Dark SRD. " +
+      "Records preserve source wording alongside typed fields, graph links, and line-level provenance. " +
+      "Browse a collection, filter its entries, or use the header search to search across the corpus."));
+
+    var meta = el("div", "landing-meta");
+    [total.toLocaleString() + " records", NAV_ORDER.length + " collections", "JSON-LD 1.1",
+      "JSON Schema 2020-12", "v0.1.0"].forEach(function (label) {
+      meta.appendChild(el("span", null, label));
+    });
+    box.appendChild(meta);
+
+    var browseHeading = el("div", "section-heading");
+    browseHeading.appendChild(el("h3", null, "Browse the corpus"));
+    browseHeading.appendChild(el("p", null, browsable.toLocaleString() + " rules and game-reference records"));
+    box.appendChild(browseHeading);
+    var cards = el("div", "cards");
+    NAV_ORDER.forEach(function (name) {
+      if (!colIndex[name] || name === "sources") return;
+      var a = link("#/" + name);
+      a.appendChild(el("span", "n", String(colIndex[name].length)));
+      a.appendChild(el("span", "l", LABELS[name]));
+      cards.appendChild(a);
+    });
+    box.appendChild(cards);
+
+    var dataHeading = el("div", "section-heading");
+    dataHeading.appendChild(el("h3", null, "Use the data"));
+    dataHeading.appendChild(el("p", null, "Download, integrate, validate, or cite the corpus"));
+    box.appendChild(dataHeading);
+
+    var resources = el("div", "resource-grid");
+    appendResourceGroup(resources, "Corpus downloads", "Primary data artifacts for applications and offline use.", [
+      ["objects/fitd-system-data.bundle.jsonld", "Self-contained bundle", "All records in one @graph", "JSON-LD"],
+      ["objects/fitd-system-data.jsonld", "Aggregate manifest", "Collection membership, schemas, and corpus digest", "JSON-LD"],
+      ["datapackage.json", "Frictionless Data Package", "Portable dataset metadata and resource listing", "JSON"],
+      ["Blades-in-the-Dark-SRD.md", "Authoritative source", "Local CC-BY-3.0 source markdown", "Markdown"]
+    ]);
+    appendResourceGroup(resources, "LLM and discovery", "Text projections and indexes for retrieval workflows.", [
+      ["llms-full.txt", "Full corpus context", "Single plain-text context file", "Text"],
+      ["llms.txt", "LLM entry-point map", "Compact guide to corpus resources", "Text"],
+      ["objects/search-index.json", "Full-text search index", "Static inverted token index used by this explorer", "JSON"],
+      ["objects/collection-index.json", "Collection index", "Names, slugs, groups, and display metadata", "JSON"],
+      ["sitemap.xml", "Record sitemap", "Canonical URLs for web discovery", "XML"]
+    ]);
+    appendResourceGroup(resources, "Model and validation", "Semantic vocabulary and machine-validation contracts.", [
+      ["systems/context.jsonld", "JSON-LD context", "Terms, prefixes, and IRI coercion", "JSON-LD"],
+      ["vocab/", "Vocabulary reference", "Dereferenceable classes and properties", "HTML"],
+      ["systems/system.schema.json", "System manifest schema", "Top-level Draft 2020-12 schema", "Schema"],
+      ["systems/common.schema.json", "Common entity schema", "Shared identity and provenance fields", "Schema"]
+    ], true);
+    appendResourceGroup(resources, "Documentation and citation", "Technical architecture, citation metadata, and repository source.", [
+      ["SPECIFICATION.md", "Technical specification", "Authoritative architecture and extraction rules", "Markdown"],
+      ["CITATION.cff", "Citation metadata", "Preferred project citation", "CFF"],
+      ["https://github.com/klrkdekira/fitd-system-json", "GitHub repository", "Source code, issues, and build history", "GitHub"]
+    ]);
+    box.appendChild(resources);
+
+    var provenance = el("div", "provenance-grid");
+    var sourceInfo = el("section");
+    sourceInfo.appendChild(el("h3", null, "Source provenance"));
+    sourceInfo.appendChild(el("p", null,
+      "The authoritative in-scope source is the local Blades in the Dark SRD markdown, the conversion of the SRD text " +
+      "published by Randy Oest. Each record includes a source node and chapter, section, heading, and line bounds."));
+    appendInlineLinks(sourceInfo, [
+      ["Blades-in-the-Dark-SRD.md", "Read source"],
+      ["#/sources/blades-in-the-dark-srd", "Source record"],
+      ["https://bladesinthedark.com/", "Official SRD"],
+      ["https://github.com/amazingrando/blades-in-the-dark-srd-content", "Markdown conversion"]
+    ]);
+    provenance.appendChild(sourceInfo);
+
+    var rightsInfo = el("section");
+    rightsInfo.appendChild(el("h3", null, "Rights and reuse"));
+    rightsInfo.appendChild(el("p", null,
+      "SRD material is available under CC BY 3.0. Repository-authored code, schemas, and documentation are MIT licensed. " +
+      "This is an independent, unofficial project and is not affiliated with One Seven Design or John Harper."));
+    appendInlineLinks(rightsInfo, [
+      ["https://creativecommons.org/licenses/by/3.0/", "CC BY 3.0"],
+      ["LICENSE", "MIT License"],
+      ["CITATION.cff", "How to cite"]
+    ]);
+    provenance.appendChild(rightsInfo);
+    box.appendChild(provenance);
+
+    box.appendChild(el("p", "attribution",
+      "This work is based on Blades in the Dark (found at http://www.bladesinthedark.com/), " +
+      "product of One Seven Design, developed and authored by John Harper, and licensed for " +
+      "our use under the Creative Commons Attribution 3.0 Unported license " +
+      "(http://creativecommons.org/licenses/by/3.0/). " +
+      "Independent, unofficial project — not affiliated with One Seven Design."));
+    detail.appendChild(box);
+  }
+
+  function appendResourceGroup(parent, title, description, entries, includeSchemas) {
+    var group = el("section", "resource-group");
+    group.appendChild(el("h4", null, title));
+    group.appendChild(el("p", null, description));
+    var listNode = el("ul", "resource-list");
+    entries.forEach(function (entry) {
+      var li = el("li");
+      var a = link(entry[0], "resource-link");
+      if (/^https?:/.test(entry[0])) {
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+      }
+      var copy = el("span");
+      copy.appendChild(el("span", "resource-name", entry[1]));
+      copy.appendChild(el("span", "resource-detail", entry[2]));
+      a.appendChild(copy);
+      a.appendChild(el("span", "resource-type", entry[3]));
+      li.appendChild(a);
+      listNode.appendChild(li);
+    });
+    group.appendChild(listNode);
+    if (includeSchemas) appendSchemaLinks(group);
+    parent.appendChild(group);
+  }
+
+  function appendSchemaLinks(parent) {
+    var details = el("details", "schema-details");
+    details.appendChild(el("summary", null, "All collection schemas"));
+    var links = el("div", "schema-links");
+    ["action", "claim", "downtime-activity", "entanglement", "rule", "source",
+      "special-ability", "table", "trauma-condition"].forEach(function (name) {
+      var a = link("systems/" + name + ".schema.json");
+      a.textContent = name;
+      links.appendChild(a);
+    });
+    details.appendChild(links);
+    parent.appendChild(details);
+  }
+
+  function appendInlineLinks(parent, entries) {
+    var links = el("div", "project-links");
+    entries.forEach(function (entry) {
+      var a = link(entry[0]);
+      a.textContent = entry[1];
+      if (/^https?:/.test(entry[0])) {
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+      }
+      links.appendChild(a);
+    });
+    parent.appendChild(links);
+  }
+
+  function renderCollectionIntro(collection) {
+    detail.textContent = "";
+    var box = el("div", "landing collection-intro");
+    box.appendChild(el("h2", null, LABELS[collection] || collection));
+    box.appendChild(el("p", "lede", colIndex[collection].length +
+      " records. Select one from the list, or type to filter."));
+    detail.appendChild(box);
+  }
+
+  function showRecord(collection, slug) {
+    detail.textContent = "";
+    detail.appendChild(el("p", "placeholder", "Loading…"));
+    var path = "objects/" + collection + "/" + slug + ".jsonld";
+    fetch(path).then(function (r) {
+      if (!r.ok) throw new Error(r.status);
+      return r.json();
+    }).then(function (record) {
+      detail.textContent = "";
+      var box = el("div", "record");
+      var heading = el("div", "record-heading");
+      heading.appendChild(el("h2", null, record.name || slug));
+      heading.appendChild(el("span", "entity-type", humanizeType(record["@type"] || "Record")));
+      box.appendChild(heading);
+
+      var subtitle = recordSubtitle(record);
+      if (subtitle) box.appendChild(el("p", "subtitle", subtitle));
+
+      var locator = record.sourceLocator;
+      var prov = el("p", "provenance");
+      if (locator) prov.appendChild(document.createTextNode(
+        "Blades in the Dark SRD · " + locator.chapter + " §" + locator.section +
+        " · lines " + locator.lineStart + "–" + locator.lineEnd + " · "));
+      if (locator) box.appendChild(prov);
+
+      var recordLinks = el("div", "source-links");
+      var rawLink = link(path); rawLink.textContent = "Raw JSON-LD";
+      recordLinks.appendChild(rawLink);
+      if (locator && locator.lineStart) {
+        var sourceUrl = "https://github.com/klrkdekira/fitd-system-json/blob/main/Blades-in-the-Dark-SRD.md?plain=1#L" +
+          locator.lineStart + (locator.lineEnd ? "-L" + locator.lineEnd : "");
+        var sourceLink = link(sourceUrl); sourceLink.textContent = "View source lines";
+        sourceLink.target = "_blank"; sourceLink.rel = "noopener noreferrer";
+        recordLinks.appendChild(sourceLink);
+      }
+      if (record.canonicalUrl) {
+        var canonicalLink = link(record.canonicalUrl["@id"]); canonicalLink.textContent = "Canonical source";
+        canonicalLink.target = "_blank"; canonicalLink.rel = "noopener noreferrer";
+        recordLinks.appendChild(canonicalLink);
+      }
+      if (record.retrievedFrom) {
+        var conversionLink = link(record.retrievedFrom["@id"]); conversionLink.textContent = "Markdown conversion";
+        conversionLink.target = "_blank"; conversionLink.rel = "noopener noreferrer";
+        recordLinks.appendChild(conversionLink);
+      }
+      if (record.licenseUrl) {
+        var licenseLink = link(record.licenseUrl["@id"]); licenseLink.textContent = record.license || "License";
+        licenseLink.target = "_blank"; licenseLink.rel = "noopener noreferrer";
+        recordLinks.appendChild(licenseLink);
+      }
+      box.appendChild(recordLinks);
+
+      renderFacts(box, record);
+      if (record.columns) renderDataTable(box, record.columns, record.rows);
+      if (record.rulesText) {
+        renderProse(box, record.rulesText, tableDropKeys(record.relatedTables));
+      }
+      if (record.examplesText) {
+        box.appendChild(el("h3", "sect", "Examples"));
+        renderProse(box, record.examplesText);
+      }
+      if (record.commentary) {
+        box.appendChild(el("h3", "sect", "Commentary"));
+        renderProse(box, record.commentary);
+      }
+      if (record.attributionStatement) {
+        box.appendChild(el("h3", "sect", "Attribution"));
+        renderProse(box, record.attributionStatement);
+      }
+      if (record.conversionStatement) {
+        renderProse(box, record.conversionStatement);
+      }
+      if (record["@type"] !== "Table" && record.relatedTables) {
+        renderRelatedTables(box, record.relatedTables);
+      }
+      renderRelations(box, record);
+      var raw = el("details", "raw");
+      raw.appendChild(el("summary", null, "Raw record JSON"));
+      raw.appendChild(el("pre", null, JSON.stringify(record, null, 2)));
+      box.appendChild(raw);
+      detail.appendChild(box);
+      detail.scrollTop = 0;
+      renderList(collection, filter.value.trim());
+    }).catch(function () {
+      detail.textContent = "";
+      detail.appendChild(el("p", "placeholder", "Could not load " + path));
+    });
+  }
+
+  function recordSubtitle(record) {
+    if (record["@type"] === "Action") {
+      return record.attribute + " action";
+    }
+    if (record["@type"] === "SpecialAbility") {
+      return (record.abilityScope === "crew" ? "Crew" : "Character") + " special ability";
+    }
+    if (record["@type"] === "Claim") {
+      return (record.claimType === "prison" ? "Prison" : "Crew") + " claim";
+    }
+    if (record["@type"] === "Entanglement") return "Entanglement";
+    if (record["@type"] === "DowntimeActivity") return "Downtime activity";
+    if (record["@type"] === "TraumaCondition") return "Trauma condition";
+    if (record["@type"] === "Source") {
+      return [record.author, record.publisher].filter(Boolean).join(" · ");
+    }
+    return "";
+  }
+
+  var FACT_FIELDS = [
+    ["attribute", "Attribute"], ["abilityScope", "Scope"], ["claimType", "Claim Type"],
+    ["section", "Section"],
+    ["author", "Author"], ["publisher", "Publisher"], ["sourceVersion", "Source Version"],
+    ["license", "License"], ["sourceFile", "Source File"], ["contentDigest", "Content Digest"]
+  ];
+  function renderFacts(box, record) {
+    var grid = el("div", "facts");
+    var count = 0;
+    function fact(label, value) {
+      var node = el("div", "fact");
+      node.appendChild(el("span", "k", label));
+      node.appendChild(el("span", "v", value));
+      grid.appendChild(node);
+      count += 1;
+    }
+    FACT_FIELDS.forEach(function (pair) {
+      if (record[pair[0]] !== undefined) fact(pair[1], displayValue(record[pair[0]]));
+    });
+    if (count) box.appendChild(grid);
+  }
+
+  function displayValue(value) {
+    if (typeof value === "boolean") return value ? "Yes" : "No";
+    if (Array.isArray(value)) return value.join(", ");
+    return String(value);
+  }
+
+  function humanizeType(value) {
+    return String(value).replace(/([a-z])([A-Z])/g, "$1 $2");
+  }
+
+  function renderRelations(box, record) {
+    // relatedTables render inline with linked captions, not as relation chips.
+    var relationFields = [["relatedRules", "Rule"]];
+    var section = el("section", "structured-section");
+    section.appendChild(el("h3", "structured-title", "Connected records"));
+    var linkCount = 0;
+    relationFields.forEach(function (pair) {
+      if (!record[pair[0]]) return;
+      var values = Array.isArray(record[pair[0]]) ? record[pair[0]] : [record[pair[0]]];
+      var links = el("div", "relation-list");
+      values.forEach(function (ref) {
+        if (!ref || !ref["@id"]) return;
+        var parts = ref["@id"].split("/objects/")[1];
+        if (!parts) return;
+        var routeParts = parts.split("/");
+        if (routeParts.length < 2) return;
+        var slug = routeParts.slice(1).join("/");
+        var a = link("#/" + routeParts[0] + "/" + slug, "relation-link");
+        var labelSlug = (routeParts[0] === "rules" || routeParts[0] === "tables")
+          ? slug.replace(/^(\d+-)+/, "")
+          : slug;
+        a.textContent = pair[1] + " · " + titleFromSlug(labelSlug);
+        links.appendChild(a);
+        linkCount += 1;
+      });
+      if (links.childNodes.length) section.appendChild(links);
+    });
+    if (linkCount) box.appendChild(section);
+  }
+
+  function titleFromSlug(slug) {
+    return slug.split("-").map(function (part) {
+      return part ? part.charAt(0).toUpperCase() + part.slice(1) : part;
+    }).join(" ");
+  }
+
+  var BLANK_CELL = { "": true, "-": true, "—": true, "―": true };
+  function isNumericValue(value) {
+    return /^[+-]?[\d,]+(?:\.\d+)?$/.test(value) ||
+      /^\d+d\d*(?:\s*[+-]\s*\d+)?$/.test(value) ||
+      /^[\d,\/ -]+ ?coin$/i.test(value);
+  }
+
+  function numericColumns(columns, rows) {
+    return columns.map(function (_, index) {
+      var seen = false;
+      var allNumeric = (rows || []).every(function (row) {
+        var cell = row.cells[index];
+        if (!cell || BLANK_CELL[cell.value]) return true;
+        seen = true;
+        return isNumericValue(cell.value);
+      });
+      return seen && allNumeric;
+    });
+  }
+
+  function decodeEntities(value) {
+    // Table cells keep raw source text, entity references included.
+    if (value.indexOf("&#") === -1 && value.indexOf("&amp;") === -1) return value;
+    var doc = new DOMParser().parseFromString(value, "text/html");
+    return doc.documentElement.textContent;
+  }
+
+  function renderDataTable(box, columns, rows, caption, captionHref) {
+    var wrap = el("div", "tablewrap");
+    if ((rows || []).length > 14) wrap.className += " tall";
+    if (caption) {
+      var cap = el("div", "table-caption");
+      if (captionHref) {
+        var captionLink = link(captionHref);
+        captionLink.textContent = caption;
+        cap.appendChild(captionLink);
+      } else {
+        cap.appendChild(el("span", null, caption));
+      }
+      cap.appendChild(el("span", "rows-meta", (rows || []).length + " rows"));
+      wrap.appendChild(cap);
+    }
+    var table = el("table", "data");
+    var numeric = numericColumns(columns, rows);
+    if (columns.some(function (c) { return c; })) {
+      var thead = el("thead");
+      var head = el("tr");
+      columns.forEach(function (column, index) {
+        head.appendChild(el("th", numeric[index] ? "num" : null, decodeEntities(column)));
+      });
+      thead.appendChild(head);
+      table.appendChild(thead);
+    }
+    var tbody = el("tbody");
+    (rows || []).forEach(function (row) {
+      var tr = el("tr");
+      row.cells.forEach(function (cell, index) {
+        var value = decodeEntities(cell.value);
+        var cls = BLANK_CELL[cell.value] ? "blank" : (numeric[index] ? "num" : null);
+        tr.appendChild(el("td", cls, value));
+      });
+      tbody.appendChild(tr);
+    });
+    table.appendChild(tbody);
+    wrap.appendChild(table);
+    box.appendChild(wrap);
+  }
+
+  function parsePipeTable(tableLines) {
+    var split = function (line) {
+      return line.replace(/^\|/, "").replace(/\|$/, "").split("|").map(function (c) { return c.trim(); });
+    };
+    var first = split(tableLines[0]);
+    var hasHeader = tableLines.length > 1 && split(tableLines[1]).every(function (c) {
+      return /^:?-{3,}:?$/.test(c);
+    });
+    var columns = hasHeader ? first : first.map(function () { return ""; });
+    var dataLines = hasHeader ? tableLines.slice(2) : tableLines;
+    var rows = [];
+    dataLines.forEach(function (line) {
+      var cells = split(line);
+      rows.push({ cells: cells.map(function (value) { return { value: value }; }) });
+    });
+    return { columns: columns, rows: rows };
+  }
+
+  function normalizedKey(text) {
+    return text.toLowerCase().replace(/[^a-z0-9]/g, "");
+  }
+
+  function tableDropKeys(refs) {
+    // Normalized names of related tables, derived from their slugs, so a
+    // dangling caption line in prose can be suppressed (the inline table
+    // render carries the caption instead).
+    var keys = {};
+    (refs || []).forEach(function (ref) {
+      var parts = ref && ref["@id"] ? ref["@id"].split("/objects/tables/")[1] : null;
+      if (parts) keys[normalizedKey(parts.replace(/^(\d+-)+/, ""))] = true;
+    });
+    return keys;
+  }
+
+  function isCaptionLine(line) {
+    return line && line.length < 80 && !/[.:,;]$/.test(line);
+  }
+
+  function renderProse(box, text, dropKeys) {
+    // Render verbatim prose, promoting embedded markdown pipe tables to real
+    // tables. A short caption line directly above an embedded table becomes
+    // its caption.
+    if (!text) return;
+    var lines = text.split("\n");
+    var buffer = [];
+    var flush = function () {
+      var chunk = buffer.join("\n").replace(/\n{3,}/g, "\n\n").trim();
+      if (chunk && chunk !== "---") box.appendChild(el("div", "prose", chunk));
+      buffer = [];
+    };
+    var index = 0;
+    var isPipeLine = function (line) {
+      var trimmed = line.trim();
+      return trimmed.charAt(0) === "|" && trimmed.charAt(trimmed.length - 1) === "|" && trimmed.length > 2;
+    };
+    while (index < lines.length) {
+      var trimmedLine = lines[index].trim();
+      if (isPipeLine(lines[index])) {
+        var tableLines = [];
+        while (index < lines.length && isPipeLine(lines[index])) {
+          tableLines.push(lines[index].trim());
+          index += 1;
+        }
+        // Pop a caption line sitting as its own paragraph right above.
+        var caption = null;
+        var tail = buffer.length - 1;
+        while (tail >= 0 && !buffer[tail].trim()) tail -= 1;
+        var isOwnParagraph = tail === 0 || (tail > 0 && !buffer[tail - 1].trim());
+        if (tail >= 0 && isOwnParagraph && isCaptionLine(buffer[tail].trim())) {
+          caption = buffer[tail].trim();
+          buffer = buffer.slice(0, tail);
+        }
+        flush();
+        var parsed = parsePipeTable(tableLines);
+        renderDataTable(box, parsed.columns, parsed.rows, caption);
+      } else if (
+        dropKeys && trimmedLine && isCaptionLine(trimmedLine) &&
+        dropKeys[normalizedKey(trimmedLine)] &&
+        (buffer.length === 0 || !buffer[buffer.length - 1].trim()) &&
+        (index + 1 >= lines.length || !lines[index + 1].trim())
+      ) {
+        index += 1; // suppress the dangling caption of an inline related table
+      } else {
+        buffer.push(lines[index]);
+        index += 1;
+      }
+    }
+    flush();
+  }
+
+  function renderRelatedTables(box, refs) {
+    // Fetch each referenced Table record and render it inline where it is
+    // cited; fall back to a navigation link if the fetch fails.
+    (refs || []).forEach(function (ref) {
+      if (!ref || !ref["@id"]) return;
+      var parts = ref["@id"].split("/objects/")[1];
+      if (!parts) return;
+      var holder = el("div", "inline-table");
+      box.appendChild(holder);
+      fetch("objects/" + parts + ".jsonld").then(function (r) {
+        if (!r.ok) throw new Error(r.status);
+        return r.json();
+      }).then(function (table) {
+        if (!table.columns) return;
+        renderDataTable(holder, table.columns, table.rows, table.name, "#/" + parts);
+      }).catch(function () {
+        var a = link("#/" + parts, "relation-link");
+        a.textContent = "Table · " + titleFromSlug(parts.split("/")[1] || parts);
+        holder.appendChild(a);
+      });
+    });
+  }
+})();
+</script>
+</body>
+</html>

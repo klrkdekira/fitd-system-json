@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/6-3-2-the-player-chooses-the-action-rating",
+  "@type": "Rule",
+  "name": "2. The Player Chooses the Action Rating",
+  "slug": "6-3-2-the-player-chooses-the-action-rating",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Action Roll",
+    "section": "6.3",
+    "heading": "2. The Player Chooses the Action Rating",
+    "lineStart": 326,
+    "lineEnd": 328
+  },
+  "section": "6.3",
+  "rulesText": "The player chooses which **action rating** to roll, following from what their character is doing on-screen. If you want to roll your **Skirmish** action, then get in a fight. If you want to roll your **Command** action, then order someone around. You can't roll a given action rating unless your character is presently performing that action in the fiction."
+}

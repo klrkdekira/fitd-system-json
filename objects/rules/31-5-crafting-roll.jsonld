@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/31-5-crafting-roll",
+  "@type": "Rule",
+  "name": "CRAFTING ROLL",
+  "slug": "31-5-crafting-roll",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crafting",
+    "section": "31.5",
+    "heading": "CRAFTING ROLL",
+    "lineStart": 2484,
+    "lineEnd": 2501
+  },
+  "section": "31.5",
+  "rulesText": "&#x23E3; &nbsp; **1d** for each **Tinker** action dot.\n\n&#x2295; &nbsp; **+1** quality per **Coin** spent.\n\n&#x2295; &nbsp; **+1** quality for **Workshop** crew upgrade.\n\n* **Critical**: Quality level is Tier +2.\n* **6**: Quality level is Tier +1.\n* **4/5**: Quality level is equal to Tier.\n* **1-3**: Quality level is Tier -1.\n\n\nThe GM sets a **minimum quality** level that must be achieved to craft the item, based on the **magnitude** of the effect(s) it produces. The GM uses magnitude as a *guideline* for setting the quality level—it may be higher or lower at their discretion to better describe the nature of the project. An item may be crafted at *higher* quality if the player wishes to attempt it.\n\nYou may spend **coin** 1-for-1 to increase the final quality level result of your roll (this can raise quality level beyond Tier +2)."
+}

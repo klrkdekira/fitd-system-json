@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/19-11-creating-an-expert",
+  "@type": "Rule",
+  "name": "Creating an expert",
+  "slug": "19-11-creating-an-expert",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew creation",
+    "section": "19.11",
+    "heading": "Creating an expert",
+    "lineStart": 1443,
+    "lineEnd": 1447
+  },
+  "section": "19.11",
+  "rulesText": "Record the expert's **type** (their specific area of expertise). They might be a *Doctor*, an *Investigator*, an *Occultist*, an *Assassin*, a *Spy*, etc.\n\nAn expert has **quality** equal to your current crew Tier +1. Their scale is always zero (1 person). Your experts increase in quality when your crew moves up in Tier."
+}

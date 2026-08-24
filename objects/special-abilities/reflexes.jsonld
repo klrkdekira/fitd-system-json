@@ -1,0 +1,20 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/reflexes",
+  "@type": "SpecialAbility",
+  "name": "Reflexes",
+  "slug": "reflexes",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character playbook",
+    "section": "18.31",
+    "heading": "Reflexes",
+    "lineStart": 1216,
+    "lineEnd": 1220
+  },
+  "rulesText": "When there's a question about who acts first, the answer is you.",
+  "commentary": "This ability gives you the initiative in most situations. Some specially trained NPCs might also have reflexes, but otherwise, you're always the first to act, and can interrupt anyone else who tries to beat you to the punch. This ability usually doesn't negate the need to make an action roll that you would otherwise have to make, but it may improve your position or effect.",
+  "abilityScope": "character"
+}

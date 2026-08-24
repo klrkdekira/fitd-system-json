@@ -1,0 +1,20 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/mesmerism",
+  "@type": "SpecialAbility",
+  "name": "Mesmerism",
+  "slug": "mesmerism",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character playbook",
+    "section": "18.36",
+    "heading": "Mesmerism",
+    "lineStart": 1246,
+    "lineEnd": 1250
+  },
+  "rulesText": "When you **Sway** someone, you may cause them to forget that it's happened until they next interact with you.",
+  "commentary": "The victim's memory \"glosses over\" the missing time, so it's not suspicious that they've forgotten something. When you next interact with the victim, they remember everything clearly, including the strange effect of this ability.",
+  "abilityScope": "character"
+}

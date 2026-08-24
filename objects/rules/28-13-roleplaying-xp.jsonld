@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/28-13-roleplaying-xp",
+  "@type": "Rule",
+  "name": "Roleplaying & XP",
+  "slug": "28-13-roleplaying-xp",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Downtime activities",
+    "section": "28.13",
+    "heading": "Roleplaying & XP",
+    "lineStart": 2259,
+    "lineEnd": 2261
+  },
+  "section": "28.13",
+  "rulesText": "Along with your character's heritage and background, their vice tells us what kind of person they are. This obsession impacts their motivations, goals, and behavior. When you ponder what your character might do or say next, you can always consider their vice to help you think of something. As an added benefit, by playing to the nature of your character's vice, you earn xp at the end of the session."
+}

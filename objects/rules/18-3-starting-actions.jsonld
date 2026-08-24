@@ -1,0 +1,23 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/18-3-starting-actions",
+  "@type": "Rule",
+  "name": "STARTING ACTIONS",
+  "slug": "18-3-starting-actions",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character playbook",
+    "section": "18.3",
+    "heading": "STARTING ACTIONS",
+    "lineStart": 1033,
+    "lineEnd": 1040
+  },
+  "section": "18.3",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/fitd-system-json/objects/tables/18-3-starting-actions"
+    }
+  ]
+}

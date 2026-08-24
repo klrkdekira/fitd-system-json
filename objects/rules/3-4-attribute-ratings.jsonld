@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/3-4-attribute-ratings",
+  "@type": "Rule",
+  "name": "Attribute Ratings",
+  "slug": "3-4-attribute-ratings",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Actions & Attributes",
+    "section": "3.4",
+    "heading": "Attribute Ratings",
+    "lineStart": 107,
+    "lineEnd": 111
+  },
+  "section": "3.4",
+  "rulesText": "There are three **attributes** in the game system that the player characters use to resist bad consequences: **Insight**, **Prowess**, and **Resolve**. Each attribute has a rating (from zero to 4) that tells you how many dice to roll when you use that attribute.\n\nThe rating for each attribute is equal to the number of dots in the **first column** under that attribute (see the examples, at right). The more well-rounded your character is with a particular set of actions, the better their attribute rating."
+}

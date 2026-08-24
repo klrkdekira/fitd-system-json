@@ -1,0 +1,20 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/actions/study",
+  "@type": "Action",
+  "name": "Study",
+  "slug": "study",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Actions & Attributes",
+    "section": "3.10",
+    "heading": "Actions",
+    "lineStart": 188,
+    "lineEnd": 190
+  },
+  "attribute": "Insight",
+  "rulesText": "When you **Study**, you scrutinize details and interpret evidence.",
+  "examplesText": "*You might gather information from documents, newspapers, and books. You might do research on an esoteric topic. You might closely analyze a person to detect lies or true feelings. You could try to examine events to understand a pressing situation (but Surveying might be better).*"
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/training-rooms",
+  "@type": "Claim",
+  "name": "Training Rooms",
+  "slug": "training-rooms",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew playbook",
+    "section": "20.6",
+    "heading": "Make a Claim Map for the Crew",
+    "lineStart": 1579,
+    "lineEnd": 1579
+  },
+  "claimType": "crew",
+  "rulesText": "**Training Rooms**: Your cohorts of a specific type get **+1 scale**. *Extra training enables them to fight like a larger gang.*"
+}

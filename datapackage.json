@@ -1,0 +1,75 @@
+{
+  "name": "fitd-system-json",
+  "title": "Blades in the Dark SRD System JSON",
+  "description": "A source-faithful JSON-LD 1.1 reference corpus and JSON Schema Draft 2020-12 specifications for the Blades in the Dark SRD.",
+  "homepage": "https://cheeleong.dev/fitd-system-json/",
+  "version": "0.1.0",
+  "licenses": [
+    {
+      "name": "CC-BY-3.0",
+      "title": "Creative Commons Attribution 3.0 Unported",
+      "path": "https://creativecommons.org/licenses/by/3.0/"
+    },
+    {
+      "name": "MIT",
+      "title": "MIT License (repository code, schemas, documentation)",
+      "path": "https://opensource.org/license/mit/"
+    }
+  ],
+  "repository": "https://github.com/klrkdekira/fitd-system-json",
+  "contributors": [
+    { "title": "Chee Leong Chow", "role": "author" },
+    { "title": "John Harper (One Seven Design)", "role": "author", "path": "https://bladesinthedark.com/" },
+    { "title": "Randy Oest (amazingrando)", "role": "contributor", "path": "https://github.com/amazingrando/blades-in-the-dark-srd-content" }
+  ],
+  "resources": [
+    {
+      "name": "manifest",
+      "path": "objects/fitd-system-data.jsonld",
+      "format": "jsonld",
+      "mediatype": "application/ld+json"
+    },
+    {
+      "name": "bundle",
+      "path": "objects/fitd-system-data.bundle.jsonld",
+      "format": "jsonld",
+      "mediatype": "application/ld+json"
+    },
+    {
+      "name": "llms-full",
+      "path": "llms-full.txt",
+      "format": "txt",
+      "mediatype": "text/plain"
+    },
+    {
+      "name": "search-index",
+      "path": "objects/search-index.json",
+      "format": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "name": "collection-index",
+      "path": "objects/collection-index.json",
+      "format": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "name": "context",
+      "path": "systems/context.jsonld",
+      "format": "jsonld",
+      "mediatype": "application/ld+json"
+    },
+    {
+      "name": "vocabulary",
+      "path": "vocab/terms.json",
+      "format": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "name": "source",
+      "path": "Blades-in-the-Dark-SRD.md",
+      "format": "md",
+      "mediatype": "text/markdown"
+    }
+  ]
+}

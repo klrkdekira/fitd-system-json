@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/3-3-action-roll",
+  "@type": "Rule",
+  "name": "Action Roll",
+  "slug": "3-3-action-roll",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Actions & Attributes",
+    "section": "3.3",
+    "heading": "Action Roll",
+    "lineStart": 101,
+    "lineEnd": 105
+  },
+  "section": "3.3",
+  "rulesText": "You make an **action roll** when your character does something potentially dangerous or troublesome. The possible results of the action roll depend on your character's **position**. There are three positions: **controlled**, **risky**, and **desperate**. If you're in a **controlled** position, the possible consequences are less serious. If you're in a **desperate** position, the consequences can be severe. If you're somewhere in between, it's **risky**—usually considered the \"default\" position for most actions.\n\nIf there's no danger or trouble at hand, you don't make an action roll. You might make a **fortune** roll or a **downtime** roll or the GM will simply say yes—and you accomplish your goal."
+}

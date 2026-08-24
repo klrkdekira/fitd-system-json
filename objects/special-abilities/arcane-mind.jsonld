@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/arcane-mind",
+  "@type": "SpecialAbility",
+  "name": "Arcane mind",
+  "slug": "arcane-mind",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character playbook",
+    "section": "18.44",
+    "heading": "Arcane mind",
+    "lineStart": 1294,
+    "lineEnd": 1296
+  },
+  "rulesText": "You're always aware of supernatural entities in your presence. Take **+1d** whenever you **gather information** about the supernatural by any means.",
+  "abilityScope": "character"
+}

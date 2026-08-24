@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/19-12-edges-flaws",
+  "@type": "Rule",
+  "name": "Edges & flaws",
+  "slug": "19-12-edges-flaws",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew creation",
+    "section": "19.12",
+    "heading": "Edges & flaws",
+    "lineStart": 1449,
+    "lineEnd": 1465
+  },
+  "section": "19.12",
+  "rulesText": "When you create a cohort, give them one or two **edges** and an equal number of **flaws**.\n\n**Edges**\n\n* **Fearsome:** The cohort is terrifying in aspect and reputation.\n* **Independent:** The cohort can be trusted to make good decisions and act on their own initiative in the absence of direct orders.\n* **Loyal:** The cohort can't be bribed or turned against you.\n* **Tenacious:** The cohort won't be deterred from a task.\n\n**Flaws**\n\n* **Principled:** The cohort has an ethic or values that it won't betray.\n* **Savage:** The cohort is excessively violent and cruel.\n* **Unreliable:** The cohort isn't always available, due to other obligations, stupefaction from their vices, etc.\n* **Wild:** The cohort is drunken, debauched, and loud-mouthed."
+}

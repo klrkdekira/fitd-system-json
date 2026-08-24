@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/entanglements/flipped",
+  "@type": "Entanglement",
+  "name": "Flipped",
+  "slug": "flipped",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Entanglements",
+    "section": "27.5",
+    "heading": "Flipped",
+    "lineStart": 2090,
+    "lineEnd": 2092
+  },
+  "rulesText": "One of the PCs' rivals arranges for one of your contacts, patrons, clients, or a group of your customers to switch allegiances due to the **heat** on you. They're loyal to another faction now."
+}

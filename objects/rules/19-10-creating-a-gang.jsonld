@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/19-10-creating-a-gang",
+  "@type": "Rule",
+  "name": "Creating a gang",
+  "slug": "19-10-creating-a-gang",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew creation",
+    "section": "19.10",
+    "heading": "Creating a gang",
+    "lineStart": 1427,
+    "lineEnd": 1441
+  },
+  "section": "19.10",
+  "rulesText": "Choose a **gang type** from the list below:\n\n* **Adepts**: Scholars, tinkerers, occultists, and chemists.\n* **Rooks**: Con artists, spies, and socialites.\n* **Rovers**: Sailors, carriage drivers, and deathlands scavengers.\n* **Skulks**: Scouts, infiltrators, and thieves.\n* **Thugs**: Killers, brawlers, and roustabouts.\n\nA gang has **scale** and **quality** equal to your current crew Tier. It increases in scale and quality when your crew moves up in Tier.\n\n> If your crew is Tier 0, your gang is quality 0 and scale 0 (1 or 2 people). When your crew is Tier II, your gang is quality 2 and scale 2 (12 people).\n\nSome crew upgrades will add the \"Elite\" feature to a gang, which gives them +1d when they roll for a given Type. *So, if you're Tier I and have a gang of Elite Thugs (+1d), they would roll 2d when they try to kill a target.*"
+}

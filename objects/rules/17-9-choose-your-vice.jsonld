@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/17-9-choose-your-vice",
+  "@type": "Rule",
+  "name": "Choose your vice",
+  "slug": "17-9-choose-your-vice",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character creation",
+    "section": "17.9",
+    "heading": "Choose your vice",
+    "lineStart": 966,
+    "lineEnd": 976
+  },
+  "section": "17.9",
+  "rulesText": "Every character is in thrall to some vice or another, which they indulge to deal with stress. Choose a vice from the list, and describe it on the line above with the specific details and the name and location of your **vice purveyor**.\n\n* **Faith**: You're dedicated to an unseen power, forgotten god, ancestor, etc.\n* **Gambling**: You crave games of chance, betting on sporting events, etc.\n* **Luxury**: Expensive or ostentatious displays of opulence.\n* **Obligation**: You're devoted to a family, a cause, an organization, a charity, etc.\n* **Pleasure**: Gratification from lovers, food, drink, drugs, art, theater, etc.\n* **Stupor**: You seek oblivion in the abuse of drugs, drinking to excess, getting beaten to a pulp in the fighting pits, etc.\n* **Weird**: You experiment with strange essences, consort with rogue spirits, observe bizarre rituals or taboos, etc."
+}

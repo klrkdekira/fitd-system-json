@@ -1,0 +1,17 @@
+{
+  "sourceFile": "Blades-in-the-Dark-SRD.md",
+  "contentFirstLine": 1,
+  "contentLines": 1439,
+  "uncoveredLines": [],
+  "recordCounts": {
+    "rules": 206,
+    "tables": 15,
+    "actions": 12,
+    "special-abilities": 58,
+    "entanglements": 12,
+    "downtime-activities": 6,
+    "claims": 35,
+    "trauma-conditions": 8
+  },
+  "recordsWithLocators": 352
+}

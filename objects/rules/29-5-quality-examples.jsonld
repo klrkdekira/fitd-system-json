@@ -1,0 +1,23 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/29-5-quality-examples",
+  "@type": "Rule",
+  "name": "QUALITY EXAMPLES",
+  "slug": "29-5-quality-examples",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Magnitude",
+    "section": "29.5",
+    "heading": "QUALITY EXAMPLES",
+    "lineStart": 2387,
+    "lineEnd": 2399
+  },
+  "section": "29.5",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/fitd-system-json/objects/tables/29-5-quality-examples"
+    }
+  ]
+}

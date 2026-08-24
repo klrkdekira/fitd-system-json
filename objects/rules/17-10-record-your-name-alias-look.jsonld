@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/17-10-record-your-name-alias-look",
+  "@type": "Rule",
+  "name": "Record your name, alias, & look",
+  "slug": "17-10-record-your-name-alias-look",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character creation",
+    "section": "17.10",
+    "heading": "Record your name, alias, & look",
+    "lineStart": 978,
+    "lineEnd": 980
+  },
+  "section": "17.10",
+  "rulesText": "Choose a name for your character from the sample list, or create your own. If your character uses an alias or nickname in the underworld, make a note of it. Record a few evocative words that describe your character's look (samples provided in the next sections)."
+}

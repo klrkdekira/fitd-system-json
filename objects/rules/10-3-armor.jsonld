@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/10-3-armor",
+  "@type": "Rule",
+  "name": "Armor",
+  "slug": "10-3-armor",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Resistance and Armor",
+    "section": "10.3",
+    "heading": "Armor",
+    "lineStart": 609,
+    "lineEnd": 615
+  },
+  "section": "10.3",
+  "rulesText": "If you have a type of **armor** that applies to the situation, you can mark an armor box to reduce or avoid a consequence, instead of rolling to resist.\n\n> Silas is taking level 2 harm, \"Cut to the Ribs,\" and the fight isn't even over yet, so Ian decides to use Silas's armor to reduce the harm. He marks the armor box and the harm becomes level 1, \"Bruised.\" If Silas was wearing heavy armor, he could mark a second armor box and reduce the harm again, to zero.\n\nWhen an armor box is marked, it can't be used again until it's restored. All of your armor is restored when you choose your **load** for the next score."
+}

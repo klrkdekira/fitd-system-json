@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/21-1-the-score",
+  "@type": "Rule",
+  "name": "The Score",
+  "slug": "21-1-the-score",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "The Score",
+    "section": "21.1",
+    "heading": "The Score",
+    "lineStart": 1705,
+    "lineEnd": 1721
+  },
+  "section": "21.1",
+  "rulesText": "*Murder for hire, brutal extortion, dark rituals, illicit deals, smuggling runs, thievery in the shadows—the only chances left for those pushed to the margins and denied the privileges of the corrupt and predatory elite.*\n\nIn *Blades in the Dark*, we play to find out if a fledgling crew of characters can prosper in the underworld—and that prosperity depends upon their criminal endeavors, which we call **scores**.\n\nA score is a single operation with a particular goal: *burgle a Lord's manor, assassinate the diplomat, smuggle a strange artifact into the city*, etc. Usually, a score will fall into one of three categories:\n\n* A **criminal activity**, determined by your crew type. An assassination, burglary, illicit vice deal, etc.\n* Seizing a **claim** that you choose from your crew's **claim map**. Claims help your crew grow and develop.\n* A **special mission** or goal determined by the players (like getting a rare artifact to empower one of the Whisper's rituals).\n\nA score can be long and involved or short and sweet. There might be lots of rolls and trouble, or just a few actions to resolve it. *Play to find out what happens!* A score doesn't need to fill one session of play every time. Let it be however long it is.\n\nThe PCs can set up a new score by choosing a target (from their claims or the faction list, for example), by approaching a potential client and asking for work, or by being contacted by an NPC who needs to hire a crew for a job.\n\nA score consists of a few key elements, detailed in this chapter: **planning & engagement**, **flashbacks**, and **teamwork**."
+}

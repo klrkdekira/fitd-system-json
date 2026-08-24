@@ -1,0 +1,2140 @@
+{
+  "collections": {
+    "sources": [
+      {
+        "slug": "blades-in-the-dark-srd",
+        "name": "Blades in the Dark SRD",
+        "sub": "CC-BY-3.0",
+        "group": "Sources"
+      }
+    ],
+    "rules": [
+      {
+        "slug": "1-1-the-basics",
+        "name": "The Basics",
+        "sub": "§1.1",
+        "group": "The Basics"
+      },
+      {
+        "slug": "1-2-the-game",
+        "name": "The Game",
+        "sub": "§1.2",
+        "group": "The Basics"
+      },
+      {
+        "slug": "1-3-the-players",
+        "name": "The Players",
+        "sub": "§1.3",
+        "group": "The Basics"
+      },
+      {
+        "slug": "1-4-the-characters",
+        "name": "The Characters",
+        "sub": "§1.4",
+        "group": "The Basics"
+      },
+      {
+        "slug": "1-5-the-crew",
+        "name": "The Crew",
+        "sub": "§1.5",
+        "group": "The Basics"
+      },
+      {
+        "slug": "1-6-the-game-master",
+        "name": "The Game Master",
+        "sub": "§1.6",
+        "group": "The Basics"
+      },
+      {
+        "slug": "1-7-playing-a-session",
+        "name": "Playing A Session",
+        "sub": "§1.7",
+        "group": "The Basics"
+      },
+      {
+        "slug": "2-1-the-core-system",
+        "name": "The Core System",
+        "sub": "§2.1",
+        "group": "The Core System"
+      },
+      {
+        "slug": "2-2-judgment-calls",
+        "name": "Judgment calls",
+        "sub": "§2.2",
+        "group": "The Core System"
+      },
+      {
+        "slug": "2-3-rolling-the-dice",
+        "name": "Rolling the Dice",
+        "sub": "§2.3",
+        "group": "The Core System"
+      },
+      {
+        "slug": "2-4-the-game-structure",
+        "name": "The Game Structure",
+        "sub": "§2.4",
+        "group": "The Core System"
+      },
+      {
+        "slug": "3-1-actions-attributes",
+        "name": "Actions & Attributes",
+        "sub": "§3.1",
+        "group": "Actions & Attributes"
+      },
+      {
+        "slug": "3-2-action-ratings",
+        "name": "Action Ratings",
+        "sub": "§3.2",
+        "group": "Actions & Attributes"
+      },
+      {
+        "slug": "3-3-action-roll",
+        "name": "Action Roll",
+        "sub": "§3.3",
+        "group": "Actions & Attributes"
+      },
+      {
+        "slug": "3-4-attribute-ratings",
+        "name": "Attribute Ratings",
+        "sub": "§3.4",
+        "group": "Actions & Attributes"
+      },
+      {
+        "slug": "3-5-resistance-roll",
+        "name": "Resistance Roll",
+        "sub": "§3.5",
+        "group": "Actions & Attributes"
+      },
+      {
+        "slug": "3-6-example-action-attribute-ratings",
+        "name": "EXAMPLE ACTION & ATTRIBUTE RATINGS",
+        "sub": "§3.6",
+        "group": "Actions & Attributes"
+      },
+      {
+        "slug": "3-7-insight",
+        "name": "Insight",
+        "sub": "§3.7",
+        "group": "Actions & Attributes"
+      },
+      {
+        "slug": "3-8-prowess",
+        "name": "Prowess",
+        "sub": "§3.8",
+        "group": "Actions & Attributes"
+      },
+      {
+        "slug": "3-9-resolve",
+        "name": "Resolve",
+        "sub": "§3.9",
+        "group": "Actions & Attributes"
+      },
+      {
+        "slug": "3-10-actions",
+        "name": "Actions",
+        "sub": "§3.10",
+        "group": "Actions & Attributes"
+      },
+      {
+        "slug": "4-1-stress-trauma",
+        "name": "Stress & Trauma",
+        "sub": "§4.1",
+        "group": "Stress & Trauma"
+      },
+      {
+        "slug": "4-2-stress",
+        "name": "Stress",
+        "sub": "§4.2",
+        "group": "Stress & Trauma"
+      },
+      {
+        "slug": "4-3-pushing-yourself",
+        "name": "Pushing Yourself",
+        "sub": "§4.3",
+        "group": "Stress & Trauma"
+      },
+      {
+        "slug": "4-4-trauma",
+        "name": "Trauma",
+        "sub": "§4.4",
+        "group": "Stress & Trauma"
+      },
+      {
+        "slug": "4-5-trauma-conditions",
+        "name": "Trauma Conditions",
+        "sub": "§4.5",
+        "group": "Stress & Trauma"
+      },
+      {
+        "slug": "5-1-progress-clocks",
+        "name": "Progress clocks",
+        "sub": "§5.1",
+        "group": "Progress clocks"
+      },
+      {
+        "slug": "5-2-simple-obstacles",
+        "name": "Simple Obstacles",
+        "sub": "§5.2",
+        "group": "Progress clocks"
+      },
+      {
+        "slug": "5-3-danger-clocks",
+        "name": "Danger Clocks",
+        "sub": "§5.3",
+        "group": "Progress clocks"
+      },
+      {
+        "slug": "5-4-racing-clocks",
+        "name": "Racing Clocks",
+        "sub": "§5.4",
+        "group": "Progress clocks"
+      },
+      {
+        "slug": "5-5-linked-clocks",
+        "name": "Linked Clocks",
+        "sub": "§5.5",
+        "group": "Progress clocks"
+      },
+      {
+        "slug": "5-6-mission-clocks",
+        "name": "Mission Clocks",
+        "sub": "§5.6",
+        "group": "Progress clocks"
+      },
+      {
+        "slug": "5-7-tug-of-war-clocks",
+        "name": "Tug-of-war Clocks",
+        "sub": "§5.7",
+        "group": "Progress clocks"
+      },
+      {
+        "slug": "5-8-long-term-project",
+        "name": "Long-term Project",
+        "sub": "§5.8",
+        "group": "Progress clocks"
+      },
+      {
+        "slug": "5-9-faction-clocks",
+        "name": "Faction Clocks",
+        "sub": "§5.9",
+        "group": "Progress clocks"
+      },
+      {
+        "slug": "6-1-action-roll",
+        "name": "Action Roll",
+        "sub": "§6.1",
+        "group": "Action Roll"
+      },
+      {
+        "slug": "6-2-1-the-player-states-their-goal",
+        "name": "1. The Player States Their Goal",
+        "sub": "§6.2",
+        "group": "Action Roll"
+      },
+      {
+        "slug": "6-3-2-the-player-chooses-the-action-rating",
+        "name": "2. The Player Chooses the Action Rating",
+        "sub": "§6.3",
+        "group": "Action Roll"
+      },
+      {
+        "slug": "6-4-3-the-gm-sets-the-position",
+        "name": "3. The GM Sets the Position",
+        "sub": "§6.4",
+        "group": "Action Roll"
+      },
+      {
+        "slug": "6-5-4-the-gm-sets-the-effect-level",
+        "name": "4. The GM Sets the Effect Level",
+        "sub": "§6.5",
+        "group": "Action Roll"
+      },
+      {
+        "slug": "6-6-5-add-bonus-dice",
+        "name": "5. Add Bonus Dice",
+        "sub": "§6.6",
+        "group": "Action Roll"
+      },
+      {
+        "slug": "6-7-the-devils-bargain",
+        "name": "The Devil's Bargain",
+        "sub": "§6.7",
+        "group": "Action Roll"
+      },
+      {
+        "slug": "6-8-6-roll-the-dice-and-judge-the-result",
+        "name": "6. Roll the Dice and Judge the Result",
+        "sub": "§6.8",
+        "group": "Action Roll"
+      },
+      {
+        "slug": "6-9-action-roll-summary",
+        "name": "Action Roll Summary",
+        "sub": "§6.9",
+        "group": "Action Roll"
+      },
+      {
+        "slug": "6-10-action-roll",
+        "name": "ACTION ROLL",
+        "sub": "§6.10",
+        "group": "Action Roll"
+      },
+      {
+        "slug": "6-11-controlled",
+        "name": "CONTROLLED",
+        "sub": "§6.11",
+        "group": "Action Roll"
+      },
+      {
+        "slug": "6-12-risky",
+        "name": "RISKY",
+        "sub": "§6.12",
+        "group": "Action Roll"
+      },
+      {
+        "slug": "6-13-desperate",
+        "name": "DESPERATE",
+        "sub": "§6.13",
+        "group": "Action Roll"
+      },
+      {
+        "slug": "6-14-double-duty-rolls",
+        "name": "Double-duty Rolls",
+        "sub": "§6.14",
+        "group": "Action Roll"
+      },
+      {
+        "slug": "7-1-effect",
+        "name": "Effect",
+        "sub": "§7.1",
+        "group": "Effect"
+      },
+      {
+        "slug": "7-2-assessing-factors",
+        "name": "Assessing Factors",
+        "sub": "§7.2",
+        "group": "Effect"
+      },
+      {
+        "slug": "7-3-potency",
+        "name": "Potency",
+        "sub": "§7.3",
+        "group": "Effect"
+      },
+      {
+        "slug": "7-4-quality-tier",
+        "name": "Quality/Tier",
+        "sub": "§7.4",
+        "group": "Effect"
+      },
+      {
+        "slug": "7-5-scale",
+        "name": "Scale",
+        "sub": "§7.5",
+        "group": "Effect"
+      },
+      {
+        "slug": "7-6-trading-position-for-effect",
+        "name": "Trading Position for Effect",
+        "sub": "§7.6",
+        "group": "Effect"
+      },
+      {
+        "slug": "7-7-consequences",
+        "name": "Consequences",
+        "sub": "§7.7",
+        "group": "Effect"
+      },
+      {
+        "slug": "8-1-setting-position-effect",
+        "name": "Setting Position & Effect",
+        "sub": "§8.1",
+        "group": "Setting Position & Effect"
+      },
+      {
+        "slug": "9-1-consequences-and-harm",
+        "name": "Consequences and Harm",
+        "sub": "§9.1",
+        "group": "Consequences and Harm"
+      },
+      {
+        "slug": "9-2-reduced-effect",
+        "name": "Reduced Effect",
+        "sub": "§9.2",
+        "group": "Consequences and Harm"
+      },
+      {
+        "slug": "9-3-complication",
+        "name": "Complication",
+        "sub": "§9.3",
+        "group": "Consequences and Harm"
+      },
+      {
+        "slug": "9-4-lost-opportunity",
+        "name": "Lost Opportunity",
+        "sub": "§9.4",
+        "group": "Consequences and Harm"
+      },
+      {
+        "slug": "9-5-worse-position",
+        "name": "Worse Position",
+        "sub": "§9.5",
+        "group": "Consequences and Harm"
+      },
+      {
+        "slug": "9-6-harm",
+        "name": "Harm",
+        "sub": "§9.6",
+        "group": "Consequences and Harm"
+      },
+      {
+        "slug": "9-7-harm",
+        "name": "HARM",
+        "sub": "§9.7",
+        "group": "Consequences and Harm"
+      },
+      {
+        "slug": "9-8-harm-examples",
+        "name": "Harm examples",
+        "sub": "§9.8",
+        "group": "Consequences and Harm"
+      },
+      {
+        "slug": "10-1-resistance-and-armor",
+        "name": "Resistance and Armor",
+        "sub": "§10.1",
+        "group": "Resistance and Armor"
+      },
+      {
+        "slug": "10-2-resistance-roll",
+        "name": "RESISTANCE ROLL",
+        "sub": "§10.2",
+        "group": "Resistance and Armor"
+      },
+      {
+        "slug": "10-3-armor",
+        "name": "Armor",
+        "sub": "§10.3",
+        "group": "Resistance and Armor"
+      },
+      {
+        "slug": "10-4-death",
+        "name": "Death",
+        "sub": "§10.4",
+        "group": "Resistance and Armor"
+      },
+      {
+        "slug": "11-1-fortune-roll",
+        "name": "Fortune Roll",
+        "sub": "§11.1",
+        "group": "Fortune Roll"
+      },
+      {
+        "slug": "11-2-fortune-roll",
+        "name": "FORTUNE ROLL",
+        "sub": "§11.2",
+        "group": "Fortune Roll"
+      },
+      {
+        "slug": "12-1-gathering-information",
+        "name": "Gathering Information",
+        "sub": "§12.1",
+        "group": "Gathering Information"
+      },
+      {
+        "slug": "12-2-investigation",
+        "name": "Investigation",
+        "sub": "§12.2",
+        "group": "Gathering Information"
+      },
+      {
+        "slug": "12-3-examples-questions",
+        "name": "Examples & Questions",
+        "sub": "§12.3",
+        "group": "Gathering Information"
+      },
+      {
+        "slug": "12-4-gather-information",
+        "name": "GATHER INFORMATION",
+        "sub": "§12.4",
+        "group": "Gathering Information"
+      },
+      {
+        "slug": "13-1-coin-and-stash",
+        "name": "Coin and Stash",
+        "sub": "§13.1",
+        "group": "Coin and Stash"
+      },
+      {
+        "slug": "13-2-coin",
+        "name": "Coin",
+        "sub": "§13.2",
+        "group": "Coin and Stash"
+      },
+      {
+        "slug": "13-3-monetary-values",
+        "name": "Monetary values",
+        "sub": "§13.3",
+        "group": "Coin and Stash"
+      },
+      {
+        "slug": "13-4-coin-use",
+        "name": "Coin Use",
+        "sub": "§13.4",
+        "group": "Coin and Stash"
+      },
+      {
+        "slug": "13-5-stash-retirement",
+        "name": "Stash & Retirement",
+        "sub": "§13.5",
+        "group": "Coin and Stash"
+      },
+      {
+        "slug": "13-6-removing-coin-from-your-stash",
+        "name": "Removing coin from your stash",
+        "sub": "§13.6",
+        "group": "Coin and Stash"
+      },
+      {
+        "slug": "14-1-the-faction-game",
+        "name": "The Faction Game",
+        "sub": "§14.1",
+        "group": "The Faction Game"
+      },
+      {
+        "slug": "14-2-tier",
+        "name": "Tier",
+        "sub": "§14.2",
+        "group": "The Faction Game"
+      },
+      {
+        "slug": "14-3-gang-scale-by-tier",
+        "name": "Gang scale by tier",
+        "sub": "§14.3",
+        "group": "The Faction Game"
+      },
+      {
+        "slug": "14-4-hold",
+        "name": "Hold",
+        "sub": "§14.4",
+        "group": "The Faction Game"
+      },
+      {
+        "slug": "14-5-development",
+        "name": "Development",
+        "sub": "§14.5",
+        "group": "The Faction Game"
+      },
+      {
+        "slug": "14-6-turf",
+        "name": "Turf",
+        "sub": "§14.6",
+        "group": "The Faction Game"
+      },
+      {
+        "slug": "14-7-reducing-hold",
+        "name": "Reducing hold",
+        "sub": "§14.7",
+        "group": "The Faction Game"
+      },
+      {
+        "slug": "14-8-faction-status",
+        "name": "Faction Status",
+        "sub": "§14.8",
+        "group": "The Faction Game"
+      },
+      {
+        "slug": "14-9-faction-status-changes",
+        "name": "Faction status changes",
+        "sub": "§14.9",
+        "group": "The Faction Game"
+      },
+      {
+        "slug": "14-10-faction-status-levels",
+        "name": "Faction status levels",
+        "sub": "§14.10",
+        "group": "The Faction Game"
+      },
+      {
+        "slug": "14-11-claims",
+        "name": "Claims",
+        "sub": "§14.11",
+        "group": "The Faction Game"
+      },
+      {
+        "slug": "14-12-seizing-a-claim",
+        "name": "Seizing a claim",
+        "sub": "§14.12",
+        "group": "The Faction Game"
+      },
+      {
+        "slug": "14-13-losing-a-claim",
+        "name": "Losing a claim",
+        "sub": "§14.13",
+        "group": "The Faction Game"
+      },
+      {
+        "slug": "15-1-advancement",
+        "name": "Advancement",
+        "sub": "§15.1",
+        "group": "Advancement"
+      },
+      {
+        "slug": "15-2-pc-advancement",
+        "name": "PC Advancement",
+        "sub": "§15.2",
+        "group": "Advancement"
+      },
+      {
+        "slug": "15-3-crew-advancement",
+        "name": "Crew Advancement",
+        "sub": "§15.3",
+        "group": "Advancement"
+      },
+      {
+        "slug": "15-4-profits",
+        "name": "Profits",
+        "sub": "§15.4",
+        "group": "Advancement"
+      },
+      {
+        "slug": "16-1-characters",
+        "name": "Characters",
+        "sub": "§16.1",
+        "group": "Characters"
+      },
+      {
+        "slug": "16-2-characters",
+        "name": "Characters",
+        "sub": "§16.2",
+        "group": "Characters"
+      },
+      {
+        "slug": "17-1-character-creation",
+        "name": "Character creation",
+        "sub": "§17.1",
+        "group": "Character creation"
+      },
+      {
+        "slug": "17-2-create-playbooks",
+        "name": "Create playbooks",
+        "sub": "§17.2",
+        "group": "Character creation"
+      },
+      {
+        "slug": "17-3-choose-a-heritage",
+        "name": "Choose a heritage",
+        "sub": "§17.3",
+        "group": "Character creation"
+      },
+      {
+        "slug": "17-4-choose-a-background",
+        "name": "Choose a background",
+        "sub": "§17.4",
+        "group": "Character creation"
+      },
+      {
+        "slug": "17-5-assign-four-action-dots",
+        "name": "Assign four action dots",
+        "sub": "§17.5",
+        "group": "Character creation"
+      },
+      {
+        "slug": "17-6-choose-a-special-ability",
+        "name": "Choose a special ability",
+        "sub": "§17.6",
+        "group": "Character creation"
+      },
+      {
+        "slug": "17-7-special-armor",
+        "name": "Special Armor",
+        "sub": "§17.7",
+        "group": "Character creation"
+      },
+      {
+        "slug": "17-8-choose-one-close-friend-and-one-rival",
+        "name": "Choose one close friend and one rival",
+        "sub": "§17.8",
+        "group": "Character creation"
+      },
+      {
+        "slug": "17-9-choose-your-vice",
+        "name": "Choose your vice",
+        "sub": "§17.9",
+        "group": "Character creation"
+      },
+      {
+        "slug": "17-10-record-your-name-alias-look",
+        "name": "Record your name, alias, & look",
+        "sub": "§17.10",
+        "group": "Character creation"
+      },
+      {
+        "slug": "17-11-review-your-details",
+        "name": "Review your details",
+        "sub": "§17.11",
+        "group": "Character creation"
+      },
+      {
+        "slug": "17-12-character-creation-summary",
+        "name": "Character creation summary",
+        "sub": "§17.12",
+        "group": "Character creation"
+      },
+      {
+        "slug": "17-13-loadout",
+        "name": "Loadout",
+        "sub": "§17.13",
+        "group": "Character creation"
+      },
+      {
+        "slug": "18-1-character-playbook",
+        "name": "Character playbook",
+        "sub": "§18.1",
+        "group": "Character playbook"
+      },
+      {
+        "slug": "18-2-short-descriptor-of-character",
+        "name": "Short Descriptor of Character",
+        "sub": "§18.2",
+        "group": "Character playbook"
+      },
+      {
+        "slug": "18-3-starting-actions",
+        "name": "STARTING ACTIONS",
+        "sub": "§18.3",
+        "group": "Character playbook"
+      },
+      {
+        "slug": "18-4-starting-builds",
+        "name": "Starting builds",
+        "sub": "§18.4",
+        "group": "Character playbook"
+      },
+      {
+        "slug": "18-5-friends-rivals",
+        "name": "Friends, rivals",
+        "sub": "§18.5",
+        "group": "Character playbook"
+      },
+      {
+        "slug": "18-6-special-abilities",
+        "name": "Special abilities",
+        "sub": "§18.6",
+        "group": "Character playbook"
+      },
+      {
+        "slug": "18-49-character-items",
+        "name": "Character items",
+        "sub": "§18.49",
+        "group": "Character playbook"
+      },
+      {
+        "slug": "19-1-crew-creation",
+        "name": "Crew creation",
+        "sub": "§19.1",
+        "group": "Crew creation"
+      },
+      {
+        "slug": "19-2-choose-a-crew-type",
+        "name": "Choose a crew type",
+        "sub": "§19.2",
+        "group": "Crew creation"
+      },
+      {
+        "slug": "19-3-choose-an-initial-reputation-lair",
+        "name": "Choose an initial reputation & lair",
+        "sub": "§19.3",
+        "group": "Crew creation"
+      },
+      {
+        "slug": "19-4-establish-your-hunting-grounds",
+        "name": "Establish your hunting grounds",
+        "sub": "§19.4",
+        "group": "Crew creation"
+      },
+      {
+        "slug": "19-5-choose-a-special-ability",
+        "name": "Choose a special ability",
+        "sub": "§19.5",
+        "group": "Crew creation"
+      },
+      {
+        "slug": "19-6-assign-crew-upgrades",
+        "name": "Assign crew upgrades",
+        "sub": "§19.6",
+        "group": "Crew creation"
+      },
+      {
+        "slug": "19-7-choose-a-favorite-contact",
+        "name": "Choose a favorite contact",
+        "sub": "§19.7",
+        "group": "Crew creation"
+      },
+      {
+        "slug": "19-8-crew-upgrade-examples",
+        "name": "Crew upgrade Examples",
+        "sub": "§19.8",
+        "group": "Crew creation"
+      },
+      {
+        "slug": "19-9-cohorts",
+        "name": "Cohorts",
+        "sub": "§19.9",
+        "group": "Crew creation"
+      },
+      {
+        "slug": "19-10-creating-a-gang",
+        "name": "Creating a gang",
+        "sub": "§19.10",
+        "group": "Crew creation"
+      },
+      {
+        "slug": "19-11-creating-an-expert",
+        "name": "Creating an expert",
+        "sub": "§19.11",
+        "group": "Crew creation"
+      },
+      {
+        "slug": "19-12-edges-flaws",
+        "name": "Edges & flaws",
+        "sub": "§19.12",
+        "group": "Crew creation"
+      },
+      {
+        "slug": "19-13-modifying-a-cohort",
+        "name": "Modifying a cohort",
+        "sub": "§19.13",
+        "group": "Crew creation"
+      },
+      {
+        "slug": "19-14-using-a-cohort",
+        "name": "Using a cohort",
+        "sub": "§19.14",
+        "group": "Crew creation"
+      },
+      {
+        "slug": "19-15-cohort-harm-healing",
+        "name": "Cohort harm & Healing",
+        "sub": "§19.15",
+        "group": "Crew creation"
+      },
+      {
+        "slug": "19-16-crew-creation-summary",
+        "name": "Crew creation summary",
+        "sub": "§19.16",
+        "group": "Crew creation"
+      },
+      {
+        "slug": "20-1-crew-playbook",
+        "name": "Crew playbook",
+        "sub": "§20.1",
+        "group": "Crew playbook"
+      },
+      {
+        "slug": "20-2-starting-upgrades",
+        "name": "Starting upgrades",
+        "sub": "§20.2",
+        "group": "Crew playbook"
+      },
+      {
+        "slug": "20-3-favored-operations",
+        "name": "Favored Operations",
+        "sub": "§20.3",
+        "group": "Crew playbook"
+      },
+      {
+        "slug": "20-4-contacts",
+        "name": "Contacts",
+        "sub": "§20.4",
+        "group": "Crew playbook"
+      },
+      {
+        "slug": "20-5-crew-upgrades",
+        "name": "Crew upgrades",
+        "sub": "§20.5",
+        "group": "Crew playbook"
+      },
+      {
+        "slug": "20-6-make-a-claim-map-for-the-crew",
+        "name": "Make a Claim Map for the Crew",
+        "sub": "§20.6",
+        "group": "Crew playbook"
+      },
+      {
+        "slug": "20-7-crew-special-abilities",
+        "name": "Crew special abilities",
+        "sub": "§20.7",
+        "group": "Crew playbook"
+      },
+      {
+        "slug": "21-1-the-score",
+        "name": "The Score",
+        "sub": "§21.1",
+        "group": "The Score"
+      },
+      {
+        "slug": "22-1-planning-engagement",
+        "name": "Planning & engagement",
+        "sub": "§22.1",
+        "group": "Planning & engagement"
+      },
+      {
+        "slug": "22-2-the-detail",
+        "name": "The Detail",
+        "sub": "§22.2",
+        "group": "Planning & engagement"
+      },
+      {
+        "slug": "22-3-item-loadouts",
+        "name": "Item Loadouts",
+        "sub": "§22.3",
+        "group": "Planning & engagement"
+      },
+      {
+        "slug": "22-4-engagement-roll",
+        "name": "Engagement Roll",
+        "sub": "§22.4",
+        "group": "Planning & engagement"
+      },
+      {
+        "slug": "22-5-major-advantages-disadvantages",
+        "name": "Major Advantages / Disadvantages",
+        "sub": "§22.5",
+        "group": "Planning & engagement"
+      },
+      {
+        "slug": "22-6-engagement-roll",
+        "name": "ENGAGEMENT ROLL",
+        "sub": "§22.6",
+        "group": "Planning & engagement"
+      },
+      {
+        "slug": "22-7-outcomes",
+        "name": "Outcomes",
+        "sub": "§22.7",
+        "group": "Planning & engagement"
+      },
+      {
+        "slug": "22-8-how-long-does-it-last",
+        "name": "How long does it last?",
+        "sub": "§22.8",
+        "group": "Planning & engagement"
+      },
+      {
+        "slug": "22-9-linked-plans",
+        "name": "Linked Plans",
+        "sub": "§22.9",
+        "group": "Planning & engagement"
+      },
+      {
+        "slug": "22-10-flashbacks",
+        "name": "Flashbacks",
+        "sub": "§22.10",
+        "group": "Planning & engagement"
+      },
+      {
+        "slug": "22-11-limits-of-flashbacks",
+        "name": "Limits of flashbacks",
+        "sub": "§22.11",
+        "group": "Planning & engagement"
+      },
+      {
+        "slug": "22-12-flashback-examples",
+        "name": "flashback examples",
+        "sub": "§22.12",
+        "group": "Planning & engagement"
+      },
+      {
+        "slug": "22-13-giving-up-on-a-score",
+        "name": "Giving up on a score",
+        "sub": "§22.13",
+        "group": "Planning & engagement"
+      },
+      {
+        "slug": "23-1-teamwork",
+        "name": "Teamwork",
+        "sub": "§23.1",
+        "group": "Teamwork"
+      },
+      {
+        "slug": "23-2-teamwork",
+        "name": "Teamwork",
+        "sub": "§23.2",
+        "group": "Teamwork"
+      },
+      {
+        "slug": "23-3-assist",
+        "name": "Assist",
+        "sub": "§23.3",
+        "group": "Teamwork"
+      },
+      {
+        "slug": "23-4-lead-a-group-action",
+        "name": "Lead a group action",
+        "sub": "§23.4",
+        "group": "Teamwork"
+      },
+      {
+        "slug": "23-5-protect",
+        "name": "Protect",
+        "sub": "§23.5",
+        "group": "Teamwork"
+      },
+      {
+        "slug": "23-6-set-up",
+        "name": "Set up",
+        "sub": "§23.6",
+        "group": "Teamwork"
+      },
+      {
+        "slug": "23-7-do-we-have-to-use-teamwork",
+        "name": "Do We Have to Use Teamwork?",
+        "sub": "§23.7",
+        "group": "Teamwork"
+      },
+      {
+        "slug": "24-1-downtime",
+        "name": "Downtime",
+        "sub": "§24.1",
+        "group": "Downtime"
+      },
+      {
+        "slug": "25-1-payoff",
+        "name": "Payoff",
+        "sub": "§25.1",
+        "group": "Payoff"
+      },
+      {
+        "slug": "26-1-heat",
+        "name": "Heat",
+        "sub": "§26.1",
+        "group": "Heat"
+      },
+      {
+        "slug": "26-2-incarceration",
+        "name": "Incarceration",
+        "sub": "§26.2",
+        "group": "Heat"
+      },
+      {
+        "slug": "26-3-incarceration-roll",
+        "name": "INCARCERATION ROLL",
+        "sub": "§26.3",
+        "group": "Heat"
+      },
+      {
+        "slug": "26-4-prison-claims",
+        "name": "Prison claims",
+        "sub": "§26.4",
+        "group": "Heat"
+      },
+      {
+        "slug": "26-5-claims-prison",
+        "name": "CLAIMS: PRISON",
+        "sub": "§26.5",
+        "group": "Heat"
+      },
+      {
+        "slug": "27-1-entanglements",
+        "name": "Entanglements",
+        "sub": "§27.1",
+        "group": "Entanglements"
+      },
+      {
+        "slug": "28-1-downtime-activities",
+        "name": "Downtime activities",
+        "sub": "§28.1",
+        "group": "Downtime activities"
+      },
+      {
+        "slug": "28-8-vice-roll",
+        "name": "VICE ROLL",
+        "sub": "§28.8",
+        "group": "Downtime activities"
+      },
+      {
+        "slug": "28-9-stress-relief",
+        "name": "Stress Relief",
+        "sub": "§28.9",
+        "group": "Downtime activities"
+      },
+      {
+        "slug": "28-10-indulging-your-vice",
+        "name": "Indulging Your Vice",
+        "sub": "§28.10",
+        "group": "Downtime activities"
+      },
+      {
+        "slug": "28-11-overindulgence",
+        "name": "Overindulgence",
+        "sub": "§28.11",
+        "group": "Downtime activities"
+      },
+      {
+        "slug": "28-12-ignoring-your-vice",
+        "name": "Ignoring your vice",
+        "sub": "§28.12",
+        "group": "Downtime activities"
+      },
+      {
+        "slug": "28-13-roleplaying-xp",
+        "name": "Roleplaying & XP",
+        "sub": "§28.13",
+        "group": "Downtime activities"
+      },
+      {
+        "slug": "28-14-npc-faction-downtime",
+        "name": "NPC & faction downtime",
+        "sub": "§28.14",
+        "group": "Downtime activities"
+      },
+      {
+        "slug": "28-15-downtime-activities-summary",
+        "name": "DOWNTIME ACTIVITIES SUMMARY",
+        "sub": "§28.15",
+        "group": "Downtime activities"
+      },
+      {
+        "slug": "28-16-acquire-asset",
+        "name": "ACQUIRE ASSET",
+        "sub": "§28.16",
+        "group": "Downtime activities"
+      },
+      {
+        "slug": "28-17-long-term-project",
+        "name": "LONG-TERM PROJECT",
+        "sub": "§28.17",
+        "group": "Downtime activities"
+      },
+      {
+        "slug": "28-18-recover",
+        "name": "RECOVER",
+        "sub": "§28.18",
+        "group": "Downtime activities"
+      },
+      {
+        "slug": "28-19-reduce-heat",
+        "name": "REDUCE HEAT",
+        "sub": "§28.19",
+        "group": "Downtime activities"
+      },
+      {
+        "slug": "28-20-train",
+        "name": "TRAIN",
+        "sub": "§28.20",
+        "group": "Downtime activities"
+      },
+      {
+        "slug": "28-21-vice",
+        "name": "VICE",
+        "sub": "§28.21",
+        "group": "Downtime activities"
+      },
+      {
+        "slug": "29-1-magnitude",
+        "name": "Magnitude",
+        "sub": "§29.1",
+        "group": "Magnitude"
+      },
+      {
+        "slug": "29-2-area-scale",
+        "name": "AREA/SCALE",
+        "sub": "§29.2",
+        "group": "Magnitude"
+      },
+      {
+        "slug": "29-3-duration-range",
+        "name": "DURATION/RANGE",
+        "sub": "§29.3",
+        "group": "Magnitude"
+      },
+      {
+        "slug": "29-4-tier-quality-force",
+        "name": "TIER & QUALITY / FORCE",
+        "sub": "§29.4",
+        "group": "Magnitude"
+      },
+      {
+        "slug": "29-5-quality-examples",
+        "name": "QUALITY EXAMPLES",
+        "sub": "§29.5",
+        "group": "Magnitude"
+      },
+      {
+        "slug": "29-6-force-examples",
+        "name": "FORCE EXAMPLES",
+        "sub": "§29.6",
+        "group": "Magnitude"
+      },
+      {
+        "slug": "30-1-rituals",
+        "name": "Rituals",
+        "sub": "§30.1",
+        "group": "Rituals"
+      },
+      {
+        "slug": "30-2-finding-a-ritual-source",
+        "name": "Finding a ritual source",
+        "sub": "§30.2",
+        "group": "Rituals"
+      },
+      {
+        "slug": "30-3-learning-a-ritual",
+        "name": "Learning a ritual",
+        "sub": "§30.3",
+        "group": "Rituals"
+      },
+      {
+        "slug": "30-4-ritual-questions",
+        "name": "Ritual Questions",
+        "sub": "§30.4",
+        "group": "Rituals"
+      },
+      {
+        "slug": "30-5-example-ritual-answers",
+        "name": "Example Ritual Answers",
+        "sub": "§30.5",
+        "group": "Rituals"
+      },
+      {
+        "slug": "30-6-performing-a-ritual",
+        "name": "Performing a Ritual",
+        "sub": "§30.6",
+        "group": "Rituals"
+      },
+      {
+        "slug": "31-1-crafting",
+        "name": "Crafting",
+        "sub": "§31.1",
+        "group": "Crafting"
+      },
+      {
+        "slug": "31-2-inventing",
+        "name": "Inventing",
+        "sub": "§31.2",
+        "group": "Crafting"
+      },
+      {
+        "slug": "31-3-creation-questions",
+        "name": "Creation Questions",
+        "sub": "§31.3",
+        "group": "Crafting"
+      },
+      {
+        "slug": "31-4-crafting",
+        "name": "Crafting",
+        "sub": "§31.4",
+        "group": "Crafting"
+      },
+      {
+        "slug": "31-5-crafting-roll",
+        "name": "CRAFTING ROLL",
+        "sub": "§31.5",
+        "group": "Crafting"
+      },
+      {
+        "slug": "31-6-modifying-an-item",
+        "name": "Modifying an item",
+        "sub": "§31.6",
+        "group": "Crafting"
+      },
+      {
+        "slug": "31-7-drawbacks",
+        "name": "Drawbacks",
+        "sub": "§31.7",
+        "group": "Crafting"
+      }
+    ],
+    "tables": [
+      {
+        "slug": "3-7-insight",
+        "name": "Insight",
+        "sub": "§3.7",
+        "group": "Actions & Attributes"
+      },
+      {
+        "slug": "3-8-prowess",
+        "name": "Prowess",
+        "sub": "§3.8",
+        "group": "Actions & Attributes"
+      },
+      {
+        "slug": "3-9-resolve",
+        "name": "Resolve",
+        "sub": "§3.9",
+        "group": "Actions & Attributes"
+      },
+      {
+        "slug": "7-1-effect",
+        "name": "Effect",
+        "sub": "§7.1",
+        "group": "Effect"
+      },
+      {
+        "slug": "9-7-harm",
+        "name": "HARM",
+        "sub": "§9.7",
+        "group": "Consequences and Harm"
+      },
+      {
+        "slug": "14-6-turf",
+        "name": "Turf",
+        "sub": "§14.6",
+        "group": "The Faction Game"
+      },
+      {
+        "slug": "18-3-starting-actions",
+        "name": "STARTING ACTIONS",
+        "sub": "§18.3",
+        "group": "Character playbook"
+      },
+      {
+        "slug": "26-1-heat",
+        "name": "Heat",
+        "sub": "§26.1",
+        "group": "Heat"
+      },
+      {
+        "slug": "26-5-claims-prison",
+        "name": "CLAIMS: PRISON",
+        "sub": "§26.5",
+        "group": "Heat"
+      },
+      {
+        "slug": "27-1-entanglements",
+        "name": "Entanglements",
+        "sub": "§27.1",
+        "group": "Entanglements"
+      },
+      {
+        "slug": "29-2-area-scale",
+        "name": "AREA/SCALE",
+        "sub": "§29.2",
+        "group": "Magnitude"
+      },
+      {
+        "slug": "29-3-duration-range",
+        "name": "DURATION/RANGE",
+        "sub": "§29.3",
+        "group": "Magnitude"
+      },
+      {
+        "slug": "29-4-tier-quality-force",
+        "name": "TIER & QUALITY / FORCE",
+        "sub": "§29.4",
+        "group": "Magnitude"
+      },
+      {
+        "slug": "29-5-quality-examples",
+        "name": "QUALITY EXAMPLES",
+        "sub": "§29.5",
+        "group": "Magnitude"
+      },
+      {
+        "slug": "29-6-force-examples",
+        "name": "FORCE EXAMPLES",
+        "sub": "§29.6",
+        "group": "Magnitude"
+      }
+    ],
+    "actions": [
+      {
+        "slug": "hunt",
+        "name": "Hunt",
+        "sub": "When you **Hunt**, you carefully track a target.",
+        "group": "Insight"
+      },
+      {
+        "slug": "study",
+        "name": "Study",
+        "sub": "When you **Study**, you scrutinize details and interpret evidence.",
+        "group": "Insight"
+      },
+      {
+        "slug": "survey",
+        "name": "Survey",
+        "sub": "When you **Survey**, you observe the situation and anticipate outcomes.",
+        "group": "Insight"
+      },
+      {
+        "slug": "tinker",
+        "name": "Tinker",
+        "sub": "When you **Tinker**, you fiddle with devices and mechanisms.",
+        "group": "Insight"
+      },
+      {
+        "slug": "finesse",
+        "name": "Finesse",
+        "sub": "When you **Finesse**, you employ dextrous manipulation or subtle misdirection.",
+        "group": "Prowess"
+      },
+      {
+        "slug": "prowl",
+        "name": "Prowl",
+        "sub": "When you **Prowl**, you traverse skillfully and quietly.",
+        "group": "Prowess"
+      },
+      {
+        "slug": "skirmish",
+        "name": "Skirmish",
+        "sub": "When you **Skirmish**, you entangle a target in close combat so they can't easil",
+        "group": "Prowess"
+      },
+      {
+        "slug": "wreck",
+        "name": "Wreck",
+        "sub": "When you **Wreck**, you unleash savage force.",
+        "group": "Prowess"
+      },
+      {
+        "slug": "attune",
+        "name": "Attune",
+        "sub": "When you **Attune**, you open your mind to arcane power.",
+        "group": "Resolve"
+      },
+      {
+        "slug": "command",
+        "name": "Command",
+        "sub": "When you **Command**, you compel swift obedience.",
+        "group": "Resolve"
+      },
+      {
+        "slug": "consort",
+        "name": "Consort",
+        "sub": "When you **Consort**, you socialize with friends and contacts.",
+        "group": "Resolve"
+      },
+      {
+        "slug": "sway",
+        "name": "Sway",
+        "sub": "When you **Sway**, you influence with guile, charm, or argument.",
+        "group": "Resolve"
+      }
+    ],
+    "special-abilities": [
+      {
+        "slug": "battleborn",
+        "name": "Battleborn",
+        "sub": "character",
+        "group": "Character Abilities"
+      },
+      {
+        "slug": "bodyguard",
+        "name": "Bodyguard",
+        "sub": "character",
+        "group": "Character Abilities"
+      },
+      {
+        "slug": "arcane-fighter",
+        "name": "Arcane fighter",
+        "sub": "character",
+        "group": "Character Abilities"
+      },
+      {
+        "slug": "leader",
+        "name": "Leader",
+        "sub": "character",
+        "group": "Character Abilities"
+      },
+      {
+        "slug": "mule",
+        "name": "Mule",
+        "sub": "character",
+        "group": "Character Abilities"
+      },
+      {
+        "slug": "not-to-be-trifled-with",
+        "name": "Not to be trifled with",
+        "sub": "character",
+        "group": "Character Abilities"
+      },
+      {
+        "slug": "savage",
+        "name": "Savage",
+        "sub": "character",
+        "group": "Character Abilities"
+      },
+      {
+        "slug": "vigorous",
+        "name": "Vigorous",
+        "sub": "character",
+        "group": "Character Abilities"
+      },
+      {
+        "slug": "sharpshooter",
+        "name": "Sharpshooter",
+        "sub": "character",
+        "group": "Character Abilities"
+      },
+      {
+        "slug": "focused",
+        "name": "Focused",
+        "sub": "character",
+        "group": "Character Abilities"
+      },
+      {
+        "slug": "scout",
+        "name": "Scout",
+        "sub": "character",
+        "group": "Character Abilities"
+      },
+      {
+        "slug": "tough-as-nails",
+        "name": "Tough as nails",
+        "sub": "character",
+        "group": "Character Abilities"
+      },
+      {
+        "slug": "vengeful",
+        "name": "Vengeful",
+        "sub": "character",
+        "group": "Character Abilities"
+      },
+      {
+        "slug": "alchemist",
+        "name": "Alchemist",
+        "sub": "character",
+        "group": "Character Abilities"
+      },
+      {
+        "slug": "analyst",
+        "name": "Analyst",
+        "sub": "character",
+        "group": "Character Abilities"
+      },
+      {
+        "slug": "artificer",
+        "name": "Artificer",
+        "sub": "character",
+        "group": "Character Abilities"
+      },
+      {
+        "slug": "fortitude",
+        "name": "Fortitude",
+        "sub": "character",
+        "group": "Character Abilities"
+      },
+      {
+        "slug": "supernatural-ward",
+        "name": "Supernatural ward",
+        "sub": "character",
+        "group": "Character Abilities"
+      },
+      {
+        "slug": "saboteur",
+        "name": "Saboteur",
+        "sub": "character",
+        "group": "Character Abilities"
+      },
+      {
+        "slug": "infiltrator",
+        "name": "Infiltrator",
+        "sub": "character",
+        "group": "Character Abilities"
+      },
+      {
+        "slug": "ambush",
+        "name": "Ambush",
+        "sub": "character",
+        "group": "Character Abilities"
+      },
+      {
+        "slug": "daredevil",
+        "name": "Daredevil",
+        "sub": "character",
+        "group": "Character Abilities"
+      },
+      {
+        "slug": "the-devils-footsteps",
+        "name": "The devil's footsteps",
+        "sub": "character",
+        "group": "Character Abilities"
+      },
+      {
+        "slug": "expertise",
+        "name": "Expertise",
+        "sub": "character",
+        "group": "Character Abilities"
+      },
+      {
+        "slug": "reflexes",
+        "name": "Reflexes",
+        "sub": "character",
+        "group": "Character Abilities"
+      },
+      {
+        "slug": "shadow",
+        "name": "Shadow",
+        "sub": "character",
+        "group": "Character Abilities"
+      },
+      {
+        "slug": "rooks-gambit",
+        "name": "Rook's gambit",
+        "sub": "character",
+        "group": "Character Abilities"
+      },
+      {
+        "slug": "like-looking-into-a-mirror",
+        "name": "Like looking into a mirror",
+        "sub": "character",
+        "group": "Character Abilities"
+      },
+      {
+        "slug": "a-little-something-on-the-side",
+        "name": "A little something on the side",
+        "sub": "character",
+        "group": "Character Abilities"
+      },
+      {
+        "slug": "mesmerism",
+        "name": "Mesmerism",
+        "sub": "character",
+        "group": "Character Abilities"
+      },
+      {
+        "slug": "subterfuge",
+        "name": "Subterfuge",
+        "sub": "character",
+        "group": "Character Abilities"
+      },
+      {
+        "slug": "trust-in-me",
+        "name": "Trust in me",
+        "sub": "character",
+        "group": "Character Abilities"
+      },
+      {
+        "slug": "foresight",
+        "name": "Foresight",
+        "sub": "character",
+        "group": "Character Abilities"
+      },
+      {
+        "slug": "calculating",
+        "name": "Calculating",
+        "sub": "character",
+        "group": "Character Abilities"
+      },
+      {
+        "slug": "connected",
+        "name": "Connected",
+        "sub": "character",
+        "group": "Character Abilities"
+      },
+      {
+        "slug": "mastermind",
+        "name": "Mastermind",
+        "sub": "character",
+        "group": "Character Abilities"
+      },
+      {
+        "slug": "weaving-the-web",
+        "name": "Weaving the web",
+        "sub": "character",
+        "group": "Character Abilities"
+      },
+      {
+        "slug": "arcane-mind",
+        "name": "Arcane mind",
+        "sub": "character",
+        "group": "Character Abilities"
+      },
+      {
+        "slug": "iron-will",
+        "name": "Iron will",
+        "sub": "character",
+        "group": "Character Abilities"
+      },
+      {
+        "slug": "ritual",
+        "name": "Ritual",
+        "sub": "character",
+        "group": "Character Abilities"
+      },
+      {
+        "slug": "strange-methods",
+        "name": "Strange methods",
+        "sub": "character",
+        "group": "Character Abilities"
+      },
+      {
+        "slug": "warded",
+        "name": "Warded",
+        "sub": "character",
+        "group": "Character Abilities"
+      },
+      {
+        "slug": "deadly",
+        "name": "Deadly",
+        "sub": "crew",
+        "group": "Crew Abilities"
+      },
+      {
+        "slug": "death-veil",
+        "name": "Death veil",
+        "sub": "crew",
+        "group": "Crew Abilities"
+      },
+      {
+        "slug": "no-traces",
+        "name": "No traces",
+        "sub": "crew",
+        "group": "Crew Abilities"
+      },
+      {
+        "slug": "patron",
+        "name": "Patron",
+        "sub": "crew",
+        "group": "Crew Abilities"
+      },
+      {
+        "slug": "predators",
+        "name": "Predators",
+        "sub": "crew",
+        "group": "Crew Abilities"
+      },
+      {
+        "slug": "fiends",
+        "name": "Fiends",
+        "sub": "crew",
+        "group": "Crew Abilities"
+      },
+      {
+        "slug": "forged-in-the-fire",
+        "name": "Forged in the fire",
+        "sub": "crew",
+        "group": "Crew Abilities"
+      },
+      {
+        "slug": "war-dogs",
+        "name": "War dogs",
+        "sub": "crew",
+        "group": "Crew Abilities"
+      },
+      {
+        "slug": "anointed",
+        "name": "Anointed",
+        "sub": "crew",
+        "group": "Crew Abilities"
+      },
+      {
+        "slug": "accord",
+        "name": "Accord",
+        "sub": "crew",
+        "group": "Crew Abilities"
+      },
+      {
+        "slug": "high-society",
+        "name": "High society",
+        "sub": "crew",
+        "group": "Crew Abilities"
+      },
+      {
+        "slug": "pack-rats",
+        "name": "Pack rats",
+        "sub": "crew",
+        "group": "Crew Abilities"
+      },
+      {
+        "slug": "second-story",
+        "name": "Second story",
+        "sub": "crew",
+        "group": "Crew Abilities"
+      },
+      {
+        "slug": "synchronized",
+        "name": "Synchronized",
+        "sub": "crew",
+        "group": "Crew Abilities"
+      },
+      {
+        "slug": "all-hands",
+        "name": "All hands",
+        "sub": "crew",
+        "group": "Crew Abilities"
+      },
+      {
+        "slug": "just-passing-through",
+        "name": "Just passing through",
+        "sub": "crew",
+        "group": "Crew Abilities"
+      }
+    ],
+    "entanglements": [
+      {
+        "slug": "arrest",
+        "name": "Arrest",
+        "sub": "An Inspector presents a case file of evidence to a magistrate, to begin prosecut",
+        "group": "Entanglements"
+      },
+      {
+        "slug": "cooperation",
+        "name": "Cooperation",
+        "sub": "A +3 status faction asks you for a favor. Agree to do it, or forfeit 1 **rep** p",
+        "group": "Entanglements"
+      },
+      {
+        "slug": "demonic-notice",
+        "name": "Demonic notice",
+        "sub": "A demon approaches the crew with a dark offer. Accept their bargain, hide until",
+        "group": "Entanglements"
+      },
+      {
+        "slug": "flipped",
+        "name": "Flipped",
+        "sub": "One of the PCs' rivals arranges for one of your contacts, patrons, clients, or a",
+        "group": "Entanglements"
+      },
+      {
+        "slug": "gang-trouble",
+        "name": "Gang trouble",
+        "sub": "One of your gangs (or other cohorts) causes trouble due to their flaw(s). You ca",
+        "group": "Entanglements"
+      },
+      {
+        "slug": "interrogation",
+        "name": "Interrogation",
+        "sub": "The officers round up one of the PCs to question them about the crew's crimes. *",
+        "group": "Entanglements"
+      },
+      {
+        "slug": "questioning",
+        "name": "Questioning",
+        "sub": "The cops grab an NPC member of your crew or one of the crew's contacts, to quest",
+        "group": "Entanglements"
+      },
+      {
+        "slug": "reprisals",
+        "name": "Reprisals",
+        "sub": "An enemy faction makes a move against you (or a friend, contact, or vice purveyo",
+        "group": "Entanglements"
+      },
+      {
+        "slug": "rivals",
+        "name": "Rivals",
+        "sub": "A neutral faction throws their weight around. They threaten you, a friend, a con",
+        "group": "Entanglements"
+      },
+      {
+        "slug": "show-of-force",
+        "name": "Show of force",
+        "sub": "A faction with whom you have a negative status makes a play against your holding",
+        "group": "Entanglements"
+      },
+      {
+        "slug": "unquiet-dead",
+        "name": "Unquiet dead",
+        "sub": "A rogue spirit is drawn to you—perhaps it's a past victim? Acquire the services",
+        "group": "Entanglements"
+      },
+      {
+        "slug": "the-usual-suspects",
+        "name": "The usual suspects",
+        "sub": "The cops grab someone in the periphery of your crew. One player volunteers a fri",
+        "group": "Entanglements"
+      }
+    ],
+    "downtime-activities": [
+      {
+        "slug": "acquire-asset",
+        "name": "Acquire asset",
+        "sub": "Gain temporary use of an **asset**:\n\n* One special **item** or set of common ite",
+        "group": "Downtime Activities"
+      },
+      {
+        "slug": "long-term-project",
+        "name": "Long-term project",
+        "sub": "When you work on a long-term project (either a brand new one, or an already exis",
+        "group": "Downtime Activities"
+      },
+      {
+        "slug": "recover",
+        "name": "Recover",
+        "sub": "When you recover, you seek treatment and heal your harm. You might visit a physi",
+        "group": "Downtime Activities"
+      },
+      {
+        "slug": "reduce-heat",
+        "name": "Reduce heat",
+        "sub": "Say what your character does to reduce the **heat** level of the crew and make a",
+        "group": "Downtime Activities"
+      },
+      {
+        "slug": "train",
+        "name": "Train",
+        "sub": "When you spend time in training, **mark 1 xp** on the xp track for an **attribut",
+        "group": "Downtime Activities"
+      },
+      {
+        "slug": "indulge-vice",
+        "name": "Indulge vice",
+        "sub": "Visit your **vice purveyor** to relieve **stress**. See the next section for det",
+        "group": "Downtime Activities"
+      }
+    ],
+    "claims": [
+      {
+        "slug": "turf",
+        "name": "Turf",
+        "sub": "crew claim",
+        "group": "Crew Claims"
+      },
+      {
+        "slug": "city-records",
+        "name": "City Records",
+        "sub": "crew claim",
+        "group": "Crew Claims"
+      },
+      {
+        "slug": "cover-identities",
+        "name": "Cover Identities",
+        "sub": "crew claim",
+        "group": "Crew Claims"
+      },
+      {
+        "slug": "cover-operation",
+        "name": "Cover Operation",
+        "sub": "crew claim",
+        "group": "Crew Claims"
+      },
+      {
+        "slug": "envoy",
+        "name": "Envoy",
+        "sub": "crew claim",
+        "group": "Crew Claims"
+      },
+      {
+        "slug": "fixer",
+        "name": "Fixer",
+        "sub": "crew claim",
+        "group": "Crew Claims"
+      },
+      {
+        "slug": "infirmary",
+        "name": "Infirmary",
+        "sub": "crew claim",
+        "group": "Crew Claims"
+      },
+      {
+        "slug": "informants",
+        "name": "Informants",
+        "sub": "crew claim",
+        "group": "Crew Claims"
+      },
+      {
+        "slug": "protection-racket",
+        "name": "Protection Racket",
+        "sub": "crew claim",
+        "group": "Crew Claims"
+      },
+      {
+        "slug": "training-rooms",
+        "name": "Training Rooms",
+        "sub": "crew claim",
+        "group": "Crew Claims"
+      },
+      {
+        "slug": "vice-den",
+        "name": "Vice Den",
+        "sub": "crew claim",
+        "group": "Crew Claims"
+      },
+      {
+        "slug": "victim-trophies",
+        "name": "Victim Trophies",
+        "sub": "crew claim",
+        "group": "Crew Claims"
+      },
+      {
+        "slug": "fighting-pits",
+        "name": "Fighting Pits",
+        "sub": "crew claim",
+        "group": "Crew Claims"
+      },
+      {
+        "slug": "street-fence",
+        "name": "Street Fence",
+        "sub": "crew claim",
+        "group": "Crew Claims"
+      },
+      {
+        "slug": "terrorized-citizens",
+        "name": "Terrorized Citizens",
+        "sub": "crew claim",
+        "group": "Crew Claims"
+      },
+      {
+        "slug": "warehouses",
+        "name": "Warehouses",
+        "sub": "crew claim",
+        "group": "Crew Claims"
+      },
+      {
+        "slug": "ancient-altar",
+        "name": "Ancient Altar",
+        "sub": "crew claim",
+        "group": "Crew Claims"
+      },
+      {
+        "slug": "ancient-tower",
+        "name": "Ancient Tower",
+        "sub": "crew claim",
+        "group": "Crew Claims"
+      },
+      {
+        "slug": "offertory",
+        "name": "Offertory",
+        "sub": "crew claim",
+        "group": "Crew Claims"
+      },
+      {
+        "slug": "local-graft",
+        "name": "Local Graft",
+        "sub": "crew claim",
+        "group": "Crew Claims"
+      },
+      {
+        "slug": "lookouts",
+        "name": "Lookouts",
+        "sub": "crew claim",
+        "group": "Crew Claims"
+      },
+      {
+        "slug": "luxury-venue",
+        "name": "Luxury Venue",
+        "sub": "crew claim",
+        "group": "Crew Claims"
+      },
+      {
+        "slug": "surplus-cache",
+        "name": "Surplus Cache",
+        "sub": "crew claim",
+        "group": "Crew Claims"
+      },
+      {
+        "slug": "covert-drop",
+        "name": "Covert Drop",
+        "sub": "crew claim",
+        "group": "Crew Claims"
+      },
+      {
+        "slug": "interrogation-chamber",
+        "name": "Interrogation Chamber",
+        "sub": "crew claim",
+        "group": "Crew Claims"
+      },
+      {
+        "slug": "loyal-fence",
+        "name": "Loyal Fence",
+        "sub": "crew claim",
+        "group": "Crew Claims"
+      },
+      {
+        "slug": "secret-pathways",
+        "name": "Secret Pathways",
+        "sub": "crew claim",
+        "group": "Crew Claims"
+      },
+      {
+        "slug": "tavern",
+        "name": "Tavern",
+        "sub": "crew claim",
+        "group": "Crew Claims"
+      },
+      {
+        "slug": "side-business",
+        "name": "Side Business",
+        "sub": "crew claim",
+        "group": "Crew Claims"
+      },
+      {
+        "slug": "allied-claim",
+        "name": "Allied claim",
+        "sub": "prison claim",
+        "group": "Prison Claims"
+      },
+      {
+        "slug": "cell-block-control",
+        "name": "Cell block control",
+        "sub": "prison claim",
+        "group": "Prison Claims"
+      },
+      {
+        "slug": "guard-payoff",
+        "name": "Guard payoff",
+        "sub": "prison claim",
+        "group": "Prison Claims"
+      },
+      {
+        "slug": "hardcase",
+        "name": "Hardcase",
+        "sub": "prison claim",
+        "group": "Prison Claims"
+      },
+      {
+        "slug": "parole-influence",
+        "name": "Parole influence",
+        "sub": "prison claim",
+        "group": "Prison Claims"
+      },
+      {
+        "slug": "smuggling",
+        "name": "Smuggling",
+        "sub": "prison claim",
+        "group": "Prison Claims"
+      }
+    ],
+    "trauma-conditions": [
+      {
+        "slug": "cold",
+        "name": "Cold",
+        "sub": "**Cold**: You're not moved by emotional appeals or social bonds.",
+        "group": "Trauma Conditions"
+      },
+      {
+        "slug": "haunted",
+        "name": "Haunted",
+        "sub": "**Haunted**: You're often lost in reverie, reliving past horrors, seeing things.",
+        "group": "Trauma Conditions"
+      },
+      {
+        "slug": "obsessed",
+        "name": "Obsessed",
+        "sub": "**Obsessed**: You're enthralled by one thing: an activity, a person, an ideology",
+        "group": "Trauma Conditions"
+      },
+      {
+        "slug": "paranoid",
+        "name": "Paranoid",
+        "sub": "**Paranoid**: You imagine danger everywhere; you can't trust others.",
+        "group": "Trauma Conditions"
+      },
+      {
+        "slug": "reckless",
+        "name": "Reckless",
+        "sub": "**Reckless**: You have little regard for your own safety or best interests.",
+        "group": "Trauma Conditions"
+      },
+      {
+        "slug": "soft",
+        "name": "Soft",
+        "sub": "**Soft**: You lose your edge; you become sentimental, passive, gentle.",
+        "group": "Trauma Conditions"
+      },
+      {
+        "slug": "unstable",
+        "name": "Unstable",
+        "sub": "**Unstable**: Your emotional state is volatile. You can instantly rage, or fall",
+        "group": "Trauma Conditions"
+      },
+      {
+        "slug": "vicious",
+        "name": "Vicious",
+        "sub": "**Vicious**: You seek out opportunities to hurt people, even for no good reason.",
+        "group": "Trauma Conditions"
+      }
+    ]
+  }
+}

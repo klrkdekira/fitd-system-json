@@ -1,0 +1,20 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/actions/consort",
+  "@type": "Action",
+  "name": "Consort",
+  "slug": "consort",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Actions & Attributes",
+    "section": "3.10",
+    "heading": "Actions",
+    "lineStart": 168,
+    "lineEnd": 170
+  },
+  "attribute": "Resolve",
+  "rulesText": "When you **Consort**, you socialize with friends and contacts.",
+  "examplesText": "*You might gain access to resources, information, people, or places. You might make a good impression or win someone over with your charm and style. You might make new friends or connect with your heritage or background. You could try to manipulate your friends with social pressure (but Sway might be better).*"
+}

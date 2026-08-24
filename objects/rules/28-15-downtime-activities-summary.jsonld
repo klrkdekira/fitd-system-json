@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/28-15-downtime-activities-summary",
+  "@type": "Rule",
+  "name": "DOWNTIME ACTIVITIES SUMMARY",
+  "slug": "28-15-downtime-activities-summary",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Downtime activities",
+    "section": "28.15",
+    "heading": "DOWNTIME ACTIVITIES SUMMARY",
+    "lineStart": 2283,
+    "lineEnd": 2285
+  },
+  "section": "28.15",
+  "rulesText": "*Add ***+1d*** to your roll if a ***friend*** or ***contact*** helps with your downtime activity.*"
+}

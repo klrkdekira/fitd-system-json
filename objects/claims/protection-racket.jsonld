@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/protection-racket",
+  "@type": "Claim",
+  "name": "Protection Racket",
+  "slug": "protection-racket",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew playbook",
+    "section": "20.6",
+    "heading": "Make a Claim Map for the Crew",
+    "lineStart": 1577,
+    "lineEnd": 1577
+  },
+  "claimType": "crew",
+  "rulesText": "**Protection Racket**: Any time during downtime, roll dice equal to your Tier. You earn **coin** equal to the highest result, minus your **heat**. *Some of the locals are terrified of you and will gladly pay for \"protection.\"*"
+}

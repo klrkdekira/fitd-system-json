@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/just-passing-through",
+  "@type": "SpecialAbility",
+  "name": "Just passing through",
+  "slug": "just-passing-through",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew playbook",
+    "section": "20.23",
+    "heading": "Just passing through",
+    "lineStart": 1701,
+    "lineEnd": 1703
+  },
+  "rulesText": "During **downtime**, take **-1 **heat****. When your **heat** is 4 or less, you get **+1d** to deceive people when you pass yourselves off as ordinary citizens.",
+  "abilityScope": "crew"
+}

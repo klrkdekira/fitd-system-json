@@ -1,0 +1,20 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/actions/sway",
+  "@type": "Action",
+  "name": "Sway",
+  "slug": "sway",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Actions & Attributes",
+    "section": "3.10",
+    "heading": "Actions",
+    "lineStart": 196,
+    "lineEnd": 198
+  },
+  "attribute": "Resolve",
+  "rulesText": "When you **Sway**, you influence with guile, charm, or argument.",
+  "examplesText": "*You might lie convincingly. You might persuade someone to do what you want. You might argue a compelling case that leaves no clear rebuttal. You could try to trick people into affection or obedience (but Consorting or Commanding might be better).*"
+}

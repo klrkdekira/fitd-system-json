@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/ancient-altar",
+  "@type": "Claim",
+  "name": "Ancient Altar",
+  "slug": "ancient-altar",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew playbook",
+    "section": "20.6",
+    "heading": "Make a Claim Map for the Crew",
+    "lineStart": 1593,
+    "lineEnd": 1593
+  },
+  "claimType": "crew",
+  "rulesText": "**Ancient Altar**:  You get **+1d** to the **engagement roll** for **occult** plans. *Its blessing is with you.*"
+}

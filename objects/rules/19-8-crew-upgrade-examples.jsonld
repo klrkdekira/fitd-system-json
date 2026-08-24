@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/19-8-crew-upgrade-examples",
+  "@type": "Rule",
+  "name": "Crew upgrade Examples",
+  "slug": "19-8-crew-upgrade-examples",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew creation",
+    "section": "19.8",
+    "heading": "Crew upgrade Examples",
+    "lineStart": 1399,
+    "lineEnd": 1421
+  },
+  "section": "19.8",
+  "rulesText": "* **Boat house****: You have a boat, a dock on a waterway, and a small shack to store boating supplies. A second upgrade improves the boat with armor and more cargo capacity.\n\n* **Carriage House**: You have a carriage, and draft animals to pull it, and a stable. A second upgrade improves the carriage with armor and larger, swifter steeds.\n\n* **Cohort**: A cohort is a gang or a single expert NPC who works for your crew. For all the details on cohorts, see the following sections.\n\n* **Hidden Lair**: Your lair has a secret location and is disguised to hide it from view. If your lair is discovered, use two downtime activities and pay **coin** equal to your Tier to relocate it and hide it once again.\n\n* **Mastery**: Your crew has access to master level training. You may advance your PCs' action ratings to 4 (until you unlock this upgrade, PC action ratings are capped at 3). This costs four upgrade boxes to unlock.\n\n* **Quality**: **Each upgrade improves the quality rating** of all the PCs' items of that type, beyond the quality established by the crew's Tier and fine items. You can improve the quality of **Documents**, **Gear** (covers Burglary Gear and Climbing Gear), Arcane **Implements**, Subterfuge **Supplies**, **Tools** (covers Demolitions Tools and Tinkering Tools), and **Weapons**. *So, if you are Tier 0, with fine lock picks (+1) and the Quality upgrade for gear (+1), you could contend equally with a Tier II quality lock.*\n\n* **Quarters**: Your lair includes living quarters for the crew. Without this upgrade, each PC sleeps elsewhere, and is vulnerable when they do so.\n\n* **Secure Lair**: Your lair has locks, alarms, and traps to thwart intruders. A second upgrade improves the defenses to include arcane measures that work against spirits. *You might roll your crew's Tier if these measures are ever put to the test, to see how well they thwart an intruder.*\n\n* **Training**: If you have a Training upgrade, you earn 2 xp (instead of 1) when you train a given xp track during downtime (**Insight**, **Prowess**, **Resolve**, or Playbook xp). This upgrade essentially helps you advance more quickly. See **Advancement**, for more information.  *If you have Insight Training, when you train Insight during downtime, you mark 2 xp on the **Insight** track (instead of just 1). If you have Playbook Training, you mark 2 xp on your playbook xp track when you train.*\n\n* **Vault**: Your lair has a secure vault, increasing your storage capacity for **coin** to 8. A second upgrade increases your capacity to 16.  A separate part of your vault can be used as a holding cell.\n\n* **Workshop**: Your lair has a workshop appointed with tools for tinkering and alchemy, as well as a small library of books, documents, and maps. You may accomplish long-term projects with these assets without leaving your lair."
+}

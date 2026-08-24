@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/14-9-faction-status-changes",
+  "@type": "Rule",
+  "name": "Faction status changes",
+  "slug": "14-9-faction-status-changes",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "The Faction Game",
+    "section": "14.9",
+    "heading": "Faction status changes",
+    "lineStart": 837,
+    "lineEnd": 839
+  },
+  "section": "14.9",
+  "rulesText": "When you execute an operation, you gain -1 or -2 status with factions that are hurt by your actions. You may also gain +1 status with a faction that your operation helps. (If you keep your operation completely quiet then your status doesn't change.) Your status may also change if you do a favor for a faction or if you refuse one of their demands."
+}

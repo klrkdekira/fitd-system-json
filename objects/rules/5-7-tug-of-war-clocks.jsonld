@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/5-7-tug-of-war-clocks",
+  "@type": "Rule",
+  "name": "Tug-of-war Clocks",
+  "slug": "5-7-tug-of-war-clocks",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Progress clocks",
+    "section": "5.7",
+    "heading": "Tug-of-war Clocks",
+    "lineStart": 289,
+    "lineEnd": 291
+  },
+  "section": "5.7",
+  "rulesText": "You can make a clock that can be filled *and* emptied by events, to represent a back-and-forth situation. You might make a \"Revolution!\" clock that indicates when the refugees start to riot over poor treatment. Some events will tick the clock up and some will tick it down. Once it fills, the revolution begins. A tug-of-war clock is also perfect for an ongoing turf war between two crews or factions."
+}

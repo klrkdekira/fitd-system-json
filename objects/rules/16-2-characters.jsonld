@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/16-2-characters",
+  "@type": "Rule",
+  "name": "Characters",
+  "slug": "16-2-characters",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Characters",
+    "section": "16.2",
+    "heading": "Characters",
+    "lineStart": 920,
+    "lineEnd": 924
+  },
+  "section": "16.2",
+  "rulesText": "Every player character is familiar with all of the various feats of skulduggery represented by the **actions** of the game. They're all able to **Skirmish** in a knife-fight, **Prowl** in the shadows, **Attune** to strange energy, **Consort** with contacts for information, and so on.\n\nOf course, you'll also have your specializations and skills, the qualities that make your character uniquely effective. You might want the ability to compel obedience from ghosts and channel arcane energy through your body, or maybe you want to manipulate the network of the underworld to your advantage and see danger before it strikes, or maybe you just want to be the deadliest fighter with a blade. In this chapter, you'll learn how to create your own unique scoundrel and choose the abilities that suit the style of play you prefer."
+}

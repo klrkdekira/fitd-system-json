@@ -1,0 +1,61 @@
+{
+  "overrides": [
+    {
+      "id": "fortitude-heading-level",
+      "kind": "heading-level",
+      "line": 1162,
+      "observed": "## Fortitude",
+      "treatAs": "### Fortitude",
+      "scope": "Character playbook > Special abilities",
+      "rationale": "Fortitude is printed at heading level 2 in the middle of the level-3 special-ability run (between Artificer and Supernatural ward). Level 2 would end the run and demote the remaining abilities to plain rules. The published SRD text lists Fortitude as a special ability alongside its neighbours, so extraction treats the heading as level 3. The source file is not modified.",
+      "status": "applied-in-extraction"
+    },
+    {
+      "id": "empty-link-column-placeholder",
+      "kind": "column-label",
+      "observed": "[]()",
+      "treatAs": "",
+      "scope": "Dot-rating and claim-map tables",
+      "rationale": "The upstream conversion uses an empty Markdown link '[]()' to force a header row onto layout tables that have no printed column labels. The token is a rendering artifact, not content: typed columns normalize it to an empty label while rawText keeps the source lines verbatim.",
+      "status": "applied-in-extraction"
+    }
+  ],
+  "anomalyReviews": [
+    {
+      "id": "heading-level-outlier-fortitude",
+      "pattern": "^## Fortitude$",
+      "expectedRemaining": 1,
+      "observed": "One level-2 heading inside the level-3 character special-ability run.",
+      "disposition": "Handled by the fortitude-heading-level extraction override; the source line is unchanged.",
+      "rationale": "Registered so any new or moved occurrence fails the anomaly gate until reviewed.",
+      "status": "resolved"
+    },
+    {
+      "id": "todo-markers",
+      "pattern": "@TODO",
+      "expectedRemaining": 4,
+      "observed": "Four editorial placeholders left by the upstream conversion ('@TODO add clock illustration', '@TODO style dropcaps.', '@TODO dropcaps', '@TODO add clock p99').",
+      "disposition": "Retained verbatim in rule prose; they mark absent illustrations, not missing rules text.",
+      "rationale": "Removing them would silently diverge from the retrieved source; they are inert in every projection.",
+      "status": "resolved"
+    },
+    {
+      "id": "bold-splice-artifacts",
+      "pattern": "\\*\\* \\*\\*",
+      "expectedRemaining": 55,
+      "observed": "Adjacent bold spans separated by a space (for example 'costs** **1** **coin'), a conversion artifact of the site's inline styling.",
+      "disposition": "Retained verbatim in prose fields. Name extraction reads only the leading bold span of a paragraph, so the artifact never reaches a typed name or slug.",
+      "rationale": "The words themselves are faithful to the published text; only the emphasis markup is spliced.",
+      "status": "resolved"
+    },
+    {
+      "id": "empty-link-header-cells",
+      "pattern": "\\[\\]\\(\\)",
+      "expectedRemaining": 8,
+      "observed": "Eight '[]( )' empty-link tokens used as blank header cells in dot-rating and claim-map tables.",
+      "disposition": "Normalized to empty column labels by the empty-link-column-placeholder override; rawText keeps the source lines verbatim.",
+      "rationale": "The token carries no content; it exists to force a header row in GFM rendering.",
+      "status": "resolved"
+    }
+  ]
+}

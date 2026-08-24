@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/30-4-ritual-questions",
+  "@type": "Rule",
+  "name": "Ritual Questions",
+  "slug": "30-4-ritual-questions",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Rituals",
+    "section": "30.4",
+    "heading": "Ritual Questions",
+    "lineStart": 2427,
+    "lineEnd": 2431
+  },
+  "section": "30.4",
+  "rulesText": "1. GM asks: **\"What does the ritual do and how is it weird?\"** Player answers.\n2. Player asks: **\"What must I do to perform the ritual, and what is its price?\"** GM answers. A ritual takes at least one downtime activity to perform and inflicts **stress** on the caster according to its **magnitude**.  If performance of the ritual is dangerous or troublesome in some way, it requires an action roll (usually **Attune**). A ritual may also have additional costs, such as a sacrifice, rare item, the start of a dire progress clock, etc.\n3. GM asks: **\"What new belief or fear does knowledge of this ritual and its attendant occult forces instill in you?\"** Player answers."
+}

@@ -1,0 +1,81 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/tables/29-3-duration-range",
+  "@type": "Table",
+  "name": "DURATION/RANGE",
+  "slug": "29-3-duration-range",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Magnitude",
+    "section": "29.3",
+    "heading": "DURATION/RANGE",
+    "lineStart": 2371,
+    "lineEnd": 2374
+  },
+  "columns": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "A few moments"
+        },
+        {
+          "value": "A few minutes"
+        },
+        {
+          "value": "An hour"
+        },
+        {
+          "value": "A few hours"
+        },
+        {
+          "value": "A day"
+        },
+        {
+          "value": "Several days"
+        },
+        {
+          "value": "A week"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Within reach"
+        },
+        {
+          "value": "A dozen paces"
+        },
+        {
+          "value": "A stone's throw"
+        },
+        {
+          "value": "Down the road"
+        },
+        {
+          "value": "Several blocks away"
+        },
+        {
+          "value": "Across the district"
+        },
+        {
+          "value": "Across the city"
+        }
+      ]
+    }
+  ],
+  "rawText": "|       0       |       1       |        2        |       3       |          4          |          5          |        6        |\n| :-----------: | :-----------: | :-------------: | :-----------: | :-----------------: | :-----------------: | :-------------: |\n| A few moments | A few minutes |     An hour     |  A few hours  |        A day        |    Several days     |     A week      |\n| Within reach  | A dozen paces | A stone's throw | Down the road | Several blocks away | Across the district | Across the city |"
+}

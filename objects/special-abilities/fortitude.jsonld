@@ -1,0 +1,20 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/fortitude",
+  "@type": "SpecialAbility",
+  "name": "Fortitude",
+  "slug": "fortitude",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character playbook",
+    "section": "18.23",
+    "heading": "Fortitude",
+    "lineStart": 1162,
+    "lineEnd": 1166
+  },
+  "rulesText": "You may expend your **special armor** to resist a consequence of fatigue, weakness, or chemical effects, or to **push yourself** when working with technical skill or handling alchemicals.",
+  "commentary": "When you use this ability, tick the special armor box on your playbook sheet. If you \"resist a consequence\" of the appropriate type, you avoid it completely. If you use this ability to push yourself, you get one of the benefits (+1d, +1 effect, act despite severe harm) but you don't take 2 stress. Your special armor is restored at the beginning of downtime.",
+  "abilityScope": "character"
+}

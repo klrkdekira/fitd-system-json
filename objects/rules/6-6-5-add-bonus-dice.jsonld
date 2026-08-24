@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/6-6-5-add-bonus-dice",
+  "@type": "Rule",
+  "name": "5. Add Bonus Dice",
+  "slug": "6-6-5-add-bonus-dice",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Action Roll",
+    "section": "6.6",
+    "heading": "5. Add Bonus Dice",
+    "lineStart": 342,
+    "lineEnd": 348
+  },
+  "section": "6.6",
+  "rulesText": "You can normally get two bonus dice for your action roll (some special abilities might give you additional bonus dice).\n\nFor one bonus die, you can get **assistance** from a teammate. They take 1 stress, say how they help you, and give you +1d.\n\nFor another bonus die, you can either **push yourself** (take 2 stress) or you can accept a **Devil's Bargain** (you can't get dice for both, it's one or the other)."
+}

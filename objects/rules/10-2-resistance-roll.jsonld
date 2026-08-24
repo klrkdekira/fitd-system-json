@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/10-2-resistance-roll",
+  "@type": "Rule",
+  "name": "RESISTANCE ROLL",
+  "slug": "10-2-resistance-roll",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Resistance and Armor",
+    "section": "10.2",
+    "heading": "RESISTANCE ROLL",
+    "lineStart": 597,
+    "lineEnd": 607
+  },
+  "section": "10.2",
+  "rulesText": "&#x23E3; &nbsp; **1d** for each **Attribute** rating.\n\nYou **reduce** or **avoid** the effects of the consequence (GM chooses).\n\n**Suffer 6 **Stress** minus the highest die result.**\n\n**Critical**: Clear 1 stress."
+}

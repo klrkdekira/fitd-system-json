@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/5-1-progress-clocks",
+  "@type": "Rule",
+  "name": "Progress clocks",
+  "slug": "5-1-progress-clocks",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Progress clocks",
+    "section": "5.1",
+    "heading": "Progress clocks",
+    "lineStart": 247,
+    "lineEnd": 263
+  },
+  "section": "5.1",
+  "rulesText": "A **progress clock** is a circle divided into segments (see examples at right). Draw a progress clock when you need to track ongoing effort against an obstacle or the approach of impending trouble.\n\n@TODO add clock illustration\n\n*Sneaking into the constables watch tower? Make a clock to track the alert level of the patrolling guards. When the PCs suffer consequences from partial successes or missed rolls, fill in segments on the clock until the alarm is raised.*\n\nGenerally, the more complex the problem, the more segments in the progress clock.\n\nA complex obstacle is a 4-segment clock. A more complicated obstacle is a 6-clock. A daunting obstacle is an 8-segment clock.\n\nWhen you create a clock, make it about the **obstacle,** not the method. The clocks for an infiltration should be \"Interior Patrols\" and \"The Tower,\" not \"Sneak Past the Guards\" or \"Climb the Tower.\" The patrols and the tower are the obstacles - the PCs can attempt to overcome them in a variety of ways.\n\nComplex enemy threats can be broken into several \"layers,\" each with its own progress clock. For example, the dockside gangs' HQ might have a \"Perimeter Security\" clock, an \"Interior Guards\" clock, and a \"Office Security\" clock. The crew would have to make their way through all three layers to reach the gang boss' personal safe and valuables within.\n\nRemember that a clock tracks progress. It reflects the fictional situation, so the group can gauge how they're doing. A clock is like a speedometer in a car. It *shows* the speed of the vehicle—it doesn't determine the speed."
+}

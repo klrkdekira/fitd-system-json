@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/30-5-example-ritual-answers",
+  "@type": "Rule",
+  "name": "Example Ritual Answers",
+  "slug": "30-5-example-ritual-answers",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Rituals",
+    "section": "30.5",
+    "heading": "Example Ritual Answers",
+    "lineStart": 2433,
+    "lineEnd": 2439
+  },
+  "section": "30.5",
+  "rulesText": "> Player: \"The ritual wards a person so that the ghosts of their victims cannot find them. It's weird because... as long as the ward is in place, the person sometimes weeps tears of black blood.\"\n>\n> GM: \"Spend a downtime action to prepare a mixture of tobacco, dream smoke, and crematory ash from a victim—which the target then smokes. You take at least 3 stress when you perform the ritual, which will be its quality for a fortune roll when it's challenged by a spirit—so you might want to take more stress to make it more potent.\"\n>\n> Player: \"Gotcha. My new fear is what will happen if the spirits figure out where the ward came from and turn their vengeance on me, instead.\""
+}

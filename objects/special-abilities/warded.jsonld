@@ -1,0 +1,20 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/warded",
+  "@type": "SpecialAbility",
+  "name": "Warded",
+  "slug": "warded",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character playbook",
+    "section": "18.48",
+    "heading": "Warded",
+    "lineStart": 1316,
+    "lineEnd": 1320
+  },
+  "rulesText": "You may expend your **special armor** to resist a supernatural consequence, or to **push yourself** when you contend with or employ arcane forces.",
+  "commentary": "When you use this ability, tick the special armor box on your playbook sheet. If you resist a consequence, this ability negates or reduces its severity. If you use this ability to push yourself, you get one of the benefits (+1d, +1 effect, act despite severe harm) but you don't take 2 stress. Your special armor is restored at the beginning of downtime.",
+  "abilityScope": "character"
+}

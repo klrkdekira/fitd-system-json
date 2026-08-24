@@ -1,0 +1,20 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/artificer",
+  "@type": "SpecialAbility",
+  "name": "Artificer",
+  "slug": "artificer",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character playbook",
+    "section": "18.22",
+    "heading": "Artificer",
+    "lineStart": 1156,
+    "lineEnd": 1160
+  },
+  "rulesText": "When you **invent** or **craft** a creation with *spark-craft* features, you get **+1 result level** to your roll (a **1-3** becomes a **4/5**, etc.). You begin with one special design already known.",
+  "commentary": "Follow the Inventing procedure with the GM to define your first spark-craft design.",
+  "abilityScope": "character"
+}

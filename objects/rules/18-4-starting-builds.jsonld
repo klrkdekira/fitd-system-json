@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/18-4-starting-builds",
+  "@type": "Rule",
+  "name": "Starting builds",
+  "slug": "18-4-starting-builds",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character playbook",
+    "section": "18.4",
+    "heading": "Starting builds",
+    "lineStart": 1042,
+    "lineEnd": 1052
+  },
+  "section": "18.4",
+  "rulesText": "*If you want some guidance when you assign your four starting action dots and special ability, use one of these templates.*\n\n**Example 1.** 4 Action Dots assigned plus a special ability\n\n**Example 2.** 4 Action Dots assigned plus a special ability\n\n**Example 3.** 4 Action Dots assigned plus a special ability\n\n**Example 4.** 4 Action Dots assigned plus a special ability"
+}

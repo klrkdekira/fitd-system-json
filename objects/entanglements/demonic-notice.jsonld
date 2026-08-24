@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/entanglements/demonic-notice",
+  "@type": "Entanglement",
+  "name": "Demonic notice",
+  "slug": "demonic-notice",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Entanglements",
+    "section": "27.4",
+    "heading": "Demonic notice",
+    "lineStart": 2086,
+    "lineEnd": 2088
+  },
+  "rulesText": "A demon approaches the crew with a dark offer. Accept their bargain, hide until it loses interest (forfeit 3 **rep**), or deal with it another way."
+}

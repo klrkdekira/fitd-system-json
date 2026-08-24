@@ -1,0 +1,20 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/tough-as-nails",
+  "@type": "SpecialAbility",
+  "name": "Tough as nails",
+  "slug": "tough-as-nails",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character playbook",
+    "section": "18.18",
+    "heading": "Tough as nails",
+    "lineStart": 1136,
+    "lineEnd": 1140
+  },
+  "rulesText": "Penalties from harm are one level less severe (though level 4 harm is still fatal).",
+  "commentary": "With this ability, level 3 harm doesn't incapacitate you; instead you take -1d to your rolls (as if it were level 2 harm). Level 2 harm affects you as if it were level 1 (less effect). Level 1 harm has no effect on you (but you still write it on your sheet, and must recover to heal it). Record the harm at its original level—for healing purposes, the original harm level applies.",
+  "abilityScope": "character"
+}

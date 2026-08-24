@@ -1,0 +1,20 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/ritual",
+  "@type": "SpecialAbility",
+  "name": "Ritual",
+  "slug": "ritual",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character playbook",
+    "section": "18.46",
+    "heading": "Ritual",
+    "lineStart": 1304,
+    "lineEnd": 1308
+  },
+  "rulesText": "You know the arcane methods to perform ritual sorcery. You can **Study** an occult ritual (or create a new one) to summon a supernatural effect or being. You begin with one ritual already learned.",
+  "commentary": "Without this special ability, the study and practice of rituals leaves you utterly vulnerable to the powers you supplicate. Such endeavors are not recommended.",
+  "abilityScope": "character"
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cheeleong.dev/fitd-system-json/systems/action.schema.json",
+  "title": "Blades in the Dark SRD Action",
+  "$ref": "common.schema.json#/$defs/EntityBase",
+  "properties": {
+    "@type": { "const": "Action" },
+    "attribute": { "enum": ["Insight", "Prowess", "Resolve"] },
+    "rulesText": { "type": "string", "minLength": 1 },
+    "examplesText": { "type": "string", "minLength": 1 }
+  },
+  "required": ["attribute", "rulesText"],
+  "unevaluatedProperties": false
+}

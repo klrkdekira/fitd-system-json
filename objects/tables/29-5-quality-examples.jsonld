@@ -1,0 +1,101 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/tables/29-5-quality-examples",
+  "@type": "Table",
+  "name": "QUALITY EXAMPLES",
+  "slug": "29-5-quality-examples",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Magnitude",
+    "section": "29.5",
+    "heading": "QUALITY EXAMPLES",
+    "lineStart": 2389,
+    "lineEnd": 2397
+  },
+  "columns": [
+    "",
+    ""
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "**6**"
+        },
+        {
+          "value": "*A mansion, large ship, rare essences or arcane artifacts, powerful demon*"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "**5**"
+        },
+        {
+          "value": "*A large townhouse, small ship, custom-tailored clothing, lightning barrier*"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "**4**"
+        },
+        {
+          "value": "*A luxury vehicle, townhouse, typical demon or powerful ghost*"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "**3**"
+        },
+        {
+          "value": "*A coach, boat, military rifle, fashionable clothing, small home*"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "**2**"
+        },
+        {
+          "value": "*A pistol, respectable clothing, private rented room, typical ghost*"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "**1**"
+        },
+        {
+          "value": "*A fighting blade, ordinary clothing, shared apartment, cheap food or drugs*"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "**0**"
+        },
+        {
+          "value": "*A rusty knife, worn & tattered clothing, rickety shack on the street*"
+        }
+      ]
+    }
+  ],
+  "rawText": "| []()  |                                                                              |\n| :---: | :--------------------------------------------------------------------------- |\n| **6** | *A mansion, large ship, rare essences or arcane artifacts, powerful demon*   |\n| **5** | *A large townhouse, small ship, custom-tailored clothing, lightning barrier* |\n| **4** | *A luxury vehicle, townhouse, typical demon or powerful ghost*               |\n| **3** | *A coach, boat, military rifle, fashionable clothing, small home*            |\n| **2** | *A pistol, respectable clothing, private rented room, typical ghost*         |\n| **1** | *A fighting blade, ordinary clothing, shared apartment, cheap food or drugs* |\n| **0** | *A rusty knife, worn & tattered clothing, rickety shack on the street*       |"
+}

@@ -1,0 +1,20 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/like-looking-into-a-mirror",
+  "@type": "SpecialAbility",
+  "name": "Like looking into a mirror",
+  "slug": "like-looking-into-a-mirror",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character playbook",
+    "section": "18.34",
+    "heading": "Like looking into a mirror",
+    "lineStart": 1234,
+    "lineEnd": 1238
+  },
+  "rulesText": "You can always tell when someone is lying to you.",
+  "commentary": "This ability works in all situations without restriction. It is very powerful, but also a bit of a curse. You see though every lie, even the kind ones.",
+  "abilityScope": "character"
+}

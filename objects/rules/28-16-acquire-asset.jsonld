@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/28-16-acquire-asset",
+  "@type": "Rule",
+  "name": "ACQUIRE ASSET",
+  "slug": "28-16-acquire-asset",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Downtime activities",
+    "section": "28.16",
+    "heading": "ACQUIRE ASSET",
+    "lineStart": 2287,
+    "lineEnd": 2296
+  },
+  "section": "28.16",
+  "rulesText": "Roll the crew's **Tier**. The result indicates the *quality* of the asset:\n\n* **Critical**: Tier +2.\n* **6**: Tier +1.\n* **4/5**: Tier.\n* **1-3**: Tier -1.\n\n*Some items require a minimum quality result to acquire. To raise the result beyond critical, you may spend **2 coin** per +1 Tier bonus.*"
+}

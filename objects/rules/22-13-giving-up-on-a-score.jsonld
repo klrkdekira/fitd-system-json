@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/22-13-giving-up-on-a-score",
+  "@type": "Rule",
+  "name": "Giving up on a score",
+  "slug": "22-13-giving-up-on-a-score",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Planning & engagement",
+    "section": "22.13",
+    "heading": "Giving up on a score",
+    "lineStart": 1861,
+    "lineEnd": 1863
+  },
+  "section": "22.13",
+  "rulesText": "When you give up on a score, you go into **downtime**. Follow the phases for downtime presented in the next chapter. You'll usually have zero **payoff**, since you didn't accomplish anything. You'll still face **heat** and **entanglements** as usual."
+}

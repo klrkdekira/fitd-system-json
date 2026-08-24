@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/28-11-overindulgence",
+  "@type": "Rule",
+  "name": "Overindulgence",
+  "slug": "28-11-overindulgence",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Downtime activities",
+    "section": "28.11",
+    "heading": "Overindulgence",
+    "lineStart": 2244,
+    "lineEnd": 2253
+  },
+  "section": "28.11",
+  "rulesText": "If your vice roll clears more stress levels than you had marked, you overindulge. A vice is not a reliable, controllable habit. It's a risk—and one that can drive your character to act against their own best interests.\n\nWhen you overindulge, you make a bad call because of your vice—in acquiring it or while under its influence. To bring the effect of this bad decision into the game, select an overindulgence from the list:\n\n* **Attract Trouble**. Select or roll an additional **entanglement**.\n* **Brag** about your exploits. **+2** **heat**.\n* **Lost**. Your character vanishes for a few weeks. Play a different character until this one returns from their bender. When your character returns, they've also healed any harm they had.\n* **Tapped**. Your current purveyor cuts you off. Find a new source for your vice."
+}

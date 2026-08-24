@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/22-2-the-detail",
+  "@type": "Rule",
+  "name": "The Detail",
+  "slug": "22-2-the-detail",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Planning & engagement",
+    "section": "22.2",
+    "heading": "The Detail",
+    "lineStart": 1738,
+    "lineEnd": 1740
+  },
+  "section": "22.2",
+  "rulesText": "When you choose a plan, you provide a missing **detail**, like the point of attack, social connection, etc. If you don't know the detail, you can **gather information** in some way to discover it."
+}

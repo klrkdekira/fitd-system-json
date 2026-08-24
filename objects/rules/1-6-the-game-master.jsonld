@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/1-6-the-game-master",
+  "@type": "Rule",
+  "name": "The Game Master",
+  "slug": "1-6-the-game-master",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "The Basics",
+    "section": "1.6",
+    "heading": "The Game Master",
+    "lineStart": 21,
+    "lineEnd": 25
+  },
+  "section": "1.6",
+  "rulesText": "The GM establishes the dynamic world around the characters. The GM plays all the non-player characters in the world by giving each one a concrete desire and preferred method of action.\n\nThe GM helps organize the conversation of the game so it's pointed toward the interesting elements of play. The GM isn't in charge of the story and doesn't have to plan events ahead of time. They present interesting opportunities to the players, then follow the chain of action and consequences wherever they lead."
+}

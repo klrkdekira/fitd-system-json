@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/17-5-assign-four-action-dots",
+  "@type": "Rule",
+  "name": "Assign four action dots",
+  "slug": "17-5-assign-four-action-dots",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character creation",
+    "section": "17.5",
+    "heading": "Assign four action dots",
+    "lineStart": 946,
+    "lineEnd": 952
+  },
+  "section": "17.5",
+  "rulesText": "Your playbook begins with three action dots already placed. You get to add four more dots (so you'll have seven total). At the start of the game, no action rating may have more than two dots (unless a special ability tells you otherwise). Assign your four dots like this:\n\n* Put one dot in any action that you feel reflects your character's **heritage**.\n* Put one dot in any action that you feel reflects your character's **background**.\n* Assign two more dots anywhere you please (max rating is 2, remember)."
+}

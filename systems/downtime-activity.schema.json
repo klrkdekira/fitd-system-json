@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cheeleong.dev/fitd-system-json/systems/downtime-activity.schema.json",
+  "title": "Blades in the Dark SRD Downtime Activity",
+  "$ref": "common.schema.json#/$defs/EntityBase",
+  "properties": {
+    "@type": { "const": "DowntimeActivity" },
+    "rulesText": { "type": "string", "minLength": 1 },
+    "commentary": { "type": "string", "minLength": 1 }
+  },
+  "required": ["rulesText"],
+  "unevaluatedProperties": false
+}

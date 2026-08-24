@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/1-2-the-game",
+  "@type": "Rule",
+  "name": "The Game",
+  "slug": "1-2-the-game",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "The Basics",
+    "section": "1.2",
+    "heading": "The Game",
+    "lineStart": 3,
+    "lineEnd": 5
+  },
+  "section": "1.2",
+  "rulesText": "*Blades in the Dark* is a game about a group of daring characters building an enterprising crew. We play to find out if the fledgling crew can thrive amidst the teeming threats that surround it."
+}

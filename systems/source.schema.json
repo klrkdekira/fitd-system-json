@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cheeleong.dev/fitd-system-json/systems/source.schema.json",
+  "title": "Blades in the Dark SRD source provenance record",
+  "type": "object",
+  "properties": {
+    "@context": {
+      "const": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld"
+    },
+    "@id": {
+      "type": "string",
+      "pattern": "^https://cheeleong\\.dev/fitd-system-json/objects/sources/[a-z0-9-]+$"
+    },
+    "@type": { "const": "Source" },
+    "name": { "type": "string", "minLength": 1 },
+    "slug": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+    "author": { "type": "string", "minLength": 1 },
+    "publisher": { "type": "string", "minLength": 1 },
+    "sourceVersion": { "type": "string", "minLength": 1 },
+    "license": { "const": "CC-BY-3.0" },
+    "licenseUrl": { "$ref": "common.schema.json#/$defs/NodeReference" },
+    "attributionStatement": { "type": "string", "minLength": 1 },
+    "conversionStatement": { "type": "string", "minLength": 1 },
+    "canonicalUrl": { "$ref": "common.schema.json#/$defs/NodeReference" },
+    "retrievedFrom": { "$ref": "common.schema.json#/$defs/NodeReference" },
+    "sourceFile": { "type": "string", "minLength": 1 },
+    "contentDigest": { "type": "string", "pattern": "^sha256-[0-9a-f]{64}$" }
+  },
+  "required": [
+    "@context",
+    "@id",
+    "@type",
+    "name",
+    "slug",
+    "author",
+    "publisher",
+    "sourceVersion",
+    "license",
+    "licenseUrl",
+    "attributionStatement",
+    "conversionStatement",
+    "canonicalUrl",
+    "retrievedFrom",
+    "sourceFile",
+    "contentDigest"
+  ],
+  "unevaluatedProperties": false
+}

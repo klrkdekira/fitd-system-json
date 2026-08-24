@@ -1,0 +1,20 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/patron",
+  "@type": "SpecialAbility",
+  "name": "Patron",
+  "slug": "patron",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew playbook",
+    "section": "20.11",
+    "heading": "Patron",
+    "lineStart": 1639,
+    "lineEnd": 1643
+  },
+  "rulesText": "When you advance your **Tier**, it costs half the **coin** it normally would.",
+  "commentary": "Who is your patron? Why do they help you?",
+  "abilityScope": "crew"
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/side-business",
+  "@type": "Claim",
+  "name": "Side Business",
+  "slug": "side-business",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew playbook",
+    "section": "20.6",
+    "heading": "Make a Claim Map for the Crew",
+    "lineStart": 1617,
+    "lineEnd": 1617
+  },
+  "claimType": "crew",
+  "rulesText": "**Side Business**: Any time during downtime, roll dice equal to your Tier. You earn **coin** equal to the highest result, minus your **heat**. *What kind of legitimate business is this? How do you get paid in secret?*"
+}

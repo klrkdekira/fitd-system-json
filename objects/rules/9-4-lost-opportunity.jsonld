@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/9-4-lost-opportunity",
+  "@type": "Rule",
+  "name": "Lost Opportunity",
+  "slug": "9-4-lost-opportunity",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Consequences and Harm",
+    "section": "9.4",
+    "heading": "Lost Opportunity",
+    "lineStart": 523,
+    "lineEnd": 525
+  },
+  "section": "9.4",
+  "rulesText": "This consequence represents shifting circumstance. You had an opportunity to achieve your goal with this action, but it slips away. To try again, you need a new approach—usually a new form of action or a change in circumstances. Maybe you tried to **Skirmish** with the noble to trap her on the balcony, but she evades your maneuver and leaps out of reach. If you want to trap her now you'll have to try another way—maybe by **Swaying** her with your roguish charm."
+}

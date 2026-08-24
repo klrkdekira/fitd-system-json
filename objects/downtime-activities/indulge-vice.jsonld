@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/downtime-activities/indulge-vice",
+  "@type": "DowntimeActivity",
+  "name": "Indulge vice",
+  "slug": "indulge-vice",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Downtime activities",
+    "section": "28.7",
+    "heading": "Indulge vice",
+    "lineStart": 2216,
+    "lineEnd": 2220
+  },
+  "rulesText": "Visit your **vice purveyor** to relieve **stress**. See the next section for details."
+}

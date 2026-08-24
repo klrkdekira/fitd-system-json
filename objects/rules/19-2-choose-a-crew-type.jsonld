@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/19-2-choose-a-crew-type",
+  "@type": "Rule",
+  "name": "Choose a crew type",
+  "slug": "19-2-choose-a-crew-type",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew creation",
+    "section": "19.2",
+    "heading": "Choose a crew type",
+    "lineStart": 1330,
+    "lineEnd": 1338
+  },
+  "section": "19.2",
+  "rulesText": "Each Blades-powered game should have crew types that suit its setting and premise. These might be organizations, gangs, ships, strongholds, etc. Three to six options are good.\n\nYour crew type determines the scores that you'll focus on, as well as a selection of special abilities that support that kind of action. The crew type isn't meant to be restrictive—a crew of smugglers might sometimes engage in extortion  or sell contraband —but the core activity of the crew type is the most frequent way they earn **coin** and xp for advancement.\n\nLike a character playbook, your crew type is also how you're known in the underworld. The criminal factions and institutions think of you as \"assassins\" or \"a cult\" etc., and will treat you accordingly.\n\nYour crew begins with 2 **coin** in its coffers (the remains of the PCs' savings). You are **Tier 0**, with **strong hold** and **0** **rep**."
+}

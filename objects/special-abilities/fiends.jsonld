@@ -1,0 +1,20 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/fiends",
+  "@type": "SpecialAbility",
+  "name": "Fiends",
+  "slug": "fiends",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew playbook",
+    "section": "20.13",
+    "heading": "Fiends",
+    "lineStart": 1651,
+    "lineEnd": 1655
+  },
+  "rulesText": "Fear is as good as respect. You may count each **wanted level** as if it were **turf**.",
+  "commentary": "The maximum **wanted level** is 4. Regardless of how much turf you hold (from this ability or otherwise) the minimum **rep** cost to advance your Tier is always 6.*",
+  "abilityScope": "crew"
+}

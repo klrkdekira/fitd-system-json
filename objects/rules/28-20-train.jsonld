@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/28-20-train",
+  "@type": "Rule",
+  "name": "TRAIN",
+  "slug": "28-20-train",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Downtime activities",
+    "section": "28.20",
+    "heading": "TRAIN",
+    "lineStart": 2322,
+    "lineEnd": 2324
+  },
+  "section": "28.20",
+  "rulesText": "**Mark 1 xp** (in an attribute or your playbook). Add **+1** xp if you have the appropriate crew upgrade. *You may train a given xp track once per downtime.*"
+}

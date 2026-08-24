@@ -1,0 +1,20 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/connected",
+  "@type": "SpecialAbility",
+  "name": "Connected",
+  "slug": "connected",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character playbook",
+    "section": "18.41",
+    "heading": "Connected",
+    "lineStart": 1276,
+    "lineEnd": 1280
+  },
+  "rulesText": "During downtime, you get **+1 result level** when you **acquire an asset** or **reduce heat**.",
+  "commentary": "Your array of underworld connections can be leveraged to loan assets, pressure a vendor to give you a better deal, intimidate witnesses, etc.",
+  "abilityScope": "character"
+}

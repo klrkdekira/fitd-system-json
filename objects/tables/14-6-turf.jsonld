@@ -1,0 +1,87 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/tables/14-6-turf",
+  "@type": "Table",
+  "name": "Turf",
+  "slug": "14-6-turf",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "The Faction Game",
+    "section": "14.6",
+    "heading": "Turf",
+    "lineStart": 813,
+    "lineEnd": 815
+  },
+  "columns": [
+    "**Rep**",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "**Turf**"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": ""
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "&#x2297;"
+        },
+        {
+          "value": "&#x2297;"
+        },
+        {
+          "value": "&#x2297;"
+        },
+        {
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "rawText": "| **Rep** |          |          |          |          |          |          |     |          |          |          |          |          |          | **Turf** |\n| ------- | -------- | -------- | -------- | -------- | -------- | -------- | --- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |\n|         | &#x25CB; | &#x25CB; | &#x25CB; | &#x25CB; | &#x25CB; | &#x25CB; |     | &#x25CB; | &#x25CB; | &#x25CB; | &#x2297; | &#x2297; | &#x2297; |          |"
+}

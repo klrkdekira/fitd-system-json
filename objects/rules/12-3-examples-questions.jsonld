@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/12-3-examples-questions",
+  "@type": "Rule",
+  "name": "Examples & Questions",
+  "slug": "12-3-examples-questions",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Gathering Information",
+    "section": "12.3",
+    "heading": "Examples & Questions",
+    "lineStart": 698,
+    "lineEnd": 711
+  },
+  "section": "12.3",
+  "rulesText": "* You might **Attune** to see echoes of recent spirit activity. *Have any new ghosts been here? How can I find the spirit well that's calling to them? What should I be worried about?*\n* You might **Command** a local barkeep to tell you what he knows about the secret meetings held in his back room. *What's really going on here? What's he really feeling about this? Is he part of this secret group?*\n* You might **Consort** with a well-connected friend to learn secrets about an enemy, rival, or potential ally. *What do they intend to do? What might I suspect about their motives? How can I discover leverage to manipulate them?*\n* You might **Hunt** a courier across the city, to discover who's receiving satchels of coin from a master duelsit. *Where does the package end up? How can I find out who signed for the package at City Hall?*\n* You might **Study** ancient and obscure books to discover an arcane secret. *How can I disable the runes of warding? **Will anyone sense if they're disabled?*\n* Or you might **Study** a person to read their intentions and feelings. *What are they really feeling? How could I get them to trust me?*\n* You might **Survey** a manor house to case it for a heist. *What's a good point of infiltration? What's the danger here?*\n* Or you might **Survey** a charged situation when you meet another gang. *What's really going on here? Are they about to attack us?*\n* You might **Sway** a powerful lord at a party so he divulges his future plans. *What does he intend to do? How can I get him to think I might be a good partner in this venture?*\n* Or you might **Sway** his bodyguard to confide in you about recent events. *Where has he been lately? Who's he been meeting with?*"
+}

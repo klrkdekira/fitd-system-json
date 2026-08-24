@@ -1,0 +1,29 @@
+# Blades in the Dark SRD System JSON
+
+> Machine-readable JSON-LD 1.1 reference corpus for the Blades in the Dark SRD (Forged in the Dark rules, CC-BY-3.0), with JSON Schema Draft 2020-12 validation. 353 records: rules, tables, actions, special abilities, entanglements, downtime activities, claims, and trauma conditions — each with source-faithful prose, typed sibling fields, graph links, and physical line provenance.
+
+Attribution: This work is based on Blades in the Dark (found at http://www.bladesinthedark.com/), product of One Seven Design, developed and authored by John Harper, and licensed for our use under the Creative Commons Attribution 3.0 Unported license (http://creativecommons.org/licenses/by/3.0/).
+
+## Entry points
+
+- [Full corpus context](https://cheeleong.dev/fitd-system-json/llms-full.txt): complete text of every record; answer rules questions from this single file
+- [Aggregate manifest](https://cheeleong.dev/fitd-system-json/objects/fitd-system-data.jsonld): collection indexes and digests
+- [Single-file bundle](https://cheeleong.dev/fitd-system-json/objects/fitd-system-data.bundle.jsonld): every record in one @graph
+- [Search index](https://cheeleong.dev/fitd-system-json/objects/search-index.json): static inverted token index
+- [JSON-LD context](https://cheeleong.dev/fitd-system-json/systems/context.jsonld)
+- [Vocabulary terms](https://cheeleong.dev/fitd-system-json/vocab/terms.json): every class and property with definitions
+
+## Collections
+
+Record URLs follow `objects/<collection>/<slug>.jsonld`; the full per-collection @id lists are in the manifest, and display metadata (name, grouping) is in [collection-index.json](https://cheeleong.dev/fitd-system-json/objects/collection-index.json).
+
+- Actions: 12 with their attribute, e.g. [wreck](https://cheeleong.dev/fitd-system-json/objects/actions/wreck.jsonld)
+- Special abilities: 58 (42 character, 16 crew), e.g. [battleborn](https://cheeleong.dev/fitd-system-json/objects/special-abilities/battleborn.jsonld)
+- Entanglements: 12 · Downtime activities: 6 · Trauma conditions: 8
+- Claims: 35 (29 crew, 6 prison), e.g. [turf](https://cheeleong.dev/fitd-system-json/objects/claims/turf.jsonld)
+- Rules: 206 · Tables: 15 · Sources: 1 (licence and provenance record)
+
+## Documentation
+
+- [README](https://cheeleong.dev/fitd-system-json/README.md)
+- [Technical specification](https://cheeleong.dev/fitd-system-json/SPECIFICATION.md)

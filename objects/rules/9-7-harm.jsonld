@@ -1,0 +1,24 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/9-7-harm",
+  "@type": "Rule",
+  "name": "HARM",
+  "slug": "9-7-harm",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Consequences and Harm",
+    "section": "9.7",
+    "heading": "HARM",
+    "lineStart": 541,
+    "lineEnd": 551
+  },
+  "section": "9.7",
+  "rulesText": "*This character has three harm: a \"Shattered Right Leg\" (level 3) plus \"Drained\" and \"Battered\" (level 1). If they suffer another level 1 harm, it will move up to level 2. If they suffer another level 3 harm, it will move up to level 4: Fatal.*",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/fitd-system-json/objects/tables/9-7-harm"
+    }
+  ]
+}

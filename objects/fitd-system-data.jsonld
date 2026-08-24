@@ -1,0 +1,1174 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/fitd-system-data",
+  "@type": "SRDSystemData",
+  "version": "0.1.0",
+  "metadata": {
+    "title": "Blades in the Dark SRD System JSON",
+    "author": "John Harper",
+    "publisher": "One Seven Design",
+    "sourceVersion": "amazingrando/blades-in-the-dark-srd-content@ac2747ff (2022-04-08)",
+    "license": "CC-BY-3.0",
+    "licenseUrl": {
+      "@id": "https://creativecommons.org/licenses/by/3.0/"
+    },
+    "attributionStatement": "This work is based on Blades in the Dark (found at http://www.bladesinthedark.com/), product of One Seven Design, developed and authored by John Harper, and licensed for our use under the Creative Commons Attribution 3.0 Unported license (http://creativecommons.org/licenses/by/3.0/).",
+    "conversionStatement": "The in-scope source file is the Markdown conversion of the Blades in the Dark SRD text published by Randy Oest (amazingrando) at https://github.com/amazingrando/blades-in-the-dark-srd-content, file Blades-in-the-Dark-SRD.md at commit ac2747ffc0806b2be9f14d29b2ace5dca6149bc3 (2022-04-08), retrieved on 2026-08-24.",
+    "source": {
+      "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+    },
+    "sourceDigest": "sha256-25a43a32ebccee0d5708ac6c0021c2755f9701b6d3ad8eb5241bb46785f47cfd",
+    "corpusDigest": "sha256-a5169548ea2a7f77be8c90878e6fdc088c387aeb52ec101c7d4efa70a77ce066"
+  },
+  "collections": [
+    {
+      "name": "sources",
+      "slug": "sources",
+      "entityType": "Source",
+      "members": [
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+        }
+      ],
+      "schemaReference": {
+        "@id": "https://cheeleong.dev/fitd-system-json/systems/source.schema.json"
+      }
+    },
+    {
+      "name": "rules",
+      "slug": "rules",
+      "entityType": "Rule",
+      "members": [
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/1-1-the-basics"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/1-2-the-game"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/1-3-the-players"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/1-4-the-characters"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/1-5-the-crew"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/1-6-the-game-master"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/1-7-playing-a-session"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/10-1-resistance-and-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/10-2-resistance-roll"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/10-3-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/10-4-death"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/11-1-fortune-roll"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/11-2-fortune-roll"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/12-1-gathering-information"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/12-2-investigation"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/12-3-examples-questions"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/12-4-gather-information"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/13-1-coin-and-stash"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/13-2-coin"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/13-3-monetary-values"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/13-4-coin-use"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/13-5-stash-retirement"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/13-6-removing-coin-from-your-stash"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/14-1-the-faction-game"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/14-10-faction-status-levels"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/14-11-claims"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/14-12-seizing-a-claim"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/14-13-losing-a-claim"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/14-2-tier"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/14-3-gang-scale-by-tier"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/14-4-hold"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/14-5-development"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/14-6-turf"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/14-7-reducing-hold"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/14-8-faction-status"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/14-9-faction-status-changes"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/15-1-advancement"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/15-2-pc-advancement"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/15-3-crew-advancement"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/15-4-profits"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/16-1-characters"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/16-2-characters"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/17-1-character-creation"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/17-10-record-your-name-alias-look"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/17-11-review-your-details"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/17-12-character-creation-summary"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/17-13-loadout"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/17-2-create-playbooks"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/17-3-choose-a-heritage"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/17-4-choose-a-background"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/17-5-assign-four-action-dots"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/17-6-choose-a-special-ability"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/17-7-special-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/17-8-choose-one-close-friend-and-one-rival"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/17-9-choose-your-vice"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/18-1-character-playbook"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/18-2-short-descriptor-of-character"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/18-3-starting-actions"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/18-4-starting-builds"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/18-49-character-items"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/18-5-friends-rivals"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/18-6-special-abilities"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/19-1-crew-creation"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/19-10-creating-a-gang"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/19-11-creating-an-expert"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/19-12-edges-flaws"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/19-13-modifying-a-cohort"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/19-14-using-a-cohort"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/19-15-cohort-harm-healing"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/19-16-crew-creation-summary"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/19-2-choose-a-crew-type"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/19-3-choose-an-initial-reputation-lair"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/19-4-establish-your-hunting-grounds"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/19-5-choose-a-special-ability"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/19-6-assign-crew-upgrades"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/19-7-choose-a-favorite-contact"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/19-8-crew-upgrade-examples"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/19-9-cohorts"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/2-1-the-core-system"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/2-2-judgment-calls"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/2-3-rolling-the-dice"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/2-4-the-game-structure"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-1-crew-playbook"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-2-starting-upgrades"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-3-favored-operations"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-4-contacts"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-5-crew-upgrades"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-7-crew-special-abilities"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/21-1-the-score"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/22-1-planning-engagement"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/22-10-flashbacks"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/22-11-limits-of-flashbacks"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/22-12-flashback-examples"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/22-13-giving-up-on-a-score"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/22-2-the-detail"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/22-3-item-loadouts"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/22-4-engagement-roll"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/22-5-major-advantages-disadvantages"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/22-6-engagement-roll"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/22-7-outcomes"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/22-8-how-long-does-it-last"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/22-9-linked-plans"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/23-1-teamwork"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/23-2-teamwork"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/23-3-assist"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/23-4-lead-a-group-action"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/23-5-protect"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/23-6-set-up"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/23-7-do-we-have-to-use-teamwork"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/24-1-downtime"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/25-1-payoff"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/26-1-heat"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/26-2-incarceration"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/26-3-incarceration-roll"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/26-4-prison-claims"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/26-5-claims-prison"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/27-1-entanglements"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/28-1-downtime-activities"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/28-10-indulging-your-vice"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/28-11-overindulgence"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/28-12-ignoring-your-vice"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/28-13-roleplaying-xp"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/28-14-npc-faction-downtime"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/28-15-downtime-activities-summary"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/28-16-acquire-asset"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/28-17-long-term-project"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/28-18-recover"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/28-19-reduce-heat"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/28-20-train"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/28-21-vice"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/28-8-vice-roll"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/28-9-stress-relief"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/29-1-magnitude"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/29-2-area-scale"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/29-3-duration-range"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/29-4-tier-quality-force"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/29-5-quality-examples"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/29-6-force-examples"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/3-1-actions-attributes"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/3-10-actions"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/3-2-action-ratings"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/3-3-action-roll"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/3-4-attribute-ratings"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/3-5-resistance-roll"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/3-6-example-action-attribute-ratings"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/3-7-insight"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/3-8-prowess"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/3-9-resolve"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/30-1-rituals"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/30-2-finding-a-ritual-source"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/30-3-learning-a-ritual"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/30-4-ritual-questions"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/30-5-example-ritual-answers"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/30-6-performing-a-ritual"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/31-1-crafting"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/31-2-inventing"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/31-3-creation-questions"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/31-4-crafting"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/31-5-crafting-roll"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/31-6-modifying-an-item"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/31-7-drawbacks"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/4-1-stress-trauma"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/4-2-stress"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/4-3-pushing-yourself"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/4-4-trauma"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/4-5-trauma-conditions"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/5-1-progress-clocks"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/5-2-simple-obstacles"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/5-3-danger-clocks"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/5-4-racing-clocks"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/5-5-linked-clocks"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/5-6-mission-clocks"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/5-7-tug-of-war-clocks"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/5-8-long-term-project"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/5-9-faction-clocks"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/6-1-action-roll"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/6-10-action-roll"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/6-11-controlled"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/6-12-risky"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/6-13-desperate"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/6-14-double-duty-rolls"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/6-2-1-the-player-states-their-goal"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/6-3-2-the-player-chooses-the-action-rating"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/6-4-3-the-gm-sets-the-position"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/6-5-4-the-gm-sets-the-effect-level"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/6-6-5-add-bonus-dice"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/6-7-the-devils-bargain"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/6-8-6-roll-the-dice-and-judge-the-result"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/6-9-action-roll-summary"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/7-1-effect"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/7-2-assessing-factors"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/7-3-potency"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/7-4-quality-tier"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/7-5-scale"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/7-6-trading-position-for-effect"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/7-7-consequences"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/8-1-setting-position-effect"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/9-1-consequences-and-harm"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/9-2-reduced-effect"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/9-3-complication"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/9-4-lost-opportunity"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/9-5-worse-position"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/9-6-harm"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/9-7-harm"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/9-8-harm-examples"
+        }
+      ],
+      "schemaReference": {
+        "@id": "https://cheeleong.dev/fitd-system-json/systems/rule.schema.json"
+      }
+    },
+    {
+      "name": "tables",
+      "slug": "tables",
+      "entityType": "Table",
+      "members": [
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/tables/14-6-turf"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/tables/18-3-starting-actions"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/tables/26-1-heat"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/tables/26-5-claims-prison"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/tables/27-1-entanglements"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/tables/29-2-area-scale"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/tables/29-3-duration-range"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/tables/29-4-tier-quality-force"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/tables/29-5-quality-examples"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/tables/29-6-force-examples"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/tables/3-7-insight"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/tables/3-8-prowess"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/tables/3-9-resolve"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/tables/7-1-effect"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/tables/9-7-harm"
+        }
+      ],
+      "schemaReference": {
+        "@id": "https://cheeleong.dev/fitd-system-json/systems/table.schema.json"
+      }
+    },
+    {
+      "name": "actions",
+      "slug": "actions",
+      "entityType": "Action",
+      "members": [
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/actions/attune"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/actions/command"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/actions/consort"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/actions/finesse"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/actions/hunt"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/actions/prowl"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/actions/skirmish"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/actions/study"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/actions/survey"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/actions/sway"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/actions/tinker"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/actions/wreck"
+        }
+      ],
+      "schemaReference": {
+        "@id": "https://cheeleong.dev/fitd-system-json/systems/action.schema.json"
+      }
+    },
+    {
+      "name": "special-abilities",
+      "slug": "special-abilities",
+      "entityType": "SpecialAbility",
+      "members": [
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/a-little-something-on-the-side"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/accord"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/alchemist"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/all-hands"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/ambush"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/analyst"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/anointed"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/arcane-fighter"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/arcane-mind"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/artificer"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/battleborn"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/bodyguard"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/calculating"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/connected"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/daredevil"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/deadly"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/death-veil"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/expertise"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/fiends"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/focused"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/foresight"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/forged-in-the-fire"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/fortitude"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/high-society"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/infiltrator"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/iron-will"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/just-passing-through"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/leader"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/like-looking-into-a-mirror"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/mastermind"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/mesmerism"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/mule"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/no-traces"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/not-to-be-trifled-with"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/pack-rats"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/patron"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/predators"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/reflexes"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/ritual"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/rooks-gambit"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/saboteur"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/savage"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/scout"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/second-story"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/shadow"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/sharpshooter"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/strange-methods"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/subterfuge"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/supernatural-ward"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/synchronized"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/the-devils-footsteps"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/tough-as-nails"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/trust-in-me"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/vengeful"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/vigorous"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/war-dogs"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/warded"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/weaving-the-web"
+        }
+      ],
+      "schemaReference": {
+        "@id": "https://cheeleong.dev/fitd-system-json/systems/special-ability.schema.json"
+      }
+    },
+    {
+      "name": "entanglements",
+      "slug": "entanglements",
+      "entityType": "Entanglement",
+      "members": [
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/entanglements/arrest"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/entanglements/cooperation"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/entanglements/demonic-notice"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/entanglements/flipped"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/entanglements/gang-trouble"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/entanglements/interrogation"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/entanglements/questioning"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/entanglements/reprisals"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/entanglements/rivals"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/entanglements/show-of-force"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/entanglements/the-usual-suspects"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/entanglements/unquiet-dead"
+        }
+      ],
+      "schemaReference": {
+        "@id": "https://cheeleong.dev/fitd-system-json/systems/entanglement.schema.json"
+      }
+    },
+    {
+      "name": "downtime-activities",
+      "slug": "downtime-activities",
+      "entityType": "DowntimeActivity",
+      "members": [
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/downtime-activities/acquire-asset"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/downtime-activities/indulge-vice"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/downtime-activities/long-term-project"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/downtime-activities/recover"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/downtime-activities/reduce-heat"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/downtime-activities/train"
+        }
+      ],
+      "schemaReference": {
+        "@id": "https://cheeleong.dev/fitd-system-json/systems/downtime-activity.schema.json"
+      }
+    },
+    {
+      "name": "claims",
+      "slug": "claims",
+      "entityType": "Claim",
+      "members": [
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/allied-claim"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/ancient-altar"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/ancient-tower"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/cell-block-control"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/city-records"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/cover-identities"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/cover-operation"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/covert-drop"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/envoy"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/fighting-pits"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/fixer"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/guard-payoff"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/hardcase"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/infirmary"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/informants"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/interrogation-chamber"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/local-graft"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/lookouts"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/loyal-fence"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/luxury-venue"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/offertory"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/parole-influence"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/protection-racket"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/secret-pathways"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/side-business"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/smuggling"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/street-fence"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/surplus-cache"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/tavern"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/terrorized-citizens"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/training-rooms"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/turf"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/vice-den"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/victim-trophies"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/warehouses"
+        }
+      ],
+      "schemaReference": {
+        "@id": "https://cheeleong.dev/fitd-system-json/systems/claim.schema.json"
+      }
+    },
+    {
+      "name": "trauma-conditions",
+      "slug": "trauma-conditions",
+      "entityType": "TraumaCondition",
+      "members": [
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/trauma-conditions/cold"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/trauma-conditions/haunted"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/trauma-conditions/obsessed"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/trauma-conditions/paranoid"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/trauma-conditions/reckless"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/trauma-conditions/soft"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/trauma-conditions/unstable"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/trauma-conditions/vicious"
+        }
+      ],
+      "schemaReference": {
+        "@id": "https://cheeleong.dev/fitd-system-json/systems/trauma-condition.schema.json"
+      }
+    }
+  ]
+}

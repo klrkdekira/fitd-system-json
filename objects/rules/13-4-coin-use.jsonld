@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/13-4-coin-use",
+  "@type": "Rule",
+  "name": "Coin Use",
+  "slug": "13-4-coin-use",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Coin and Stash",
+    "section": "13.4",
+    "heading": "Coin Use",
+    "lineStart": 746,
+    "lineEnd": 752
+  },
+  "section": "13.4",
+  "rulesText": "* Spend 1 **coin** to get an additional **activity** during **downtime**.\n* Spend 1 **coin** to increase the result level of a **downtime activity** roll.\n* Spend **coin** to avoid certain crew **entanglements**.\n* Put **coin** in your character's **stash** to improve their lifestyle and circumstances when they retire. See the next section.\n* Spend **coin** when you advance your crew's **Tier**."
+}

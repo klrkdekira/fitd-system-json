@@ -1,0 +1,24 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/7-1-effect",
+  "@type": "Rule",
+  "name": "Effect",
+  "slug": "7-1-effect",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Effect",
+    "section": "7.1",
+    "heading": "Effect",
+    "lineStart": 436,
+    "lineEnd": 444
+  },
+  "section": "7.1",
+  "rulesText": "In *Blades in the Dark*, you achieve goals by taking actions and facing consequences. But how many actions does it take to achieve a particular goal? That depends on the **effect level** of your actions. The GM judges the effect level using the profiles below. Which one best matches the action at hand -- **great**, **standard**, or **limited**? Each effect level indicates the questions that should be answered for that effect, as well as how many segments to tick if you're using a **progress clock**.",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/fitd-system-json/objects/tables/7-1-effect"
+    }
+  ]
+}

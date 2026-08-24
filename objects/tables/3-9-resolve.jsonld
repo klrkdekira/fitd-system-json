@@ -1,0 +1,120 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/tables/3-9-resolve",
+  "@type": "Table",
+  "name": "Resolve",
+  "slug": "3-9-resolve",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Actions & Attributes",
+    "section": "3.9",
+    "heading": "Resolve",
+    "lineStart": 149,
+    "lineEnd": 154
+  },
+  "columns": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "&#x25CF;"
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": "&#x25CF;"
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "**Attune**"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "&#x25CF;"
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "**Command**"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "**Consort**"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "&#x25CF;"
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "&#x25CB;"
+        },
+        {
+          "value": "**Sway**"
+        }
+      ]
+    }
+  ],
+  "rawText": "|   []()   |     |          |          |          |             |\n| :------: | --- | :------: | :------: | :------: | :---------- |\n| &#x25CF; |     | &#x25CF; | &#x25CB; | &#x25CB; | **Attune**  |\n| &#x25CF; |     | &#x25CB; | &#x25CB; | &#x25CB; | **Command** |\n| &#x25CB; |     | &#x25CB; | &#x25CB; | &#x25CB; | **Consort** |\n| &#x25CF; |     | &#x25CB; | &#x25CB; | &#x25CB; | **Sway**    |"
+}

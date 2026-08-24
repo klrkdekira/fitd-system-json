@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/cover-operation",
+  "@type": "Claim",
+  "name": "Cover Operation",
+  "slug": "cover-operation",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew playbook",
+    "section": "20.6",
+    "heading": "Make a Claim Map for the Crew",
+    "lineStart": 1567,
+    "lineEnd": 1567
+  },
+  "claimType": "crew",
+  "rulesText": "**Cover Operation**:  You get **-2** **heat** per score. *The cover of a legitimate operation helps deflect some of the **heat** from law enforcement.*"
+}

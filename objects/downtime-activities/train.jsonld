@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/downtime-activities/train",
+  "@type": "DowntimeActivity",
+  "name": "Train",
+  "slug": "train",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Downtime activities",
+    "section": "28.6",
+    "heading": "Train",
+    "lineStart": 2212,
+    "lineEnd": 2214
+  },
+  "rulesText": "When you spend time in training, **mark 1 xp** on the xp track for an **attribute** or **playbook** advancement. If you have the appropriate crew Training upgrade unlocked, mark **+1 xp** (2 total). See **Crew Upgrades**, for more information. *You can train a given xp track only once per downtime.*"
+}

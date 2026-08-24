@@ -1,0 +1,20 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/ambush",
+  "@type": "SpecialAbility",
+  "name": "Ambush",
+  "slug": "ambush",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character playbook",
+    "section": "18.27",
+    "heading": "Ambush",
+    "lineStart": 1188,
+    "lineEnd": 1192
+  },
+  "rulesText": "When you attack from hiding or spring a trap, you get **+1d** to your roll.",
+  "commentary": "This ability benefits from preparation— so don't forget you can do that in a flashback.",
+  "abilityScope": "character"
+}

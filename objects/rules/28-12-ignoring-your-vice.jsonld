@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/28-12-ignoring-your-vice",
+  "@type": "Rule",
+  "name": "Ignoring your vice",
+  "slug": "28-12-ignoring-your-vice",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Downtime activities",
+    "section": "28.12",
+    "heading": "Ignoring your vice",
+    "lineStart": 2255,
+    "lineEnd": 2257
+  },
+  "section": "28.12",
+  "rulesText": "If you do not or cannot indulge your vice during a downtime phase, you take stress equal to your **trauma**. If you don't have any **trauma**, you're free to ignore your vice. It doesn't have a hold over you (yet)."
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/28-9-stress-relief",
+  "@type": "Rule",
+  "name": "Stress Relief",
+  "slug": "28-9-stress-relief",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Downtime activities",
+    "section": "28.9",
+    "heading": "Stress Relief",
+    "lineStart": 2230,
+    "lineEnd": 2234
+  },
+  "section": "28.9",
+  "rulesText": "Your characters are a special lot. They defy the powers-that-be and dare to prey on those who are considered to be their betters. They push themselves further than ordinary people are willing to go. But this comes at a cost. Their life is one of constant stress. Inevitably, each turns to the seduction of a **vice** in order to cope.\n\nA character's vice is their obsession. But with this indulgence comes relief from stress and the ability to once again face the overwhelming challenge of their daring life."
+}

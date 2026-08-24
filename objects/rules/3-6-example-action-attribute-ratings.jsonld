@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/3-6-example-action-attribute-ratings",
+  "@type": "Rule",
+  "name": "EXAMPLE ACTION & ATTRIBUTE RATINGS",
+  "slug": "3-6-example-action-attribute-ratings",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Actions & Attributes",
+    "section": "3.6",
+    "heading": "EXAMPLE ACTION & ATTRIBUTE RATINGS",
+    "lineStart": 123,
+    "lineEnd": 123
+  },
+  "section": "3.6"
+}

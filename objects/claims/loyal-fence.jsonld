@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/loyal-fence",
+  "@type": "Claim",
+  "name": "Loyal Fence",
+  "slug": "loyal-fence",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew playbook",
+    "section": "20.6",
+    "heading": "Make a Claim Map for the Crew",
+    "lineStart": 1611,
+    "lineEnd": 1611
+  },
+  "claimType": "crew",
+  "rulesText": "**Loyal Fence**: You get **+2** **coin** in **payoff** for scores that involve burglary or robbery. *It requires a skilled eye and good contacts to move stolen goods.*"
+}

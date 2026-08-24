@@ -1,0 +1,101 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/tables/9-7-harm",
+  "@type": "Table",
+  "name": "HARM",
+  "slug": "9-7-harm",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Consequences and Harm",
+    "section": "9.7",
+    "heading": "HARM",
+    "lineStart": 543,
+    "lineEnd": 547
+  },
+  "columns": [
+    "",
+    "",
+    ""
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "[]()"
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": ":--:"
+        },
+        {
+          "value": ":---------------------------------------------------------"
+        },
+        {
+          "value": ":------------:"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "*Shattered Right Leg* &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;"
+        },
+        {
+          "value": "Need Help"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \\"
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": "-1D"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "*Drained* &nbsp; \\"
+        },
+        {
+          "value": "&nbsp; *Battered*"
+        },
+        {
+          "value": "Reduced Effect"
+        }
+      ]
+    }
+  ],
+  "rawText": "| []() |                                                            |                |\n| :--: | :--------------------------------------------------------- | :------------: |\n|  3   | *Shattered Right Leg* &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   |   Need Help    |\n|  2   | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \\| |      -1D       |\n|  1   | *Drained* &nbsp; \\| &nbsp; *Battered*                      | Reduced Effect |"
+}

@@ -1,0 +1,20 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/expertise",
+  "@type": "SpecialAbility",
+  "name": "Expertise",
+  "slug": "expertise",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character playbook",
+    "section": "18.30",
+    "heading": "Expertise",
+    "lineStart": 1210,
+    "lineEnd": 1214
+  },
+  "rulesText": "Choose one of your action ratings. When you lead a group action using that action, you can suffer only 1 stress at most, regardless of the number of failed rolls.",
+  "commentary": "This special ability is good for covering for your team. If they're all terrible at your favored action, you don't have to worry about suffering a lot of stress when you lead their group action.",
+  "abilityScope": "character"
+}

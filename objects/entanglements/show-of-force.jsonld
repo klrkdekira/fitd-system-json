@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/entanglements/show-of-force",
+  "@type": "Entanglement",
+  "name": "Show of force",
+  "slug": "show-of-force",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Entanglements",
+    "section": "27.11",
+    "heading": "Show of force",
+    "lineStart": 2118,
+    "lineEnd": 2120
+  },
+  "rulesText": "A faction with whom you have a negative status makes a play against your holdings. Give them 1 **claim** or go to war (drop to -3 status). If you have no claims, **lose 1 hold** instead."
+}

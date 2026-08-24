@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/18-2-short-descriptor-of-character",
+  "@type": "Rule",
+  "name": "Short Descriptor of Character",
+  "slug": "18-2-short-descriptor-of-character",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character playbook",
+    "section": "18.2",
+    "heading": "Short Descriptor of Character",
+    "lineStart": 1025,
+    "lineEnd": 1031
+  },
+  "section": "18.2",
+  "rulesText": "Medium length description of the character here. Include what kind of activities they normally partake in.\n\n**Include the XP triggers for the characters here.** At the end of a session mark XP if you addressed a challenge with: insert a short list of methods or actions here. Examples could include: violence, coercion, knowledge, charm, audacity, calculation, deception, influence, stealth, evasion, technical skill, mayhem, tracking, or occult powers."
+}

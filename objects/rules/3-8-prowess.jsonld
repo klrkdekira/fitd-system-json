@@ -1,0 +1,24 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/3-8-prowess",
+  "@type": "Rule",
+  "name": "Prowess",
+  "slug": "3-8-prowess",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Actions & Attributes",
+    "section": "3.8",
+    "heading": "Prowess",
+    "lineStart": 136,
+    "lineEnd": 145
+  },
+  "section": "3.8",
+  "rulesText": "They also have **Prowl** 1 and **Skirmish** 2.  Their **Prowess** attribute rating is 2.",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/fitd-system-json/objects/tables/3-8-prowess"
+    }
+  ]
+}

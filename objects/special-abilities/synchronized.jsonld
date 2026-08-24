@@ -1,0 +1,20 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/synchronized",
+  "@type": "SpecialAbility",
+  "name": "Synchronized",
+  "slug": "synchronized",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew playbook",
+    "section": "20.21",
+    "heading": "Synchronized",
+    "lineStart": 1691,
+    "lineEnd": 1695
+  },
+  "rulesText": "When you perform a **group action**, you may count multiple 6s from different rolls as a **critical** success.",
+  "commentary": "For example, Lyric leads a group action to **Attune** to the ghost field to overcome a magical ward on the Dimmer Sisters' door. Emily, Lyric's player, rolls and gets a **6**, and so does Matt! Because the crew has Synchronized, their two separate **6**s count as a **critical** success on the roll.",
+  "abilityScope": "crew"
+}

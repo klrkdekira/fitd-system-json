@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/31-6-modifying-an-item",
+  "@type": "Rule",
+  "name": "Modifying an item",
+  "slug": "31-6-modifying-an-item",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crafting",
+    "section": "31.6",
+    "heading": "Modifying an item",
+    "lineStart": 2503,
+    "lineEnd": 2511
+  },
+  "section": "31.6",
+  "rulesText": "Adding a feature or additional function to an item is simpler than creating something new. You don't need to invent a special formula or plan. Make a crafting roll to modify an item (the baseline quality of an item that you modify is equal to your crew's Tier, as usual).\n\n* A simple, useful modification requires Tier +1 quality. *A rifle that breaks down into two sections to be more easily concealed.*\n* A significant modification requires Tier +2 quality. *Strengthening the barrel and powder load of a gun to fire further.*\n* An arcane, spark-craft, or alchemical modification requires Tier +3 quality. *A dagger that can harm a demon. An electrified hull on a boat to repel boarders or ghosts. An outfit coated with chemicals to mask you from deathlands predators.*\n\nModified items, like special creations, may have **drawbacks**."
+}

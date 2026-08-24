@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/19-9-cohorts",
+  "@type": "Rule",
+  "name": "Cohorts",
+  "slug": "19-9-cohorts",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew creation",
+    "section": "19.9",
+    "heading": "Cohorts",
+    "lineStart": 1423,
+    "lineEnd": 1425
+  },
+  "section": "19.9",
+  "rulesText": "A **cohort** is a **gang** or an **expert** who works for your crew. To recruit a new cohort, spend **two upgrades** and create them using the process below."
+}

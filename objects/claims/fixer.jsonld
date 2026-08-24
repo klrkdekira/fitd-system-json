@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/fixer",
+  "@type": "Claim",
+  "name": "Fixer",
+  "slug": "fixer",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew playbook",
+    "section": "20.6",
+    "heading": "Make a Claim Map for the Crew",
+    "lineStart": 1571,
+    "lineEnd": 1571
+  },
+  "claimType": "crew",
+  "rulesText": "**Fixer**: You get** **+2** **coin** in **payoff** for scores that involve lower-class clients. *This well-respected agent will help arrange for a better payoff from poorer clients.*"
+}

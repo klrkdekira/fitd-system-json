@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/17-8-choose-one-close-friend-and-one-rival",
+  "@type": "Rule",
+  "name": "Choose one close friend and one rival",
+  "slug": "17-8-choose-one-close-friend-and-one-rival",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character creation",
+    "section": "17.8",
+    "heading": "Choose one close friend and one rival",
+    "lineStart": 962,
+    "lineEnd": 964
+  },
+  "section": "17.8",
+  "rulesText": "Each playbook has a list of NPCs that your character knows. Choose one from the list who is a close relationship (a good friend, a lover, a family relation, etc.). Mark the upward-pointing triangle next to their name. Then choose another NPC on the list who's your rival or enemy. Mark the downward-pointing triangle next to their name."
+}

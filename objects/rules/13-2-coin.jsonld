@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/13-2-coin",
+  "@type": "Rule",
+  "name": "Coin",
+  "slug": "13-2-coin",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Coin and Stash",
+    "section": "13.2",
+    "heading": "Coin",
+    "lineStart": 727,
+    "lineEnd": 731
+  },
+  "section": "13.2",
+  "rulesText": "**Coin** is an abstract measure of cash and liquid assets.\n\nThe few bits PCs use in their daily lives are not tracked. If a character wants to spend to achieve a small goal (bribe a doorman), use the PC's **lifestyle quality** for a fortune roll."
+}

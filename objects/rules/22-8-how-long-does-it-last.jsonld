@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/22-8-how-long-does-it-last",
+  "@type": "Rule",
+  "name": "How long does it last?",
+  "slug": "22-8-how-long-does-it-last",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Planning & engagement",
+    "section": "22.8",
+    "heading": "How long does it last?",
+    "lineStart": 1796,
+    "lineEnd": 1798
+  },
+  "section": "22.8",
+  "rulesText": "The engagement roll determines the starting position for the PCs' actions. How long does that hold? Does the situation stay desperate? No. Once the initial actions have been resolved, you follow the normal process for establishing position for the rest of the rolls during the score. The engagement roll is a quick short-hand to kick things off and get the action started—it doesn't have any impact after that."
+}

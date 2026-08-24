@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/ancient-tower",
+  "@type": "Claim",
+  "name": "Ancient Tower",
+  "slug": "ancient-tower",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew playbook",
+    "section": "20.6",
+    "heading": "Make a Claim Map for the Crew",
+    "lineStart": 1595,
+    "lineEnd": 1595
+  },
+  "claimType": "crew",
+  "rulesText": "**Ancient Tower**: You get **+1d** to **Consort** with arcane entities on-site."
+}

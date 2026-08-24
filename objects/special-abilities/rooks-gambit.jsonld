@@ -1,0 +1,20 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/rooks-gambit",
+  "@type": "SpecialAbility",
+  "name": "Rook's gambit",
+  "slug": "rooks-gambit",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character playbook",
+    "section": "18.33",
+    "heading": "Rook's gambit",
+    "lineStart": 1228,
+    "lineEnd": 1232
+  },
+  "rulesText": "Take **2 stress** to roll your best action rating while performing a different action. Say how you adapt your skill to this use.",
+  "commentary": "This is the \"jack-of-all-trades\" ability. If you want to attempt lots of different sorts of actions and still have a good dice pool to roll, this is the special ability for you.",
+  "abilityScope": "character"
+}

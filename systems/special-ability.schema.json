@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cheeleong.dev/fitd-system-json/systems/special-ability.schema.json",
+  "title": "Blades in the Dark SRD Special Ability",
+  "$ref": "common.schema.json#/$defs/EntityBase",
+  "properties": {
+    "@type": { "const": "SpecialAbility" },
+    "abilityScope": { "enum": ["character", "crew"] },
+    "rulesText": { "type": "string", "minLength": 1 },
+    "commentary": { "type": "string", "minLength": 1 }
+  },
+  "required": ["abilityScope", "rulesText"],
+  "unevaluatedProperties": false
+}

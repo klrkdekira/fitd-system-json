@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/7-5-scale",
+  "@type": "Rule",
+  "name": "Scale",
+  "slug": "7-5-scale",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Effect",
+    "section": "7.5",
+    "heading": "Scale",
+    "lineStart": 460,
+    "lineEnd": 470
+  },
+  "section": "7.5",
+  "rulesText": "Scale represents the number of opponents, size of an area covered, scope of influence, etc. Larger scale can be an advantage or disadvantage depending on the situation. In battle, more people are better. When infiltrating, more people are a hindrance.\n\nWhen considering factors, effect level might be reduced below limited, resulting in **zero effect**—or increased beyond great, resulting in an **extreme effect**.\n\nIf a PC special ability gives \"+1 effect,\" it comes into play *after* the GM has assessed the effect level. For example, if you ended up with zero effect, the +1 effect bonus from your Cutter's **Bodyguard** ability would bump them up to limited effect.\n\nAlso, remember that a PC can **push themselves** (take 2 stress) to get +1 effect on their action.\n\nEvery factor won't always apply to every situation. You don't have to do an exact accounting every time, either. Use the factors to help you make a stronger judgment call—don't feel beholden to them."
+}

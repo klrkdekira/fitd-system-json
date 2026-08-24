@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/3-2-action-ratings",
+  "@type": "Rule",
+  "name": "Action Ratings",
+  "slug": "3-2-action-ratings",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Actions & Attributes",
+    "section": "3.2",
+    "heading": "Action Ratings",
+    "lineStart": 80,
+    "lineEnd": 99
+  },
+  "section": "3.2",
+  "rulesText": "There are 12 **actions** in the game that the player characters use to overcome obstacles.\n\n* Attune\n* Command\n* Consort\n* Finesse\n* Hunt\n* Prowl\n* Skirmish\n* Study\n* Survey\n* Sway\n* Tinker\n* Wreck\n\nEach action has a rating (from zero to 4) that tells you how many dice to roll when you perform that action. Action ratings don't just represent skill or training—you're free to describe *how* your character performs that action based on the type of person they are. Maybe your character is good at **Command** because they have a scary stillness to them, while another character barks orders and intimidates people with their military bearing.\n\nYou choose which action to perform to overcome an obstacle, by describing what your character does. Actions that are poorly suited to the situation may be less effective and may put the character in more danger, but they can still be attempted. Usually, when you perform an action, you'll make an **action roll** to see how it turns out."
+}

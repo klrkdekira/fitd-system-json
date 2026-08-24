@@ -1,0 +1,20 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/a-little-something-on-the-side",
+  "@type": "SpecialAbility",
+  "name": "A little something on the side",
+  "slug": "a-little-something-on-the-side",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character playbook",
+    "section": "18.35",
+    "heading": "A little something on the side",
+    "lineStart": 1240,
+    "lineEnd": 1244
+  },
+  "rulesText": "At the end of each downtime phase, you earn **+2 stash**.",
+  "commentary": "Since this money comes at the end of downtime, after all downtime actions are resolved, you can't remove it from your stash and spend it on extra activities until your next downtime phase.",
+  "abilityScope": "character"
+}

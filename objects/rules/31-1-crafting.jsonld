@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/31-1-crafting",
+  "@type": "Rule",
+  "name": "Crafting",
+  "slug": "31-1-crafting",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crafting",
+    "section": "31.1",
+    "heading": "Crafting",
+    "lineStart": 2455,
+    "lineEnd": 2457
+  },
+  "section": "31.1",
+  "rulesText": "During downtime, a PC can **Tinker** with special materials and tools to produce strange **alchemicals**, **build** (or **modify**) **items**, **create spark-craft** gadgets, or enchant **arcane** implements or weapons. The system for each method is similar, with different details depending on the nature of the project."
+}

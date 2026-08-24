@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/14-3-gang-scale-by-tier",
+  "@type": "Rule",
+  "name": "Gang scale by tier",
+  "slug": "14-3-gang-scale-by-tier",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "The Faction Game",
+    "section": "14.3",
+    "heading": "Gang scale by tier",
+    "lineStart": 779,
+    "lineEnd": 786
+  },
+  "section": "14.3",
+  "rulesText": "* **tier v**. Massive gangs. (80 people)\n* **tier iv**. Huge gangs. (40 people)\n* **tier iii**. Large gangs. (20 people)\n* **tier ii**. Medium gangs. (12 people)\n* **tier i**. Small gangs. (3-6 people)\n* **tier 0**. 1 or 2 people"
+}

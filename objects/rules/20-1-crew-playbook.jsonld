@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-1-crew-playbook",
+  "@type": "Rule",
+  "name": "Crew playbook",
+  "slug": "20-1-crew-playbook",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew playbook",
+    "section": "20.1",
+    "heading": "Crew playbook",
+    "lineStart": 1522,
+    "lineEnd": 1530
+  },
+  "section": "20.1",
+  "rulesText": "**Short description of Crew**\n\nYou're professional murderers—death is your business.\n\n**Add xp trigger. When you play this crew, you earn xp when you execute a successful operation of a few specific types.** Some examples include: murder, ransom, battle extortion, sabotage, product supply or sale, espionage, theft, acquiring new contraband or sources.\n\n*Add questions to personalize the crew. How is the crew distinguished from other similar crews?*"
+}

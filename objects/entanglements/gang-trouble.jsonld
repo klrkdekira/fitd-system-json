@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/entanglements/gang-trouble",
+  "@type": "Entanglement",
+  "name": "Gang trouble",
+  "slug": "gang-trouble",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Entanglements",
+    "section": "27.6",
+    "heading": "Gang trouble",
+    "lineStart": 2094,
+    "lineEnd": 2096
+  },
+  "rulesText": "One of your gangs (or other cohorts) causes trouble due to their flaw(s). You can lose face (forfeit** rep** equal to your Tier +1), make an example of one of the gang members, or face reprisals from the wronged party."
+}

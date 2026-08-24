@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/14-8-faction-status",
+  "@type": "Rule",
+  "name": "Faction Status",
+  "slug": "14-8-faction-status",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "The Faction Game",
+    "section": "14.8",
+    "heading": "Faction Status",
+    "lineStart": 831,
+    "lineEnd": 835
+  },
+  "section": "14.8",
+  "rulesText": "Your crew's **status** with each faction indicates how well you are liked or hated. Status is rated from -3 to +3, with zero (neutral) being the default starting status. You track your status with each faction on the faction sheet.\n\nWhen you create your crew, you assign some positive and negative status ratings to reflect recent history. The ratings will then change over time based on your actions in play."
+}

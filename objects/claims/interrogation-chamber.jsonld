@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/claims/interrogation-chamber",
+  "@type": "Claim",
+  "name": "Interrogation Chamber",
+  "slug": "interrogation-chamber",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew playbook",
+    "section": "20.6",
+    "heading": "Make a Claim Map for the Crew",
+    "lineStart": 1609,
+    "lineEnd": 1609
+  },
+  "claimType": "crew",
+  "rulesText": "**Interrogation Chamber**: You get **+1d** to **Command** and **Sway** on-site. *Grisly business, but effective.*"
+}

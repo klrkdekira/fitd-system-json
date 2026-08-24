@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/18-6-special-abilities",
+  "@type": "Rule",
+  "name": "Special abilities",
+  "slug": "18-6-special-abilities",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character playbook",
+    "section": "18.6",
+    "heading": "Special abilities",
+    "lineStart": 1060,
+    "lineEnd": 1062
+  },
+  "section": "18.6",
+  "rulesText": "Choose seven special abilities for you playbook. Here are several examples."
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/5-2-simple-obstacles",
+  "@type": "Rule",
+  "name": "Simple Obstacles",
+  "slug": "5-2-simple-obstacles",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Progress clocks",
+    "section": "5.2",
+    "heading": "Simple Obstacles",
+    "lineStart": 265,
+    "lineEnd": 269
+  },
+  "section": "5.2",
+  "rulesText": "Not every situation and obstacle requires a clock. Use clocks when a situation is complex or layered and you need to track something over time—otherwise, resolve the result of an action with a single roll.\n\nExamples of progress clocks follow."
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/18-49-character-items",
+  "@type": "Rule",
+  "name": "Character items",
+  "slug": "18-49-character-items",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character playbook",
+    "section": "18.49",
+    "heading": "Character items",
+    "lineStart": 1322,
+    "lineEnd": 1326
+  },
+  "section": "18.49",
+  "rulesText": "Add a list of five distinctive items that are either Fine (+1 quality), light (reduced load), rare, or otherwise specific to this character.\n\nSome examples include: Weapons, clothes, arcane implements, specialized tools, custom gear, capable pets, or supernatural objects."
+}

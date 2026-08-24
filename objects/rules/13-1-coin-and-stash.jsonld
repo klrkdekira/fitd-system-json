@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/13-1-coin-and-stash",
+  "@type": "Rule",
+  "name": "Coin and Stash",
+  "slug": "13-1-coin-and-stash",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Coin and Stash",
+    "section": "13.1",
+    "heading": "Coin and Stash",
+    "lineStart": 725,
+    "lineEnd": 725
+  },
+  "section": "13.1"
+}

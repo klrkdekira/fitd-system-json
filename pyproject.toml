@@ -1,0 +1,10 @@
+[project]
+name = "fitd-system-json"
+version = "0.1.0"
+description = "Blades in the Dark SRD JSON-LD reference data and JSON Schema contracts"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = ["jsonschema==4.26.0", "pyld==3.1.0"]

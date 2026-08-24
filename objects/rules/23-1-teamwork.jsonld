@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/23-1-teamwork",
+  "@type": "Rule",
+  "name": "Teamwork",
+  "slug": "23-1-teamwork",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Teamwork",
+    "section": "23.1",
+    "heading": "Teamwork",
+    "lineStart": 1865,
+    "lineEnd": 1865
+  },
+  "section": "23.1"
+}

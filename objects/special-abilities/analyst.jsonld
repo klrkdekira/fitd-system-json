@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/analyst",
+  "@type": "SpecialAbility",
+  "name": "Analyst",
+  "slug": "analyst",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character playbook",
+    "section": "18.21",
+    "heading": "Analyst",
+    "lineStart": 1152,
+    "lineEnd": 1154
+  },
+  "rulesText": "During downtime, you get **two ticks** to distribute among any long term project clocks that involve investigation or learning a new formula or design plan.",
+  "abilityScope": "character"
+}

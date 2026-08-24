@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/5-6-mission-clocks",
+  "@type": "Rule",
+  "name": "Mission Clocks",
+  "slug": "5-6-mission-clocks",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Progress clocks",
+    "section": "5.6",
+    "heading": "Mission Clocks",
+    "lineStart": 285,
+    "lineEnd": 287
+  },
+  "section": "5.6",
+  "rulesText": "The GM can make a clock for a time-sensitive mission, to represent the window of opportunity you have to complete it. If the countdown runs out, the mission is scrubbed or changes—the target escapes, the household wakes up for the day, etc."
+}

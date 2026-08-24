@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/4-1-stress-trauma",
+  "@type": "Rule",
+  "name": "Stress & Trauma",
+  "slug": "4-1-stress-trauma",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Stress & Trauma",
+    "section": "4.1",
+    "heading": "Stress & Trauma",
+    "lineStart": 210,
+    "lineEnd": 210
+  },
+  "section": "4.1"
+}

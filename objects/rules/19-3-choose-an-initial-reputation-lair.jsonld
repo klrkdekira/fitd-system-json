@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/19-3-choose-an-initial-reputation-lair",
+  "@type": "Rule",
+  "name": "Choose an initial reputation & lair",
+  "slug": "19-3-choose-an-initial-reputation-lair",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew creation",
+    "section": "19.3",
+    "heading": "Choose an initial reputation & lair",
+    "lineStart": 1340,
+    "lineEnd": 1355
+  },
+  "section": "19.3",
+  "rulesText": "Your crew has just formed and acquired a lair. Given this group of characters and their previous escapades, what initial **reputation** would you have among the factions of the underworld? Choose one from the list at right (or create your own).\n\n* Ambitious\n* Brutal\n* Daring\n* Honorable\n* Professional\n* Savvy\n* Subtle\n* Strange\n\nYou earn xp when you bolster your crew's reputation, so think of this as another cue to indicate what sorts of action you want in the game. Will you be recklessly ambitious, targeting higher-Tier targets? Will you take on daring scores that others deem too risky? Are you interested in the strange and the weird?\n\nAlso, talk about where the crew makes its **lair**. You begin at Tier 0, so it's probably a very modest or abandoned sort of place."
+}

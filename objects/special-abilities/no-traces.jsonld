@@ -1,0 +1,20 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/no-traces",
+  "@type": "SpecialAbility",
+  "name": "No traces",
+  "slug": "no-traces",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crew playbook",
+    "section": "20.10",
+    "heading": "No traces",
+    "lineStart": 1633,
+    "lineEnd": 1637
+  },
+  "rulesText": "When you keep an operation quiet or make it look like an accident, you get half the **rep** value of the target (round up) instead of zero. When you end downtime with zero **heat**, take **+1** **rep**.",
+  "commentary": "There are many clients who value quiet operations. This ability rewards you for keeping a low-profile.",
+  "abilityScope": "crew"
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/5-8-long-term-project",
+  "@type": "Rule",
+  "name": "Long-term Project",
+  "slug": "5-8-long-term-project",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Progress clocks",
+    "section": "5.8",
+    "heading": "Long-term Project",
+    "lineStart": 293,
+    "lineEnd": 297
+  },
+  "section": "5.8",
+  "rulesText": "Some projects will take a long time. A basic long-term project (like tinkering up a new feature for a device) is eight segments. Truly long-term projects (like creating a new designer drug) can be two, three, or even four clocks, representing all the phases of development, testing, and final completion. Add or subtract clocks depending on the details of the situation and complexity of the project.\n\nA long-term project is a good catch-all for dealing with any unusual player goal, including things that circumvent or change elements of the mechanics or the setting."
+}

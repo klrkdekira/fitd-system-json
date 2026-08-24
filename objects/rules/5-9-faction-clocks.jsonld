@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/5-9-faction-clocks",
+  "@type": "Rule",
+  "name": "Faction Clocks",
+  "slug": "5-9-faction-clocks",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Progress clocks",
+    "section": "5.9",
+    "heading": "Faction Clocks",
+    "lineStart": 299,
+    "lineEnd": 303
+  },
+  "section": "5.9",
+  "rulesText": "Each faction has a long-term goal. When the PCs have **downtime**, the GM ticks forward the faction clocks that they're interested in. In this way, the world around the PCs is dynamic and things happen that they're not directly connected to, changing the overall situation in the city and creating new opportunities and challenges.\n\nThe PCs may also directly affect NPC faction clocks, based on the missions and scores they pull off. Discuss known faction projects that they might aid or interfere with, and also consider how a PC operation might affect the NPC clocks, whether the players intended it or not."
+}

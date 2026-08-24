@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/12-2-investigation",
+  "@type": "Rule",
+  "name": "Investigation",
+  "slug": "12-2-investigation",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Gathering Information",
+    "section": "12.2",
+    "heading": "Investigation",
+    "lineStart": 692,
+    "lineEnd": 696
+  },
+  "section": "12.2",
+  "rulesText": "Some questions are too complex to answer immediately with a single gather information roll. For instance, you might want to discover the network of contraband smuggling routes in the city. In these cases, the GM will tell you to start a **long-term project** that you work on during **downtime**.\n\nYou track the investigation project using a progress clock. Once the clock is filled, you have the evidence you need to ask several questions about the subject of your investigation as if you had great effect."
+}

@@ -1,0 +1,159 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/tables/26-5-claims-prison",
+  "@type": "Table",
+  "name": "CLAIMS: PRISON",
+  "slug": "26-5-claims-prison",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Heat",
+    "section": "26.5",
+    "heading": "CLAIMS: PRISON",
+    "lineStart": 2020,
+    "lineEnd": 2026
+  },
+  "columns": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Parole Influence"
+        },
+        {
+          "value": "&#x2015;"
+        },
+        {
+          "value": "Smuggling"
+        },
+        {
+          "value": "&#x2015;"
+        },
+        {
+          "value": "Allied Claim"
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": "Cell Block Control"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "&#x2758;"
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": "&#x2758;"
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": "&#x2758;"
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": "&#x2758;"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Guard Payoff"
+        },
+        {
+          "value": "&#x2015;"
+        },
+        {
+          "value": "**PRISON**"
+        },
+        {
+          "value": "&#x2015;"
+        },
+        {
+          "value": "Guard Payoff"
+        },
+        {
+          "value": "&#x2015;"
+        },
+        {
+          "value": "Allied Claim"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "&#x2758;"
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": "&#x2758;"
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": "&#x2758;"
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": "&#x2758;"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Hardcase"
+        },
+        {
+          "value": "&#x2015;"
+        },
+        {
+          "value": "Smuggling"
+        },
+        {
+          "value": "&#x2015;"
+        },
+        {
+          "value": "Allied Claim"
+        },
+        {
+          "value": "&#x2015;"
+        },
+        {
+          "value": "Allied Claim"
+        }
+      ]
+    }
+  ],
+  "rawText": "|       []()       |          |            |          |              |          |                    |\n| :--------------: | :------: | :--------: | :------: | :----------: | :------: | :----------------: |\n| Parole Influence | &#x2015; | Smuggling  | &#x2015; | Allied Claim |          | Cell Block Control |\n|     &#x2758;     |          |  &#x2758;  |          |   &#x2758;   |          |      &#x2758;      |\n|   Guard Payoff   | &#x2015; | **PRISON** | &#x2015; | Guard Payoff | &#x2015; |    Allied Claim    |\n|     &#x2758;     |          |  &#x2758;  |          |   &#x2758;   |          |      &#x2758;      |\n|     Hardcase     | &#x2015; | Smuggling  | &#x2015; | Allied Claim | &#x2015; |    Allied Claim    |"
+}

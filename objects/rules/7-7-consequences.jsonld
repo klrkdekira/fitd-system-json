@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/7-7-consequences",
+  "@type": "Rule",
+  "name": "Consequences",
+  "slug": "7-7-consequences",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Effect",
+    "section": "7.7",
+    "heading": "Consequences",
+    "lineStart": 486,
+    "lineEnd": 488
+  },
+  "section": "7.7",
+  "rulesText": "When a PC suffers an effect from an enemy or a dangerous situation, it's called a **consequence**. Consequences are the companion to effects. PCs have effect on the world around them and they suffer consequences in return from the risks they face."
+}

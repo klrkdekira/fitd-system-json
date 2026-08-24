@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/26-4-prison-claims",
+  "@type": "Rule",
+  "name": "Prison claims",
+  "slug": "26-4-prison-claims",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Heat",
+    "section": "26.4",
+    "heading": "Prison claims",
+    "lineStart": 2014,
+    "lineEnd": 2016
+  },
+  "section": "26.4"
+}

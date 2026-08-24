@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/9-5-worse-position",
+  "@type": "Rule",
+  "name": "Worse Position",
+  "slug": "9-5-worse-position",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Consequences and Harm",
+    "section": "9.5",
+    "heading": "Worse Position",
+    "lineStart": 527,
+    "lineEnd": 529
+  },
+  "section": "9.5",
+  "rulesText": "This consequence represents losing control of the situation—the action carries you into a more dangerous position. Perhaps you make the leap across to the next rooftop, only to end up dangling by your fingertips. You haven't failed, but you haven't succeeded yet, either. You can try again, re-rolling at the new, worse position. This is a good consequence to choose to show escalating action. A situation might go from controlled, to risky, to desperate as the action plays out and the PC gets deeper and deeper in trouble."
+}

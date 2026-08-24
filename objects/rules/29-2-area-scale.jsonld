@@ -1,0 +1,23 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/29-2-area-scale",
+  "@type": "Rule",
+  "name": "AREA/SCALE",
+  "slug": "29-2-area-scale",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Magnitude",
+    "section": "29.2",
+    "heading": "AREA/SCALE",
+    "lineStart": 2361,
+    "lineEnd": 2367
+  },
+  "section": "29.2",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/fitd-system-json/objects/tables/29-2-area-scale"
+    }
+  ]
+}

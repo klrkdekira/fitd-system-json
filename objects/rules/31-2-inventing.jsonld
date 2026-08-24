@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/31-2-inventing",
+  "@type": "Rule",
+  "name": "Inventing",
+  "slug": "31-2-inventing",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Crafting",
+    "section": "31.2",
+    "heading": "Inventing",
+    "lineStart": 2459,
+    "lineEnd": 2461
+  },
+  "section": "31.2",
+  "rulesText": "To invent a formula for a new alchemical concoction or the plan for a new item of your design, you need to **Study** it as a **long-term project**. Most new formulas or designs will require an 8-segment progress clock to invent and learn. The player and the GM answer questions about the invention to define what it will do in play and what is required to create it (see below). The player records these answers in their notes for future reference."
+}

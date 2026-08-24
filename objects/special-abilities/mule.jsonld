@@ -1,0 +1,20 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/special-abilities/mule",
+  "@type": "SpecialAbility",
+  "name": "Mule",
+  "slug": "mule",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character playbook",
+    "section": "18.11",
+    "heading": "Mule",
+    "lineStart": 1088,
+    "lineEnd": 1092
+  },
+  "rulesText": "Your load limits are higher. Light: 5. Normal: 7. Heavy: 8.",
+  "commentary": "This ability is great if you want to wear heavy armor and pack a heavy weapon without attracting lots of attention. Since your exact gear is determined on-the-fly during an operation, having more load also gives you more options to get creative with when dealing with problems during a score.",
+  "abilityScope": "character"
+}
