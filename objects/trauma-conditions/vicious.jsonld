@@ -14,5 +14,8 @@
     "lineStart": 245,
     "lineEnd": 245
   },
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/4-5-trauma-conditions"
+  },
   "rulesText": "**Vicious**: You seek out opportunities to hurt people, even for no good reason."
 }

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cheeleong.dev/fitd-system-json/systems/plan.schema.json",
+  "title": "Blades in the Dark SRD Plan",
+  "$ref": "common.schema.json#/$defs/EntityBase",
+  "properties": {
+    "@type": { "const": "Plan" },
+    "partOf": { "$ref": "common.schema.json#/$defs/NodeReference" },
+    "rulesText": { "type": "string", "minLength": 1 },
+    "detail": { "type": "string", "minLength": 1 }
+  },
+  "required": ["partOf", "rulesText", "detail"],
+  "unevaluatedProperties": false
+}

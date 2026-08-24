@@ -15,5 +15,8 @@
     "lineEnd": 1565
   },
   "claimType": "crew",
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+  },
   "rulesText": "**Cover Identities**:  You get **+1d** to the **engagement roll** for **deception** and **social plans**. *False identities help confuse the opposition.*"
 }

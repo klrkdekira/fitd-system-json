@@ -15,5 +15,8 @@
     "lineEnd": 1617
   },
   "claimType": "crew",
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+  },
   "rulesText": "**Side Business**: Any time during downtime, roll dice equal to your Tier. You earn **coin** equal to the highest result, minus your **heat**. *What kind of legitimate business is this? How do you get paid in secret?*"
 }

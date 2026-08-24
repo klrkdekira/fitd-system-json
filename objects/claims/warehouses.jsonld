@@ -15,5 +15,8 @@
     "lineEnd": 1591
   },
   "claimType": "crew",
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+  },
   "rulesText": "**Warehouses**: You get **+1d** to **acquire asset** rolls. *You have space to hold all the various spoils you end up with after your battles. It can be useful on its own or for barter when you need it.*"
 }

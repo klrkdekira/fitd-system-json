@@ -15,6 +15,9 @@
     "lineEnd": 182
   },
   "attribute": "Prowess",
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/3-10-actions"
+  },
   "rulesText": "When you **Prowl**, you traverse skillfully and quietly.",
   "examplesText": "*You might sneak past a guard or hide in the shadows. You might run and leap across the rooftops. You might attack someone from hiding with a back-stab or blackjack. You could try to waylay a victim in the midst of battle (but Skirmishing might be better).*"
 }

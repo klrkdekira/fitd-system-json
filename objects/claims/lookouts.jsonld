@@ -15,5 +15,8 @@
     "lineEnd": 1601
   },
   "claimType": "crew",
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+  },
   "rulesText": "**Lookouts**:  You get **+1d** to **Hunt** or **Survey** on your turf."
 }

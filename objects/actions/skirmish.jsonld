@@ -15,6 +15,9 @@
     "lineEnd": 186
   },
   "attribute": "Prowess",
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/3-10-actions"
+  },
   "rulesText": "When you **Skirmish**, you entangle a target in close combat so they can't easily escape.",
   "examplesText": "*You might brawl or wrestle with them. You might hack and slash. You might seize or hold a position in battle. You could try to fight in a formal duel (but Finessing might be better).*"
 }

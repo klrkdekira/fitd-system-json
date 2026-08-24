@@ -1,9 +1,9 @@
 {
   "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
-  "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/23-3-assist",
-  "@type": "Rule",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/teamwork-maneuvers/assist",
+  "@type": "TeamworkManeuver",
   "name": "Assist",
-  "slug": "23-3-assist",
+  "slug": "assist",
   "source": {
     "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
   },
@@ -14,6 +14,5 @@
     "lineStart": 1876,
     "lineEnd": 1880
   },
-  "section": "23.3",
   "rulesText": "When you assist another player who's rolling, describe what your character does to help. Take 1 stress and give them **+1d** to their roll. You might also suffer any consequences that occur because of the roll, depending on the circumstances. Only one character may assist a given roll. *If you really want to help and someone else is already assisting, consider performing a **setup** maneuver instead.*\n\nA character may assist a group action, but only if they aren't taking part in it directly. You decide which character in the group action gets the bonus die."
 }

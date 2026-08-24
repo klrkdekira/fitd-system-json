@@ -22,6 +22,11 @@
       "description": "JSON-LD class for entanglement records."
     },
     {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#Plan",
+      "anchor": "Plan",
+      "description": "JSON-LD class for plan records."
+    },
+    {
       "iri": "https://cheeleong.dev/fitd-system-json/vocab/#Rule",
       "anchor": "Rule",
       "description": "JSON-LD class for rule records."
@@ -47,9 +52,19 @@
       "description": "JSON-LD class for table records."
     },
     {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#TeamworkManeuver",
+      "anchor": "TeamworkManeuver",
+      "description": "JSON-LD class for teamwork maneuver records."
+    },
+    {
       "iri": "https://cheeleong.dev/fitd-system-json/vocab/#TraumaCondition",
       "anchor": "TraumaCondition",
       "description": "JSON-LD class for trauma condition records."
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#Vice",
+      "anchor": "Vice",
+      "description": "JSON-LD class for vice records."
     }
   ],
   "properties": [
@@ -250,6 +265,20 @@
       ]
     },
     {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#detail",
+      "anchor": "detail",
+      "jsonTerms": [
+        "detail"
+      ],
+      "description": "Carries the detail value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
       "iri": "https://cheeleong.dev/fitd-system-json/vocab/#entityType",
       "anchor": "entityType",
       "jsonTerms": [
@@ -362,11 +391,14 @@
         "Claim",
         "DowntimeActivity",
         "Entanglement",
+        "Plan",
         "Rule",
         "Source",
         "SpecialAbility",
         "Table",
-        "TraumaCondition"
+        "TeamworkManeuver",
+        "TraumaCondition",
+        "Vice"
       ]
     },
     {
@@ -381,6 +413,20 @@
       ],
       "ranges": [
         "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/fitd-system-json/vocab/#partOf",
+      "anchor": "partOf",
+      "jsonTerms": [
+        "partOf"
+      ],
+      "description": "Links the subject using the partOf relationship.",
+      "valueKinds": [
+        "IRI node reference"
+      ],
+      "ranges": [
+        "Rule"
       ]
     },
     {

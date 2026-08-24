@@ -15,6 +15,9 @@
     "lineEnd": 178
   },
   "attribute": "Insight",
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/3-10-actions"
+  },
   "rulesText": "When you **Hunt**, you carefully track a target.",
   "examplesText": "*You might follow a target or discover their location. You might arrange an ambush. You might attack with precision shooting from a distance. You could try to bring your guns to bear in a melee (but Skirmishing might be better).*"
 }

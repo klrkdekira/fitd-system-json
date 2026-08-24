@@ -15,5 +15,8 @@
     "lineEnd": 1573
   },
   "claimType": "crew",
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+  },
   "rulesText": "**Infirmary**: You get **+1d** to healing treatment rolls. *The infirmary also has beds for long-term convalescence.*"
 }

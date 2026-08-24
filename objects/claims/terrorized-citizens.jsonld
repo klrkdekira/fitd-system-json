@@ -15,5 +15,8 @@
     "lineEnd": 1589
   },
   "claimType": "crew",
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+  },
   "rulesText": "**Terrorized Citizens**: You get **+2** **coin** in your payoff for scores that involve battle or extortion. *The frightened locals offer you tribute whenever you lash out. They don't want to be next.*"
 }

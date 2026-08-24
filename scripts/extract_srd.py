@@ -7,10 +7,12 @@ Segmentation model:
   lines trimmed. Level-1 headings are chapters; sections are numbered
   ``<chapter>.<ordinal>`` in document order, chapter headings included.
 - Sections claimed by a catalog grammar (special abilities, entanglements,
-  downtime activities, prison claims) become typed records instead of rules.
+  downtime activities, prison claims, teamwork maneuvers) become typed
+  records instead of rules.
 - Paragraph- and bullet-grained entities (actions, crew claims, trauma
-  conditions) are typed indexes over rule prose: the owning rule keeps the
-  source-faithful text and the typed records carry sub-spans.
+  conditions, vices, plans) are typed indexes over rule prose: the owning
+  rule keeps the source-faithful text and the typed records carry sub-spans
+  plus a partOf link to the owning rule.
 - Pipe-table runs become Table records with raw source text; the owning
   section's rule links them via relatedTables and its rulesText excludes the
   physical table lines.
@@ -43,6 +45,7 @@ from fitdlib import (
     DOWNTIME_ACTIVITY_NAMES,
     DOWNTIME_CHAPTER,
     ENTANGLEMENTS_CHAPTER,
+    PLANS_CHAPTER,
     PRISON_CLAIMS_HEADING,
     PRISON_CLAIM_EXCLUDE,
     RATINGS_HEADING,
@@ -50,7 +53,9 @@ from fitdlib import (
     SOURCE_ID,
     SOURCE_REPOSITORY,
     SOURCE_VERSION,
+    TEAMWORK_HEADING,
     TRAUMA_HEADING,
+    VICE_HEADING,
     clean_heading,
     dump_json,
     load_json,
@@ -63,7 +68,8 @@ TABLE_LINE_RE = re.compile(r"^\|.*\|\s*$")
 SEPARATOR_CELL_RE = re.compile(r"^:?-{3,}:?$")
 ACTION_RE = re.compile(r"^When you \*\*(\w+)\*\*, .*")
 BOLD_LEAD_RE = re.compile(r"^\*\*([^*]+?)\*\*")
-TRAUMA_BULLET_RE = re.compile(r"^\* \*\*([^*]+?)\*\*: .*")
+BOLD_BULLET_RE = re.compile(r"^\* \*\*([^*]+?)\*\*: .*")
+PLAN_BULLET_RE = re.compile(r"^\* (\w+) - .+ \*Detail: (.+)\*$")
 
 
 class Section:
@@ -197,6 +203,13 @@ class Emitter:
         self.slugs[collection].add(slug)
         return slug
 
+    def rule_id(self, section):
+        """Canonical @id of the Rule record a section becomes."""
+        slug = (
+            f"{section.section_number.replace('.', '-')}-{slugify(section.name)}"
+        )
+        return f"{BASE}objects/rules/{slug}"
+
     def locator(self, section, line_start=None, line_end=None):
         return {
             "chapter": section.chapter.name,
@@ -319,6 +332,7 @@ def extract_actions(emitter, sections, lines, attribute_map):
             emitter.locator(holder, line_start=line_number, line_end=line_end),
         )
         record["attribute"] = attribute_map[name]
+        record["partOf"] = {"@id": emitter.rule_id(holder)}
         record["rulesText"] = text.strip()
         if examples:
             record["examplesText"] = examples
@@ -377,6 +391,13 @@ def extract_catalog_sections(emitter, sections):
             and section.name not in PRISON_CLAIM_EXCLUDE
         ):
             emit(section, "claims", "Claim", {"claimType": "prison"})
+        elif (
+            section.level == 3
+            and parent is not None
+            and parent.level == 2
+            and parent.name == TEAMWORK_HEADING
+        ):
+            emit(section, "teamwork-maneuvers", "TeamworkManeuver", {})
     return claimed
 
 
@@ -399,29 +420,58 @@ def extract_crew_claims(emitter, sections):
             emitter.locator(holder, line_start=line_number, line_end=line_number),
         )
         record["claimType"] = "crew"
+        record["partOf"] = {"@id": emitter.rule_id(holder)}
         record["rulesText"] = text.strip()
         count += 1
     return count
 
 
-def extract_trauma_conditions(emitter, sections):
-    holders = [s for s in sections if s.name == TRAUMA_HEADING]
+def extract_bold_bullets(emitter, sections, heading, collection, type_name):
+    """Bold-led ':' bullets in one section become sub-span records."""
+    holders = [s for s in sections if s.name == heading]
     if len(holders) != 1:
-        raise SystemExit("expected one Trauma Conditions section")
+        raise SystemExit(f"expected one {heading} section")
     holder = holders[0]
     count = 0
     for line_number, text in holder.body_lines:
-        match = TRAUMA_BULLET_RE.match(text)
+        match = BOLD_BULLET_RE.match(text)
         if not match:
             continue
         record = emitter.new_record(
-            "trauma-conditions",
-            "TraumaCondition",
+            collection,
+            type_name,
             match.group(1).strip(),
             slugify(match.group(1)),
             emitter.locator(holder, line_start=line_number, line_end=line_number),
         )
+        record["partOf"] = {"@id": emitter.rule_id(holder)}
         record["rulesText"] = text[2:].strip()
+        count += 1
+    return count
+
+
+def extract_plans(emitter, sections):
+    holders = [
+        s for s in sections if s.level == 1 and s.name == PLANS_CHAPTER
+    ]
+    if len(holders) != 1:
+        raise SystemExit("expected one Planning & engagement chapter")
+    holder = holders[0]
+    count = 0
+    for line_number, text in holder.body_lines:
+        match = PLAN_BULLET_RE.match(text)
+        if not match:
+            continue
+        record = emitter.new_record(
+            "plans",
+            "Plan",
+            match.group(1).strip(),
+            slugify(match.group(1)),
+            emitter.locator(holder, line_start=line_number, line_end=line_number),
+        )
+        record["partOf"] = {"@id": emitter.rule_id(holder)}
+        record["rulesText"] = text[2:].strip()
+        record["detail"] = match.group(2).strip()
         count += 1
     return count
 
@@ -527,7 +577,13 @@ def run_extraction(root: Path):
     action_count = extract_actions(emitter, sections, lines, attribute_map)
     claimed = extract_catalog_sections(emitter, sections)
     crew_claims = extract_crew_claims(emitter, sections)
-    trauma = extract_trauma_conditions(emitter, sections)
+    trauma = extract_bold_bullets(
+        emitter, sections, TRAUMA_HEADING, "trauma-conditions", "TraumaCondition"
+    )
+    vices = extract_bold_bullets(
+        emitter, sections, VICE_HEADING, "vices", "Vice"
+    )
+    plans = extract_plans(emitter, sections)
     table_count, tables_by_section = extract_tables(
         emitter, sections, column_overrides
     )

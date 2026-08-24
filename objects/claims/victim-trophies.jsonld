@@ -15,5 +15,8 @@
     "lineEnd": 1583
   },
   "claimType": "crew",
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+  },
   "rulesText": "**Victim Trophies**: You get **+1 rep** per score. *Word of your grisly \"collection\" gets around, and your boldness boosts your rep in the underworld.*"
 }

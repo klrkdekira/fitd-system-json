@@ -18,7 +18,7 @@
       "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
     },
     "sourceDigest": "sha256-25a43a32ebccee0d5708ac6c0021c2755f9701b6d3ad8eb5241bb46785f47cfd",
-    "corpusDigest": "sha256-a5169548ea2a7f77be8c90878e6fdc088c387aeb52ec101c7d4efa70a77ce066"
+    "corpusDigest": "sha256-0aaa584d0e60c1aae96c6aa9c0c7da3b180e4f7b67fcf03049af298e163e8c2e"
   },
   "@graph": [
     {
@@ -37,6 +37,9 @@
         "lineEnd": 162
       },
       "attribute": "Resolve",
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/3-10-actions"
+      },
       "rulesText": "When you **Attune**, you open your mind to arcane power.",
       "examplesText": "*You might communicate with a ghost. You could try to perceive beyond sight in order to better understand your situation (but Surveying might be better).*"
     },
@@ -56,6 +59,9 @@
         "lineEnd": 166
       },
       "attribute": "Resolve",
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/3-10-actions"
+      },
       "rulesText": "When you **Command**, you compel swift obedience.",
       "examplesText": "*You might intimidate or threaten to get what you want. You might lead a gang in a group action. You could try to order people around to persuade them (but Consorting might be better).*"
     },
@@ -75,6 +81,9 @@
         "lineEnd": 170
       },
       "attribute": "Resolve",
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/3-10-actions"
+      },
       "rulesText": "When you **Consort**, you socialize with friends and contacts.",
       "examplesText": "*You might gain access to resources, information, people, or places. You might make a good impression or win someone over with your charm and style. You might make new friends or connect with your heritage or background. You could try to manipulate your friends with social pressure (but Sway might be better).*"
     },
@@ -94,6 +103,9 @@
         "lineEnd": 174
       },
       "attribute": "Prowess",
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/3-10-actions"
+      },
       "rulesText": "When you **Finesse**, you employ dextrous manipulation or subtle misdirection.",
       "examplesText": "*You might pick someone's pocket. You might handle the controls of a vehicle or direct a mount. You might formally duel an opponent with graceful fighting arts. You could try to employ those arts in a chaotic melee (but Skirmishing might be better). You could try to pick a lock (but Tinkering might be better).*"
     },
@@ -113,6 +125,9 @@
         "lineEnd": 178
       },
       "attribute": "Insight",
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/3-10-actions"
+      },
       "rulesText": "When you **Hunt**, you carefully track a target.",
       "examplesText": "*You might follow a target or discover their location. You might arrange an ambush. You might attack with precision shooting from a distance. You could try to bring your guns to bear in a melee (but Skirmishing might be better).*"
     },
@@ -132,6 +147,9 @@
         "lineEnd": 182
       },
       "attribute": "Prowess",
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/3-10-actions"
+      },
       "rulesText": "When you **Prowl**, you traverse skillfully and quietly.",
       "examplesText": "*You might sneak past a guard or hide in the shadows. You might run and leap across the rooftops. You might attack someone from hiding with a back-stab or blackjack. You could try to waylay a victim in the midst of battle (but Skirmishing might be better).*"
     },
@@ -151,6 +169,9 @@
         "lineEnd": 186
       },
       "attribute": "Prowess",
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/3-10-actions"
+      },
       "rulesText": "When you **Skirmish**, you entangle a target in close combat so they can't easily escape.",
       "examplesText": "*You might brawl or wrestle with them. You might hack and slash. You might seize or hold a position in battle. You could try to fight in a formal duel (but Finessing might be better).*"
     },
@@ -170,6 +191,9 @@
         "lineEnd": 190
       },
       "attribute": "Insight",
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/3-10-actions"
+      },
       "rulesText": "When you **Study**, you scrutinize details and interpret evidence.",
       "examplesText": "*You might gather information from documents, newspapers, and books. You might do research on an esoteric topic. You might closely analyze a person to detect lies or true feelings. You could try to examine events to understand a pressing situation (but Surveying might be better).*"
     },
@@ -189,6 +213,9 @@
         "lineEnd": 194
       },
       "attribute": "Insight",
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/3-10-actions"
+      },
       "rulesText": "When you **Survey**, you observe the situation and anticipate outcomes.",
       "examplesText": "*You might spot telltale signs of trouble before it happens. You might uncover opportunities or weaknesses. You might detect a person's motivations or intentions. You could try to spot a good ambush point (but Hunting might be better).*"
     },
@@ -208,6 +235,9 @@
         "lineEnd": 198
       },
       "attribute": "Resolve",
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/3-10-actions"
+      },
       "rulesText": "When you **Sway**, you influence with guile, charm, or argument.",
       "examplesText": "*You might lie convincingly. You might persuade someone to do what you want. You might argue a compelling case that leaves no clear rebuttal. You could try to trick people into affection or obedience (but Consorting or Commanding might be better).*"
     },
@@ -227,6 +257,9 @@
         "lineEnd": 202
       },
       "attribute": "Insight",
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/3-10-actions"
+      },
       "rulesText": "When you **Tinker**, you fiddle with devices and mechanisms.",
       "examplesText": "*You might create a new gadget or alter an existing item. You might pick a lock or crack a safe. You might disable an alarm or trap. You might turn the clockwork and electroplasmic devices around the city to your advantage. You could try to use your technical expertise to control a vehicle (but Finessing might be better).*"
     },
@@ -246,6 +279,9 @@
         "lineEnd": 206
       },
       "attribute": "Prowess",
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/3-10-actions"
+      },
       "rulesText": "When you **Wreck**, you unleash savage force.",
       "examplesText": "*You might smash down a door or wall with a sledgehammer, or use an explosive to do the same. You might employ chaos or sabotage to create a distraction or overcome an obstacle. You could try to overwhelm an enemy with sheer force in battle (but Skirmishing might be better).*"
     },
@@ -283,6 +319,9 @@
         "lineEnd": 1593
       },
       "claimType": "crew",
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+      },
       "rulesText": "**Ancient Altar**:  You get **+1d** to the **engagement roll** for **occult** plans. *Its blessing is with you.*"
     },
     {
@@ -301,6 +340,9 @@
         "lineEnd": 1595
       },
       "claimType": "crew",
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+      },
       "rulesText": "**Ancient Tower**: You get **+1d** to **Consort** with arcane entities on-site."
     },
     {
@@ -337,6 +379,9 @@
         "lineEnd": 1563
       },
       "claimType": "crew",
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+      },
       "rulesText": "**City Records**: You get** **+1d** to the **engagement roll** for **stealth** plans. *You can use blueprints and other documents to determine a good approach for infiltrations.*"
     },
     {
@@ -355,6 +400,9 @@
         "lineEnd": 1565
       },
       "claimType": "crew",
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+      },
       "rulesText": "**Cover Identities**:  You get **+1d** to the **engagement roll** for **deception** and **social plans**. *False identities help confuse the opposition.*"
     },
     {
@@ -373,6 +421,9 @@
         "lineEnd": 1567
       },
       "claimType": "crew",
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+      },
       "rulesText": "**Cover Operation**:  You get **-2** **heat** per score. *The cover of a legitimate operation helps deflect some of the **heat** from law enforcement.*"
     },
     {
@@ -391,6 +442,9 @@
         "lineEnd": 1607
       },
       "claimType": "crew",
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+      },
       "rulesText": "**Covert Drop**: You get **+2** **coin** in **payoff** for scores that involve espionage or sabotage. *The perfect hidden exchange point is worth the extra coin to discerning clientele.*"
     },
     {
@@ -409,6 +463,9 @@
         "lineEnd": 1569
       },
       "claimType": "crew",
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+      },
       "rulesText": "**Envoy**: You get **+2** **coin** in **payoff** for scores that involve high-class clients. *This well-connected liaison will help arrange for a better payoff from rich clients.*"
     },
     {
@@ -427,6 +484,9 @@
         "lineEnd": 1585
       },
       "claimType": "crew",
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+      },
       "rulesText": "**Fighting Pits**  During downtime, roll dice equal to your Tier. You earn **coin** equal to the highest result, minus your **heat**. *The locals love to gamble away their hard-won coin on the blood-sports you host.*"
     },
     {
@@ -445,6 +505,9 @@
         "lineEnd": 1571
       },
       "claimType": "crew",
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+      },
       "rulesText": "**Fixer**: You get** **+2** **coin** in **payoff** for scores that involve lower-class clients. *This well-respected agent will help arrange for a better payoff from poorer clients.*"
     },
     {
@@ -499,6 +562,9 @@
         "lineEnd": 1573
       },
       "claimType": "crew",
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+      },
       "rulesText": "**Infirmary**: You get **+1d** to healing treatment rolls. *The infirmary also has beds for long-term convalescence.*"
     },
     {
@@ -517,6 +583,9 @@
         "lineEnd": 1575
       },
       "claimType": "crew",
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+      },
       "rulesText": "**Informants**: You get **+1d** to gather information for a score. *Your eyes and ears on the streets are always on the lookout for new targets.*"
     },
     {
@@ -535,6 +604,9 @@
         "lineEnd": 1609
       },
       "claimType": "crew",
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+      },
       "rulesText": "**Interrogation Chamber**: You get **+1d** to **Command** and **Sway** on-site. *Grisly business, but effective.*"
     },
     {
@@ -553,6 +625,9 @@
         "lineEnd": 1599
       },
       "claimType": "crew",
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+      },
       "rulesText": "**Local Graft**: You get **+2** **coin** in **payoff** for scores that involve a show of force or socializing. *A few city officials share bribe money with those who show that they're players on the scene.*"
     },
     {
@@ -571,6 +646,9 @@
         "lineEnd": 1601
       },
       "claimType": "crew",
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+      },
       "rulesText": "**Lookouts**:  You get **+1d** to **Hunt** or **Survey** on your turf."
     },
     {
@@ -589,6 +667,9 @@
         "lineEnd": 1611
       },
       "claimType": "crew",
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+      },
       "rulesText": "**Loyal Fence**: You get **+2** **coin** in **payoff** for scores that involve burglary or robbery. *It requires a skilled eye and good contacts to move stolen goods.*"
     },
     {
@@ -607,6 +688,9 @@
         "lineEnd": 1603
       },
       "claimType": "crew",
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+      },
       "rulesText": "**Luxury Venue**:  **+1d** to **Consort** and **Sway** rolls on-site. *Silks, paintings, and crystal impress the clientele.*"
     },
     {
@@ -625,6 +709,9 @@
         "lineEnd": 1597
       },
       "claimType": "crew",
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+      },
       "rulesText": "**Offertory**: You get **+2** **coin** in your payoff for scores that involve occult operations. *The frightened locals offer you tribute when you perform your dark practices. They don't want to be next.*"
     },
     {
@@ -661,6 +748,9 @@
         "lineEnd": 1577
       },
       "claimType": "crew",
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+      },
       "rulesText": "**Protection Racket**: Any time during downtime, roll dice equal to your Tier. You earn **coin** equal to the highest result, minus your **heat**. *Some of the locals are terrified of you and will gladly pay for \"protection.\"*"
     },
     {
@@ -679,6 +769,9 @@
         "lineEnd": 1613
       },
       "claimType": "crew",
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+      },
       "rulesText": "**Secret Pathways**:  You get **+1d** to the **engagement roll** for **stealth** plans. *You might have access to long-forgotten underground canals, rooftop walkways, or some other route of your choosing.*"
     },
     {
@@ -697,6 +790,9 @@
         "lineEnd": 1617
       },
       "claimType": "crew",
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+      },
       "rulesText": "**Side Business**: Any time during downtime, roll dice equal to your Tier. You earn **coin** equal to the highest result, minus your **heat**. *What kind of legitimate business is this? How do you get paid in secret?*"
     },
     {
@@ -733,6 +829,9 @@
         "lineEnd": 1587
       },
       "claimType": "crew",
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+      },
       "rulesText": "**Street Fence**: You get **+2** **coin** in your payoff for scores that involve lower-class targets. *An expert can find the treasure amid the trash you loot from your poorer victims.*"
     },
     {
@@ -751,6 +850,9 @@
         "lineEnd": 1605
       },
       "claimType": "crew",
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+      },
       "rulesText": "**Surplus Cache**: You get **+2** **coin** in **payoff** for scores that involve product sale or supply. *You have an abundance of product, which pads your pockets every now and then.*"
     },
     {
@@ -769,6 +871,9 @@
         "lineEnd": 1615
       },
       "claimType": "crew",
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+      },
       "rulesText": "**Tavern**: You get **+1d** to **Consort** and **Sway** rolls on-site. *Some booze and friendly conversation can go a long way.*"
     },
     {
@@ -787,6 +892,9 @@
         "lineEnd": 1589
       },
       "claimType": "crew",
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+      },
       "rulesText": "**Terrorized Citizens**: You get **+2** **coin** in your payoff for scores that involve battle or extortion. *The frightened locals offer you tribute whenever you lash out. They don't want to be next.*"
     },
     {
@@ -805,6 +913,9 @@
         "lineEnd": 1579
       },
       "claimType": "crew",
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+      },
       "rulesText": "**Training Rooms**: Your cohorts of a specific type get **+1 scale**. *Extra training enables them to fight like a larger gang.*"
     },
     {
@@ -823,6 +934,9 @@
         "lineEnd": 1561
       },
       "claimType": "crew",
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+      },
       "rulesText": "**Turf**: You require one less Rep to advance in tier (max 6)**."
     },
     {
@@ -841,6 +955,9 @@
         "lineEnd": 1581
       },
       "claimType": "crew",
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+      },
       "rulesText": "**Vice Den**: Any time during downtime, roll dice equal to your Tier. You earn **coin** equal to the highest result, minus your **heat**."
     },
     {
@@ -859,6 +976,9 @@
         "lineEnd": 1583
       },
       "claimType": "crew",
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+      },
       "rulesText": "**Victim Trophies**: You get **+1 rep** per score. *Word of your grisly \"collection\" gets around, and your boldness boosts your rep in the underworld.*"
     },
     {
@@ -877,6 +997,9 @@
         "lineEnd": 1591
       },
       "claimType": "crew",
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+      },
       "rulesText": "**Warehouses**: You get **+1d** to **acquire asset** rolls. *You have space to hold all the various spoils you end up with after your battles. It can be useful on its own or for barter when you need it.*"
     },
     {
@@ -1190,6 +1313,132 @@
       },
       "rulesText": "A rogue spirit is drawn to you—perhaps it's a past victim? Acquire the services of an occultist to attempt to destroy or banish it, or deal with it yourself.",
       "commentary": "They can hire an NPC by using the **acquire asset*** downtime activity. Roll the NPC's quality level as a fortune roll to see how well they deal with the spirit."
+    },
+    {
+      "@id": "https://cheeleong.dev/fitd-system-json/objects/plans/assault",
+      "@type": "Plan",
+      "name": "Assault",
+      "slug": "assault",
+      "source": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+      },
+      "sourceLocator": {
+        "chapter": "Planning & engagement",
+        "section": "22.1",
+        "heading": "Planning & engagement",
+        "lineStart": 1731,
+        "lineEnd": 1731
+      },
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/22-1-planning-engagement"
+      },
+      "rulesText": "Assault - Do violence to a target. *Detail: The point of attack.*",
+      "detail": "The point of attack."
+    },
+    {
+      "@id": "https://cheeleong.dev/fitd-system-json/objects/plans/deception",
+      "@type": "Plan",
+      "name": "Deception",
+      "slug": "deception",
+      "source": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+      },
+      "sourceLocator": {
+        "chapter": "Planning & engagement",
+        "section": "22.1",
+        "heading": "Planning & engagement",
+        "lineStart": 1732,
+        "lineEnd": 1732
+      },
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/22-1-planning-engagement"
+      },
+      "rulesText": "Deception - Lure, trick, or manipulate. *Detail: The method of deception.*",
+      "detail": "The method of deception."
+    },
+    {
+      "@id": "https://cheeleong.dev/fitd-system-json/objects/plans/occult",
+      "@type": "Plan",
+      "name": "Occult",
+      "slug": "occult",
+      "source": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+      },
+      "sourceLocator": {
+        "chapter": "Planning & engagement",
+        "section": "22.1",
+        "heading": "Planning & engagement",
+        "lineStart": 1734,
+        "lineEnd": 1734
+      },
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/22-1-planning-engagement"
+      },
+      "rulesText": "Occult - Engage a supernatural power. *Detail: The arcane method.*",
+      "detail": "The arcane method."
+    },
+    {
+      "@id": "https://cheeleong.dev/fitd-system-json/objects/plans/social",
+      "@type": "Plan",
+      "name": "Social",
+      "slug": "social",
+      "source": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+      },
+      "sourceLocator": {
+        "chapter": "Planning & engagement",
+        "section": "22.1",
+        "heading": "Planning & engagement",
+        "lineStart": 1735,
+        "lineEnd": 1735
+      },
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/22-1-planning-engagement"
+      },
+      "rulesText": "Social - Negotiate, bargain, or persuade. *Detail: The social connection.*",
+      "detail": "The social connection."
+    },
+    {
+      "@id": "https://cheeleong.dev/fitd-system-json/objects/plans/stealth",
+      "@type": "Plan",
+      "name": "Stealth",
+      "slug": "stealth",
+      "source": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+      },
+      "sourceLocator": {
+        "chapter": "Planning & engagement",
+        "section": "22.1",
+        "heading": "Planning & engagement",
+        "lineStart": 1733,
+        "lineEnd": 1733
+      },
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/22-1-planning-engagement"
+      },
+      "rulesText": "Stealth - Trespass unseen. *Detail: The point of infiltration.*",
+      "detail": "The point of infiltration."
+    },
+    {
+      "@id": "https://cheeleong.dev/fitd-system-json/objects/plans/transport",
+      "@type": "Plan",
+      "name": "Transport",
+      "slug": "transport",
+      "source": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+      },
+      "sourceLocator": {
+        "chapter": "Planning & engagement",
+        "section": "22.1",
+        "heading": "Planning & engagement",
+        "lineStart": 1736,
+        "lineEnd": 1736
+      },
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/22-1-planning-engagement"
+      },
+      "rulesText": "Transport - Carry cargo or people through danger. *Detail: The route and means.*",
+      "detail": "The route and means."
     },
     {
       "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/1-1-the-basics",
@@ -3079,78 +3328,6 @@
       },
       "section": "23.2",
       "rulesText": "When the team of PCs works together, the characters have access to four special **teamwork maneuvers**. They're listed at the bottom of the character playbook sheets to help remind the players of them. The four maneuvers are:\n\n* **Assist** another PC who's rolling an action.\n* Lead a **group action**.\n* **Protect** a teammate.\n* **Set up** a character who will follow through on your action."
-    },
-    {
-      "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/23-3-assist",
-      "@type": "Rule",
-      "name": "Assist",
-      "slug": "23-3-assist",
-      "source": {
-        "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
-      },
-      "sourceLocator": {
-        "chapter": "Teamwork",
-        "section": "23.3",
-        "heading": "Assist",
-        "lineStart": 1876,
-        "lineEnd": 1880
-      },
-      "section": "23.3",
-      "rulesText": "When you assist another player who's rolling, describe what your character does to help. Take 1 stress and give them **+1d** to their roll. You might also suffer any consequences that occur because of the roll, depending on the circumstances. Only one character may assist a given roll. *If you really want to help and someone else is already assisting, consider performing a **setup** maneuver instead.*\n\nA character may assist a group action, but only if they aren't taking part in it directly. You decide which character in the group action gets the bonus die."
-    },
-    {
-      "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/23-4-lead-a-group-action",
-      "@type": "Rule",
-      "name": "Lead a group action",
-      "slug": "23-4-lead-a-group-action",
-      "source": {
-        "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
-      },
-      "sourceLocator": {
-        "chapter": "Teamwork",
-        "section": "23.4",
-        "heading": "Lead a group action",
-        "lineStart": 1882,
-        "lineEnd": 1892
-      },
-      "section": "23.4",
-      "rulesText": "When you lead a group action, you coordinate multiple members of the team to tackle a problem together. Describe how your character leads the team in a coordinated effort. Do you bark orders, give subtle hand signals, or provide charismatic inspiration?\n\nEach PC who's involved makes an **action roll** (using the same action) and **the team counts the single best result** as the overall effort for everyone who rolled. However, the character leading the group action takes **1 stress** for each PC that rolled** 1-3** as their best result.\n\n> This is how you do the \"we all sneak into the building\" scene. Everyone who wants to sneak in rolls their Prowl action, and the best result counts for the whole team. The leader suffers stress for everyone who does poorly. It's tough covering for the stragglers.\n\n**The group action result covers everyone who rolled.** If you don't roll, your character doesn't get the effects of the action.\n\nYour character doesn't have to be especially skilled at the action at hand in order to lead a group action. This maneuver is about leadership, not necessarily about ability. You can also lead your crew's **cohorts** with a group action. Roll **Command** if you direct their efforts, or roll the appropriate action rating if you participate alongside them. The cohort rolls its **quality** level."
-    },
-    {
-      "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/23-5-protect",
-      "@type": "Rule",
-      "name": "Protect",
-      "slug": "23-5-protect",
-      "source": {
-        "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
-      },
-      "sourceLocator": {
-        "chapter": "Teamwork",
-        "section": "23.5",
-        "heading": "Protect",
-        "lineStart": 1894,
-        "lineEnd": 1898
-      },
-      "section": "23.5",
-      "rulesText": "You step in to face a consequence that one of your teammates would otherwise face. **You suffer it instead of them. You may roll to resist it as normal.** Describe how you intervene.\n\n> This is how you do the \"I'll dive in front of the bullet\" You cover for a teammate, suffering any harm or consequences that still linger after you've rolled to resist. It hurts, cost stress, and may leave you in a bad spot. But hey, you're a hero."
-    },
-    {
-      "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/23-6-set-up",
-      "@type": "Rule",
-      "name": "Set up",
-      "slug": "23-6-set-up",
-      "source": {
-        "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
-      },
-      "sourceLocator": {
-        "chapter": "Teamwork",
-        "section": "23.6",
-        "heading": "Set up",
-        "lineStart": 1900,
-        "lineEnd": 1910
-      },
-      "section": "23.6",
-      "rulesText": "When you perform a setup action, you have an indirect effect on an obstacle. If your action has its intended result, any member of the team who follows through on your maneuver gets **+1 effect level** or **improved position** for their roll. You choose the benefit, based on the nature of your setup action.\n\n> This is how you do the \"I'll create a distraction\" scene. You roll **Sway** to distract a constable with your charms, then any teammate who follows through with a **Prowl** action to sneak past him can get improved position. It's less risky since you're drawing the guard's attention.\n\nThis is a good way to contribute to an operation when you don't have a good rating in the action at hand. A clever setup action lets you help the team indirectly. Multiple follow-up actions may take advantage of your setup (including someone **leading** a group action) as long as it makes sense in the fiction.\n\nSince a setup action can increase the effect of follow-up actions, it's also useful when the team is facing tough opposition that has advantages in quality, scale, and/or potency. Even if the PCs are reduced to zero effect due to disadvantages in a situation, the setup action provides a bonus that allows for limited effect.\n\n> The PCs are facing a heavily armored carriage that's immune to their weapons. Aldo uses **Wreck** as a setup action to pry some of the armor loose with his crowbar, giving follow up actions +1 effect—going from zero to limited effect."
     },
     {
       "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/23-7-do-we-have-to-use-teamwork",
@@ -7510,6 +7687,77 @@
       "rawText": "| []() |                                                            |                |\n| :--: | :--------------------------------------------------------- | :------------: |\n|  3   | *Shattered Right Leg* &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   |   Need Help    |\n|  2   | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \\| |      -1D       |\n|  1   | *Drained* &nbsp; \\| &nbsp; *Battered*                      | Reduced Effect |"
     },
     {
+      "@id": "https://cheeleong.dev/fitd-system-json/objects/teamwork-maneuvers/assist",
+      "@type": "TeamworkManeuver",
+      "name": "Assist",
+      "slug": "assist",
+      "source": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+      },
+      "sourceLocator": {
+        "chapter": "Teamwork",
+        "section": "23.3",
+        "heading": "Assist",
+        "lineStart": 1876,
+        "lineEnd": 1880
+      },
+      "rulesText": "When you assist another player who's rolling, describe what your character does to help. Take 1 stress and give them **+1d** to their roll. You might also suffer any consequences that occur because of the roll, depending on the circumstances. Only one character may assist a given roll. *If you really want to help and someone else is already assisting, consider performing a **setup** maneuver instead.*\n\nA character may assist a group action, but only if they aren't taking part in it directly. You decide which character in the group action gets the bonus die."
+    },
+    {
+      "@id": "https://cheeleong.dev/fitd-system-json/objects/teamwork-maneuvers/lead-a-group-action",
+      "@type": "TeamworkManeuver",
+      "name": "Lead a group action",
+      "slug": "lead-a-group-action",
+      "source": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+      },
+      "sourceLocator": {
+        "chapter": "Teamwork",
+        "section": "23.4",
+        "heading": "Lead a group action",
+        "lineStart": 1882,
+        "lineEnd": 1892
+      },
+      "rulesText": "When you lead a group action, you coordinate multiple members of the team to tackle a problem together. Describe how your character leads the team in a coordinated effort. Do you bark orders, give subtle hand signals, or provide charismatic inspiration?\n\nEach PC who's involved makes an **action roll** (using the same action) and **the team counts the single best result** as the overall effort for everyone who rolled. However, the character leading the group action takes **1 stress** for each PC that rolled** 1-3** as their best result.\n\n\n**The group action result covers everyone who rolled.** If you don't roll, your character doesn't get the effects of the action.\n\nYour character doesn't have to be especially skilled at the action at hand in order to lead a group action. This maneuver is about leadership, not necessarily about ability. You can also lead your crew's **cohorts** with a group action. Roll **Command** if you direct their efforts, or roll the appropriate action rating if you participate alongside them. The cohort rolls its **quality** level.",
+      "commentary": "This is how you do the \"we all sneak into the building\" scene. Everyone who wants to sneak in rolls their Prowl action, and the best result counts for the whole team. The leader suffers stress for everyone who does poorly. It's tough covering for the stragglers."
+    },
+    {
+      "@id": "https://cheeleong.dev/fitd-system-json/objects/teamwork-maneuvers/protect",
+      "@type": "TeamworkManeuver",
+      "name": "Protect",
+      "slug": "protect",
+      "source": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+      },
+      "sourceLocator": {
+        "chapter": "Teamwork",
+        "section": "23.5",
+        "heading": "Protect",
+        "lineStart": 1894,
+        "lineEnd": 1898
+      },
+      "rulesText": "You step in to face a consequence that one of your teammates would otherwise face. **You suffer it instead of them. You may roll to resist it as normal.** Describe how you intervene.",
+      "commentary": "This is how you do the \"I'll dive in front of the bullet\" You cover for a teammate, suffering any harm or consequences that still linger after you've rolled to resist. It hurts, cost stress, and may leave you in a bad spot. But hey, you're a hero."
+    },
+    {
+      "@id": "https://cheeleong.dev/fitd-system-json/objects/teamwork-maneuvers/set-up",
+      "@type": "TeamworkManeuver",
+      "name": "Set up",
+      "slug": "set-up",
+      "source": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+      },
+      "sourceLocator": {
+        "chapter": "Teamwork",
+        "section": "23.6",
+        "heading": "Set up",
+        "lineStart": 1900,
+        "lineEnd": 1910
+      },
+      "rulesText": "When you perform a setup action, you have an indirect effect on an obstacle. If your action has its intended result, any member of the team who follows through on your maneuver gets **+1 effect level** or **improved position** for their roll. You choose the benefit, based on the nature of your setup action.\n\n\nThis is a good way to contribute to an operation when you don't have a good rating in the action at hand. A clever setup action lets you help the team indirectly. Multiple follow-up actions may take advantage of your setup (including someone **leading** a group action) as long as it makes sense in the fiction.\n\nSince a setup action can increase the effect of follow-up actions, it's also useful when the team is facing tough opposition that has advantages in quality, scale, and/or potency. Even if the PCs are reduced to zero effect due to disadvantages in a situation, the setup action provides a bonus that allows for limited effect.",
+      "commentary": "This is how you do the \"I'll create a distraction\" scene. You roll **Sway** to distract a constable with your charms, then any teammate who follows through with a **Prowl** action to sneak past him can get improved position. It's less risky since you're drawing the guard's attention.\nThe PCs are facing a heavily armored carriage that's immune to their weapons. Aldo uses **Wreck** as a setup action to pry some of the armor loose with his crowbar, giving follow up actions +1 effect—going from zero to limited effect."
+    },
+    {
       "@id": "https://cheeleong.dev/fitd-system-json/objects/trauma-conditions/cold",
       "@type": "TraumaCondition",
       "name": "Cold",
@@ -7523,6 +7771,9 @@
         "heading": "Trauma Conditions",
         "lineStart": 238,
         "lineEnd": 238
+      },
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/4-5-trauma-conditions"
       },
       "rulesText": "**Cold**: You're not moved by emotional appeals or social bonds."
     },
@@ -7541,6 +7792,9 @@
         "lineStart": 239,
         "lineEnd": 239
       },
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/4-5-trauma-conditions"
+      },
       "rulesText": "**Haunted**: You're often lost in reverie, reliving past horrors, seeing things."
     },
     {
@@ -7557,6 +7811,9 @@
         "heading": "Trauma Conditions",
         "lineStart": 240,
         "lineEnd": 240
+      },
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/4-5-trauma-conditions"
       },
       "rulesText": "**Obsessed**: You're enthralled by one thing: an activity, a person, an ideology."
     },
@@ -7575,6 +7832,9 @@
         "lineStart": 241,
         "lineEnd": 241
       },
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/4-5-trauma-conditions"
+      },
       "rulesText": "**Paranoid**: You imagine danger everywhere; you can't trust others."
     },
     {
@@ -7591,6 +7851,9 @@
         "heading": "Trauma Conditions",
         "lineStart": 242,
         "lineEnd": 242
+      },
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/4-5-trauma-conditions"
       },
       "rulesText": "**Reckless**: You have little regard for your own safety or best interests."
     },
@@ -7609,6 +7872,9 @@
         "lineStart": 243,
         "lineEnd": 243
       },
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/4-5-trauma-conditions"
+      },
       "rulesText": "**Soft**: You lose your edge; you become sentimental, passive, gentle."
     },
     {
@@ -7625,6 +7891,9 @@
         "heading": "Trauma Conditions",
         "lineStart": 244,
         "lineEnd": 244
+      },
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/4-5-trauma-conditions"
       },
       "rulesText": "**Unstable**: Your emotional state is volatile. You can instantly rage, or fall into despair, act impulsively, or freeze up."
     },
@@ -7643,7 +7912,150 @@
         "lineStart": 245,
         "lineEnd": 245
       },
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/4-5-trauma-conditions"
+      },
       "rulesText": "**Vicious**: You seek out opportunities to hurt people, even for no good reason."
+    },
+    {
+      "@id": "https://cheeleong.dev/fitd-system-json/objects/vices/faith",
+      "@type": "Vice",
+      "name": "Faith",
+      "slug": "faith",
+      "source": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+      },
+      "sourceLocator": {
+        "chapter": "Character creation",
+        "section": "17.9",
+        "heading": "Choose your vice",
+        "lineStart": 970,
+        "lineEnd": 970
+      },
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/17-9-choose-your-vice"
+      },
+      "rulesText": "**Faith**: You're dedicated to an unseen power, forgotten god, ancestor, etc."
+    },
+    {
+      "@id": "https://cheeleong.dev/fitd-system-json/objects/vices/gambling",
+      "@type": "Vice",
+      "name": "Gambling",
+      "slug": "gambling",
+      "source": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+      },
+      "sourceLocator": {
+        "chapter": "Character creation",
+        "section": "17.9",
+        "heading": "Choose your vice",
+        "lineStart": 971,
+        "lineEnd": 971
+      },
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/17-9-choose-your-vice"
+      },
+      "rulesText": "**Gambling**: You crave games of chance, betting on sporting events, etc."
+    },
+    {
+      "@id": "https://cheeleong.dev/fitd-system-json/objects/vices/luxury",
+      "@type": "Vice",
+      "name": "Luxury",
+      "slug": "luxury",
+      "source": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+      },
+      "sourceLocator": {
+        "chapter": "Character creation",
+        "section": "17.9",
+        "heading": "Choose your vice",
+        "lineStart": 972,
+        "lineEnd": 972
+      },
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/17-9-choose-your-vice"
+      },
+      "rulesText": "**Luxury**: Expensive or ostentatious displays of opulence."
+    },
+    {
+      "@id": "https://cheeleong.dev/fitd-system-json/objects/vices/obligation",
+      "@type": "Vice",
+      "name": "Obligation",
+      "slug": "obligation",
+      "source": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+      },
+      "sourceLocator": {
+        "chapter": "Character creation",
+        "section": "17.9",
+        "heading": "Choose your vice",
+        "lineStart": 973,
+        "lineEnd": 973
+      },
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/17-9-choose-your-vice"
+      },
+      "rulesText": "**Obligation**: You're devoted to a family, a cause, an organization, a charity, etc."
+    },
+    {
+      "@id": "https://cheeleong.dev/fitd-system-json/objects/vices/pleasure",
+      "@type": "Vice",
+      "name": "Pleasure",
+      "slug": "pleasure",
+      "source": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+      },
+      "sourceLocator": {
+        "chapter": "Character creation",
+        "section": "17.9",
+        "heading": "Choose your vice",
+        "lineStart": 974,
+        "lineEnd": 974
+      },
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/17-9-choose-your-vice"
+      },
+      "rulesText": "**Pleasure**: Gratification from lovers, food, drink, drugs, art, theater, etc."
+    },
+    {
+      "@id": "https://cheeleong.dev/fitd-system-json/objects/vices/stupor",
+      "@type": "Vice",
+      "name": "Stupor",
+      "slug": "stupor",
+      "source": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+      },
+      "sourceLocator": {
+        "chapter": "Character creation",
+        "section": "17.9",
+        "heading": "Choose your vice",
+        "lineStart": 975,
+        "lineEnd": 975
+      },
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/17-9-choose-your-vice"
+      },
+      "rulesText": "**Stupor**: You seek oblivion in the abuse of drugs, drinking to excess, getting beaten to a pulp in the fighting pits, etc."
+    },
+    {
+      "@id": "https://cheeleong.dev/fitd-system-json/objects/vices/weird",
+      "@type": "Vice",
+      "name": "Weird",
+      "slug": "weird",
+      "source": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+      },
+      "sourceLocator": {
+        "chapter": "Character creation",
+        "section": "17.9",
+        "heading": "Choose your vice",
+        "lineStart": 976,
+        "lineEnd": 976
+      },
+      "partOf": {
+        "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/17-9-choose-your-vice"
+      },
+      "rulesText": "**Weird**: You experiment with strange essences, consort with rogue spirits, observe bizarre rituals or taboos, etc."
     }
   ]
 }

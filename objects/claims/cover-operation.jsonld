@@ -15,5 +15,8 @@
     "lineEnd": 1567
   },
   "claimType": "crew",
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+  },
   "rulesText": "**Cover Operation**:  You get **-2** **heat** per score. *The cover of a legitimate operation helps deflect some of the **heat** from law enforcement.*"
 }

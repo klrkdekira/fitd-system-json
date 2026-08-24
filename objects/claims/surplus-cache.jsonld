@@ -15,5 +15,8 @@
     "lineEnd": 1605
   },
   "claimType": "crew",
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+  },
   "rulesText": "**Surplus Cache**: You get **+2** **coin** in **payoff** for scores that involve product sale or supply. *You have an abundance of product, which pads your pockets every now and then.*"
 }

@@ -58,6 +58,9 @@ COLLECTIONS = [
     "downtime-activities",
     "claims",
     "trauma-conditions",
+    "vices",
+    "plans",
+    "teamwork-maneuvers",
 ]
 
 COLLECTION_TYPES = {
@@ -70,6 +73,9 @@ COLLECTION_TYPES = {
     "downtime-activities": "DowntimeActivity",
     "claims": "Claim",
     "trauma-conditions": "TraumaCondition",
+    "vices": "Vice",
+    "plans": "Plan",
+    "teamwork-maneuvers": "TeamworkManeuver",
 }
 
 SCHEMA_FOR_COLLECTION = {
@@ -82,6 +88,9 @@ SCHEMA_FOR_COLLECTION = {
     "downtime-activities": "downtime-activity.schema.json",
     "claims": "claim.schema.json",
     "trauma-conditions": "trauma-condition.schema.json",
+    "vices": "vice.schema.json",
+    "plans": "plan.schema.json",
+    "teamwork-maneuvers": "teamwork-maneuver.schema.json",
 }
 
 # The three attributes as printed in the source; the action-to-attribute
@@ -100,6 +109,9 @@ DOWNTIME_CHAPTER = "Downtime activities"
 PRISON_CLAIMS_HEADING = "Prison claims"
 CREW_CLAIMS_HEADING = "Make a Claim Map for the Crew"
 TRAUMA_HEADING = "Trauma Conditions"
+VICE_HEADING = "Choose your vice"
+PLANS_CHAPTER = "Planning & engagement"
+TEAMWORK_HEADING = "Teamwork"
 
 # The six downtime activities as listed in the chapter's own bullet list.
 DOWNTIME_ACTIVITY_NAMES = [

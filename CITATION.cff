@@ -5,7 +5,7 @@ type: dataset
 authors:
   - family-names: "Chow"
     given-names: "Chee Leong"
-version: "0.1.0"
+version: "0.2.0"
 date-released: "2026-08-24"
 license:
   - CC-BY-3.0
@@ -16,8 +16,9 @@ abstract: >-
   A source-faithful JSON-LD 1.1 reference corpus and JSON Schema Draft
   2020-12 specifications for the Blades in the Dark SRD by John Harper
   (One Seven Design, CC-BY-3.0). Includes rules, tables, actions, special
-  abilities, entanglements, downtime activities, claims, and trauma
-  conditions with line-level source provenance.
+  abilities, entanglements, downtime activities, claims, trauma
+  conditions, vices, plans, and teamwork maneuvers with line-level
+  source provenance.
 references:
   - type: manual
     title: "Blades in the Dark SRD"

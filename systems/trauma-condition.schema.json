@@ -5,8 +5,9 @@
   "$ref": "common.schema.json#/$defs/EntityBase",
   "properties": {
     "@type": { "const": "TraumaCondition" },
+    "partOf": { "$ref": "common.schema.json#/$defs/NodeReference" },
     "rulesText": { "type": "string", "minLength": 1 }
   },
-  "required": ["rulesText"],
+  "required": ["partOf", "rulesText"],
   "unevaluatedProperties": false
 }

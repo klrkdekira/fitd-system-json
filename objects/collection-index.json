@@ -964,30 +964,6 @@
         "group": "Teamwork"
       },
       {
-        "slug": "23-3-assist",
-        "name": "Assist",
-        "sub": "§23.3",
-        "group": "Teamwork"
-      },
-      {
-        "slug": "23-4-lead-a-group-action",
-        "name": "Lead a group action",
-        "sub": "§23.4",
-        "group": "Teamwork"
-      },
-      {
-        "slug": "23-5-protect",
-        "name": "Protect",
-        "sub": "§23.5",
-        "group": "Teamwork"
-      },
-      {
-        "slug": "23-6-set-up",
-        "name": "Set up",
-        "sub": "§23.6",
-        "group": "Teamwork"
-      },
-      {
         "slug": "23-7-do-we-have-to-use-teamwork",
         "name": "Do We Have to Use Teamwork?",
         "sub": "§23.7",
@@ -2134,6 +2110,114 @@
         "name": "Vicious",
         "sub": "**Vicious**: You seek out opportunities to hurt people, even for no good reason.",
         "group": "Trauma Conditions"
+      }
+    ],
+    "vices": [
+      {
+        "slug": "faith",
+        "name": "Faith",
+        "sub": "**Faith**: You're dedicated to an unseen power, forgotten god, ancestor, etc.",
+        "group": "Vices"
+      },
+      {
+        "slug": "gambling",
+        "name": "Gambling",
+        "sub": "**Gambling**: You crave games of chance, betting on sporting events, etc.",
+        "group": "Vices"
+      },
+      {
+        "slug": "luxury",
+        "name": "Luxury",
+        "sub": "**Luxury**: Expensive or ostentatious displays of opulence.",
+        "group": "Vices"
+      },
+      {
+        "slug": "obligation",
+        "name": "Obligation",
+        "sub": "**Obligation**: You're devoted to a family, a cause, an organization, a charity,",
+        "group": "Vices"
+      },
+      {
+        "slug": "pleasure",
+        "name": "Pleasure",
+        "sub": "**Pleasure**: Gratification from lovers, food, drink, drugs, art, theater, etc.",
+        "group": "Vices"
+      },
+      {
+        "slug": "stupor",
+        "name": "Stupor",
+        "sub": "**Stupor**: You seek oblivion in the abuse of drugs, drinking to excess, getting",
+        "group": "Vices"
+      },
+      {
+        "slug": "weird",
+        "name": "Weird",
+        "sub": "**Weird**: You experiment with strange essences, consort with rogue spirits, obs",
+        "group": "Vices"
+      }
+    ],
+    "plans": [
+      {
+        "slug": "assault",
+        "name": "Assault",
+        "sub": "The point of attack.",
+        "group": "Plans"
+      },
+      {
+        "slug": "deception",
+        "name": "Deception",
+        "sub": "The method of deception.",
+        "group": "Plans"
+      },
+      {
+        "slug": "stealth",
+        "name": "Stealth",
+        "sub": "The point of infiltration.",
+        "group": "Plans"
+      },
+      {
+        "slug": "occult",
+        "name": "Occult",
+        "sub": "The arcane method.",
+        "group": "Plans"
+      },
+      {
+        "slug": "social",
+        "name": "Social",
+        "sub": "The social connection.",
+        "group": "Plans"
+      },
+      {
+        "slug": "transport",
+        "name": "Transport",
+        "sub": "The route and means.",
+        "group": "Plans"
+      }
+    ],
+    "teamwork-maneuvers": [
+      {
+        "slug": "assist",
+        "name": "Assist",
+        "sub": "When you assist another player who's rolling, describe what your character does",
+        "group": "Teamwork Maneuvers"
+      },
+      {
+        "slug": "lead-a-group-action",
+        "name": "Lead a group action",
+        "sub": "When you lead a group action, you coordinate multiple members of the team to tac",
+        "group": "Teamwork Maneuvers"
+      },
+      {
+        "slug": "protect",
+        "name": "Protect",
+        "sub": "You step in to face a consequence that one of your teammates would otherwise fac",
+        "group": "Teamwork Maneuvers"
+      },
+      {
+        "slug": "set-up",
+        "name": "Set up",
+        "sub": "When you perform a setup action, you have an indirect effect on an obstacle. If",
+        "group": "Teamwork Maneuvers"
       }
     ]
   }

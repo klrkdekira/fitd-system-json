@@ -14,5 +14,8 @@
     "lineStart": 242,
     "lineEnd": 242
   },
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/4-5-trauma-conditions"
+  },
   "rulesText": "**Reckless**: You have little regard for your own safety or best interests."
 }

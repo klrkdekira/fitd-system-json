@@ -15,5 +15,8 @@
     "lineEnd": 1569
   },
   "claimType": "crew",
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+  },
   "rulesText": "**Envoy**: You get **+2** **coin** in **payoff** for scores that involve high-class clients. *This well-connected liaison will help arrange for a better payoff from rich clients.*"
 }

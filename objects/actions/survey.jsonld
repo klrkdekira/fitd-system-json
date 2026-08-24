@@ -15,6 +15,9 @@
     "lineEnd": 194
   },
   "attribute": "Insight",
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/3-10-actions"
+  },
   "rulesText": "When you **Survey**, you observe the situation and anticipate outcomes.",
   "examplesText": "*You might spot telltale signs of trouble before it happens. You might uncover opportunities or weaknesses. You might detect a person's motivations or intentions. You could try to spot a good ambush point (but Hunting might be better).*"
 }

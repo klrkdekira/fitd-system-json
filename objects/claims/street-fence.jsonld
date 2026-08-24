@@ -15,5 +15,8 @@
     "lineEnd": 1587
   },
   "claimType": "crew",
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+  },
   "rulesText": "**Street Fence**: You get **+2** **coin** in your payoff for scores that involve lower-class targets. *An expert can find the treasure amid the trash you loot from your poorer victims.*"
 }

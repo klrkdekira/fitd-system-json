@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/plans/social",
+  "@type": "Plan",
+  "name": "Social",
+  "slug": "social",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Planning & engagement",
+    "section": "22.1",
+    "heading": "Planning & engagement",
+    "lineStart": 1735,
+    "lineEnd": 1735
+  },
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/22-1-planning-engagement"
+  },
+  "rulesText": "Social - Negotiate, bargain, or persuade. *Detail: The social connection.*",
+  "detail": "The social connection."
+}

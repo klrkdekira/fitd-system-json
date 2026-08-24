@@ -15,6 +15,9 @@
     "lineEnd": 190
   },
   "attribute": "Insight",
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/3-10-actions"
+  },
   "rulesText": "When you **Study**, you scrutinize details and interpret evidence.",
   "examplesText": "*You might gather information from documents, newspapers, and books. You might do research on an esoteric topic. You might closely analyze a person to detect lies or true feelings. You could try to examine events to understand a pressing situation (but Surveying might be better).*"
 }

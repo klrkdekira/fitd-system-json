@@ -6,9 +6,10 @@
   "properties": {
     "@type": { "const": "Action" },
     "attribute": { "enum": ["Insight", "Prowess", "Resolve"] },
+    "partOf": { "$ref": "common.schema.json#/$defs/NodeReference" },
     "rulesText": { "type": "string", "minLength": 1 },
     "examplesText": { "type": "string", "minLength": 1 }
   },
-  "required": ["attribute", "rulesText"],
+  "required": ["attribute", "partOf", "rulesText"],
   "unevaluatedProperties": false
 }

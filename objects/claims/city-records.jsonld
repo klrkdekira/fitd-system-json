@@ -15,5 +15,8 @@
     "lineEnd": 1563
   },
   "claimType": "crew",
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+  },
   "rulesText": "**City Records**: You get** **+1d** to the **engagement roll** for **stealth** plans. *You can use blueprints and other documents to determine a good approach for infiltrations.*"
 }

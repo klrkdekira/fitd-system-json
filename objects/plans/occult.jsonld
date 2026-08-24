@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/plans/occult",
+  "@type": "Plan",
+  "name": "Occult",
+  "slug": "occult",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Planning & engagement",
+    "section": "22.1",
+    "heading": "Planning & engagement",
+    "lineStart": 1734,
+    "lineEnd": 1734
+  },
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/22-1-planning-engagement"
+  },
+  "rulesText": "Occult - Engage a supernatural power. *Detail: The arcane method.*",
+  "detail": "The arcane method."
+}

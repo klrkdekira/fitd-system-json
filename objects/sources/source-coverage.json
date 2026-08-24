@@ -4,14 +4,17 @@
   "contentLines": 1439,
   "uncoveredLines": [],
   "recordCounts": {
-    "rules": 206,
+    "rules": 202,
     "tables": 15,
     "actions": 12,
     "special-abilities": 58,
     "entanglements": 12,
     "downtime-activities": 6,
     "claims": 35,
-    "trauma-conditions": 8
+    "trauma-conditions": 8,
+    "vices": 7,
+    "plans": 6,
+    "teamwork-maneuvers": 4
   },
-  "recordsWithLocators": 352
+  "recordsWithLocators": 365
 }

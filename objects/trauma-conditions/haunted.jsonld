@@ -14,5 +14,8 @@
     "lineStart": 239,
     "lineEnd": 239
   },
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/4-5-trauma-conditions"
+  },
   "rulesText": "**Haunted**: You're often lost in reverie, reliving past horrors, seeing things."
 }

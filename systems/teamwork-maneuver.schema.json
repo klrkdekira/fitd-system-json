@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cheeleong.dev/fitd-system-json/systems/teamwork-maneuver.schema.json",
+  "title": "Blades in the Dark SRD Teamwork Maneuver",
+  "$ref": "common.schema.json#/$defs/EntityBase",
+  "properties": {
+    "@type": { "const": "TeamworkManeuver" },
+    "rulesText": { "type": "string", "minLength": 1 },
+    "commentary": { "type": "string", "minLength": 1 }
+  },
+  "required": ["rulesText"],
+  "unevaluatedProperties": false
+}

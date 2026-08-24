@@ -15,5 +15,8 @@
     "lineEnd": 1561
   },
   "claimType": "crew",
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+  },
   "rulesText": "**Turf**: You require one less Rep to advance in tier (max 6)**."
 }

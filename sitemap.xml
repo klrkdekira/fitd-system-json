@@ -115,10 +115,6 @@
   <url><loc>https://cheeleong.dev/fitd-system-json/objects/rules/22-9-linked-plans.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/fitd-system-json/objects/rules/23-1-teamwork.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/fitd-system-json/objects/rules/23-2-teamwork.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/fitd-system-json/objects/rules/23-3-assist.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/fitd-system-json/objects/rules/23-4-lead-a-group-action.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/fitd-system-json/objects/rules/23-5-protect.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/fitd-system-json/objects/rules/23-6-set-up.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/fitd-system-json/objects/rules/23-7-do-we-have-to-use-teamwork.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/fitd-system-json/objects/rules/24-1-downtime.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/fitd-system-json/objects/rules/25-1-payoff.jsonld</loc></url>
@@ -362,4 +358,21 @@
   <url><loc>https://cheeleong.dev/fitd-system-json/objects/trauma-conditions/soft.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/fitd-system-json/objects/trauma-conditions/unstable.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/fitd-system-json/objects/trauma-conditions/vicious.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/fitd-system-json/objects/vices/faith.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/fitd-system-json/objects/vices/gambling.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/fitd-system-json/objects/vices/luxury.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/fitd-system-json/objects/vices/obligation.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/fitd-system-json/objects/vices/pleasure.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/fitd-system-json/objects/vices/stupor.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/fitd-system-json/objects/vices/weird.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/fitd-system-json/objects/plans/assault.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/fitd-system-json/objects/plans/deception.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/fitd-system-json/objects/plans/occult.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/fitd-system-json/objects/plans/social.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/fitd-system-json/objects/plans/stealth.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/fitd-system-json/objects/plans/transport.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/fitd-system-json/objects/teamwork-maneuvers/assist.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/fitd-system-json/objects/teamwork-maneuvers/lead-a-group-action.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/fitd-system-json/objects/teamwork-maneuvers/protect.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/fitd-system-json/objects/teamwork-maneuvers/set-up.jsonld</loc></url>
 </urlset>

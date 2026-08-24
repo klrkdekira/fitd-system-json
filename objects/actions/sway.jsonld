@@ -15,6 +15,9 @@
     "lineEnd": 198
   },
   "attribute": "Resolve",
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/3-10-actions"
+  },
   "rulesText": "When you **Sway**, you influence with guile, charm, or argument.",
   "examplesText": "*You might lie convincingly. You might persuade someone to do what you want. You might argue a compelling case that leaves no clear rebuttal. You could try to trick people into affection or obedience (but Consorting or Commanding might be better).*"
 }

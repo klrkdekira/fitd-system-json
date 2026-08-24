@@ -15,5 +15,8 @@
     "lineEnd": 1597
   },
   "claimType": "crew",
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+  },
   "rulesText": "**Offertory**: You get **+2** **coin** in your payoff for scores that involve occult operations. *The frightened locals offer you tribute when you perform your dark practices. They don't want to be next.*"
 }

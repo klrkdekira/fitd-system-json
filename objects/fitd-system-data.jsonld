@@ -18,7 +18,7 @@
       "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
     },
     "sourceDigest": "sha256-25a43a32ebccee0d5708ac6c0021c2755f9701b6d3ad8eb5241bb46785f47cfd",
-    "corpusDigest": "sha256-a5169548ea2a7f77be8c90878e6fdc088c387aeb52ec101c7d4efa70a77ce066"
+    "corpusDigest": "sha256-0aaa584d0e60c1aae96c6aa9c0c7da3b180e4f7b67fcf03049af298e163e8c2e"
   },
   "collections": [
     {
@@ -353,18 +353,6 @@
         },
         {
           "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/23-2-teamwork"
-        },
-        {
-          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/23-3-assist"
-        },
-        {
-          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/23-4-lead-a-group-action"
-        },
-        {
-          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/23-5-protect"
-        },
-        {
-          "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/23-6-set-up"
         },
         {
           "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/23-7-do-we-have-to-use-teamwork"
@@ -1168,6 +1156,87 @@
       ],
       "schemaReference": {
         "@id": "https://cheeleong.dev/fitd-system-json/systems/trauma-condition.schema.json"
+      }
+    },
+    {
+      "name": "vices",
+      "slug": "vices",
+      "entityType": "Vice",
+      "members": [
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/vices/faith"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/vices/gambling"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/vices/luxury"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/vices/obligation"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/vices/pleasure"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/vices/stupor"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/vices/weird"
+        }
+      ],
+      "schemaReference": {
+        "@id": "https://cheeleong.dev/fitd-system-json/systems/vice.schema.json"
+      }
+    },
+    {
+      "name": "plans",
+      "slug": "plans",
+      "entityType": "Plan",
+      "members": [
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/plans/assault"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/plans/deception"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/plans/occult"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/plans/social"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/plans/stealth"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/plans/transport"
+        }
+      ],
+      "schemaReference": {
+        "@id": "https://cheeleong.dev/fitd-system-json/systems/plan.schema.json"
+      }
+    },
+    {
+      "name": "teamwork-maneuvers",
+      "slug": "teamwork-maneuvers",
+      "entityType": "TeamworkManeuver",
+      "members": [
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/teamwork-maneuvers/assist"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/teamwork-maneuvers/lead-a-group-action"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/teamwork-maneuvers/protect"
+        },
+        {
+          "@id": "https://cheeleong.dev/fitd-system-json/objects/teamwork-maneuvers/set-up"
+        }
+      ],
+      "schemaReference": {
+        "@id": "https://cheeleong.dev/fitd-system-json/systems/teamwork-maneuver.schema.json"
       }
     }
   ]

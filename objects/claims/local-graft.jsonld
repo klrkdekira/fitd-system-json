@@ -15,5 +15,8 @@
     "lineEnd": 1599
   },
   "claimType": "crew",
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+  },
   "rulesText": "**Local Graft**: You get **+2** **coin** in **payoff** for scores that involve a show of force or socializing. *A few city officials share bribe money with those who show that they're players on the scene.*"
 }

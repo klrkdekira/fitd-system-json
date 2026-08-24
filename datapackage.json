@@ -3,7 +3,7 @@
   "title": "Blades in the Dark SRD System JSON",
   "description": "A source-faithful JSON-LD 1.1 reference corpus and JSON Schema Draft 2020-12 specifications for the Blades in the Dark SRD.",
   "homepage": "https://cheeleong.dev/fitd-system-json/",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "licenses": [
     {
       "name": "CC-BY-3.0",
@@ -18,9 +18,20 @@
   ],
   "repository": "https://github.com/klrkdekira/fitd-system-json",
   "contributors": [
-    { "title": "Chee Leong Chow", "role": "author" },
-    { "title": "John Harper (One Seven Design)", "role": "author", "path": "https://bladesinthedark.com/" },
-    { "title": "Randy Oest (amazingrando)", "role": "contributor", "path": "https://github.com/amazingrando/blades-in-the-dark-srd-content" }
+    {
+      "title": "Chee Leong Chow",
+      "role": "author"
+    },
+    {
+      "title": "John Harper (One Seven Design)",
+      "role": "author",
+      "path": "https://bladesinthedark.com/"
+    },
+    {
+      "title": "Randy Oest (amazingrando)",
+      "role": "contributor",
+      "path": "https://github.com/amazingrando/blades-in-the-dark-srd-content"
+    }
   ],
   "resources": [
     {
@@ -70,6 +81,49 @@
       "path": "Blades-in-the-Dark-SRD.md",
       "format": "md",
       "mediatype": "text/markdown"
+    },
+    {
+      "name": "source-coverage",
+      "path": "objects/sources/source-coverage.json",
+      "format": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "name": "extraction-overrides",
+      "path": "objects/sources/extraction-overrides.json",
+      "format": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "name": "schemas",
+      "path": [
+        "systems/action.schema.json",
+        "systems/bundle.schema.json",
+        "systems/claim.schema.json",
+        "systems/collection-index.schema.json",
+        "systems/common.schema.json",
+        "systems/coverage.schema.json",
+        "systems/downtime-activity.schema.json",
+        "systems/entanglement.schema.json",
+        "systems/plan.schema.json",
+        "systems/rule.schema.json",
+        "systems/search-index.schema.json",
+        "systems/source.schema.json",
+        "systems/special-ability.schema.json",
+        "systems/system.schema.json",
+        "systems/table.schema.json",
+        "systems/teamwork-maneuver.schema.json",
+        "systems/trauma-condition.schema.json",
+        "systems/vice.schema.json"
+      ],
+      "format": "json",
+      "mediatype": "application/schema+json"
+    },
+    {
+      "name": "sitemap",
+      "path": "sitemap.xml",
+      "format": "xml",
+      "mediatype": "application/xml"
     }
   ]
 }

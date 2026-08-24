@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/plans/stealth",
+  "@type": "Plan",
+  "name": "Stealth",
+  "slug": "stealth",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Planning & engagement",
+    "section": "22.1",
+    "heading": "Planning & engagement",
+    "lineStart": 1733,
+    "lineEnd": 1733
+  },
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/22-1-planning-engagement"
+  },
+  "rulesText": "Stealth - Trespass unseen. *Detail: The point of infiltration.*",
+  "detail": "The point of infiltration."
+}

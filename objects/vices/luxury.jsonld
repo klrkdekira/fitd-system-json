@@ -1,0 +1,21 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/vices/luxury",
+  "@type": "Vice",
+  "name": "Luxury",
+  "slug": "luxury",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character creation",
+    "section": "17.9",
+    "heading": "Choose your vice",
+    "lineStart": 972,
+    "lineEnd": 972
+  },
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/17-9-choose-your-vice"
+  },
+  "rulesText": "**Luxury**: Expensive or ostentatious displays of opulence."
+}

@@ -15,5 +15,8 @@
     "lineEnd": 1575
   },
   "claimType": "crew",
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+  },
   "rulesText": "**Informants**: You get **+1d** to gather information for a score. *Your eyes and ears on the streets are always on the lookout for new targets.*"
 }

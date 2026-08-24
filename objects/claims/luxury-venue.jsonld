@@ -15,5 +15,8 @@
     "lineEnd": 1603
   },
   "claimType": "crew",
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+  },
   "rulesText": "**Luxury Venue**:  **+1d** to **Consort** and **Sway** rolls on-site. *Silks, paintings, and crystal impress the clientele.*"
 }

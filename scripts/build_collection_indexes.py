@@ -53,6 +53,18 @@ def entry_for(collection: str, record: dict):
         group = "Trauma Conditions"
         sub = record.get("rulesText", "")[:80]
         order = (0, locator.get("lineStart", 0))
+    elif collection == "vices":
+        group = "Vices"
+        sub = record.get("rulesText", "")[:80]
+        order = (0, locator.get("lineStart", 0))
+    elif collection == "plans":
+        group = "Plans"
+        sub = record.get("detail", "")
+        order = (0, locator.get("lineStart", 0))
+    elif collection == "teamwork-maneuvers":
+        group = "Teamwork Maneuvers"
+        sub = record.get("rulesText", "")[:80]
+        order = (0, locator.get("lineStart", 0))
     elif collection in ("rules", "tables"):
         group = locator.get("chapter", "")
         sub = f"§{locator.get('section', '')}"

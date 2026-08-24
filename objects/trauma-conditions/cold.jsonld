@@ -14,5 +14,8 @@
     "lineStart": 238,
     "lineEnd": 238
   },
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/4-5-trauma-conditions"
+  },
   "rulesText": "**Cold**: You're not moved by emotional appeals or social bonds."
 }

@@ -15,6 +15,9 @@
     "lineEnd": 170
   },
   "attribute": "Resolve",
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/3-10-actions"
+  },
   "rulesText": "When you **Consort**, you socialize with friends and contacts.",
   "examplesText": "*You might gain access to resources, information, people, or places. You might make a good impression or win someone over with your charm and style. You might make new friends or connect with your heritage or background. You could try to manipulate your friends with social pressure (but Sway might be better).*"
 }

@@ -15,6 +15,9 @@
     "lineEnd": 206
   },
   "attribute": "Prowess",
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/3-10-actions"
+  },
   "rulesText": "When you **Wreck**, you unleash savage force.",
   "examplesText": "*You might smash down a door or wall with a sledgehammer, or use an explosive to do the same. You might employ chaos or sabotage to create a distraction or overcome an obstacle. You could try to overwhelm an enemy with sheer force in battle (but Skirmishing might be better).*"
 }

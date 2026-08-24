@@ -26,6 +26,9 @@ EXPECTED_COUNTS = {
     "entanglements": 12,
     "downtime-activities": 6,
     "trauma-conditions": 8,
+    "vices": 7,
+    "plans": 6,
+    "teamwork-maneuvers": 4,
 }
 EXPECTED_ABILITIES = {"character": 42, "crew": 16}
 EXPECTED_CLAIMS = {"crew": 29, "prison": 6}
@@ -93,11 +96,12 @@ def main():
             claim_types[claim_type] = claim_types.get(claim_type, 0) + 1
             if claim_type == "crew":
                 sub_records.append(record)
-        if collection == "trauma-conditions":
+        if collection in ("trauma-conditions", "vices", "plans"):
             sub_records.append(record)
 
     # Paragraph/bullet-grained records must sit inside the rule that owns
-    # their section.
+    # their section, and their partOf edge must point at that rule.
+    rule_ids = {r["sourceLocator"]["section"]: r["@id"] for c, r in records if c == "rules"}
     for record in sub_records:
         locator = record["sourceLocator"]
         owner = rule_spans.get(locator["section"])
@@ -105,6 +109,11 @@ def main():
             errors.append(f"{record['slug']}: no owning rule for §{locator['section']}")
         elif not (owner[0] <= locator["lineStart"] <= locator["lineEnd"] <= owner[1]):
             errors.append(f"{record['slug']}: span escapes owning rule §{locator['section']}")
+        if record.get("partOf", {}).get("@id") != rule_ids.get(locator["section"]):
+            errors.append(
+                f"{record['slug']}: partOf does not reference the owning rule "
+                f"§{locator['section']}"
+            )
 
     for collection, expected in EXPECTED_COUNTS.items():
         if counts.get(collection, 0) != expected:

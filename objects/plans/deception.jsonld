@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/plans/deception",
+  "@type": "Plan",
+  "name": "Deception",
+  "slug": "deception",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Planning & engagement",
+    "section": "22.1",
+    "heading": "Planning & engagement",
+    "lineStart": 1732,
+    "lineEnd": 1732
+  },
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/22-1-planning-engagement"
+  },
+  "rulesText": "Deception - Lure, trick, or manipulate. *Detail: The method of deception.*",
+  "detail": "The method of deception."
+}

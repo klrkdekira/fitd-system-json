@@ -92,6 +92,56 @@ class TestCatalogRecords(unittest.TestCase):
         cold = record("trauma-conditions", "cold")
         self.assertTrue(cold["rulesText"].startswith("**Cold**:"))
 
+    def test_vice_bullets(self):
+        slugs = {
+            path.stem for c, path in iter_object_files(ROOT) if c == "vices"
+        }
+        self.assertEqual(
+            slugs,
+            {"faith", "gambling", "luxury", "obligation", "pleasure",
+             "stupor", "weird"},
+        )
+        faith = record("vices", "faith")
+        self.assertTrue(faith["rulesText"].startswith("**Faith**:"))
+
+    def test_plan_detail_field(self):
+        assault = record("plans", "assault")
+        self.assertEqual(assault["detail"], "The point of attack.")
+        slugs = {
+            path.stem for c, path in iter_object_files(ROOT) if c == "plans"
+        }
+        self.assertEqual(
+            slugs,
+            {"assault", "deception", "stealth", "occult", "social",
+             "transport"},
+        )
+
+    def test_teamwork_maneuver_sections(self):
+        slugs = {
+            path.stem
+            for c, path in iter_object_files(ROOT)
+            if c == "teamwork-maneuvers"
+        }
+        self.assertEqual(
+            slugs, {"assist", "lead-a-group-action", "protect", "set-up"}
+        )
+        assist = record("teamwork-maneuvers", "assist")
+        self.assertIn("Take 1 stress", assist["rulesText"])
+
+    def test_sub_span_records_link_their_owning_rule(self):
+        expectations = {
+            ("actions", "wreck"): "3-10-actions",
+            ("claims", "turf"): "20-6-make-a-claim-map-for-the-crew",
+            ("trauma-conditions", "cold"): "4-5-trauma-conditions",
+            ("vices", "faith"): "17-9-choose-your-vice",
+            ("plans", "assault"): "22-1-planning-engagement",
+        }
+        for (collection, slug), rule_slug in expectations.items():
+            self.assertEqual(
+                record(collection, slug)["partOf"]["@id"],
+                f"https://cheeleong.dev/fitd-system-json/objects/rules/{rule_slug}",
+            )
+
 
 class TestTablesAndRules(unittest.TestCase):
     def test_table_raw_text_matches_source_span(self):

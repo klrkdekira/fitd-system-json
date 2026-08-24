@@ -14,5 +14,8 @@
     "lineStart": 240,
     "lineEnd": 240
   },
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/4-5-trauma-conditions"
+  },
   "rulesText": "**Obsessed**: You're enthralled by one thing: an activity, a person, an ideology."
 }

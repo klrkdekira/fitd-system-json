@@ -16,6 +16,8 @@
     "attribute": "fitd:attribute",
     "abilityScope": "fitd:abilityScope",
     "claimType": "fitd:claimType",
+    "detail": "fitd:detail",
+    "partOf": { "@id": "fitd:partOf", "@type": "@id" },
     "source": { "@id": "dcterms:source", "@type": "@id" },
     "sourceLocator": "fitd:sourceLocator",
     "license": "fitd:licenseCode",

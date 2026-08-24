@@ -15,6 +15,9 @@
     "lineEnd": 162
   },
   "attribute": "Resolve",
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/3-10-actions"
+  },
   "rulesText": "When you **Attune**, you open your mind to arcane power.",
   "examplesText": "*You might communicate with a ghost. You could try to perceive beyond sight in order to better understand your situation (but Surveying might be better).*"
 }

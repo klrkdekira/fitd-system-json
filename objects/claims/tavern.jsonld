@@ -15,5 +15,8 @@
     "lineEnd": 1615
   },
   "claimType": "crew",
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+  },
   "rulesText": "**Tavern**: You get **+1d** to **Consort** and **Sway** rolls on-site. *Some booze and friendly conversation can go a long way.*"
 }

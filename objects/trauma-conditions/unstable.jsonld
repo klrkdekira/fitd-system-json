@@ -14,5 +14,8 @@
     "lineStart": 244,
     "lineEnd": 244
   },
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/4-5-trauma-conditions"
+  },
   "rulesText": "**Unstable**: Your emotional state is volatile. You can instantly rage, or fall into despair, act impulsively, or freeze up."
 }

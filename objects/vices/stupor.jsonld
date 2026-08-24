@@ -1,0 +1,21 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/vices/stupor",
+  "@type": "Vice",
+  "name": "Stupor",
+  "slug": "stupor",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character creation",
+    "section": "17.9",
+    "heading": "Choose your vice",
+    "lineStart": 975,
+    "lineEnd": 975
+  },
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/17-9-choose-your-vice"
+  },
+  "rulesText": "**Stupor**: You seek oblivion in the abuse of drugs, drinking to excess, getting beaten to a pulp in the fighting pits, etc."
+}

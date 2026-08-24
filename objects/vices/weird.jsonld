@@ -1,0 +1,21 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/vices/weird",
+  "@type": "Vice",
+  "name": "Weird",
+  "slug": "weird",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character creation",
+    "section": "17.9",
+    "heading": "Choose your vice",
+    "lineStart": 976,
+    "lineEnd": 976
+  },
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/17-9-choose-your-vice"
+  },
+  "rulesText": "**Weird**: You experiment with strange essences, consort with rogue spirits, observe bizarre rituals or taboos, etc."
+}

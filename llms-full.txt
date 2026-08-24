@@ -4,7 +4,7 @@ Machine-readable JSON-LD 1.1 reference corpus for the Blades in the Dark SRD (Fo
 Base IRI: https://cheeleong.dev/fitd-system-json/
 Manifest: https://cheeleong.dev/fitd-system-json/objects/fitd-system-data.jsonld
 Source digest: sha256-25a43a32ebccee0d5708ac6c0021c2755f9701b6d3ad8eb5241bb46785f47cfd
-Corpus digest: sha256-a5169548ea2a7f77be8c90878e6fdc088c387aeb52ec101c7d4efa70a77ce066
+Corpus digest: sha256-0aaa584d0e60c1aae96c6aa9c0c7da3b180e4f7b67fcf03049af298e163e8c2e
 
 Attribution: This work is based on Blades in the Dark (found at http://www.bladesinthedark.com/), product of One Seven Design, developed and authored by John Harper, and licensed for our use under the Creative Commons Attribution 3.0 Unported license (http://creativecommons.org/licenses/by/3.0/).
 
@@ -25,7 +25,7 @@ This work is based on Blades in the Dark (found at http://www.bladesinthedark.co
 [conversionStatement]
 The in-scope source file is the Markdown conversion of the Blades in the Dark SRD text published by Randy Oest (amazingrando) at https://github.com/amazingrando/blades-in-the-dark-srd-content, file Blades-in-the-Dark-SRD.md at commit ac2747ffc0806b2be9f14d29b2ace5dca6149bc3 (2022-04-08), retrieved on 2026-08-24.
 
-## Collection: rules (206 records)
+## Collection: rules (202 records)
 
 ### The Basics
 id: https://cheeleong.dev/fitd-system-json/objects/rules/1-1-the-basics
@@ -1666,66 +1666,6 @@ When the team of PCs works together, the characters have access to four special 
 * Lead a **group action**.
 * **Protect** a teammate.
 * **Set up** a character who will follow through on your action.
-
-### Assist
-id: https://cheeleong.dev/fitd-system-json/objects/rules/23-3-assist
-source: Teamwork §23.3 (lines 1876-1880)
-
-[section]
-23.3
-
-[rulesText]
-When you assist another player who's rolling, describe what your character does to help. Take 1 stress and give them **+1d** to their roll. You might also suffer any consequences that occur because of the roll, depending on the circumstances. Only one character may assist a given roll. *If you really want to help and someone else is already assisting, consider performing a **setup** maneuver instead.*
-
-A character may assist a group action, but only if they aren't taking part in it directly. You decide which character in the group action gets the bonus die.
-
-### Lead a group action
-id: https://cheeleong.dev/fitd-system-json/objects/rules/23-4-lead-a-group-action
-source: Teamwork §23.4 (lines 1882-1892)
-
-[section]
-23.4
-
-[rulesText]
-When you lead a group action, you coordinate multiple members of the team to tackle a problem together. Describe how your character leads the team in a coordinated effort. Do you bark orders, give subtle hand signals, or provide charismatic inspiration?
-
-Each PC who's involved makes an **action roll** (using the same action) and **the team counts the single best result** as the overall effort for everyone who rolled. However, the character leading the group action takes **1 stress** for each PC that rolled** 1-3** as their best result.
-
-> This is how you do the "we all sneak into the building" scene. Everyone who wants to sneak in rolls their Prowl action, and the best result counts for the whole team. The leader suffers stress for everyone who does poorly. It's tough covering for the stragglers.
-
-**The group action result covers everyone who rolled.** If you don't roll, your character doesn't get the effects of the action.
-
-Your character doesn't have to be especially skilled at the action at hand in order to lead a group action. This maneuver is about leadership, not necessarily about ability. You can also lead your crew's **cohorts** with a group action. Roll **Command** if you direct their efforts, or roll the appropriate action rating if you participate alongside them. The cohort rolls its **quality** level.
-
-### Protect
-id: https://cheeleong.dev/fitd-system-json/objects/rules/23-5-protect
-source: Teamwork §23.5 (lines 1894-1898)
-
-[section]
-23.5
-
-[rulesText]
-You step in to face a consequence that one of your teammates would otherwise face. **You suffer it instead of them. You may roll to resist it as normal.** Describe how you intervene.
-
-> This is how you do the "I'll dive in front of the bullet" You cover for a teammate, suffering any harm or consequences that still linger after you've rolled to resist. It hurts, cost stress, and may leave you in a bad spot. But hey, you're a hero.
-
-### Set up
-id: https://cheeleong.dev/fitd-system-json/objects/rules/23-6-set-up
-source: Teamwork §23.6 (lines 1900-1910)
-
-[section]
-23.6
-
-[rulesText]
-When you perform a setup action, you have an indirect effect on an obstacle. If your action has its intended result, any member of the team who follows through on your maneuver gets **+1 effect level** or **improved position** for their roll. You choose the benefit, based on the nature of your setup action.
-
-> This is how you do the "I'll create a distraction" scene. You roll **Sway** to distract a constable with your charms, then any teammate who follows through with a **Prowl** action to sneak past him can get improved position. It's less risky since you're drawing the guard's attention.
-
-This is a good way to contribute to an operation when you don't have a good rating in the action at hand. A clever setup action lets you help the team indirectly. Multiple follow-up actions may take advantage of your setup (including someone **leading** a group action) as long as it makes sense in the fiction.
-
-Since a setup action can increase the effect of follow-up actions, it's also useful when the team is facing tough opposition that has advantages in quality, scale, and/or potency. Even if the PCs are reduced to zero effect due to disadvantages in a situation, the setup action provides a bonus that allows for limited effect.
-
-> The PCs are facing a heavily armored carriage that's immune to their weapons. Aldo uses **Wreck** as a setup action to pry some of the armor loose with his crowbar, giving follow up actions +1 effect—going from zero to limited effect.
 
 ### Do We Have to Use Teamwork?
 id: https://cheeleong.dev/fitd-system-json/objects/rules/23-7-do-we-have-to-use-teamwork
@@ -4812,4 +4752,153 @@ source: Stress & Trauma §4.5 (lines 245-245)
 
 [rulesText]
 **Vicious**: You seek out opportunities to hurt people, even for no good reason.
+
+## Collection: vices (7 records)
+
+### Faith
+id: https://cheeleong.dev/fitd-system-json/objects/vices/faith
+source: Character creation §17.9 (lines 970-970)
+
+[rulesText]
+**Faith**: You're dedicated to an unseen power, forgotten god, ancestor, etc.
+
+### Gambling
+id: https://cheeleong.dev/fitd-system-json/objects/vices/gambling
+source: Character creation §17.9 (lines 971-971)
+
+[rulesText]
+**Gambling**: You crave games of chance, betting on sporting events, etc.
+
+### Luxury
+id: https://cheeleong.dev/fitd-system-json/objects/vices/luxury
+source: Character creation §17.9 (lines 972-972)
+
+[rulesText]
+**Luxury**: Expensive or ostentatious displays of opulence.
+
+### Obligation
+id: https://cheeleong.dev/fitd-system-json/objects/vices/obligation
+source: Character creation §17.9 (lines 973-973)
+
+[rulesText]
+**Obligation**: You're devoted to a family, a cause, an organization, a charity, etc.
+
+### Pleasure
+id: https://cheeleong.dev/fitd-system-json/objects/vices/pleasure
+source: Character creation §17.9 (lines 974-974)
+
+[rulesText]
+**Pleasure**: Gratification from lovers, food, drink, drugs, art, theater, etc.
+
+### Stupor
+id: https://cheeleong.dev/fitd-system-json/objects/vices/stupor
+source: Character creation §17.9 (lines 975-975)
+
+[rulesText]
+**Stupor**: You seek oblivion in the abuse of drugs, drinking to excess, getting beaten to a pulp in the fighting pits, etc.
+
+### Weird
+id: https://cheeleong.dev/fitd-system-json/objects/vices/weird
+source: Character creation §17.9 (lines 976-976)
+
+[rulesText]
+**Weird**: You experiment with strange essences, consort with rogue spirits, observe bizarre rituals or taboos, etc.
+
+## Collection: plans (6 records)
+
+### Assault
+id: https://cheeleong.dev/fitd-system-json/objects/plans/assault
+source: Planning & engagement §22.1 (lines 1731-1731)
+
+[rulesText]
+Assault - Do violence to a target. *Detail: The point of attack.*
+
+### Deception
+id: https://cheeleong.dev/fitd-system-json/objects/plans/deception
+source: Planning & engagement §22.1 (lines 1732-1732)
+
+[rulesText]
+Deception - Lure, trick, or manipulate. *Detail: The method of deception.*
+
+### Occult
+id: https://cheeleong.dev/fitd-system-json/objects/plans/occult
+source: Planning & engagement §22.1 (lines 1734-1734)
+
+[rulesText]
+Occult - Engage a supernatural power. *Detail: The arcane method.*
+
+### Social
+id: https://cheeleong.dev/fitd-system-json/objects/plans/social
+source: Planning & engagement §22.1 (lines 1735-1735)
+
+[rulesText]
+Social - Negotiate, bargain, or persuade. *Detail: The social connection.*
+
+### Stealth
+id: https://cheeleong.dev/fitd-system-json/objects/plans/stealth
+source: Planning & engagement §22.1 (lines 1733-1733)
+
+[rulesText]
+Stealth - Trespass unseen. *Detail: The point of infiltration.*
+
+### Transport
+id: https://cheeleong.dev/fitd-system-json/objects/plans/transport
+source: Planning & engagement §22.1 (lines 1736-1736)
+
+[rulesText]
+Transport - Carry cargo or people through danger. *Detail: The route and means.*
+
+## Collection: teamwork-maneuvers (4 records)
+
+### Assist
+id: https://cheeleong.dev/fitd-system-json/objects/teamwork-maneuvers/assist
+source: Teamwork §23.3 (lines 1876-1880)
+
+[rulesText]
+When you assist another player who's rolling, describe what your character does to help. Take 1 stress and give them **+1d** to their roll. You might also suffer any consequences that occur because of the roll, depending on the circumstances. Only one character may assist a given roll. *If you really want to help and someone else is already assisting, consider performing a **setup** maneuver instead.*
+
+A character may assist a group action, but only if they aren't taking part in it directly. You decide which character in the group action gets the bonus die.
+
+### Lead a group action
+id: https://cheeleong.dev/fitd-system-json/objects/teamwork-maneuvers/lead-a-group-action
+source: Teamwork §23.4 (lines 1882-1892)
+
+[rulesText]
+When you lead a group action, you coordinate multiple members of the team to tackle a problem together. Describe how your character leads the team in a coordinated effort. Do you bark orders, give subtle hand signals, or provide charismatic inspiration?
+
+Each PC who's involved makes an **action roll** (using the same action) and **the team counts the single best result** as the overall effort for everyone who rolled. However, the character leading the group action takes **1 stress** for each PC that rolled** 1-3** as their best result.
+
+
+**The group action result covers everyone who rolled.** If you don't roll, your character doesn't get the effects of the action.
+
+Your character doesn't have to be especially skilled at the action at hand in order to lead a group action. This maneuver is about leadership, not necessarily about ability. You can also lead your crew's **cohorts** with a group action. Roll **Command** if you direct their efforts, or roll the appropriate action rating if you participate alongside them. The cohort rolls its **quality** level.
+
+[commentary]
+This is how you do the "we all sneak into the building" scene. Everyone who wants to sneak in rolls their Prowl action, and the best result counts for the whole team. The leader suffers stress for everyone who does poorly. It's tough covering for the stragglers.
+
+### Protect
+id: https://cheeleong.dev/fitd-system-json/objects/teamwork-maneuvers/protect
+source: Teamwork §23.5 (lines 1894-1898)
+
+[rulesText]
+You step in to face a consequence that one of your teammates would otherwise face. **You suffer it instead of them. You may roll to resist it as normal.** Describe how you intervene.
+
+[commentary]
+This is how you do the "I'll dive in front of the bullet" You cover for a teammate, suffering any harm or consequences that still linger after you've rolled to resist. It hurts, cost stress, and may leave you in a bad spot. But hey, you're a hero.
+
+### Set up
+id: https://cheeleong.dev/fitd-system-json/objects/teamwork-maneuvers/set-up
+source: Teamwork §23.6 (lines 1900-1910)
+
+[rulesText]
+When you perform a setup action, you have an indirect effect on an obstacle. If your action has its intended result, any member of the team who follows through on your maneuver gets **+1 effect level** or **improved position** for their roll. You choose the benefit, based on the nature of your setup action.
+
+
+This is a good way to contribute to an operation when you don't have a good rating in the action at hand. A clever setup action lets you help the team indirectly. Multiple follow-up actions may take advantage of your setup (including someone **leading** a group action) as long as it makes sense in the fiction.
+
+Since a setup action can increase the effect of follow-up actions, it's also useful when the team is facing tough opposition that has advantages in quality, scale, and/or potency. Even if the PCs are reduced to zero effect due to disadvantages in a situation, the setup action provides a bonus that allows for limited effect.
+
+[commentary]
+This is how you do the "I'll create a distraction" scene. You roll **Sway** to distract a constable with your charms, then any teammate who follows through with a **Prowl** action to sneak past him can get improved position. It's less risky since you're drawing the guard's attention.
+The PCs are facing a heavily armored carriage that's immune to their weapons. Aldo uses **Wreck** as a setup action to pry some of the armor loose with his crowbar, giving follow up actions +1 effect—going from zero to limited effect.
 

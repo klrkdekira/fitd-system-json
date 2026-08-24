@@ -1,12 +1,12 @@
 # Blades in the Dark SRD System JSON
 
 [![CI](https://github.com/klrkdekira/fitd-system-json/actions/workflows/ci.yml/badge.svg)](https://github.com/klrkdekira/fitd-system-json/actions/workflows/ci.yml)
-[![Version](https://img.shields.io/badge/version-0.1.0-blue.svg)](https://github.com/klrkdekira/fitd-system-json)
+[![Version](https://img.shields.io/badge/version-0.2.0-blue.svg)](https://github.com/klrkdekira/fitd-system-json)
 [![JSON-LD 1.1](https://img.shields.io/badge/JSON--LD-1.1-blue.svg)](https://www.w3.org/TR/json-ld11/)
 [![Content License: CC BY 3.0](https://img.shields.io/badge/Content_License-CC_BY_3.0-lightgrey.svg)](https://creativecommons.org/licenses/by/3.0/)
 [![Code License: MIT](https://img.shields.io/badge/Code_License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A source-faithful, machine-readable edition of the **Blades in the Dark SRD** (Forged in the Dark rules). The repository turns the CC-BY-3.0 source Markdown into 353 modular records across 9 collections, with:
+A source-faithful, machine-readable edition of the **Blades in the Dark SRD** (Forged in the Dark rules). The repository turns the CC-BY-3.0 source Markdown into 366 modular records across 12 collections, with:
 
 - JSON-LD 1.1 identity and graph relationships;
 - JSON Schema Draft 2020-12 contracts;
@@ -69,7 +69,7 @@ The example is abbreviated. The full record also retains the printed play exampl
 | Artifact | Purpose |
 | --- | --- |
 | [`objects/fitd-system-data.jsonld`](https://cheeleong.dev/fitd-system-json/objects/fitd-system-data.jsonld) | Manifest containing corpus metadata, source and corpus digests, collection descriptors, member links, and schema links. |
-| [`objects/fitd-system-data.bundle.jsonld`](https://cheeleong.dev/fitd-system-json/objects/fitd-system-data.bundle.jsonld) | All 353 records in one JSON-LD `@graph`. |
+| [`objects/fitd-system-data.bundle.jsonld`](https://cheeleong.dev/fitd-system-json/objects/fitd-system-data.bundle.jsonld) | All 366 records in one JSON-LD `@graph`. |
 | [`objects/search-index.json`](https://cheeleong.dev/fitd-system-json/objects/search-index.json) | Static inverted index over all records and nested text fragments. |
 | [`objects/collection-index.json`](https://cheeleong.dev/fitd-system-json/objects/collection-index.json) | Compact display and filter metadata such as action attribute, ability scope, and claim type. |
 | [`systems/context.jsonld`](https://cheeleong.dev/fitd-system-json/systems/context.jsonld) | Shared JSON-LD context, including IRI coercion rules. |
@@ -81,12 +81,12 @@ The example is abbreviated. The full record also retains the printed play exampl
 
 ## Corpus inventory
 
-The v0.1.0 build contains:
+The v0.2.0 build contains:
 
 | Collection | Records | What is represented |
 | --- | ---: | --- |
 | `sources` | 1 | Source identity, licence, attribution, conversion provenance, and SHA-256 digest |
-| `rules` | 206 | General rules, chapters, and reference prose |
+| `rules` | 202 | General rules, chapters, and reference prose |
 | `tables` | 15 | Logical tables with ordered rows, raw Markdown, and physical spans |
 | `actions` | 12 | The twelve actions with their attribute (from the printed rating tables) and play examples |
 | `special-abilities` | 58 | 42 character and 16 crew special abilities, rules text split from designer commentary |
@@ -94,7 +94,10 @@ The v0.1.0 build contains:
 | `downtime-activities` | 6 | The six listed downtime activities |
 | `claims` | 35 | 29 crew claim-map claims and 6 prison claims |
 | `trauma-conditions` | 8 | The permanent trauma conditions |
-| **Total** | **353** | **1,439 non-blank source lines, 100% covered** |
+| `vices` | 7 | The seven vices from the character-creation list |
+| `plans` | 6 | The six score plan types, each with its typed missing detail |
+| `teamwork-maneuvers` | 4 | Assist, lead a group action, protect, and set up |
+| **Total** | **366** | **1,439 non-blank source lines, 100% covered** |
 
 ## Data model and guarantees
 
@@ -103,7 +106,7 @@ The project is designed for source-backed reference and retrieval workloads:
 - **Stable identity.** Every entity has a lowercase-kebab-case canonical `@id` under `https://cheeleong.dev/fitd-system-json/` and an `@type` defined by the shared context.
 - **Graph-safe links.** Semantic relationships use `{ "@id": "…" }` node references. `$ref` is reserved for JSON Schema composition.
 - **Source-faithful prose.** `rulesText`, `examplesText`, and `commentary` preserve source wording, Markdown emphasis included. Typed sibling fields are indexes, not replacements for the prose.
-- **Physical provenance.** `sourceLocator` identifies the source chapter, section, heading, and inclusive line range. Paragraph- and bullet-grained records (actions, crew claims, trauma conditions) carry sub-spans inside their owning rule.
+- **Physical provenance.** `sourceLocator` identifies the source chapter, section, heading, and inclusive line range. Paragraph- and bullet-grained records (actions, crew claims, trauma conditions, vices, plans) carry sub-spans inside their owning rule and link it with a `partOf` node reference.
 - **No invented values.** Extraction does not fill gaps in the source; conversion artefacts are retained and registered rather than silently repaired.
 - **Reviewed normalisation.** Extraction-time normalisations are recorded in [`objects/sources/extraction-overrides.json`](objects/sources/extraction-overrides.json) with observed text, disposition, and rationale, and `make anomalies` rejects unreviewed detector hits.
 - **Deterministic output.** Clean builds contain no timestamps or random ordering and must reproduce the checked-in artifacts byte for byte.

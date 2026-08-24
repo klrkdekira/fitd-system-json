@@ -1,0 +1,21 @@
+{
+  "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/fitd-system-json/objects/vices/gambling",
+  "@type": "Vice",
+  "name": "Gambling",
+  "slug": "gambling",
+  "source": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/sources/blades-in-the-dark-srd"
+  },
+  "sourceLocator": {
+    "chapter": "Character creation",
+    "section": "17.9",
+    "heading": "Choose your vice",
+    "lineStart": 971,
+    "lineEnd": 971
+  },
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/17-9-choose-your-vice"
+  },
+  "rulesText": "**Gambling**: You crave games of chance, betting on sporting events, etc."
+}

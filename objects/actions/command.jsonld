@@ -15,6 +15,9 @@
     "lineEnd": 166
   },
   "attribute": "Resolve",
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/3-10-actions"
+  },
   "rulesText": "When you **Command**, you compel swift obedience.",
   "examplesText": "*You might intimidate or threaten to get what you want. You might lead a gang in a group action. You could try to order people around to persuade them (but Consorting might be better).*"
 }

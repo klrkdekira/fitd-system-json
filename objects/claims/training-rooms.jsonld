@@ -15,5 +15,8 @@
     "lineEnd": 1579
   },
   "claimType": "crew",
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+  },
   "rulesText": "**Training Rooms**: Your cohorts of a specific type get **+1 scale**. *Extra training enables them to fight like a larger gang.*"
 }

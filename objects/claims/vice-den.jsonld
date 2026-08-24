@@ -15,5 +15,8 @@
     "lineEnd": 1581
   },
   "claimType": "crew",
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+  },
   "rulesText": "**Vice Den**: Any time during downtime, roll dice equal to your Tier. You earn **coin** equal to the highest result, minus your **heat**."
 }

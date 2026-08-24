@@ -15,5 +15,8 @@
     "lineEnd": 1609
   },
   "claimType": "crew",
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+  },
   "rulesText": "**Interrogation Chamber**: You get **+1d** to **Command** and **Sway** on-site. *Grisly business, but effective.*"
 }

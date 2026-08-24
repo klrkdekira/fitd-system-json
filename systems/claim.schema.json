@@ -6,9 +6,12 @@
   "properties": {
     "@type": { "const": "Claim" },
     "claimType": { "enum": ["crew", "prison"] },
+    "partOf": { "$ref": "common.schema.json#/$defs/NodeReference" },
     "rulesText": { "type": "string", "minLength": 1 },
     "commentary": { "type": "string", "minLength": 1 }
   },
   "required": ["claimType", "rulesText"],
+  "if": { "properties": { "claimType": { "const": "crew" } } },
+  "then": { "required": ["partOf"] },
   "unevaluatedProperties": false
 }

@@ -14,5 +14,8 @@
     "lineStart": 241,
     "lineEnd": 241
   },
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/4-5-trauma-conditions"
+  },
   "rulesText": "**Paranoid**: You imagine danger everywhere; you can't trust others."
 }

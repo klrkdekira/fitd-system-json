@@ -15,5 +15,8 @@
     "lineEnd": 1607
   },
   "claimType": "crew",
+  "partOf": {
+    "@id": "https://cheeleong.dev/fitd-system-json/objects/rules/20-6-make-a-claim-map-for-the-crew"
+  },
   "rulesText": "**Covert Drop**: You get **+2** **coin** in **payoff** for scores that involve espionage or sabotage. *The perfect hidden exchange point is worth the extra coin to discerning clientele.*"
 }
