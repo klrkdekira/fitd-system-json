@@ -11,9 +11,12 @@ sys.path.insert(0, str(ROOT / "scripts"))
 
 from fitdlib import (  # noqa: E402
     ATTRIBUTION_STATEMENT,
+    BUNDLE_NAME,
     COLLECTIONS,
     CONVERSION_STATEMENT,
+    MANIFEST_NAME,
     SOURCE_FILE,
+    VERSION,
     iter_object_files,
     load_json,
     projected_text,
@@ -214,6 +217,13 @@ class TestCorpusInvariants(unittest.TestCase):
         index = load_json(ROOT / "objects/search-index.json")
         self.assertIn("flashback", index["tokens"])
         self.assertIn("entanglement", index["tokens"])
+
+    def test_version_consistency(self):
+        manifest = load_json(ROOT / "objects" / MANIFEST_NAME)
+        bundle = load_json(ROOT / "objects" / BUNDLE_NAME)
+        self.assertEqual(manifest["version"], VERSION)
+        self.assertEqual(bundle["version"], VERSION)
+        self.assertEqual(VERSION, "0.2.0")
 
 
 if __name__ == "__main__":

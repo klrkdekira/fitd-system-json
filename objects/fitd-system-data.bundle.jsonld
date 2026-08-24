@@ -2,7 +2,7 @@
   "@context": "https://cheeleong.dev/fitd-system-json/systems/context.jsonld",
   "@id": "https://cheeleong.dev/fitd-system-json/objects/fitd-system-data.bundle",
   "@type": "SRDSystemData",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "metadata": {
     "title": "Blades in the Dark SRD System JSON",
     "author": "John Harper",

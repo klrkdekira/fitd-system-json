@@ -21,6 +21,7 @@ CONTEXT_IRI = BASE + "systems/context.jsonld"
 SOURCE_ID = BASE + "objects/sources/blades-in-the-dark-srd"
 SOURCE_FILE = "Blades-in-the-Dark-SRD.md"
 SYSTEM_SLUG = "fitd"
+VERSION = "0.2.0"
 MANIFEST_NAME = f"{SYSTEM_SLUG}-system-data.jsonld"
 BUNDLE_NAME = f"{SYSTEM_SLUG}-system-data.bundle.jsonld"
 

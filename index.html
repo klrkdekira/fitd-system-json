@@ -37,6 +37,7 @@
   "name": "Blades in the Dark SRD System JSON",
   "description": "A source-faithful JSON-LD 1.1 reference corpus and JSON Schema Draft 2020-12 specifications for the Blades in the Dark SRD.",
   "url": "https://cheeleong.dev/fitd-system-json/",
+  "version": "0.2.0",
   "creator": { "@type": "Person", "name": "Chee Leong Chow" },
   "license": "https://creativecommons.org/licenses/by/3.0/",
   "isBasedOn": "https://cheeleong.dev/fitd-system-json/Blades-in-the-Dark-SRD.md",
@@ -560,11 +561,31 @@
   }
 
   fetch("objects/collection-index.json")
-    .then(function (r) { return r.json(); })
+    .then(function (r) {
+      if (!r.ok) throw new Error(r.status);
+      return r.json();
+    })
     .then(function (data) {
       colIndex = data.collections;
       window.addEventListener("hashchange", onRoute);
       onRoute();
+    })
+    .catch(function () {
+      detail.textContent = "";
+      var box = el("section", "noscript");
+      box.appendChild(el("h2", null, "Explorer unavailable"));
+      box.appendChild(el("p", "placeholder",
+        "Could not load objects/collection-index.json. The corpus is still available as static files:"));
+      var links = el("p", "placeholder");
+      var bundleLink = link("objects/fitd-system-data.bundle.jsonld");
+      bundleLink.textContent = "JSON-LD bundle";
+      links.appendChild(bundleLink);
+      links.appendChild(document.createTextNode(" · "));
+      var llmsLink = link("llms-full.txt");
+      llmsLink.textContent = "full text context";
+      links.appendChild(llmsLink);
+      box.appendChild(links);
+      detail.appendChild(box);
     });
 
   function onRoute() {
@@ -754,7 +775,7 @@
 
     var meta = el("div", "landing-meta");
     [total.toLocaleString() + " records", NAV_ORDER.length + " collections", "JSON-LD 1.1",
-      "JSON Schema 2020-12", "v0.1.0"].forEach(function (label) {
+      "JSON Schema 2020-12", "v0.2.0"].forEach(function (label) {
       meta.appendChild(el("span", null, label));
     });
     box.appendChild(meta);
@@ -870,8 +891,8 @@
     var details = el("details", "schema-details");
     details.appendChild(el("summary", null, "All collection schemas"));
     var links = el("div", "schema-links");
-    ["action", "claim", "downtime-activity", "entanglement", "rule", "source",
-      "special-ability", "table", "trauma-condition"].forEach(function (name) {
+    ["action", "claim", "downtime-activity", "entanglement", "plan", "rule", "source",
+      "special-ability", "table", "teamwork-maneuver", "trauma-condition", "vice"].forEach(function (name) {
       var a = link("systems/" + name + ".schema.json");
       a.textContent = name;
       links.appendChild(a);
@@ -925,7 +946,7 @@
       var prov = el("p", "provenance");
       if (locator) prov.appendChild(document.createTextNode(
         "Blades in the Dark SRD · " + locator.chapter + " §" + locator.section +
-        " · lines " + locator.lineStart + "–" + locator.lineEnd + " · "));
+        " · lines " + locator.lineStart + "–" + locator.lineEnd));
       if (locator) box.appendChild(prov);
 
       var recordLinks = el("div", "source-links");
@@ -1002,9 +1023,9 @@
     if (record["@type"] === "Claim") {
       return (record.claimType === "prison" ? "Prison" : "Crew") + " claim";
     }
-    if (record["@type"] === "Entanglement") return "Entanglement";
-    if (record["@type"] === "DowntimeActivity") return "Downtime activity";
-    if (record["@type"] === "TraumaCondition") return "Trauma condition";
+    // Types whose subtitle would only repeat the entity-type chip
+    // (Entanglement, Vice, Plan, Table, …) render no subtitle at all.
+    if (record["@type"] === "Rule") return (record.sourceLocator && record.sourceLocator.chapter) || "";
     if (record["@type"] === "Source") {
       return [record.author, record.publisher].filter(Boolean).join(" · ");
     }
@@ -1013,6 +1034,7 @@
 
   var FACT_FIELDS = [
     ["attribute", "Attribute"], ["abilityScope", "Scope"], ["claimType", "Claim Type"],
+    ["detail", "Detail"],
     ["section", "Section"],
     ["author", "Author"], ["publisher", "Publisher"], ["sourceVersion", "Source Version"],
     ["license", "License"], ["sourceFile", "Source File"], ["contentDigest", "Content Digest"]
@@ -1045,7 +1067,14 @@
 
   function renderRelations(box, record) {
     // relatedTables render inline with linked captions, not as relation chips.
-    var relationFields = [["relatedRules", "Rule"]];
+    // relatedRules and seeAlso are declared in the JSON-LD context and vocab
+    // but no current record carries them; they are supported here so future
+    // corpus edges render without a UI change.
+    var relationFields = [
+      ["partOf", "Part of"],
+      ["relatedRules", "Rule"],
+      ["seeAlso", "See also"]
+    ];
     var section = el("section", "structured-section");
     section.appendChild(el("h3", "structured-title", "Connected records"));
     var linkCount = 0;
@@ -1080,6 +1109,11 @@
   }
 
   var BLANK_CELL = { "": true, "-": true, "—": true, "―": true };
+  function isBlankCell(value) {
+    // Cells may carry placeholder dashes as raw entity references
+    // (e.g. &#x2015; in the prison claims map), so compare decoded text.
+    return BLANK_CELL[plainMarkdownText(value)] === true;
+  }
   function plainMarkdownText(value) {
     return decodeEntities(String(value))
       .replace(/\\([\\`*{}\[\]()#+.!_>|-])/g, "$1")
@@ -1098,7 +1132,7 @@
       var seen = false;
       var allNumeric = (rows || []).every(function (row) {
         var cell = row.cells[index];
-        if (!cell || BLANK_CELL[cell.value]) return true;
+        if (!cell || isBlankCell(cell.value)) return true;
         seen = true;
         return isNumericValue(cell.value);
       });
@@ -1145,7 +1179,7 @@
     (rows || []).forEach(function (row) {
       var tr = el("tr");
       row.cells.forEach(function (cell, index) {
-        var cls = BLANK_CELL[cell.value] ? "blank" : (numeric[index] ? "num" : null);
+        var cls = isBlankCell(cell.value) ? "blank" : (numeric[index] ? "num" : null);
         var td = el("td", cls);
         appendInlineMarkdown(td, cell.value);
         tr.appendChild(td);
